@@ -1,0 +1,230 @@
+{
+  "class": "controlled HTTP + real temporary SQLite + actual MCP SDK; supplier/model faults use explicit controlled adapters",
+  "utc": "2026-10-14T14:55:55Z",
+  "command": "go test -json -count=1 ./...",
+  "exit_code": 0,
+  "root_test_count": 25,
+  "pass_event_count_including_subtests": 27,
+  "tests": [
+    {
+      "package": "commonreel/internal/catalog",
+      "test": "TestFutureRatingsCannotAffectTrainingPredictions",
+      "status": "pass",
+      "seconds": 0
+    },
+    {
+      "package": "commonreel/internal/recommend",
+      "test": "TestVetoesAndEmptyResult",
+      "status": "pass",
+      "seconds": 0
+    },
+    {
+      "package": "commonreel/internal/recommend",
+      "test": "TestRejectAmbiguousPreferences",
+      "status": "pass",
+      "seconds": 0
+    },
+    {
+      "package": "commonreel/internal/room",
+      "test": "TestConcurrentRetryAndDurability",
+      "status": "pass",
+      "seconds": 0.03
+    },
+    {
+      "package": "commonreel/internal/room",
+      "test": "TestCompetingWritesHaveOneWinner",
+      "status": "pass",
+      "seconds": 0
+    },
+    {
+      "package": "commonreel/internal/app",
+      "test": "TestStreamableHTTPWorkflow",
+      "status": "pass",
+      "seconds": 0.01
+    },
+    {
+      "package": "commonreel/internal/app",
+      "test": "TestCrossOriginAndHostProtection",
+      "status": "pass",
+      "seconds": 0
+    },
+    {
+      "package": "commonreel/internal/workflow",
+      "test": "TestMCPUsesBoundRoomAndOnlyAllowsSevenTools",
+      "status": "pass",
+      "seconds": 0.05
+    },
+    {
+      "package": "commonreel/internal/workflow",
+      "test": "TestAgentUnknownToolCannotSaveAndAmbiguousSpeakerIsClarified",
+      "status": "pass",
+      "seconds": 0.05
+    },
+    {
+      "package": "commonreel/internal/workflow",
+      "test": "TestClosingRoomCancelsPendingLocalModelTurn",
+      "status": "pass",
+      "seconds": 0.05
+    },
+    {
+      "package": "commonreel/internal/workflow",
+      "test": "TestAgentDisplaysToolFactsInsteadOfInventedModelPlatforms",
+      "status": "pass",
+      "seconds": 0.06
+    },
+    {
+      "package": "commonreel/internal/workflow",
+      "test": "TestExplicitLANHostAndSameOriginOnly",
+      "status": "pass",
+      "seconds": 0.04
+    },
+    {
+      "package": "commonreel/internal/workflow",
+      "test": "TestCompetingClientsAndFourMemberCapacity",
+      "status": "pass",
+      "seconds": 0.05
+    },
+    {
+      "package": "commonreel/internal/workflow",
+      "test": "TestSupplier429StopsFurtherRefreshAndLeavesNoCandidates",
+      "status": "pass",
+      "seconds": 0.05
+    },
+    {
+      "package": "commonreel/internal/workflow",
+      "test": "TestConcurrentRetriesRestartAndExpiry",
+      "status": "pass",
+      "seconds": 0.04
+    },
+    {
+      "package": "commonreel/internal/workflow",
+      "test": "TestReconnectGetsSnapshotAndCloseRetryReturnsOnlyReceipt",
+      "status": "pass",
+      "seconds": 0.04
+    },
+    {
+      "package": "commonreel/internal/workflow",
+      "test": "TestReusableHistoryCopiesAndDeletionWithdrawActiveData",
+      "status": "pass",
+      "seconds": 0.06
+    },
+    {
+      "package": "commonreel/internal/workflow",
+      "test": "TestUnknownFactsAndWrongMonetizationNeverQualify",
+      "status": "pass",
+      "seconds": 0.06
+    },
+    {
+      "package": "commonreel/internal/workflow",
+      "test": "TestImportRejectsUnknownHeadersAndPreservesManualInputsOnReplace",
+      "status": "pass",
+      "seconds": 0.08
+    },
+    {
+      "package": "commonreel/internal/workflow",
+      "test": "TestDeletingLinkedProfileCancelsModelAndWithdrawsHistory",
+      "status": "pass",
+      "seconds": 0.06
+    },
+    {
+      "package": "commonreel/internal/workflow",
+      "test": "TestSavingRejectsChangedOrUnknownFreshSupply/unknown",
+      "status": "pass",
+      "seconds": 0.06
+    },
+    {
+      "package": "commonreel/internal/workflow",
+      "test": "TestSavingRejectsChangedOrUnknownFreshSupply/changed",
+      "status": "pass",
+      "seconds": 0.06
+    },
+    {
+      "package": "commonreel/internal/workflow",
+      "test": "TestSavingRejectsChangedOrUnknownFreshSupply",
+      "status": "pass",
+      "seconds": 0.11
+    },
+    {
+      "package": "commonreel/internal/workflow",
+      "test": "TestSaveRefreshDoesNotLockRoomAndRejectsConcurrentPolicyChange",
+      "status": "pass",
+      "seconds": 0.06
+    },
+    {
+      "package": "commonreel/internal/workflow",
+      "test": "TestGroupChoiceHonorsHardConditionsAndVersionedAcceptances",
+      "status": "pass",
+      "seconds": 0.06
+    },
+    {
+      "package": "commonreel/internal/workflow",
+      "test": "TestExpiredCandidateFactsClearRecordedResponsesOnRead",
+      "status": "pass",
+      "seconds": 0.05
+    },
+    {
+      "package": "commonreel/internal/workflow",
+      "test": "TestSessionCapabilityAndCompetingWrites",
+      "status": "pass",
+      "seconds": 0.04
+    }
+  ],
+  "packages": [
+    {
+      "package": "commonreel/cmd/commonreel",
+      "status": "skip",
+      "seconds": 0
+    },
+    {
+      "package": "commonreel/cmd/commonreel-v2",
+      "status": "skip",
+      "seconds": 0
+    },
+    {
+      "package": "commonreel/cmd/evaluate",
+      "status": "skip",
+      "seconds": 0.001
+    },
+    {
+      "package": "commonreel/cmd/fetch-data",
+      "status": "skip",
+      "seconds": 0
+    },
+    {
+      "package": "commonreel/cmd/mcp-check",
+      "status": "skip",
+      "seconds": 0
+    },
+    {
+      "package": "commonreel/internal/catalog",
+      "status": "pass",
+      "seconds": 0.291
+    },
+    {
+      "package": "commonreel/internal/recommend",
+      "status": "pass",
+      "seconds": 0.527
+    },
+    {
+      "package": "commonreel/internal/room",
+      "status": "pass",
+      "seconds": 0.53
+    },
+    {
+      "package": "commonreel/internal/app",
+      "status": "pass",
+      "seconds": 1.498
+    },
+    {
+      "package": "commonreel/internal/workflow",
+      "status": "pass",
+      "seconds": 2.559
+    }
+  ],
+  "vet_exit_code": 0,
+  "race_detector": "NOT_RUN: go test -race requires a Windows CGO compiler, unavailable here",
+  "real_supplier": "watchmode-live-v2.json",
+  "real_model": "agent-real-v2.json",
+  "phone": "NOT_RUN per owner response",
+  "human_group_study": "NOT_TESTED"
+}

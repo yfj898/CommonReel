@@ -1,0 +1,37 @@
+{
+  "choice_count_after_retry": 1,
+  "dataset": {
+    "source": "MovieLens 1M / GroupLens (noncommercial research prototype)",
+    "synthetic": false,
+    "movies": 3883,
+    "ratings": 1000209,
+    "users": 6040,
+    "train_ratings": 800168,
+    "test_ratings": 200041,
+    "cutoff_unix": 975768738,
+    "ratings_sha256": "506d64ca44484487c11dc2d9a28de5c54948213e6b96285e298afe28d6ea4e0f",
+    "movies_sha256": "0140fc2356357c1a851d0f52e893a1e4d3696df632c4141cea8d5bc3d621f0b9"
+  },
+  "endpoint": "http://127.0.0.1:8092/mcp",
+  "limits": "one local HTTP workflow on real data, constructed group; not production load, Alexa device or human study",
+  "one_shortlist_round_trip_ms": 9.771,
+  "protocol": "2025-11-25",
+  "room_revision": 5,
+  "run_utc": "2026-10-13T10:42:36Z",
+  "shortlist_count": 6,
+  "stale_choice_rejected": true,
+  "tools": [
+    "catalog_info",
+    "create_room",
+    "get_room",
+    "remove_member",
+    "save_choice",
+    "search_movies",
+    "set_member",
+    "set_policy",
+    "shortlist"
+  ],
+  "transport": "actual Streamable HTTP via official Go MCP SDK",
+  "veto_violations": 0,
+  "workflow": "initialize -\u003e tools/list -\u003e catalog_info -\u003e create_room -\u003e 3 set_member -\u003e shortlist -\u003e save_choice -\u003e identical retry -\u003e stale rejection -\u003e get_room"
+}

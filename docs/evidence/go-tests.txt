@@ -1,0 +1,8 @@
+?   	commonreel/cmd/commonreel	[no test files]
+?   	commonreel/cmd/evaluate	[no test files]
+?   	commonreel/cmd/fetch-data	[no test files]
+?   	commonreel/cmd/mcp-check	[no test files]
+ok  	commonreel/internal/app	0.957s
+ok  	commonreel/internal/catalog	0.264s
+ok  	commonreel/internal/recommend	0.519s
+ok  	commonreel/internal/room	0.492s

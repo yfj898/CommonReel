@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-14",
+  "evidence_class": "Observed desktop browser interactions against the real running Go application",
+  "browser": "One desktop IAB engine; localhost and configured private-WLAN origins with separate browser storage",
+  "independent_physical_devices": 1,
+  "checks": {
+    "invite_fragment_switch": "PASS: reproduced stale-room display, fixed hashchange handling, then switched between two rooms",
+    "same_room_cross_origin_update": "PASS: member added from one origin appeared through SSE on the other",
+    "reconnect": "PASS: snapshot and current room restored after intentional application restart",
+    "member_entries": 3,
+    "csv_input": "Constructed four-row fixture, not an actual person's export",
+    "csv_report": {"rows": 4, "matched": 1, "duplicate": 1, "pending": 2},
+    "shortlist": "PASS: actual US subscription supply and fixed-catalog metadata",
+    "proxy_response_and_save": "PASS: three member entries recorded acceptance; page save refreshed supply and returned an anonymous choice summary",
+    "saved_film": "Sleepless in Seattle",
+    "record_semantics": "group-recorded choice; proxy records do not prove individual consent",
+    "saved_choice_after_reload": "PASS",
+    "save_does_not_mark_watched": "PASS",
+    "narrow_viewport": {"width": 360, "height": 800, "document_scroll_width": 345, "horizontal_overflow": false}
+  },
+  "physical_phone": "NOT_RUN: owner explicitly replied that a phone cannot be tested now",
+  "independent_browser_engine": "NOT_RUN",
+  "human_group_study": "NOT_TESTED",
+  "screenshots": ["ui-hero-v2.jpg", "ui-agent-v2.jpg", "ui-import-v2.jpg", "ui-shortlist-v2.jpg", "ui-choice-v2.jpg", "ui-mobile-360-v2.jpg"],
+  "limits": "Same-computer LAN-origin checks do not prove Wi-Fi client-to-client reachability, firewall behavior on a phone, human consent, satisfaction or time savings. Screenshots omit address-bar invitation capabilities."
+}

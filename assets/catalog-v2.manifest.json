@@ -1,0 +1,760 @@
+{
+  "source": "Wikidata entity API, structured data CC0",
+  "identifier_seed": "GroupLens ml-latest-small IMDb identifiers; title requests are accepted only after exact IMDb cross-check",
+  "seed_count": 650,
+  "catalog_count": 217,
+  "excluded_metadata": {
+    "imdb_mismatch_or_missing": 392,
+    "runtime": 8,
+    "runtime_conflict": 7,
+    "genre": 0
+  },
+  "sha256": "831ada765c79d4adf8583b2d4d4e77aac7a66ff314c2357806d06b2985978d74",
+  "film_ids": [
+    "wikidata:Q1004531",
+    "wikidata:Q1031262",
+    "wikidata:Q1033094",
+    "wikidata:Q104123",
+    "wikidata:Q1049417",
+    "wikidata:Q105031",
+    "wikidata:Q1051496",
+    "wikidata:Q1068029",
+    "wikidata:Q107167",
+    "wikidata:Q1093391",
+    "wikidata:Q110397",
+    "wikidata:Q1109508",
+    "wikidata:Q1111228",
+    "wikidata:Q1127709",
+    "wikidata:Q1130705",
+    "wikidata:Q1133277",
+    "wikidata:Q1137372",
+    "wikidata:Q1139237",
+    "wikidata:Q1141286",
+    "wikidata:Q1141873",
+    "wikidata:Q1142051",
+    "wikidata:Q1160005",
+    "wikidata:Q1163081",
+    "wikidata:Q1169589",
+    "wikidata:Q1171263",
+    "wikidata:Q1180839",
+    "wikidata:Q1194165",
+    "wikidata:Q1196110",
+    "wikidata:Q1210907",
+    "wikidata:Q1211697",
+    "wikidata:Q1211705",
+    "wikidata:Q12124897",
+    "wikidata:Q1214972",
+    "wikidata:Q1216146",
+    "wikidata:Q1217852",
+    "wikidata:Q1218462",
+    "wikidata:Q1304560",
+    "wikidata:Q1313063",
+    "wikidata:Q132351",
+    "wikidata:Q1332274",
+    "wikidata:Q1334948",
+    "wikidata:Q1339523",
+    "wikidata:Q1353837",
+    "wikidata:Q1354109",
+    "wikidata:Q1355072",
+    "wikidata:Q1360651",
+    "wikidata:Q1423849",
+    "wikidata:Q1459049",
+    "wikidata:Q1461570",
+    "wikidata:Q1473596",
+    "wikidata:Q1475275",
+    "wikidata:Q1500287",
+    "wikidata:Q1514095",
+    "wikidata:Q1514670",
+    "wikidata:Q1518218",
+    "wikidata:Q1534001",
+    "wikidata:Q1542944",
+    "wikidata:Q1567203",
+    "wikidata:Q1582860",
+    "wikidata:Q1616185",
+    "wikidata:Q1617908",
+    "wikidata:Q1619928",
+    "wikidata:Q162729",
+    "wikidata:Q1629547",
+    "wikidata:Q1642448",
+    "wikidata:Q1643330",
+    "wikidata:Q1648536",
+    "wikidata:Q1684012",
+    "wikidata:Q1688957",
+    "wikidata:Q170564",
+    "wikidata:Q172241",
+    "wikidata:Q1738422",
+    "wikidata:Q1741078",
+    "wikidata:Q174683",
+    "wikidata:Q175278",
+    "wikidata:Q1753552",
+    "wikidata:Q1753610",
+    "wikidata:Q1757776",
+    "wikidata:Q1759260",
+    "wikidata:Q1778407",
+    "wikidata:Q1788520",
+    "wikidata:Q179798",
+    "wikidata:Q180008",
+    "wikidata:Q1824522",
+    "wikidata:Q18415",
+    "wikidata:Q184701",
+    "wikidata:Q1869916",
+    "wikidata:Q19089",
+    "wikidata:Q1937392",
+    "wikidata:Q1962426",
+    "wikidata:Q1971683",
+    "wikidata:Q204725",
+    "wikidata:Q2067539",
+    "wikidata:Q207659",
+    "wikidata:Q207954",
+    "wikidata:Q2093090",
+    "wikidata:Q2128630",
+    "wikidata:Q216929",
+    "wikidata:Q221345",
+    "wikidata:Q2238172",
+    "wikidata:Q2255971",
+    "wikidata:Q227540",
+    "wikidata:Q2341110",
+    "wikidata:Q240849",
+    "wikidata:Q2413112",
+    "wikidata:Q2478977",
+    "wikidata:Q249032",
+    "wikidata:Q2517431",
+    "wikidata:Q2521217",
+    "wikidata:Q2534007",
+    "wikidata:Q2549305",
+    "wikidata:Q255328",
+    "wikidata:Q2562722",
+    "wikidata:Q2565420",
+    "wikidata:Q2704431",
+    "wikidata:Q2716876",
+    "wikidata:Q2724012",
+    "wikidata:Q272595",
+    "wikidata:Q280918",
+    "wikidata:Q288138",
+    "wikidata:Q289127",
+    "wikidata:Q290730",
+    "wikidata:Q290811",
+    "wikidata:Q300401",
+    "wikidata:Q304074",
+    "wikidata:Q3137753",
+    "wikidata:Q313998",
+    "wikidata:Q322206",
+    "wikidata:Q322328",
+    "wikidata:Q324239",
+    "wikidata:Q3256959",
+    "wikidata:Q330612",
+    "wikidata:Q3310901",
+    "wikidata:Q333971",
+    "wikidata:Q3365051",
+    "wikidata:Q340127",
+    "wikidata:Q340138",
+    "wikidata:Q36479",
+    "wikidata:Q371885",
+    "wikidata:Q372299",
+    "wikidata:Q3784688",
+    "wikidata:Q392662",
+    "wikidata:Q3980396",
+    "wikidata:Q408725",
+    "wikidata:Q427386",
+    "wikidata:Q429311",
+    "wikidata:Q436988",
+    "wikidata:Q451630",
+    "wikidata:Q466765",
+    "wikidata:Q471401",
+    "wikidata:Q471423",
+    "wikidata:Q47221",
+    "wikidata:Q473628",
+    "wikidata:Q483852",
+    "wikidata:Q483941",
+    "wikidata:Q492132",
+    "wikidata:Q493799",
+    "wikidata:Q497850",
+    "wikidata:Q511914",
+    "wikidata:Q514565",
+    "wikidata:Q532264",
+    "wikidata:Q540361",
+    "wikidata:Q5439384",
+    "wikidata:Q547189",
+    "wikidata:Q559429",
+    "wikidata:Q564893",
+    "wikidata:Q574993",
+    "wikidata:Q579359",
+    "wikidata:Q580917",
+    "wikidata:Q581501",
+    "wikidata:Q584057",
+    "wikidata:Q590701",
+    "wikidata:Q6043145",
+    "wikidata:Q605226",
+    "wikidata:Q610097",
+    "wikidata:Q610670",
+    "wikidata:Q617249",
+    "wikidata:Q620099",
+    "wikidata:Q624857",
+    "wikidata:Q636222",
+    "wikidata:Q645480",
+    "wikidata:Q654736",
+    "wikidata:Q659609",
+    "wikidata:Q660894",
+    "wikidata:Q663528",
+    "wikidata:Q699299",
+    "wikidata:Q7091836",
+    "wikidata:Q736254",
+    "wikidata:Q736349",
+    "wikidata:Q743292",
+    "wikidata:Q748986",
+    "wikidata:Q749191",
+    "wikidata:Q753676",
+    "wikidata:Q7627071",
+    "wikidata:Q81597",
+    "wikidata:Q824133",
+    "wikidata:Q839265",
+    "wikidata:Q841233",
+    "wikidata:Q843198",
+    "wikidata:Q853425",
+    "wikidata:Q858840",
+    "wikidata:Q869993",
+    "wikidata:Q878964",
+    "wikidata:Q885659",
+    "wikidata:Q889691",
+    "wikidata:Q895690",
+    "wikidata:Q901213",
+    "wikidata:Q913324",
+    "wikidata:Q929293",
+    "wikidata:Q931165",
+    "wikidata:Q934614",
+    "wikidata:Q939176",
+    "wikidata:Q944158",
+    "wikidata:Q944614",
+    "wikidata:Q947262",
+    "wikidata:Q956636",
+    "wikidata:Q994481"
+  ],
+  "created_utc": "2026-10-14T14:25:00Z",
+  "watchmode_data_included": false,
+  "genre_mapping": {
+    "Q102429885": [
+      "Coming-of-Age"
+    ],
+    "Q102439494": [
+      "Magic Realist"
+    ],
+    "Q1029945": [
+      "Education Novel"
+    ],
+    "Q1033891": [
+      "Martial Arts"
+    ],
+    "Q104097073": [
+      "Transgender"
+    ],
+    "Q104765957": [
+      "Time-Travel"
+    ],
+    "Q1054574": [
+      "Romance"
+    ],
+    "Q1056617": [
+      "Love Letter"
+    ],
+    "Q10654943": [
+      "Knight"
+    ],
+    "Q108466999": [
+      "Comedy",
+      "Horror"
+    ],
+    "Q109629396": [
+      "Horror"
+    ],
+    "Q109733304": [
+      "Thriller"
+    ],
+    "Q109733333": [
+      "Thriller"
+    ],
+    "Q109733630": [
+      "Police Procedural"
+    ],
+    "Q111278985": [
+      "American Football"
+    ],
+    "Q111984153": [
+      "Young Adult"
+    ],
+    "Q11304653": [
+      "Suspense"
+    ],
+    "Q113485322": [
+      "Crime",
+      "Drama"
+    ],
+    "Q11366": [
+      "Alternative Rock"
+    ],
+    "Q1146335": [
+      "Teen"
+    ],
+    "Q1152184": [
+      "Comedy"
+    ],
+    "Q116456802": [
+      "Drama",
+      "War"
+    ],
+    "Q116514801": [
+      "Drama"
+    ],
+    "Q116790414": [
+      "2D Platform Game"
+    ],
+    "Q117318778": [
+      "Postmodern"
+    ],
+    "Q118612349": [
+      "Comedy",
+      "Romance"
+    ],
+    "Q1196408": [
+      "Historical"
+    ],
+    "Q1200678": [
+      "Mystery"
+    ],
+    "Q121389176": [
+      "Humorous"
+    ],
+    "Q1248788": [
+      "Realist Novel"
+    ],
+    "Q128758": [
+      "Satire"
+    ],
+    "Q130232": [
+      "Drama"
+    ],
+    "Q1312571": [
+      "Developmental Novel"
+    ],
+    "Q131539": [
+      "Children'S Literature"
+    ],
+    "Q132311": [
+      "Fantasy"
+    ],
+    "Q1339864": [
+      "Sport"
+    ],
+    "Q1341051": [
+      "Post-Apocalyptic"
+    ],
+    "Q1342372": [
+      "Monster"
+    ],
+    "Q1347298": [
+      "Serialized"
+    ],
+    "Q1361932": [
+      "Family"
+    ],
+    "Q1433443": [
+      "Sword-And-Sandal"
+    ],
+    "Q1535153": [
+      "Superhero"
+    ],
+    "Q1551015": [
+      "Group Portrait"
+    ],
+    "Q157394": [
+      "Fantasy"
+    ],
+    "Q157443": [
+      "Comedy"
+    ],
+    "Q15898171": [
+      "Survival"
+    ],
+    "Q16538713": [
+      "Chase"
+    ],
+    "Q16575965": [
+      "Horror"
+    ],
+    "Q16950433": [
+      "Comedy",
+      "Thriller"
+    ],
+    "Q17013749": [
+      "Historical"
+    ],
+    "Q170238": [
+      "Sitcom"
+    ],
+    "Q170539": [
+      "Parody"
+    ],
+    "Q17172848": [
+      "Theatre"
+    ],
+    "Q172980": [
+      "Western"
+    ],
+    "Q174526": [
+      "Cyberpunk"
+    ],
+    "Q1776156": [
+      "Girls With Guns"
+    ],
+    "Q1788980": [
+      "Comedy",
+      "Crime"
+    ],
+    "Q182015": [
+      "Thriller"
+    ],
+    "Q185867": [
+      "Film-Noir"
+    ],
+    "Q187760": [
+      "New Wave"
+    ],
+    "Q188473": [
+      "Action"
+    ],
+    "Q1894374": [
+      "Film-Noir"
+    ],
+    "Q1919632": [
+      "Drama"
+    ],
+    "Q192881": [
+      "Comedy"
+    ],
+    "Q193355": [
+      "Blues Rock"
+    ],
+    "Q19367312": [
+      "Crime",
+      "Thriller"
+    ],
+    "Q19765983": [
+      "Romance"
+    ],
+    "Q200092": [
+      "Horror"
+    ],
+    "Q20442589": [
+      "Lgbtq-Related"
+    ],
+    "Q20443008": [
+      "Dystopian"
+    ],
+    "Q20656232": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "Q20668387": [
+      "Didactic Literature"
+    ],
+    "Q20669641": [
+      "Gothic"
+    ],
+    "Q2096633": [
+      "Pirate"
+    ],
+    "Q21192427": [
+      "Crossover"
+    ],
+    "Q21322403": [
+      "Pritcha"
+    ],
+    "Q2137852": [
+      "Vampire"
+    ],
+    "Q21401869": [
+      "Flashback"
+    ],
+    "Q2143665": [
+      "Children'S"
+    ],
+    "Q21615367": [
+      "Children'S Novel"
+    ],
+    "Q21802675": [
+      "Adventure"
+    ],
+    "Q222639": [
+      "Swashbuckler"
+    ],
+    "Q223770": [
+      "B Movie"
+    ],
+    "Q223945": [
+      "Bildungsroman"
+    ],
+    "Q224700": [
+      "Comedy",
+      "Horror"
+    ],
+    "Q2254193": [
+      "Rape And Revenge"
+    ],
+    "Q2292320": [
+      "Sexploitation"
+    ],
+    "Q2297927": [
+      "Spy"
+    ],
+    "Q22981906": [
+      "Treasure Hunt"
+    ],
+    "Q2421031": [
+      "Film-Noir"
+    ],
+    "Q2439025": [
+      "Thriller"
+    ],
+    "Q24723": [
+      "Literary Fairy Tale"
+    ],
+    "Q2484376": [
+      "Thriller"
+    ],
+    "Q248583": [
+      "Comedy"
+    ],
+    "Q24925": [
+      "Sci-Fi"
+    ],
+    "Q25110269": [
+      "Action",
+      "Animation"
+    ],
+    "Q25533274": [
+      "Detective"
+    ],
+    "Q2642760": [
+      "Vigilante"
+    ],
+    "Q2678111": [
+      "Action",
+      "Comedy"
+    ],
+    "Q28026639": [
+      "Christmas"
+    ],
+    "Q2973181": [
+      "Speculative Fiction"
+    ],
+    "Q3056541": [
+      "Biography"
+    ],
+    "Q3072039": [
+      "Trial"
+    ],
+    "Q3076696": [
+      "Association Football"
+    ],
+    "Q31888058": [
+      "Ghost"
+    ],
+    "Q319221": [
+      "Adventure"
+    ],
+    "Q3327002": [
+      "Medieval"
+    ],
+    "Q3634883": [
+      "Supernatural"
+    ],
+    "Q369747": [
+      "War"
+    ],
+    "Q3811649": [
+      "Fantasy"
+    ],
+    "Q3990883": [
+      "Action",
+      "Thriller"
+    ],
+    "Q40831": [
+      "Comedy"
+    ],
+    "Q4184": [
+      "Biography"
+    ],
+    "Q43911809": [
+      "Horror"
+    ],
+    "Q44563": [
+      "Picaresque Novel"
+    ],
+    "Q455315": [
+      "Compilation"
+    ],
+    "Q459290": [
+      "Independent"
+    ],
+    "Q4674071": [
+      "Western"
+    ],
+    "Q471839": [
+      "Sci-Fi"
+    ],
+    "Q4774498": [
+      "War"
+    ],
+    "Q485395": [
+      "Gothic Rock"
+    ],
+    "Q496523": [
+      "Heist"
+    ],
+    "Q4984974": [
+      "Buddy Cop"
+    ],
+    "Q503354": [
+      "Christmas Carol"
+    ],
+    "Q53094": [
+      "Comedy"
+    ],
+    "Q538812": [
+      "Novel Of Manners"
+    ],
+    "Q5442753": [
+      "Female Buddy"
+    ],
+    "Q56451354": [
+      "Children'S"
+    ],
+    "Q5778924": [
+      "Comedy"
+    ],
+    "Q5793767": [
+      "Children'S Story"
+    ],
+    "Q580850": [
+      "Thriller"
+    ],
+    "Q586250": [
+      "Prison"
+    ],
+    "Q5897543": [
+      "Hood"
+    ],
+    "Q590103": [
+      "Thriller"
+    ],
+    "Q598929": [
+      "Post-Punk"
+    ],
+    "Q599558": [
+      "Erotic"
+    ],
+    "Q622291": [
+      "Thriller"
+    ],
+    "Q622370": [
+      "Drama"
+    ],
+    "Q622548": [
+      "Parody"
+    ],
+    "Q628165": [
+      "Road Movie"
+    ],
+    "Q63214877": [
+      "Drama"
+    ],
+    "Q645928": [
+      "Biography"
+    ],
+    "Q652256": [
+      "Epic"
+    ],
+    "Q6585139": [
+      "Mystery"
+    ],
+    "Q663106": [
+      "Buddy"
+    ],
+    "Q70077691": [
+      "Group Photograph"
+    ],
+    "Q7168625": [
+      "Drama"
+    ],
+    "Q7210294": [
+      "Drama"
+    ],
+    "Q738473": [
+      "Romance"
+    ],
+    "Q7444356": [
+      "Gangster"
+    ],
+    "Q747483": [
+      "Erotic Literature"
+    ],
+    "Q761469": [
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "Q7696995": [
+      "Comedy"
+    ],
+    "Q794912": [
+      "Fantasy"
+    ],
+    "Q80930": [
+      "Tragedy"
+    ],
+    "Q8275050": [
+      "Children'S Book"
+    ],
+    "Q83270": [
+      "Hard Rock"
+    ],
+    "Q842256": [
+      "Musical"
+    ],
+    "Q846224": [
+      "Fighting Game"
+    ],
+    "Q853630": [
+      "Slasher"
+    ],
+    "Q859369": [
+      "Comedy",
+      "Drama"
+    ],
+    "Q860626": [
+      "Comedy",
+      "Romance"
+    ],
+    "Q870452": [
+      "Family"
+    ],
+    "Q895583": [
+      "Boxing"
+    ],
+    "Q904447": [
+      "Sci-Fi"
+    ],
+    "Q93204": [
+      "Documentary"
+    ],
+    "Q959790": [
+      "Crime"
+    ],
+    "Q98526245": [
+      "Fantasy"
+    ]
+  },
+  "genre_map_sha256": "f5450eac9a24a387ece13272805b79b529b0fd05c0db5f67bbf6d3a77ac053bd",
+  "identifier_seed_sha256": "696d65a3dfceac7c45750ad32df2c259311949efec81f0f144fdfb91ebc9e436",
+  "genre_mapping_evidence": "Official English labels for all 168 observed genre IDs; composite source labels normalize into each explicit known tag; remaining source labels retained as their own tags; not a complete genre ontology",
+  "builder": "scripts/build-catalog-entities.py",
+  "runtime_units": "Wikidata P2047 unit Q7727 (minute); distinct source values conflict; fractional minutes round upward, never downward"
+}

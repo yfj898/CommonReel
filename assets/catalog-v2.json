@@ -1,0 +1,3722 @@
+[
+  {
+    "film_id": "wikidata:Q1004531",
+    "title": "Bullets Over Broadway",
+    "year": 1994,
+    "imdb_id": "tt0109348",
+    "runtime_minutes": 98,
+    "genres": [
+      "Comedy",
+      "Gangster",
+      "Romance"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1004531",
+    "catalog_version": "3352dd16ac6b42e8f63672e90845daa29f1d7cdcc8f8c14016e72dab8693027e"
+  },
+  {
+    "film_id": "wikidata:Q1031262",
+    "title": "Hellraiser: Bloodline",
+    "year": 1996,
+    "imdb_id": "tt0116514",
+    "runtime_minutes": 85,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Horror",
+      "Sci-Fi",
+      "Slasher",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1031262",
+    "catalog_version": "2d190317088e4f142ee40ea25a8aef48932f873f37ff017f5f2d80aadab1a832"
+  },
+  {
+    "film_id": "wikidata:Q1033094",
+    "title": "Candyman: Farewell to the Flesh",
+    "year": 1995,
+    "imdb_id": "tt0112625",
+    "runtime_minutes": 93,
+    "genres": [
+      "Horror",
+      "Slasher"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1033094",
+    "catalog_version": "ca1f517ab4228b30aa6194a543af2f74a679574c3a648e9d039562a6691c3175"
+  },
+  {
+    "film_id": "wikidata:Q104123",
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "imdb_id": "tt0110912",
+    "runtime_minutes": 154,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Film-Noir",
+      "Gangster",
+      "Independent",
+      "Suspense",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q104123",
+    "catalog_version": "54677e01c64610478f1557fa43ce20895355b617ce9b12cacc6ec6b80c5aab55"
+  },
+  {
+    "film_id": "wikidata:Q1049417",
+    "title": "Castle Freak",
+    "year": 1995,
+    "imdb_id": "tt0112643",
+    "runtime_minutes": 95,
+    "genres": [
+      "B Movie",
+      "Horror",
+      "Monster"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1049417",
+    "catalog_version": "6e3e9fe036f43314756f14adc4473291f643af184320d6534bbb0784e7b11b6f"
+  },
+  {
+    "film_id": "wikidata:Q105031",
+    "title": "Home Alone",
+    "year": 1990,
+    "imdb_id": "tt0099785",
+    "runtime_minutes": 103,
+    "genres": [
+      "Adventure",
+      "Christmas",
+      "Comedy",
+      "Family"
+    ],
+    "aliases": [
+      "Home Alone 1"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q105031",
+    "catalog_version": "e64f9b4cf216644b014744d8789fae9c53b3c90a54a9004e200b4a23f1efe2d3"
+  },
+  {
+    "film_id": "wikidata:Q1051496",
+    "title": "Cutthroat Island",
+    "year": 1995,
+    "imdb_id": "tt0112760",
+    "runtime_minutes": 124,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Children'S",
+      "Comedy",
+      "Pirate",
+      "Romance",
+      "Swashbuckler",
+      "Treasure Hunt"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1051496",
+    "catalog_version": "5f4f0917a51c5463ed7b4aa8fc7f3f7f6d842f21ab8b98adda25b2c0cc7c0d8a"
+  },
+  {
+    "film_id": "wikidata:Q1068029",
+    "title": "Chasers",
+    "year": 1994,
+    "imdb_id": "tt0109403",
+    "runtime_minutes": 98,
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1068029",
+    "catalog_version": "cfd7ad106f9c1a1900cdec11acadeb3bc03d21928fc77a11ed34922bbea060fc"
+  },
+  {
+    "film_id": "wikidata:Q107167",
+    "title": "Sleepless in Seattle",
+    "year": 1993,
+    "imdb_id": "tt0108160",
+    "runtime_minutes": 105,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q107167",
+    "catalog_version": "c65eb67276ce0cc326532615608dbdd95b8a916a98bf67373f79e3fc77e8e8c7"
+  },
+  {
+    "film_id": "wikidata:Q1093391",
+    "title": "Mulholland Falls",
+    "year": 1996,
+    "imdb_id": "tt0117107",
+    "runtime_minutes": 107,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Film-Noir",
+      "Independent",
+      "Mystery",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1093391",
+    "catalog_version": "e3fe490609f7bf1d7ccdddc2e20c0d40bf8b515af6525fc07a26abf1541e2616"
+  },
+  {
+    "film_id": "wikidata:Q110397",
+    "title": "True Lies",
+    "year": 1994,
+    "imdb_id": "tt0111503",
+    "runtime_minutes": 141,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Romance",
+      "Spy",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q110397",
+    "catalog_version": "d2675de34a92873631c9809cc9904f09a622275e961f5319c36c0d85598c4cf8"
+  },
+  {
+    "film_id": "wikidata:Q1109508",
+    "title": "Fled",
+    "year": 1996,
+    "imdb_id": "tt0116320",
+    "runtime_minutes": 90,
+    "genres": [
+      "Action",
+      "Buddy",
+      "Comedy",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1109508",
+    "catalog_version": "a3b32dcdfa6741227e4aaf42a06c4466c8a4ef62b8ffb7602e74d0a0e91e007e"
+  },
+  {
+    "film_id": "wikidata:Q1111228",
+    "title": "Color of Night",
+    "year": 1994,
+    "imdb_id": "tt0109456",
+    "runtime_minutes": 134,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Erotic",
+      "Film-Noir",
+      "Lgbtq-Related",
+      "Mystery",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1111228",
+    "catalog_version": "b488406d7c01d576f5ccd9ae956ac90411c9aac667afb4bb42845c3294876cf4"
+  },
+  {
+    "film_id": "wikidata:Q1127709",
+    "title": "True Romance",
+    "year": 1993,
+    "imdb_id": "tt0108399",
+    "runtime_minutes": 120,
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Romance",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1127709",
+    "catalog_version": "f54c6d3311941cebde15053a162d7eefa8650a2a88de4aee603f99f23ad4ff45"
+  },
+  {
+    "film_id": "wikidata:Q1130705",
+    "title": "A Bronx Tale",
+    "year": 1993,
+    "imdb_id": "tt0106489",
+    "runtime_minutes": 120,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Coming-of-Age",
+      "Crime",
+      "Drama",
+      "Gangster",
+      "Mystery",
+      "Romance",
+      "Thriller"
+    ],
+    "aliases": [
+      "Bronx Tale",
+      "The Bronx Tale"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1130705",
+    "catalog_version": "2290f53178b5ed025e49b23cab8a147688d157ae4ec3c0bace068dd9630a4837"
+  },
+  {
+    "film_id": "wikidata:Q1133277",
+    "title": "Manhattan Murder Mystery",
+    "year": 1993,
+    "imdb_id": "tt0107507",
+    "runtime_minutes": 103,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Mystery"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1133277",
+    "catalog_version": "ad1ec0dfe08ffd6ad96c6c8d14651aec7e1d5a2be25d256c59fcc0900a69f82a"
+  },
+  {
+    "film_id": "wikidata:Q1137372",
+    "title": "Four Rooms",
+    "year": 1995,
+    "imdb_id": "tt0113101",
+    "runtime_minutes": 94,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1137372",
+    "catalog_version": "841b6fd8fc449a6de54cd70116c9ca7fa945a12995a92485013dba511a329d2d"
+  },
+  {
+    "film_id": "wikidata:Q1139237",
+    "title": "Fatal Instinct",
+    "year": 1993,
+    "imdb_id": "tt0106873",
+    "runtime_minutes": 86,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Parody"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1139237",
+    "catalog_version": "3bf2894d13b0394b7c641fbfe671455c1d643428c70f3e5b51451a28b5a23f2f"
+  },
+  {
+    "film_id": "wikidata:Q1141286",
+    "title": "The Crossing Guard",
+    "year": 1995,
+    "imdb_id": "tt0112744",
+    "runtime_minutes": 111,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "aliases": [
+      "Crossing Guard"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1141286",
+    "catalog_version": "625e744ae134aa56a77f08569e7fefa891c8cebcd13bd86bf813d5647b4bcfa0"
+  },
+  {
+    "film_id": "wikidata:Q1141873",
+    "title": "Little Buddha",
+    "year": 1993,
+    "imdb_id": "tt0107426",
+    "runtime_minutes": 140,
+    "genres": [
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1141873",
+    "catalog_version": "160f2eef845f81ae1d736d7dfdde6c24474242b25b2ea93895ddf407b9327a83"
+  },
+  {
+    "film_id": "wikidata:Q1142051",
+    "title": "Executive Decision",
+    "year": 1996,
+    "imdb_id": "tt0116253",
+    "runtime_minutes": 127,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1142051",
+    "catalog_version": "09d86d6232b4f3c674ce6c90e17c63e61b07da075cbac257654102464f101ab9"
+  },
+  {
+    "film_id": "wikidata:Q1160005",
+    "title": "The Birdcage",
+    "year": 1996,
+    "imdb_id": "tt0115685",
+    "runtime_minutes": 114,
+    "genres": [
+      "Comedy",
+      "Lgbtq-Related",
+      "Musical"
+    ],
+    "aliases": [
+      "Birdcage"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1160005",
+    "catalog_version": "67e6381657ac2633b5b976a8ac6576a6418d1d4634b8e271799cf7891bb6b535"
+  },
+  {
+    "film_id": "wikidata:Q1163081",
+    "title": "Money Train",
+    "year": 1995,
+    "imdb_id": "tt0113845",
+    "runtime_minutes": 106,
+    "genres": [
+      "Action",
+      "Buddy Cop",
+      "Comedy",
+      "Heist",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1163081",
+    "catalog_version": "9a9ad2a8bbdabdacab3878ec4359adb5172a4b91fa274cd084946efbc08e2726"
+  },
+  {
+    "film_id": "wikidata:Q1169589",
+    "title": "Things to Do in Denver When You're Dead",
+    "year": 1995,
+    "imdb_id": "tt0114660",
+    "runtime_minutes": 112,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime",
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1169589",
+    "catalog_version": "b48172566a2c51264a8afb3a3d80611c94428f8ec87906a940bf0825f5917fc2"
+  },
+  {
+    "film_id": "wikidata:Q1171263",
+    "title": "Celtic Pride",
+    "year": 1996,
+    "imdb_id": "tt0115851",
+    "runtime_minutes": 87,
+    "genres": [
+      "Comedy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1171263",
+    "catalog_version": "4e5c79ebfeebc5743f8a9f6ba98160c4726c368e2d23a8d1dad30791366a4180"
+  },
+  {
+    "film_id": "wikidata:Q1180839",
+    "title": "Dead Presidents",
+    "year": 1995,
+    "imdb_id": "tt0112819",
+    "runtime_minutes": 119,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Film-Noir",
+      "Heist",
+      "Hood"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1180839",
+    "catalog_version": "28e394cae3800e52955f84eac92dbb9e4ebda85f9318d6065e5f02c4e9374f08"
+  },
+  {
+    "film_id": "wikidata:Q1194165",
+    "title": "Houseguest",
+    "year": 1995,
+    "imdb_id": "tt0110066",
+    "runtime_minutes": 104,
+    "genres": [
+      "Comedy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1194165",
+    "catalog_version": "e2cdf4ce400514dc7b578677c3060c39d7af32c30197c2253c10498e1933ce63"
+  },
+  {
+    "film_id": "wikidata:Q1196110",
+    "title": "The Pagemaster",
+    "year": 1994,
+    "imdb_id": "tt0110763",
+    "runtime_minutes": 76,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Drama",
+      "Family",
+      "Fantasy"
+    ],
+    "aliases": [
+      "Pagemaster"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1196110",
+    "catalog_version": "5242c5a98aa07f78c1ec7e24fcd974398443b4b87c3fd18b391bd9ee4c7ea5cb"
+  },
+  {
+    "film_id": "wikidata:Q1210907",
+    "title": "Another Stakeout",
+    "year": 1993,
+    "imdb_id": "tt0106292",
+    "runtime_minutes": 108,
+    "genres": [
+      "Action",
+      "Buddy Cop",
+      "Comedy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1210907",
+    "catalog_version": "5d807a0a77393ea3cc0dd9e91eeba7a1ec04104b80a64906ebe97b6de0e57403"
+  },
+  {
+    "film_id": "wikidata:Q1211697",
+    "title": "A Very Brady Sequel",
+    "year": 1996,
+    "imdb_id": "tt0118073",
+    "runtime_minutes": 86,
+    "genres": [
+      "Comedy",
+      "Parody"
+    ],
+    "aliases": [
+      "Very Brady Sequel"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1211697",
+    "catalog_version": "d46c830eff41ffbdacdcfcf5af1e8697e0e2123654867c65ab0139786a543a77"
+  },
+  {
+    "film_id": "wikidata:Q1211705",
+    "title": "The Brady Bunch Movie",
+    "year": 1995,
+    "imdb_id": "tt0112572",
+    "runtime_minutes": 84,
+    "genres": [
+      "Comedy",
+      "Lgbtq-Related"
+    ],
+    "aliases": [
+      "Brady Bunch Movie"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1211705",
+    "catalog_version": "06608a5addc2911cdf809383f6c52c9870039746210cce51c7c8bc39cc0d5db9"
+  },
+  {
+    "film_id": "wikidata:Q12124897",
+    "title": "House Party 3",
+    "year": 1994,
+    "imdb_id": "tt0110064",
+    "runtime_minutes": 100,
+    "genres": [
+      "Buddy",
+      "Comedy",
+      "Musical",
+      "Romance",
+      "Teen"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q12124897",
+    "catalog_version": "fde56d9450d363c3d925f068707e8e0431b55642fc6d509caee004f15caba707"
+  },
+  {
+    "film_id": "wikidata:Q1214972",
+    "title": "In the Mouth of Madness",
+    "year": 1994,
+    "imdb_id": "tt0113409",
+    "runtime_minutes": 95,
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Film-Noir",
+      "Horror",
+      "Monster",
+      "Mystery",
+      "Supernatural",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1214972",
+    "catalog_version": "b6701cd27fcd9292b42667e5005c61452beb946f8b82099de8147d97dadb5d0f"
+  },
+  {
+    "film_id": "wikidata:Q1216146",
+    "title": "The Swan Princess",
+    "year": 1994,
+    "imdb_id": "tt0111333",
+    "runtime_minutes": 90,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Family",
+      "Fantasy",
+      "Musical",
+      "Romance"
+    ],
+    "aliases": [
+      "Swan Princess",
+      "The Swan Princess 1"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1216146",
+    "catalog_version": "ba50898eebde8ee987edfa1f035d6c667db140afa8976e47f0740669078fe4a9"
+  },
+  {
+    "film_id": "wikidata:Q1217852",
+    "title": "Losing Isaiah",
+    "year": 1995,
+    "imdb_id": "tt0113691",
+    "runtime_minutes": 102,
+    "genres": [
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1217852",
+    "catalog_version": "02375ddcb270689cd0e355f8710f8a356fa4b0025ee9eda96f1bed244604b1eb"
+  },
+  {
+    "film_id": "wikidata:Q1218462",
+    "title": "City Slickers II: The Legend of Curly's Gold",
+    "year": 1994,
+    "imdb_id": "tt0109439",
+    "runtime_minutes": 115,
+    "genres": [
+      "Comedy",
+      "Treasure Hunt",
+      "Western"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1218462",
+    "catalog_version": "2f9e5074a0067ef34b9d2657fa3df6b3c65413036ede10e73f10011a707f0bdb"
+  },
+  {
+    "film_id": "wikidata:Q1304560",
+    "title": "Father of the Bride Part II",
+    "year": 1995,
+    "imdb_id": "tt0113041",
+    "runtime_minutes": 101,
+    "genres": [
+      "Comedy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1304560",
+    "catalog_version": "b723ba5336e6605db5bf5ef460c03cf2cd1fd94aeeca7a1a940edb313915ccd7"
+  },
+  {
+    "film_id": "wikidata:Q1313063",
+    "title": "Happy Gilmore",
+    "year": 1996,
+    "imdb_id": "tt0116483",
+    "runtime_minutes": 91,
+    "genres": [
+      "Comedy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1313063",
+    "catalog_version": "7b08416dd61c0b370eda3010df291dfd61fae89223b66fe729f6f2f502716e04"
+  },
+  {
+    "film_id": "wikidata:Q132351",
+    "title": "The Usual Suspects",
+    "year": 1995,
+    "imdb_id": "tt0114814",
+    "runtime_minutes": 106,
+    "genres": [
+      "Action",
+      "Crime",
+      "Detective",
+      "Drama",
+      "Film-Noir",
+      "Flashback",
+      "Gangster",
+      "Heist",
+      "Mystery",
+      "Suspense",
+      "Thriller"
+    ],
+    "aliases": [
+      "Usual Suspects"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q132351",
+    "catalog_version": "07360b6e198ffb1fae33fb1ca69244ac672ce6a05b1f6ce3d1f27792e85514d6"
+  },
+  {
+    "film_id": "wikidata:Q1332274",
+    "title": "The Frighteners",
+    "year": 1996,
+    "imdb_id": "tt0116365",
+    "runtime_minutes": 110,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Fantasy",
+      "Ghost",
+      "Horror",
+      "Mystery",
+      "Supernatural",
+      "Suspense",
+      "Thriller"
+    ],
+    "aliases": [
+      "Frighteners"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1332274",
+    "catalog_version": "77f35b979d473450bf0e50cec53ccdc95fa078b3f0a5aa4c75197ed440f6d8ab"
+  },
+  {
+    "film_id": "wikidata:Q1334948",
+    "title": "Robin Hood: Men in Tights",
+    "year": 1993,
+    "imdb_id": "tt0107977",
+    "runtime_minutes": 104,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Parody"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1334948",
+    "catalog_version": "71644ee618b197a1a64f3f314ea1683b65a3c7f0ff2f7f7b2c42d4b0bb2c2a6b"
+  },
+  {
+    "film_id": "wikidata:Q1339523",
+    "title": "Courage Under Fire",
+    "year": 1996,
+    "imdb_id": "tt0115956",
+    "runtime_minutes": 116,
+    "genres": [
+      "Action",
+      "Drama",
+      "Flashback",
+      "Mystery",
+      "Thriller",
+      "War"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1339523",
+    "catalog_version": "29f59580dd13f34ad09216a29730cb819a410ef238c90e3867ae013683cd34bf"
+  },
+  {
+    "film_id": "wikidata:Q1353837",
+    "title": "Vampire in Brooklyn",
+    "year": 1995,
+    "imdb_id": "tt0114825",
+    "runtime_minutes": 102,
+    "genres": [
+      "Comedy",
+      "Horror",
+      "Vampire"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1353837",
+    "catalog_version": "df4327b68942c2f97fb843ccdb3b9ef01e3990c500c07b780f0168846ae0a628"
+  },
+  {
+    "film_id": "wikidata:Q1354109",
+    "title": "Mighty Aphrodite",
+    "year": 1995,
+    "imdb_id": "tt0113819",
+    "runtime_minutes": 95,
+    "genres": [
+      "Comedy",
+      "Erotic"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1354109",
+    "catalog_version": "ddac69cb65d4920ad41f3e5d094a55f3d1cab9ab43e6d84a23782dad698d5c6b"
+  },
+  {
+    "film_id": "wikidata:Q1355072",
+    "title": "Under Siege 2: Dark Territory",
+    "year": 1995,
+    "imdb_id": "tt0114781",
+    "runtime_minutes": 98,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1355072",
+    "catalog_version": "e4a2cb24c841b54c72da06468d4b86fe80d352face42b4ac087a7599e650ff54"
+  },
+  {
+    "film_id": "wikidata:Q1360651",
+    "title": "The Ref",
+    "year": 1994,
+    "imdb_id": "tt0110955",
+    "runtime_minutes": 97,
+    "genres": [
+      "Christmas",
+      "Comedy",
+      "Crime",
+      "Drama"
+    ],
+    "aliases": [
+      "Ref"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1360651",
+    "catalog_version": "f82a94957d944248fad733469ea41228405b0eb953b55bba7c000a8833ab15dc"
+  },
+  {
+    "film_id": "wikidata:Q1423849",
+    "title": "Reality Bites",
+    "year": 1994,
+    "imdb_id": "tt0110950",
+    "runtime_minutes": 94,
+    "genres": [
+      "Comedy",
+      "Coming-of-Age",
+      "Drama",
+      "Lgbtq-Related",
+      "Romance"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1423849",
+    "catalog_version": "6fd29f8d79f1fd62eb9ff38d1daba6bcf6dbaeba67052d306fc1d99978f8284c"
+  },
+  {
+    "film_id": "wikidata:Q1459049",
+    "title": "The Brothers McMullen",
+    "year": 1995,
+    "imdb_id": "tt0112585",
+    "runtime_minutes": 94,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "aliases": [
+      "Brothers McMullen"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1459049",
+    "catalog_version": "bb75f325edccfbd9b3c93aaffe6c92a752d67c367a5a4c7b62accf139e2f1878"
+  },
+  {
+    "film_id": "wikidata:Q1461570",
+    "title": "Surviving the Game",
+    "year": 1994,
+    "imdb_id": "tt0111323",
+    "runtime_minutes": 92,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1461570",
+    "catalog_version": "6c1ad0bb21d23d45ffaa2a8f36ecf4f8eb56881d1998307c3f2f591c4a9364f4"
+  },
+  {
+    "film_id": "wikidata:Q1473596",
+    "title": "Mighty Morphin Power Rangers: The Movie",
+    "year": 1995,
+    "imdb_id": "tt0113820",
+    "runtime_minutes": 92,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Sci-Fi",
+      "Superhero",
+      "Teen",
+      "Thriller",
+      "War"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1473596",
+    "catalog_version": "ddc27e77209359ca70a71ca4f848a37fe18392dafebfbce819eee25edd9ef625"
+  },
+  {
+    "film_id": "wikidata:Q1475275",
+    "title": "The Juror",
+    "year": 1996,
+    "imdb_id": "tt0116731",
+    "runtime_minutes": 116,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Romance",
+      "Thriller",
+      "Trial"
+    ],
+    "aliases": [
+      "Juror"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1475275",
+    "catalog_version": "e0c2cca147a4bd42525b1dfd44ef6661b2b70a9a05f0e23be063459274fb9b04"
+  },
+  {
+    "film_id": "wikidata:Q1500287",
+    "title": "Killing Zoe",
+    "year": 1994,
+    "imdb_id": "tt0110265",
+    "runtime_minutes": 96,
+    "genres": [
+      "Action",
+      "Heist"
+    ],
+    "aliases": [
+      "Crack Brain"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1500287",
+    "catalog_version": "86a4a1b5d3c916a6d5395376ba76f3c8516f6342fb9688d39fe3b2be04550248"
+  },
+  {
+    "film_id": "wikidata:Q1514095",
+    "title": "The Great White Hype",
+    "year": 1996,
+    "imdb_id": "tt0116448",
+    "runtime_minutes": 87,
+    "genres": [
+      "Boxing",
+      "Comedy"
+    ],
+    "aliases": [
+      "Great White Hype"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1514095",
+    "catalog_version": "508f60e297692a344d1a2ed25fb86274ed053726eef134efa58086d0ecea0043"
+  },
+  {
+    "film_id": "wikidata:Q1514670",
+    "title": "Geronimo: An American Legend",
+    "year": 1993,
+    "imdb_id": "tt0107004",
+    "runtime_minutes": 110,
+    "genres": [
+      "Drama",
+      "War",
+      "Western"
+    ],
+    "aliases": [
+      "Manueh"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1514670",
+    "catalog_version": "6e711546ba6f262697b1a3109ac75b55e3dd2505d8f9eb1761f1cffaea4bb49c"
+  },
+  {
+    "film_id": "wikidata:Q1518218",
+    "title": "Red Rock West",
+    "year": 1992,
+    "imdb_id": "tt0105226",
+    "runtime_minutes": 98,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Film-Noir"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1518218",
+    "catalog_version": "d30b6f60b1fb0309f27ed84288f8979efe783f59c79aefce7779e27bbe8bae6d"
+  },
+  {
+    "film_id": "wikidata:Q1534001",
+    "title": "The Prophecy",
+    "year": 1995,
+    "imdb_id": "tt0114194",
+    "runtime_minutes": 98,
+    "genres": [
+      "Fantasy",
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "aliases": [
+      "Prophecy"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1534001",
+    "catalog_version": "bf27bf22a669d7d2d62b7c3d4fc0a41bc463ae8e60d8b117ff84ee23d6cb3631"
+  },
+  {
+    "film_id": "wikidata:Q1542944",
+    "title": "Menace II Society",
+    "year": 1993,
+    "imdb_id": "tt0107554",
+    "runtime_minutes": 97,
+    "genres": [
+      "Action",
+      "Coming-of-Age",
+      "Crime",
+      "Drama",
+      "Hood"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1542944",
+    "catalog_version": "2785450ec05a28a9646064e26ef07d24cbb7b3496a799ceafe67c0d6891863aa"
+  },
+  {
+    "film_id": "wikidata:Q1567203",
+    "title": "Down Periscope",
+    "year": 1996,
+    "imdb_id": "tt0116130",
+    "runtime_minutes": 92,
+    "genres": [
+      "Comedy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1567203",
+    "catalog_version": "93be8f8fd21bfe77a6644dbc3527962313790b48162bf6b17c34d0a2cd9601da"
+  },
+  {
+    "film_id": "wikidata:Q1582860",
+    "title": "I Shot Andy Warhol",
+    "year": 1996,
+    "imdb_id": "tt0116594",
+    "runtime_minutes": 103,
+    "genres": [
+      "Biography",
+      "Crime",
+      "Drama",
+      "Lgbtq-Related"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1582860",
+    "catalog_version": "f143ec92c21bbb9c24ba774b4bee0c0cd30c8eea191a6ec43165bbd8e54377e6"
+  },
+  {
+    "film_id": "wikidata:Q1616185",
+    "title": "Tom and Huck",
+    "year": 1995,
+    "imdb_id": "tt0112302",
+    "runtime_minutes": 88,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Coming-of-Age",
+      "Drama",
+      "Teen"
+    ],
+    "aliases": [
+      "Tom & Huck"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1616185",
+    "catalog_version": "62e04243eb85e686bb9b98969ff985c760e7956d8f6e871a5b0def1f493df80e"
+  },
+  {
+    "film_id": "wikidata:Q1617908",
+    "title": "Higher Learning",
+    "year": 1995,
+    "imdb_id": "tt0113305",
+    "runtime_minutes": 126,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Lgbtq-Related",
+      "Romance"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1617908",
+    "catalog_version": "3fa3c472467b72adb3abaea0e00b0cfd3208dbeee44750cbacf9cdfc66542813"
+  },
+  {
+    "film_id": "wikidata:Q1619928",
+    "title": "Don't Be a Menace to South Central While Drinking Your Juice in the Hood",
+    "year": 1996,
+    "imdb_id": "tt0116126",
+    "runtime_minutes": 89,
+    "genres": [
+      "Comedy",
+      "Hood",
+      "Parody"
+    ],
+    "aliases": [
+      "Don't Be a Menace"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1619928",
+    "catalog_version": "97cf30adc3aa6e88b704f01c1ea6860525513c8eeec5548c13618f80da058e64"
+  },
+  {
+    "film_id": "wikidata:Q162729",
+    "title": "Braveheart",
+    "year": 1995,
+    "imdb_id": "tt0112573",
+    "runtime_minutes": 177,
+    "genres": [
+      "Action",
+      "Biography",
+      "Drama",
+      "Medieval",
+      "War"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q162729",
+    "catalog_version": "b63cd08c89c7f41216b9acbe7cc0a5da0bd31f9cd52bd19dffc34f2d7adec99f"
+  },
+  {
+    "film_id": "wikidata:Q1629547",
+    "title": "Swimming with Sharks",
+    "year": 1994,
+    "imdb_id": "tt0114594",
+    "runtime_minutes": 89,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "aliases": [
+      "Swimming With Sharks"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1629547",
+    "catalog_version": "e127311e136dfa53f5c847104230bdd920f6199a27cd7c9a13d57fdc64db144c"
+  },
+  {
+    "film_id": "wikidata:Q1642448",
+    "title": "Sgt. Bilko",
+    "year": 1996,
+    "imdb_id": "tt0117608",
+    "runtime_minutes": 90,
+    "genres": [
+      "Comedy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1642448",
+    "catalog_version": "bba1d61af175a1894d9d6dceb64825405ad1234afacca6be6f6763f34932fd3f"
+  },
+  {
+    "film_id": "wikidata:Q1643330",
+    "title": "Jefferson in Paris",
+    "year": 1995,
+    "imdb_id": "tt0113463",
+    "runtime_minutes": 139,
+    "genres": [
+      "Biography",
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1643330",
+    "catalog_version": "d3e0b3dfcd52c9ba7dfaf800501668204aac78474a3a3845ca74d55796a2a360"
+  },
+  {
+    "film_id": "wikidata:Q1648536",
+    "title": "Living in Oblivion",
+    "year": 1995,
+    "imdb_id": "tt0113677",
+    "runtime_minutes": 89,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1648536",
+    "catalog_version": "e879ad23b8ade473158147c9e169bd9bb344212d05fea3b466b5973a11cd4620"
+  },
+  {
+    "film_id": "wikidata:Q1684012",
+    "title": "Jason's Lyric",
+    "year": 1994,
+    "imdb_id": "tt0110186",
+    "runtime_minutes": 115,
+    "genres": [
+      "Coming-of-Age",
+      "Drama",
+      "Erotic",
+      "Hood",
+      "Romance"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1684012",
+    "catalog_version": "f1d4fcfbe94a49ad9306a70889326bbb39e930b5e200141b2acf81bd1d106bc6"
+  },
+  {
+    "film_id": "wikidata:Q1688957",
+    "title": "Jimmy Hollywood",
+    "year": 1994,
+    "imdb_id": "tt0110197",
+    "runtime_minutes": 113,
+    "genres": [
+      "Comedy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1688957",
+    "catalog_version": "809965616ed144e863ccc929dad0c8004cefa3929de9f94adfd699b433366170"
+  },
+  {
+    "film_id": "wikidata:Q170564",
+    "title": "Terminator 2: Judgment Day",
+    "year": 1991,
+    "imdb_id": "tt0103064",
+    "runtime_minutes": 137,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Chase",
+      "Comedy",
+      "Cyberpunk",
+      "Drama",
+      "Dystopian",
+      "Girls With Guns",
+      "Post-Apocalyptic",
+      "Sci-Fi",
+      "Suspense",
+      "Thriller",
+      "Time-Travel"
+    ],
+    "aliases": [
+      "Terminator 2 – Judgement Day",
+      "Terminator 2"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q170564",
+    "catalog_version": "05fa9111cf540f9c6bbbfad0de110fefda1adae7ba7e3605f2fb7d3c74204482"
+  },
+  {
+    "film_id": "wikidata:Q172241",
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "imdb_id": "tt0111161",
+    "runtime_minutes": 142,
+    "genres": [
+      "Buddy",
+      "Crime",
+      "Drama",
+      "Prison"
+    ],
+    "aliases": [
+      "Shawshank",
+      "Shawshank Redemption"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q172241",
+    "catalog_version": "ce7fb3416b92f01e76b5dd4d971fc139ebbff36351c5dccd96cf6bcfd638c6ce"
+  },
+  {
+    "film_id": "wikidata:Q1738422",
+    "title": "Lamerica",
+    "year": 1994,
+    "imdb_id": "tt0110299",
+    "runtime_minutes": 116,
+    "genres": [
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1738422",
+    "catalog_version": "2233b404fc6ba64f8f14bad69815cd10eb3a6884e07ad87884a2a8364b9dbe17"
+  },
+  {
+    "film_id": "wikidata:Q1741078",
+    "title": "Radioland Murders",
+    "year": 1994,
+    "imdb_id": "tt0110939",
+    "runtime_minutes": 112,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1741078",
+    "catalog_version": "489dbf99c7e205efafde3c526a1f34a3672cd350832e43238a8536b8d32b9f7f"
+  },
+  {
+    "film_id": "wikidata:Q174683",
+    "title": "A Perfect World",
+    "year": 1993,
+    "imdb_id": "tt0107808",
+    "runtime_minutes": 138,
+    "genres": [
+      "Adventure",
+      "Crime",
+      "Drama"
+    ],
+    "aliases": [
+      "Perfect World"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q174683",
+    "catalog_version": "51f7e606fc5ed29a1de48ae3227b3226b323f1c4fa49dbf3624ba52f7a57dfe1"
+  },
+  {
+    "film_id": "wikidata:Q175278",
+    "title": "Mrs. Parker and the Vicious Circle",
+    "year": 1994,
+    "imdb_id": "tt0110588",
+    "runtime_minutes": 125,
+    "genres": [
+      "Biography",
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q175278",
+    "catalog_version": "3691be73e87066ab0e617a7b7f91a09a91654acf0f42107de8aa3eb7643d24bc"
+  },
+  {
+    "film_id": "wikidata:Q1753552",
+    "title": "So I Married an Axe Murderer",
+    "year": 1993,
+    "imdb_id": "tt0108174",
+    "runtime_minutes": 90,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Horror"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1753552",
+    "catalog_version": "a5c6d56462406b99a64eed0b3cfa9f15b9a045b558e9fcf947869ef341e6a6bb"
+  },
+  {
+    "film_id": "wikidata:Q1753610",
+    "title": "Beyond Rangoon",
+    "year": 1995,
+    "imdb_id": "tt0112495",
+    "runtime_minutes": 95,
+    "genres": [
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1753610",
+    "catalog_version": "50d282edd49b6a4e9825f2ab7c05e94baa584dd58fb157c8be67526dfcbc7194"
+  },
+  {
+    "film_id": "wikidata:Q1757776",
+    "title": "Spanking the Monkey",
+    "year": 1994,
+    "imdb_id": "tt0111252",
+    "runtime_minutes": 100,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1757776",
+    "catalog_version": "8d7e2f5cb56b69c254bf4b225328c34a8b2299d9144ce8072cf177c62c9d2be7"
+  },
+  {
+    "film_id": "wikidata:Q1759260",
+    "title": "To Wong Foo, Thanks for Everything! Julie Newmar",
+    "year": 1995,
+    "imdb_id": "tt0114682",
+    "runtime_minutes": 105,
+    "genres": [
+      "Comedy",
+      "Lgbtq-Related",
+      "Road Movie"
+    ],
+    "aliases": [
+      "To Wong Foo, Thanks for Everything, Julie Newmar"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1759260",
+    "catalog_version": "d3e31aed25afa99dd72d739c159a7558c1020f47d1fac2a0c8ed5d92fe2d8435"
+  },
+  {
+    "film_id": "wikidata:Q1778407",
+    "title": "The Substitute",
+    "year": 1996,
+    "imdb_id": "tt0117774",
+    "runtime_minutes": 114,
+    "genres": [
+      "Action",
+      "Crime",
+      "Teen",
+      "Thriller"
+    ],
+    "aliases": [
+      "Substitute"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1778407",
+    "catalog_version": "9fd1d31d4d833a7583b608ae50dc0d7d18daa94fd6152d063a6e867a34fe547d"
+  },
+  {
+    "film_id": "wikidata:Q1788520",
+    "title": "Muppet Treasure Island",
+    "year": 1996,
+    "imdb_id": "tt0117110",
+    "runtime_minutes": 99,
+    "genres": [
+      "Children'S",
+      "Comedy",
+      "Musical",
+      "Pirate"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1788520",
+    "catalog_version": "448843b09c8564b462eb1bc6c66de0ef91b4d2959cbfa2d0393bbdb3b9b4f883"
+  },
+  {
+    "film_id": "wikidata:Q179798",
+    "title": "Kalifornia",
+    "year": 1993,
+    "imdb_id": "tt0107302",
+    "runtime_minutes": 114,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Horror"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q179798",
+    "catalog_version": "fb0aea04871b8aada24afea6f5a8df913165e744573962f5f884e4600fd0b4d8"
+  },
+  {
+    "film_id": "wikidata:Q180008",
+    "title": "Canadian Bacon",
+    "year": 1995,
+    "imdb_id": "tt0109370",
+    "runtime_minutes": 91,
+    "genres": [
+      "Comedy",
+      "War"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q180008",
+    "catalog_version": "263d1d421554e3dd530b3efd61e6b1d1ba448043528ca53353379028e84d1d5b"
+  },
+  {
+    "film_id": "wikidata:Q1824522",
+    "title": "Mixed Nuts",
+    "year": 1994,
+    "imdb_id": "tt0110538",
+    "runtime_minutes": 93,
+    "genres": [
+      "Christmas",
+      "Comedy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1824522",
+    "catalog_version": "29a1b793bd3a0034078cc2847c0c076220b24dcebb90942b82a9480b1ef9bb09"
+  },
+  {
+    "film_id": "wikidata:Q18415",
+    "title": "Spirits of the Dead",
+    "year": 1968,
+    "imdb_id": "tt0063715",
+    "runtime_minutes": 121,
+    "genres": [
+      "Drama",
+      "Ghost",
+      "Horror"
+    ],
+    "aliases": [
+      "Histoires extraordinaires"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q18415",
+    "catalog_version": "c7a14dd9b93e9e109d11c499fca1010ee91e8177d51434c2ae3764dd52c4f38b"
+  },
+  {
+    "film_id": "wikidata:Q184701",
+    "title": "The Aristocats",
+    "year": 1970,
+    "imdb_id": "tt0065421",
+    "runtime_minutes": 78,
+    "genres": [
+      "Children'S",
+      "Comedy",
+      "Fantasy",
+      "Musical",
+      "Romance"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q184701",
+    "catalog_version": "b05467e9ae45345ded94bcc6fe762e257fca9677723b597471c75abaf886ec39"
+  },
+  {
+    "film_id": "wikidata:Q1869916",
+    "title": "Lord of Illusions",
+    "year": 1995,
+    "imdb_id": "tt0113690",
+    "runtime_minutes": 116,
+    "genres": [
+      "Fantasy",
+      "Film-Noir",
+      "Horror"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1869916",
+    "catalog_version": "7299148ee32ef6e3e8de1235d0820eedf03d24f5277d5a77f490a663b754fdea"
+  },
+  {
+    "film_id": "wikidata:Q19089",
+    "title": "GoldenEye",
+    "year": 1995,
+    "imdb_id": "tt0113189",
+    "runtime_minutes": 130,
+    "genres": [
+      "Action",
+      "Spy",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q19089",
+    "catalog_version": "d8d81237a2c899f41facda336772b0b9245465281af2a21ec903f5d4125abd57"
+  },
+  {
+    "film_id": "wikidata:Q1937392",
+    "title": "Feeling Minnesota",
+    "year": 1996,
+    "imdb_id": "tt0116289",
+    "runtime_minutes": 95,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Romance"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1937392",
+    "catalog_version": "41f1f492b4ebec264a463239a9849d5748c6653492c63cad89e6258a6ebb6ae2"
+  },
+  {
+    "film_id": "wikidata:Q1962426",
+    "title": "A Low Down Dirty Shame",
+    "year": 1994,
+    "imdb_id": "tt0110399",
+    "runtime_minutes": 108,
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "aliases": [
+      "Low Down Dirty Shame"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1962426",
+    "catalog_version": "d8c45de3b75e1287e49c7e05c3d1a4b5b6d4111ede6361878b4310788204e096"
+  },
+  {
+    "film_id": "wikidata:Q1971683",
+    "title": "Two Much",
+    "year": 1995,
+    "imdb_id": "tt0118001",
+    "runtime_minutes": 113,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q1971683",
+    "catalog_version": "8805b91de51b74696fdf19cdc1ef2928a6b73203f084aab5fcdc230132fdceab"
+  },
+  {
+    "film_id": "wikidata:Q204725",
+    "title": "Addams Family Values",
+    "year": 1993,
+    "imdb_id": "tt0106220",
+    "runtime_minutes": 90,
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Horror"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q204725",
+    "catalog_version": "fc5fb02a7b3f4d76e2eb43f601015bc2d43948637ba4cb6dd9e69dce70320928"
+  },
+  {
+    "film_id": "wikidata:Q2067539",
+    "title": "Bio-Dome",
+    "year": 1996,
+    "imdb_id": "tt0115683",
+    "runtime_minutes": 88,
+    "genres": [
+      "Buddy",
+      "Comedy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q2067539",
+    "catalog_version": "bdf84d571f4e75da2e974e0f414c467b1921a33227381bb447699dcf7d9e8990"
+  },
+  {
+    "film_id": "wikidata:Q207659",
+    "title": "Space Jam",
+    "year": 1996,
+    "imdb_id": "tt0117705",
+    "runtime_minutes": 88,
+    "genres": [
+      "Action",
+      "Animation",
+      "Children'S",
+      "Comedy",
+      "Crossover",
+      "Fantasy",
+      "Sport"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q207659",
+    "catalog_version": "6c696edd6c0e4b1f5b145142de6456f9766d7b206cb7cd0575a450d78dcc763f"
+  },
+  {
+    "film_id": "wikidata:Q207954",
+    "title": "Pretty Woman",
+    "year": 1990,
+    "imdb_id": "tt0100405",
+    "runtime_minutes": 119,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q207954",
+    "catalog_version": "9d873705ec74a5931b731b52771b8ef4e05fcdd26157916d805296c9d9b7454f"
+  },
+  {
+    "film_id": "wikidata:Q2093090",
+    "title": "Mystery Science Theater 3000: The Movie",
+    "year": 1996,
+    "imdb_id": "tt0117128",
+    "runtime_minutes": 75,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "aliases": [
+      "Mystery Science Theater 3000 THE MOVIE"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q2093090",
+    "catalog_version": "c16fe31fdf1bdf24bb5944b509f6abf79a7843fb696800774a83a5962c5076f3"
+  },
+  {
+    "film_id": "wikidata:Q2128630",
+    "title": "Above the Rim",
+    "year": 1994,
+    "imdb_id": "tt0109035",
+    "runtime_minutes": 96,
+    "genres": [
+      "Coming-of-Age",
+      "Drama",
+      "Hood",
+      "Sport",
+      "Teen"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q2128630",
+    "catalog_version": "13d6fdc1a5da5377f679b447f2159590fcb8a2c18ca779df51c1bb17a3f6bb9b"
+  },
+  {
+    "film_id": "wikidata:Q216929",
+    "title": "Oliver & Company",
+    "year": 1988,
+    "imdb_id": "tt0095776",
+    "runtime_minutes": 72,
+    "genres": [
+      "Adventure",
+      "Buddy",
+      "Children'S",
+      "Comedy",
+      "Drama",
+      "Family",
+      "Musical"
+    ],
+    "aliases": [
+      "Oliver and Company"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q216929",
+    "catalog_version": "346fef43b147f05d0488a110375772ee186004af798ff241d38c159e6ed4f1ea"
+  },
+  {
+    "film_id": "wikidata:Q221345",
+    "title": "Batman Forever",
+    "year": 1995,
+    "imdb_id": "tt0112462",
+    "runtime_minutes": 117,
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Film-Noir",
+      "Superhero"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q221345",
+    "catalog_version": "7501b8e23e44931c3ece132ae2995cba39b49fa8733c96327959b1019cb27d2c"
+  },
+  {
+    "film_id": "wikidata:Q2238172",
+    "title": "Maya Lin: A Strong Clear Vision",
+    "year": 1994,
+    "imdb_id": "tt0110480",
+    "runtime_minutes": 105,
+    "genres": [
+      "Biography",
+      "Documentary"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q2238172",
+    "catalog_version": "d705d7dac92a0314074aa88858d6252b27718a17dd4997a043f85273172ab5cc"
+  },
+  {
+    "film_id": "wikidata:Q2255971",
+    "title": "The Secret of Roan Inish",
+    "year": 1994,
+    "imdb_id": "tt0111112",
+    "runtime_minutes": 104,
+    "genres": [
+      "Children'S",
+      "Fantasy"
+    ],
+    "aliases": [
+      "Secret of Roan Inish"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q2255971",
+    "catalog_version": "4fd5cd49b561751e589710626e136c85ce854b49247a942b10b5443c8eca80ed"
+  },
+  {
+    "film_id": "wikidata:Q227540",
+    "title": "S.F.W.",
+    "year": 1994,
+    "imdb_id": "tt0111048",
+    "runtime_minutes": 91,
+    "genres": [
+      "Comedy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q227540",
+    "catalog_version": "9ee640b1f8ed5f2947e6b21d33acb9ae2df55d7e53ff1c8dbc6ac23b6af6e77b"
+  },
+  {
+    "film_id": "wikidata:Q2341110",
+    "title": "The Amazing Panda Adventure",
+    "year": 1995,
+    "imdb_id": "tt0112342",
+    "runtime_minutes": 84,
+    "genres": [
+      "Adventure",
+      "Children'S"
+    ],
+    "aliases": [
+      "Amazing Panda Adventure"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q2341110",
+    "catalog_version": "2cae29ff6a80aa8d59a36812de32e2c82b59dca38b7367c3f5790cb98cf51f91"
+  },
+  {
+    "film_id": "wikidata:Q240849",
+    "title": "Timecop",
+    "year": 1994,
+    "imdb_id": "tt0111438",
+    "runtime_minutes": 98,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Martial Arts",
+      "Sci-Fi",
+      "Thriller",
+      "Time-Travel"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q240849",
+    "catalog_version": "3de7872569ad69dfa97d318c0fd10eaa6b496c56d8f52cda66557b1ec7b40c1f"
+  },
+  {
+    "film_id": "wikidata:Q2413112",
+    "title": "All Dogs Go to Heaven 2",
+    "year": 1996,
+    "imdb_id": "tt0115509",
+    "runtime_minutes": 82,
+    "genres": [
+      "Adventure",
+      "Buddy",
+      "Comedy",
+      "Fantasy",
+      "Musical",
+      "Romance"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q2413112",
+    "catalog_version": "5ca79df65b6caae10897de657bbaed8650e66a3e8e76c5cec6708976dad56874"
+  },
+  {
+    "film_id": "wikidata:Q2478977",
+    "title": "Blue in the Face",
+    "year": 1995,
+    "imdb_id": "tt0112541",
+    "runtime_minutes": 83,
+    "genres": [
+      "Comedy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q2478977",
+    "catalog_version": "136295afbe6d78e0a0b8b3a90e248b9999e20f4df9a585acf0d0a1c19c44d493"
+  },
+  {
+    "film_id": "wikidata:Q249032",
+    "title": "Heaven's Prisoners",
+    "year": 1996,
+    "imdb_id": "tt0116508",
+    "runtime_minutes": 126,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Erotic",
+      "Film-Noir",
+      "Mystery",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q249032",
+    "catalog_version": "21b859d59ab95cf4dbb01c7bdc8b64caa9c727b438e29d6e3ec5021b97bb0c4d"
+  },
+  {
+    "film_id": "wikidata:Q2517431",
+    "title": "Girl 6",
+    "year": 1996,
+    "imdb_id": "tt0116414",
+    "runtime_minutes": 108,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q2517431",
+    "catalog_version": "6c9fb69c564a0fbf72880f017f22d7b6359ba1d3f13bebd083b53d3e2eb66d4d"
+  },
+  {
+    "film_id": "wikidata:Q2521217",
+    "title": "The Addiction",
+    "year": 1995,
+    "imdb_id": "tt0112288",
+    "runtime_minutes": 82,
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Horror",
+      "Independent",
+      "Supernatural",
+      "Thriller",
+      "Vampire"
+    ],
+    "aliases": [
+      "Addiction"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q2521217",
+    "catalog_version": "62b21bbd5382e8adc97328c4013a45720575f1d4b4ff8d0c44b662d1fb858388"
+  },
+  {
+    "film_id": "wikidata:Q2534007",
+    "title": "Crooklyn",
+    "year": 1994,
+    "imdb_id": "tt0109504",
+    "runtime_minutes": 115,
+    "genres": [
+      "Biography",
+      "Comedy",
+      "Coming-of-Age",
+      "Drama",
+      "Hood"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q2534007",
+    "catalog_version": "644b2516cf19136c178eab121a3cbbaecd5066e96167a3e28b60d4122a80974f"
+  },
+  {
+    "film_id": "wikidata:Q2549305",
+    "title": "An Awfully Big Adventure",
+    "year": 1995,
+    "imdb_id": "tt0112427",
+    "runtime_minutes": 112,
+    "genres": [
+      "Comedy",
+      "Coming-of-Age",
+      "Drama",
+      "Lgbtq-Related"
+    ],
+    "aliases": [
+      "Awfully Big Adventure"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q2549305",
+    "catalog_version": "9b2c3dd66b79205f3a0748ffdc81bba16c920d8b213b0edee7c0365a94155e78"
+  },
+  {
+    "film_id": "wikidata:Q255328",
+    "title": "The Adventures of Priscilla, Queen of the Desert",
+    "year": 1994,
+    "imdb_id": "tt0109045",
+    "runtime_minutes": 104,
+    "genres": [
+      "Buddy",
+      "Comedy",
+      "Drama",
+      "Lgbtq-Related",
+      "Road Movie",
+      "Transgender"
+    ],
+    "aliases": [
+      "Priscilla, Queen of the Desert",
+      "Adventures of Priscilla, Queen of the Desert"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q255328",
+    "catalog_version": "7d54c2e6db672c7f7722db4c541c6d7a39865292d102ec4bf9517d7536e2a486"
+  },
+  {
+    "film_id": "wikidata:Q2562722",
+    "title": "Unstrung Heroes",
+    "year": 1995,
+    "imdb_id": "tt0114798",
+    "runtime_minutes": 93,
+    "genres": [
+      "Comedy",
+      "Coming-of-Age",
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q2562722",
+    "catalog_version": "a1377ac628421b882f4f5b4ea874157f3169e58c564e1150cd307ff54a1f6951"
+  },
+  {
+    "film_id": "wikidata:Q2565420",
+    "title": "Welcome to the Dollhouse",
+    "year": 1995,
+    "imdb_id": "tt0114906",
+    "runtime_minutes": 90,
+    "genres": [
+      "Coming-of-Age",
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q2565420",
+    "catalog_version": "ff9e30175c8a66e58d89672f8aca44ce3038b97c9b9c5b6f8eb8ec1ee5fe4403"
+  },
+  {
+    "film_id": "wikidata:Q2704431",
+    "title": "Mute Witness",
+    "year": 1995,
+    "imdb_id": "tt0110604",
+    "runtime_minutes": 95,
+    "genres": [
+      "Crime",
+      "Horror",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q2704431",
+    "catalog_version": "2b8701ab405e3b4b9ce01aa10d3f48d44a10c4086edd14a10c8d97876ad869e7"
+  },
+  {
+    "film_id": "wikidata:Q2716876",
+    "title": "Bhaji on the Beach",
+    "year": 1993,
+    "imdb_id": "tt0106408",
+    "runtime_minutes": 101,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q2716876",
+    "catalog_version": "24ebeb4cc0248ed6183c322ed20f64446b54dee2470bb8db2011258303212c36"
+  },
+  {
+    "film_id": "wikidata:Q2724012",
+    "title": "Cabin Boy",
+    "year": 1994,
+    "imdb_id": "tt0109361",
+    "runtime_minutes": 80,
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q2724012",
+    "catalog_version": "8d28b41c20b32ca26fa09f9d69404fc40bb53e5996b82e4e858b71335890dda4"
+  },
+  {
+    "film_id": "wikidata:Q272595",
+    "title": "Waterworld",
+    "year": 1995,
+    "imdb_id": "tt0114898",
+    "runtime_minutes": 136,
+    "genres": [
+      "Action",
+      "Dystopian",
+      "Post-Apocalyptic",
+      "Sci-Fi"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q272595",
+    "catalog_version": "3d834aa939fd5fb07e7ea260084de7414db78ec3354d78df72c1cd020f8f2b6d"
+  },
+  {
+    "film_id": "wikidata:Q280918",
+    "title": "Leaving Las Vegas",
+    "year": 1995,
+    "imdb_id": "tt0113627",
+    "runtime_minutes": 107,
+    "genres": [
+      "Drama",
+      "Erotic",
+      "Romance"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q280918",
+    "catalog_version": "4d3f235291d5cf954e06945bddbec456433770765e74d019e909024260799e95"
+  },
+  {
+    "film_id": "wikidata:Q288138",
+    "title": "Gordy",
+    "year": 1995,
+    "imdb_id": "tt0113199",
+    "runtime_minutes": 90,
+    "genres": [
+      "Buddy",
+      "Comedy",
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q288138",
+    "catalog_version": "36a88b91ad843f1dd2ba01f822d0126bdac8cc54173adda116c673b537b3acc8"
+  },
+  {
+    "film_id": "wikidata:Q289127",
+    "title": "The Next Karate Kid",
+    "year": 1994,
+    "imdb_id": "tt0110657",
+    "runtime_minutes": 107,
+    "genres": [
+      "Coming-of-Age",
+      "Drama",
+      "Martial Arts",
+      "Teen"
+    ],
+    "aliases": [
+      "Next Karate Kid"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q289127",
+    "catalog_version": "50a9a2f3669576c6528679852cc6a5675882f63b46ca2a876e95377121aa8658"
+  },
+  {
+    "film_id": "wikidata:Q290730",
+    "title": "Getting Even with Dad",
+    "year": 1994,
+    "imdb_id": "tt0109891",
+    "runtime_minutes": 95,
+    "genres": [
+      "Comedy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q290730",
+    "catalog_version": "3ede2c36d36975fe9e7ec6b9be120ea8a446dd30c34e38d8925ae0b4d5d8fe5c"
+  },
+  {
+    "film_id": "wikidata:Q290811",
+    "title": "Lawnmower Man 2: Beyond Cyberspace",
+    "year": 1996,
+    "imdb_id": "tt0116839",
+    "runtime_minutes": 89,
+    "genres": [
+      "Action",
+      "Cyberpunk",
+      "Horror",
+      "Sci-Fi",
+      "Speculative Fiction"
+    ],
+    "aliases": [
+      "Lawnmower man 2: Jobes War"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q290811",
+    "catalog_version": "8eff8b5beac9b508aa6641bb6273b37defdc1e83c9c87f6c366227c1b39ac5b8"
+  },
+  {
+    "film_id": "wikidata:Q300401",
+    "title": "A Family Thing",
+    "year": 1996,
+    "imdb_id": "tt0116275",
+    "runtime_minutes": 105,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q300401",
+    "catalog_version": "9dbc90bb176f053230bb92ee0dab53caedd90f2e079f64929310011d3e12c13d"
+  },
+  {
+    "film_id": "wikidata:Q304074",
+    "title": "In the Name of the Father",
+    "year": 1993,
+    "imdb_id": "tt0107207",
+    "runtime_minutes": 133,
+    "genres": [
+      "Biography",
+      "Drama",
+      "Prison",
+      "Trial"
+    ],
+    "aliases": [
+      "'' In the Name of the Father ''"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q304074",
+    "catalog_version": "008165a2e1069e1702a86995141b0fd8356e8c8973ce87284189a5743a9beb82"
+  },
+  {
+    "film_id": "wikidata:Q3137753",
+    "title": "Kazaam",
+    "year": 1996,
+    "imdb_id": "tt0116756",
+    "runtime_minutes": 93,
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q3137753",
+    "catalog_version": "3f1f30829535d0097c94f3330f1989ca4af2363c88943aae425d45152b834ab3"
+  },
+  {
+    "film_id": "wikidata:Q313998",
+    "title": "The Hudsucker Proxy",
+    "year": 1994,
+    "imdb_id": "tt0110074",
+    "runtime_minutes": 111,
+    "genres": [
+      "Christmas",
+      "Comedy",
+      "Drama",
+      "Fantasy"
+    ],
+    "aliases": [
+      "Hudsucker Proxy"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q313998",
+    "catalog_version": "424fa0f7c9237f45fbff89b67f042911aafdf18be446b7697dd4e3e54e672731"
+  },
+  {
+    "film_id": "wikidata:Q322206",
+    "title": "Heavenly Creatures",
+    "year": 1994,
+    "imdb_id": "tt0110005",
+    "runtime_minutes": 108,
+    "genres": [
+      "Biography",
+      "Coming-of-Age",
+      "Crime",
+      "Drama",
+      "Lgbtq-Related",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q322206",
+    "catalog_version": "908eb7bf4e459785fd67407ac879feefb81dbfec4da0adc4cf3c9a0bf1847a62"
+  },
+  {
+    "film_id": "wikidata:Q322328",
+    "title": "The Nightmare Before Christmas",
+    "year": 1993,
+    "imdb_id": "tt0107688",
+    "runtime_minutes": 73,
+    "genres": [
+      "Christmas",
+      "Comedy",
+      "Fantasy",
+      "Monster",
+      "Musical"
+    ],
+    "aliases": [
+      "Tim Burton's The Nightmare Before Christmas"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q322328",
+    "catalog_version": "48115934a59c44924f12cdbc00b4941c9a6c549686212f539c188b1c7692cf64"
+  },
+  {
+    "film_id": "wikidata:Q324239",
+    "title": "Walking and Talking",
+    "year": 1996,
+    "imdb_id": "tt0118113",
+    "runtime_minutes": 90,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Female Buddy",
+      "Romance"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q324239",
+    "catalog_version": "43cc4f9ac650ff75b1d46cefc0016a5cc1f1685149c3924d1708dec9953b4a49"
+  },
+  {
+    "film_id": "wikidata:Q3256959",
+    "title": "Live Nude Girls",
+    "year": 1995,
+    "imdb_id": "tt0113674",
+    "runtime_minutes": 95,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Lgbtq-Related"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q3256959",
+    "catalog_version": "bce819bea127afa618d0f80fea0c6c001ba18d54a8c3225a60de7f39076ebe30"
+  },
+  {
+    "film_id": "wikidata:Q330612",
+    "title": "Dragonheart",
+    "year": 1996,
+    "imdb_id": "tt0116136",
+    "runtime_minutes": 103,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Buddy",
+      "Fantasy",
+      "Medieval",
+      "Sword-And-Sandal"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q330612",
+    "catalog_version": "f480fbfb3bf706f8e36c005984bfd1a0fb2ae2a848d37d25da8eebea1c473c4a"
+  },
+  {
+    "film_id": "wikidata:Q3310901",
+    "title": "Touki Bouki",
+    "year": 1973,
+    "imdb_id": "tt0070820",
+    "runtime_minutes": 85,
+    "genres": [
+      "Drama"
+    ],
+    "aliases": [
+      "Journey of the Hyena"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q3310901",
+    "catalog_version": "935f998af7bba69e36aeddde8aea7e2524f5b37dbd1a77dd4bd7a7118c5a20fd"
+  },
+  {
+    "film_id": "wikidata:Q333971",
+    "title": "First Knight",
+    "year": 1995,
+    "imdb_id": "tt0113071",
+    "runtime_minutes": 129,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Knight",
+      "Medieval",
+      "Romance",
+      "War"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q333971",
+    "catalog_version": "08064cd7fcf3a7e8455310f12c13a202139f20d233b72f2a12a37787f2573fc8"
+  },
+  {
+    "film_id": "wikidata:Q3365051",
+    "title": "Widows' Peak",
+    "year": 1994,
+    "imdb_id": "tt0111712",
+    "runtime_minutes": 101,
+    "genres": [
+      "Crime",
+      "Mystery"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q3365051",
+    "catalog_version": "b6ad17a75ce8561ee88c4d4eea7caeab12ff8e0019dae5ca22e2b1ac09533e4c"
+  },
+  {
+    "film_id": "wikidata:Q340127",
+    "title": "Ace Ventura: When Nature Calls",
+    "year": 1995,
+    "imdb_id": "tt0112281",
+    "runtime_minutes": 94,
+    "genres": [
+      "Comedy"
+    ],
+    "aliases": [
+      "Ace Ventura 2"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q340127",
+    "catalog_version": "543f7fa474325ed837a5474cb0a0c0b7f75055f78acbee9b1406841cd1307acc"
+  },
+  {
+    "film_id": "wikidata:Q340138",
+    "title": "Ace Ventura: Pet Detective",
+    "year": 1994,
+    "imdb_id": "tt0109040",
+    "runtime_minutes": 83,
+    "genres": [
+      "Action",
+      "American Football",
+      "Comedy",
+      "Lgbtq-Related"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q340138",
+    "catalog_version": "1d2982160c7e37ab4be6b771861629b67bf2cf6d8ae2f694b3dbc97b341f9aa5"
+  },
+  {
+    "film_id": "wikidata:Q36479",
+    "title": "The Lion King",
+    "year": 1994,
+    "imdb_id": "tt0110357",
+    "runtime_minutes": 88,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Family",
+      "Musical"
+    ],
+    "aliases": [
+      "Lion King",
+      "1994 The Lion King",
+      "1994 Lion King"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q36479",
+    "catalog_version": "4aa1d96917181c3bcbdcd69c48319c500a49e4403e90a13b0cb927ce4fefd35d"
+  },
+  {
+    "film_id": "wikidata:Q371885",
+    "title": "Mrs. Winterbourne",
+    "year": 1996,
+    "imdb_id": "tt0117104",
+    "runtime_minutes": 105,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Romance"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q371885",
+    "catalog_version": "31e4efcafb81a93a62bfafefe93ad30a30d7cef913a25893c79f2c0011688db3"
+  },
+  {
+    "film_id": "wikidata:Q372299",
+    "title": "Billy Madison",
+    "year": 1995,
+    "imdb_id": "tt0112508",
+    "runtime_minutes": 86,
+    "genres": [
+      "Comedy",
+      "Coming-of-Age"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q372299",
+    "catalog_version": "becdc28eb8c4233d7029ac06073ba4db3b82a28e8d4af1e1deb2d905b0706afc"
+  },
+  {
+    "film_id": "wikidata:Q3784688",
+    "title": "Denise Calls Up",
+    "year": 1995,
+    "imdb_id": "tt0112844",
+    "runtime_minutes": 80,
+    "genres": [
+      "Comedy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q3784688",
+    "catalog_version": "ccddfb20915186f5196b805cbe1dbabbf430b38b52ea450d5d94adcc9ee1833d"
+  },
+  {
+    "film_id": "wikidata:Q392662",
+    "title": "Spy Hard",
+    "year": 1996,
+    "imdb_id": "tt0117723",
+    "runtime_minutes": 81,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Spy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q392662",
+    "catalog_version": "0eb68a6fa02472afc2b30a4cef032f8654731c8c6ae372738602eff3f5c4aabb"
+  },
+  {
+    "film_id": "wikidata:Q3980396",
+    "title": "Tales from the Hood",
+    "year": 1995,
+    "imdb_id": "tt0114609",
+    "runtime_minutes": 98,
+    "genres": [
+      "Drama",
+      "Hood",
+      "Horror"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q3980396",
+    "catalog_version": "85727217a26abaf067eda6c3eafe096a3d80bc7861133acb69621b0f6c8d2f4d"
+  },
+  {
+    "film_id": "wikidata:Q408725",
+    "title": "Airheads",
+    "year": 1994,
+    "imdb_id": "tt0109068",
+    "runtime_minutes": 88,
+    "genres": [
+      "Buddy",
+      "Comedy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q408725",
+    "catalog_version": "456459562949cece0e2c697ef1614f4b4efd4be480dc5cd9580702558215e928"
+  },
+  {
+    "film_id": "wikidata:Q427386",
+    "title": "In the Line of Fire",
+    "year": 1993,
+    "imdb_id": "tt0107206",
+    "runtime_minutes": 123,
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q427386",
+    "catalog_version": "51ec5a21f9b762b1015b312b6854332439755a6f2128bc741916cde106b68198"
+  },
+  {
+    "film_id": "wikidata:Q429311",
+    "title": "The American President",
+    "year": 1995,
+    "imdb_id": "tt0112346",
+    "runtime_minutes": 114,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "aliases": [
+      "American President"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q429311",
+    "catalog_version": "756dd053ec45007b23dc54a8de79d51545ceb990d46771c9f4abc34288a26eb9"
+  },
+  {
+    "film_id": "wikidata:Q436988",
+    "title": "Operation Dumbo Drop",
+    "year": 1995,
+    "imdb_id": "tt0114048",
+    "runtime_minutes": 108,
+    "genres": [
+      "Comedy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q436988",
+    "catalog_version": "9e584907c51896e616d488d48dfa0e777e9e97f32648d54a40294b58abb9983a"
+  },
+  {
+    "film_id": "wikidata:Q451630",
+    "title": "The River Wild",
+    "year": 1994,
+    "imdb_id": "tt0110997",
+    "runtime_minutes": 108,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Crime",
+      "Drama",
+      "Survival",
+      "Thriller"
+    ],
+    "aliases": [
+      "River Wild"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q451630",
+    "catalog_version": "8ec59d463931fd2fa8988d74accd1dbf93fba156afd9a94204c996899180e259"
+  },
+  {
+    "film_id": "wikidata:Q466765",
+    "title": "Anne Frank Remembered",
+    "year": 1995,
+    "imdb_id": "tt0112373",
+    "runtime_minutes": 122,
+    "genres": [
+      "Documentary"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q466765",
+    "catalog_version": "a48e009e2ad3c69e6e95e2fb07605175bfc35e853fa332877cf6da52906a4a93"
+  },
+  {
+    "film_id": "wikidata:Q471401",
+    "title": "A Simple Twist of Fate",
+    "year": 1994,
+    "imdb_id": "tt0111194",
+    "runtime_minutes": 106,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "aliases": [
+      "Simple Twist of Fate"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q471401",
+    "catalog_version": "b4e0898490bebad2d9588a73cd46a2b3fd9b52c963c6dfeec152fc4c0d707837"
+  },
+  {
+    "film_id": "wikidata:Q471423",
+    "title": "The Specialist",
+    "year": 1994,
+    "imdb_id": "tt0111255",
+    "runtime_minutes": 105,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "aliases": [
+      "Specialist"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q471423",
+    "catalog_version": "26bbf8cb6c609b4b19f6ad406a4cbd5cc1798df4e1c13941d47aff603a0d39e0"
+  },
+  {
+    "film_id": "wikidata:Q47221",
+    "title": "Taxi Driver",
+    "year": 1976,
+    "imdb_id": "tt0075314",
+    "runtime_minutes": 114,
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Film-Noir",
+      "Police Procedural",
+      "Suspense",
+      "Thriller",
+      "Vigilante"
+    ],
+    "aliases": [
+      "Alien"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q47221",
+    "catalog_version": "408c351df3a9704996d9053441a9ac5c8558f2e2ce9a81ecde181e7961a3af0c"
+  },
+  {
+    "film_id": "wikidata:Q473628",
+    "title": "Free Willy",
+    "year": 1993,
+    "imdb_id": "tt0106965",
+    "runtime_minutes": 107,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Family"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q473628",
+    "catalog_version": "ce5b8e09f2ae42492b8eee8b9245e5d40b8876223815ae413ee6ee3876d6dc7f"
+  },
+  {
+    "film_id": "wikidata:Q483852",
+    "title": "Mrs. Doubtfire",
+    "year": 1993,
+    "imdb_id": "tt0107614",
+    "runtime_minutes": 125,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Lgbtq-Related"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q483852",
+    "catalog_version": "50d0339890173ce8e82e60e6423e560b5d4c19a151d4c1d6edb2f22281083886"
+  },
+  {
+    "film_id": "wikidata:Q483941",
+    "title": "Schindler's List",
+    "year": 1993,
+    "imdb_id": "tt0108052",
+    "runtime_minutes": 195,
+    "genres": [
+      "Biography",
+      "Drama",
+      "Epic",
+      "Historical",
+      "War"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q483941",
+    "catalog_version": "6837f4647ba73788cc614118a085c244e8cde6145809122972ea4e3728ad1977"
+  },
+  {
+    "film_id": "wikidata:Q492132",
+    "title": "Don Juan DeMarco",
+    "year": 1995,
+    "imdb_id": "tt0112883",
+    "runtime_minutes": 97,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q492132",
+    "catalog_version": "b57743562bb794a6b247bb61b6756ddc0d30b37f43bf80c56aa3eb8c4b1e538c"
+  },
+  {
+    "film_id": "wikidata:Q493799",
+    "title": "How to Make an American Quilt",
+    "year": 1995,
+    "imdb_id": "tt0113347",
+    "runtime_minutes": 112,
+    "genres": [
+      "Comedy",
+      "Coming-of-Age",
+      "Drama",
+      "Female Buddy",
+      "Romance"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q493799",
+    "catalog_version": "5d1c524add0a522d75f057bb0171b897ddcb99bf6dae6d80e89a11d0e40a0069"
+  },
+  {
+    "film_id": "wikidata:Q497850",
+    "title": "The Santa Clause",
+    "year": 1994,
+    "imdb_id": "tt0111070",
+    "runtime_minutes": 97,
+    "genres": [
+      "Christmas",
+      "Comedy",
+      "Fantasy"
+    ],
+    "aliases": [
+      "Santa Clause"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q497850",
+    "catalog_version": "4ae75e44ca32f1cc487b1a8d241a79bbb9490f18218c77f00ff0d01171aa7b2d"
+  },
+  {
+    "film_id": "wikidata:Q511914",
+    "title": "Hoop Dreams",
+    "year": 1994,
+    "imdb_id": "tt0110057",
+    "runtime_minutes": 170,
+    "genres": [
+      "Documentary"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q511914",
+    "catalog_version": "d10be0e6bca5458784b41b017af52aff15bbe5802df37f607af2d2a78fc87319"
+  },
+  {
+    "film_id": "wikidata:Q514565",
+    "title": "Bottle Rocket",
+    "year": 1996,
+    "imdb_id": "tt0115734",
+    "runtime_minutes": 88,
+    "genres": [
+      "Buddy",
+      "Comedy",
+      "Heist"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q514565",
+    "catalog_version": "6ea4ad3fe02d2fb8cdecc0491e3e009fbda0c3d16ca7e9c855c930efe42e656d"
+  },
+  {
+    "film_id": "wikidata:Q532264",
+    "title": "Showgirls",
+    "year": 1995,
+    "imdb_id": "tt0114436",
+    "runtime_minutes": 131,
+    "genres": [
+      "Drama",
+      "Erotic",
+      "Lgbtq-Related",
+      "Musical",
+      "Sexploitation"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q532264",
+    "catalog_version": "1b1d40f6ca53b275d0b9ce9a55b08b3e703242f9159790e19bd6ff15b992934e"
+  },
+  {
+    "film_id": "wikidata:Q540361",
+    "title": "When Night Is Falling",
+    "year": 1995,
+    "imdb_id": "tt0114916",
+    "runtime_minutes": 94,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Lgbtq-Related",
+      "Romance"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q540361",
+    "catalog_version": "db03ebeafa5986d86533c69fa240b3475c15f121e221ece84b7f62d0c8a0665f"
+  },
+  {
+    "film_id": "wikidata:Q5439384",
+    "title": "Fear of a Black Hat",
+    "year": 1994,
+    "imdb_id": "tt0106880",
+    "runtime_minutes": 88,
+    "genres": [
+      "Comedy",
+      "Hood"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q5439384",
+    "catalog_version": "a1893ab9bdbe2b4627dc2829fc24d2f542b750b6a86c087373965aca3346529e"
+  },
+  {
+    "film_id": "wikidata:Q547189",
+    "title": "Dead Man",
+    "year": 1995,
+    "imdb_id": "tt0112817",
+    "runtime_minutes": 116,
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Independent",
+      "Pritcha",
+      "Road Movie",
+      "Western"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q547189",
+    "catalog_version": "64de288fe3eb5bede56e6ec3b1bf46ed95f0c5927419aa095f312ed0836a9e60"
+  },
+  {
+    "film_id": "wikidata:Q559429",
+    "title": "Tom & Viv",
+    "year": 1994,
+    "imdb_id": "tt0111454",
+    "runtime_minutes": 125,
+    "genres": [
+      "Biography",
+      "Drama",
+      "Romance"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q559429",
+    "catalog_version": "cf0eb91d920af0c458a7676d0916c85bc6d9ed485598766eee20ee1fac67539c"
+  },
+  {
+    "film_id": "wikidata:Q564893",
+    "title": "Mr. Holland's Opus",
+    "year": 1995,
+    "imdb_id": "tt0113862",
+    "runtime_minutes": 140,
+    "genres": [
+      "Drama",
+      "Musical"
+    ],
+    "aliases": [
+      "\"Mr. Holland's Opus\""
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q564893",
+    "catalog_version": "6d0e6ce021c8ee99930ac77be55590a3f620cc230e943a4ed62dfa0575f31d34"
+  },
+  {
+    "film_id": "wikidata:Q574993",
+    "title": "Hard Target",
+    "year": 1993,
+    "imdb_id": "tt0107076",
+    "runtime_minutes": 95,
+    "genres": [
+      "Action",
+      "Martial Arts",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q574993",
+    "catalog_version": "bd62e5242001079f7ed0ea7bcb6343d99e8e5427420766cd4286bf1bd03f43ef"
+  },
+  {
+    "film_id": "wikidata:Q579359",
+    "title": "Dangerous Minds",
+    "year": 1995,
+    "imdb_id": "tt0112792",
+    "runtime_minutes": 94,
+    "genres": [
+      "Biography",
+      "Drama",
+      "Hood",
+      "Teen"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q579359",
+    "catalog_version": "996ea9b3578f090da76c5914fc56a858252fa41275ac73e13cfb466ab940d331"
+  },
+  {
+    "film_id": "wikidata:Q580917",
+    "title": "8 Seconds",
+    "year": 1994,
+    "imdb_id": "tt0109021",
+    "runtime_minutes": 105,
+    "genres": [
+      "Biography",
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q580917",
+    "catalog_version": "b22f76242b4500b95fd8287bcf8def01b1feef612f05426535294de56105b5ed"
+  },
+  {
+    "film_id": "wikidata:Q581501",
+    "title": "The Madness of King George",
+    "year": 1994,
+    "imdb_id": "tt0110428",
+    "runtime_minutes": 109,
+    "genres": [
+      "Biography",
+      "Comedy",
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q581501",
+    "catalog_version": "67a038f6a1fb8f151538b766a04b83c7b85da3c8957425f66db4742cbfeee743"
+  },
+  {
+    "film_id": "wikidata:Q584057",
+    "title": "Free Willy 2: The Adventure Home",
+    "year": 1995,
+    "imdb_id": "tt0113114",
+    "runtime_minutes": 95,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Family"
+    ],
+    "aliases": [
+      "Free Willy 2"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q584057",
+    "catalog_version": "61dc8432b1a1916c92a918b4973686ee54c32f94848903e504e03ab22cde214d"
+  },
+  {
+    "film_id": "wikidata:Q590701",
+    "title": "To Die For",
+    "year": 1995,
+    "imdb_id": "tt0114681",
+    "runtime_minutes": 102,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q590701",
+    "catalog_version": "52e3208e3c9d79208ec850a2bed6b6b2bf008af3d387b99acb39dc4177e7f786"
+  },
+  {
+    "film_id": "wikidata:Q6043145",
+    "title": "Nina Takes a Lover",
+    "year": 1994,
+    "imdb_id": "tt0110671",
+    "runtime_minutes": 100,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q6043145",
+    "catalog_version": "908f99950a69df92fc1cea4e783ea251902b95f6da18e8b7a6bbbfc94f0900ec"
+  },
+  {
+    "film_id": "wikidata:Q605226",
+    "title": "Short Cuts",
+    "year": 1993,
+    "imdb_id": "tt0108122",
+    "runtime_minutes": 187,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q605226",
+    "catalog_version": "e82cbe16042bcb0da4b8d601ea8ab8d9e3dca141ee52e633c57514d6ac34856d"
+  },
+  {
+    "film_id": "wikidata:Q610097",
+    "title": "The Perez Family",
+    "year": 1995,
+    "imdb_id": "tt0114113",
+    "runtime_minutes": 108,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "aliases": [
+      "Perez Family"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q610097",
+    "catalog_version": "fdae7080eea3836170ddf8ce6f082e204ca210c716c69c72a10df6de42275550"
+  },
+  {
+    "film_id": "wikidata:Q610670",
+    "title": "Serial Mom",
+    "year": 1994,
+    "imdb_id": "tt0111127",
+    "runtime_minutes": 95,
+    "genres": [
+      "Comedy",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q610670",
+    "catalog_version": "566594e1058542405168afc0c4825d30df011d9e23933bf0fc06a9162c786aa0"
+  },
+  {
+    "film_id": "wikidata:Q617249",
+    "title": "Striking Distance",
+    "year": 1993,
+    "imdb_id": "tt0108238",
+    "runtime_minutes": 98,
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q617249",
+    "catalog_version": "92c87306b283eaaa18f0cf291698c607fe806f5da343367a48045e2f89f7ea21"
+  },
+  {
+    "film_id": "wikidata:Q620099",
+    "title": "Boys on the Side",
+    "year": 1995,
+    "imdb_id": "tt0112571",
+    "runtime_minutes": 117,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Female Buddy",
+      "Lgbtq-Related"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q620099",
+    "catalog_version": "e9494c93306ff9ae1149647f59eeee6d7215a2cdc207088d712104d7ffe13e1e"
+  },
+  {
+    "film_id": "wikidata:Q624857",
+    "title": "Romeo Is Bleeding",
+    "year": 1993,
+    "imdb_id": "tt0107983",
+    "runtime_minutes": 105,
+    "genres": [
+      "Action",
+      "Crime",
+      "Film-Noir",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q624857",
+    "catalog_version": "fdc845b212b729be2b078bf565cefe94cba0247cb6f3d8d21ea257339cc01582"
+  },
+  {
+    "film_id": "wikidata:Q636222",
+    "title": "Angels & Insects",
+    "year": 1995,
+    "imdb_id": "tt0112365",
+    "runtime_minutes": 116,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "aliases": [
+      "Angels and Insects"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q636222",
+    "catalog_version": "0db4e1a55f799ad42f2577ca1b75003e24beea067a7f28d18296918e69ca0f79"
+  },
+  {
+    "film_id": "wikidata:Q645480",
+    "title": "Dunston Checks In",
+    "year": 1996,
+    "imdb_id": "tt0116151",
+    "runtime_minutes": 84,
+    "genres": [
+      "Comedy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q645480",
+    "catalog_version": "318b8525d6db16b488f841e21239a93da12972064ec7abdb65fb70662418e37b"
+  },
+  {
+    "film_id": "wikidata:Q654736",
+    "title": "Beverly Hills Cop III",
+    "year": 1994,
+    "imdb_id": "tt0109254",
+    "runtime_minutes": 104,
+    "genres": [
+      "Action",
+      "Buddy",
+      "Comedy",
+      "Crime"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q654736",
+    "catalog_version": "36b4ee6581a7649c066498cc5f98075829469d62aebda84790f1929cb563b18a"
+  },
+  {
+    "film_id": "wikidata:Q659609",
+    "title": "Before Sunrise",
+    "year": 1995,
+    "imdb_id": "tt0112471",
+    "runtime_minutes": 97,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q659609",
+    "catalog_version": "bc1bd402ac5e1fc28ab86290965b5dce18c60e0c2100e32551fe82f4769d327d"
+  },
+  {
+    "film_id": "wikidata:Q660894",
+    "title": "What's Eating Gilbert Grape",
+    "year": 1993,
+    "imdb_id": "tt0108550",
+    "runtime_minutes": 118,
+    "genres": [
+      "Comedy",
+      "Coming-of-Age",
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q660894",
+    "catalog_version": "6e0cd74656799a76663f200881903321eeadc7fbefa30064e1fc293daba544cf"
+  },
+  {
+    "film_id": "wikidata:Q663528",
+    "title": "Searching for Bobby Fischer",
+    "year": 1993,
+    "imdb_id": "tt0108065",
+    "runtime_minutes": 110,
+    "genres": [
+      "Biography",
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q663528",
+    "catalog_version": "779a9f2e3cde20573f03d73af2b8bce48ffbe6a770312c2a883e38b8d3a016db"
+  },
+  {
+    "film_id": "wikidata:Q699299",
+    "title": "The NeverEnding Story III",
+    "year": 1994,
+    "imdb_id": "tt0110647",
+    "runtime_minutes": 95,
+    "genres": [
+      "Children'S",
+      "Fantasy"
+    ],
+    "aliases": [
+      "The NeverEnding Story III: Return to Fantasia",
+      "NeverEnding Story III",
+      "The Neverending Story III: Escape From Fantasia"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q699299",
+    "catalog_version": "44efda26a8db6dfa1d07cb97317d1ca0a19c731454fb4887e16bd3107ea3e3d0"
+  },
+  {
+    "film_id": "wikidata:Q7091836",
+    "title": "Once Upon a Time...When We Were Colored",
+    "year": 1996,
+    "imdb_id": "tt0114039",
+    "runtime_minutes": 115,
+    "genres": [
+      "Biography"
+    ],
+    "aliases": [
+      "Once Upon A Time... When We Were Colored"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q7091836",
+    "catalog_version": "58967c452d60e445120f23806d28471e7a4fca07584c28f5fe7bf062d074eb29"
+  },
+  {
+    "film_id": "wikidata:Q736254",
+    "title": "Waiting to Exhale",
+    "year": 1995,
+    "imdb_id": "tt0114885",
+    "runtime_minutes": 127,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Female Buddy",
+      "Romance"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q736254",
+    "catalog_version": "91aa4bdf540828593318fe8ee2394b45cfb106df3a4e6573a7bdb0467237d1c8"
+  },
+  {
+    "film_id": "wikidata:Q736349",
+    "title": "Vanya on 42nd Street",
+    "year": 1994,
+    "imdb_id": "tt0111590",
+    "runtime_minutes": 120,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q736349",
+    "catalog_version": "a6da966fd5f967f3617be648965e28ab82576158502d32ad804e82832cf2338b"
+  },
+  {
+    "film_id": "wikidata:Q743292",
+    "title": "The War Room",
+    "year": 1993,
+    "imdb_id": "tt0108515",
+    "runtime_minutes": 96,
+    "genres": [
+      "Documentary"
+    ],
+    "aliases": [
+      "War Room"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q743292",
+    "catalog_version": "0fdb7382fc927d1549802723fbd48414f3976de4f7f468133dcc8b2814353739"
+  },
+  {
+    "film_id": "wikidata:Q748986",
+    "title": "Natural Born Killers",
+    "year": 1994,
+    "imdb_id": "tt0110632",
+    "runtime_minutes": 119,
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Prison",
+      "Rape And Revenge",
+      "Satire"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q748986",
+    "catalog_version": "0b3ae5a79270fb1672015c5954f0e0cd3190f07bff4bc87e85c7dcf2cc6057e1"
+  },
+  {
+    "film_id": "wikidata:Q749191",
+    "title": "Stealing Beauty",
+    "year": 1996,
+    "imdb_id": "tt0117737",
+    "runtime_minutes": 113,
+    "genres": [
+      "Coming-of-Age",
+      "Drama",
+      "Romance",
+      "Teen"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q749191",
+    "catalog_version": "a70c6f68efe96479807f4ac50d4cbb296bbaeecc44e3a8643abeffe7daab411f"
+  },
+  {
+    "film_id": "wikidata:Q753676",
+    "title": "The Big Green",
+    "year": 1995,
+    "imdb_id": "tt0112499",
+    "runtime_minutes": 96,
+    "genres": [
+      "Association Football",
+      "Christmas",
+      "Comedy"
+    ],
+    "aliases": [
+      "Big Green"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q753676",
+    "catalog_version": "a4c0131c11af290e71bb9566427b6fc38cca759199c3ed04b581312cc9e2d69f"
+  },
+  {
+    "film_id": "wikidata:Q7627071",
+    "title": "Stuart Saves His Family",
+    "year": 1995,
+    "imdb_id": "tt0114571",
+    "runtime_minutes": 99,
+    "genres": [
+      "Comedy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q7627071",
+    "catalog_version": "39f91eb7a9998a4d9f94d0ce8b1ae0b251bfac426bf57d41b8f980cece3d3897"
+  },
+  {
+    "film_id": "wikidata:Q81597",
+    "title": "New Jersey Drive",
+    "year": 1995,
+    "imdb_id": "tt0113967",
+    "runtime_minutes": 98,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Hood"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q81597",
+    "catalog_version": "08a47d23a8a0a6ae52ca3c7baf12b2e0ce2560f5149bdffee93c066a0b69929f"
+  },
+  {
+    "film_id": "wikidata:Q824133",
+    "title": "The Cable Guy",
+    "year": 1996,
+    "imdb_id": "tt0115798",
+    "runtime_minutes": 96,
+    "genres": [
+      "Comedy",
+      "Mystery",
+      "Thriller"
+    ],
+    "aliases": [
+      "Cable Guy"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q824133",
+    "catalog_version": "73827d8d4e8851468ddc0c405f90eb022438a8b5429b88bef2f0b3f8ea2249bc"
+  },
+  {
+    "film_id": "wikidata:Q839265",
+    "title": "Life with Mikey",
+    "year": 1993,
+    "imdb_id": "tt0107413",
+    "runtime_minutes": 91,
+    "genres": [
+      "Comedy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q839265",
+    "catalog_version": "ee990f8c7255c5e3dc9876d7fc5db9d0042bfc5b63cb40dabc127b7acf4c78c2"
+  },
+  {
+    "film_id": "wikidata:Q841233",
+    "title": "RoboCop 3",
+    "year": 1993,
+    "imdb_id": "tt0107978",
+    "runtime_minutes": 101,
+    "genres": [
+      "Action",
+      "Cyberpunk",
+      "Sci-Fi",
+      "Superhero"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q841233",
+    "catalog_version": "ff805517fda9f6638ac298ff3e29eb4165af90197a8b6d741b7b8320cc6be22c"
+  },
+  {
+    "film_id": "wikidata:Q843198",
+    "title": "Hot Shots! Part Deux",
+    "year": 1993,
+    "imdb_id": "tt0107144",
+    "runtime_minutes": 86,
+    "genres": [
+      "Comedy",
+      "Parody"
+    ],
+    "aliases": [
+      "Hot Shots! 2"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q843198",
+    "catalog_version": "ad27b7fce5d66586b7e59dd4fddbab7e44ab86f0f65c61e5587d981ae78bdf87"
+  },
+  {
+    "film_id": "wikidata:Q853425",
+    "title": "I'll Do Anything",
+    "year": 1994,
+    "imdb_id": "tt0110097",
+    "runtime_minutes": 115,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q853425",
+    "catalog_version": "0370c0d3830d5ae0ca818ae8f23bf1e32748c1f958551f951c0a38925476eacb"
+  },
+  {
+    "film_id": "wikidata:Q858840",
+    "title": "Last Action Hero",
+    "year": 1993,
+    "imdb_id": "tt0107362",
+    "runtime_minutes": 130,
+    "genres": [
+      "Action",
+      "Buddy Cop",
+      "Comedy",
+      "Fantasy"
+    ],
+    "aliases": [
+      "Jack Slater"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q858840",
+    "catalog_version": "9f5c4990d03044e41178aadbb258d89849825dae077493fa145ca53566a32854"
+  },
+  {
+    "film_id": "wikidata:Q869993",
+    "title": "A Goofy Movie",
+    "year": 1995,
+    "imdb_id": "tt0113198",
+    "runtime_minutes": 78,
+    "genres": [
+      "Adventure",
+      "Buddy",
+      "Children'S",
+      "Comedy",
+      "Coming-of-Age",
+      "Family",
+      "Fantasy",
+      "Musical"
+    ],
+    "aliases": [
+      "Goofy Movie"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q869993",
+    "catalog_version": "910f2f4d6d6240840a46953af5ffeea74c70fd1231d9ba8713122261ced409d7"
+  },
+  {
+    "film_id": "wikidata:Q878964",
+    "title": "Bitter Moon",
+    "year": 1992,
+    "imdb_id": "tt0104779",
+    "runtime_minutes": 138,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Erotic",
+      "Romance",
+      "Thriller"
+    ],
+    "aliases": [
+      "Lunes de fiel"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q878964",
+    "catalog_version": "d2a3fcd9d8ff70c5088fd261c90ebffc5bdfba9653917cbf546ba464d19ba4a0"
+  },
+  {
+    "film_id": "wikidata:Q885659",
+    "title": "Blue Chips",
+    "year": 1994,
+    "imdb_id": "tt0109305",
+    "runtime_minutes": 108,
+    "genres": [
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q885659",
+    "catalog_version": "1bbabbc0711162414f070733d27f053878a2ba0a2732ddc68397f4ccb403533e"
+  },
+  {
+    "film_id": "wikidata:Q889691",
+    "title": "Homeward Bound II: Lost in San Francisco",
+    "year": 1996,
+    "imdb_id": "tt0116552",
+    "runtime_minutes": 89,
+    "genres": [
+      "Adventure",
+      "Children'S",
+      "Comedy",
+      "Romance"
+    ],
+    "aliases": [
+      "Homeward Bound: Lost in San Francisco"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q889691",
+    "catalog_version": "46568af8bc415ffac7be81b29e76401829d56b3bc68331408fcbfd0b85564224"
+  },
+  {
+    "film_id": "wikidata:Q895690",
+    "title": "Boxing Helena",
+    "year": 1993,
+    "imdb_id": "tt0106471",
+    "runtime_minutes": 107,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Romance",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q895690",
+    "catalog_version": "a82620186b96a372617d3ba5c0ab6f2c13da5d6440e61e2dbff91aeaee405ea0"
+  },
+  {
+    "film_id": "wikidata:Q901213",
+    "title": "Four Weddings and a Funeral",
+    "year": 1994,
+    "imdb_id": "tt0109831",
+    "runtime_minutes": 113,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q901213",
+    "catalog_version": "6ab446213ab676b0619aa949778acc211f33042203672788d5559df3007a5819"
+  },
+  {
+    "film_id": "wikidata:Q913324",
+    "title": "Legends of the Fall",
+    "year": 1994,
+    "imdb_id": "tt0110322",
+    "runtime_minutes": 128,
+    "genres": [
+      "Drama",
+      "Romance",
+      "War",
+      "Western"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q913324",
+    "catalog_version": "3a95e4b741823511f142c989d30898e081ff788e2a46d38817e2d40df19042bd"
+  },
+  {
+    "film_id": "wikidata:Q929293",
+    "title": "A Thin Line Between Love and Hate",
+    "year": 1996,
+    "imdb_id": "tt0117891",
+    "runtime_minutes": 108,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "aliases": [
+      "Thin Line Between Love and Hate"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q929293",
+    "catalog_version": "cbe698e99e80d37aadc2a7e8daef566566243d31feeaef05f266b402bedacb54"
+  },
+  {
+    "film_id": "wikidata:Q931165",
+    "title": "Clueless",
+    "year": 1995,
+    "imdb_id": "tt0112697",
+    "runtime_minutes": 97,
+    "genres": [
+      "Comedy",
+      "Coming-of-Age",
+      "Lgbtq-Related",
+      "Romance",
+      "Teen"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q931165",
+    "catalog_version": "d642eed14abdbddc51eb6adc766911aad7ef734849bfe647ca66c98796ff497e"
+  },
+  {
+    "film_id": "wikidata:Q934614",
+    "title": "Little Big League",
+    "year": 1994,
+    "imdb_id": "tt0110363",
+    "runtime_minutes": 119,
+    "genres": [
+      "Comedy",
+      "Sport"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q934614",
+    "catalog_version": "debdb686c372bb1e13c3edeb4e4abe81ba8fdd88e813c08206fd27a69a0840dd"
+  },
+  {
+    "film_id": "wikidata:Q939176",
+    "title": "Carlito's Way",
+    "year": 1993,
+    "imdb_id": "tt0106519",
+    "runtime_minutes": 144,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Crime",
+      "Drama",
+      "Gangster",
+      "Suspense",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q939176",
+    "catalog_version": "89dccc68665abc6f10ef4cb85388eb2105b053aa23e404c3a452fee1fdb09023"
+  },
+  {
+    "film_id": "wikidata:Q944158",
+    "title": "The Man Without a Face",
+    "year": 1993,
+    "imdb_id": "tt0107501",
+    "runtime_minutes": 110,
+    "genres": [
+      "Drama"
+    ],
+    "aliases": [
+      "Man Without a Face"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q944158",
+    "catalog_version": "69ed657f1ab407fff02d55fd55dd682284de0521f224eeb196960d72def31f97"
+  },
+  {
+    "film_id": "wikidata:Q944614",
+    "title": "A Walk in the Clouds",
+    "year": 1995,
+    "imdb_id": "tt0114887",
+    "runtime_minutes": 98,
+    "genres": [
+      "Drama",
+      "Romance",
+      "War"
+    ],
+    "aliases": [
+      "Walk in the Clouds"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q944614",
+    "catalog_version": "c79e1e155e6047fde540d47d3e12d3b5502cff8a5c5d9db49ce50025e17d1a89"
+  },
+  {
+    "film_id": "wikidata:Q947262",
+    "title": "A Kid in King Arthur's Court",
+    "year": 1995,
+    "imdb_id": "tt0113538",
+    "runtime_minutes": 89,
+    "genres": [
+      "Children'S",
+      "Comedy",
+      "Fantasy",
+      "Medieval",
+      "Sci-Fi",
+      "Time-Travel"
+    ],
+    "aliases": [
+      "Kid in King Arthur's Court"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q947262",
+    "catalog_version": "2f9a231acb30398486204e2ff78b39d668222a7ebfa3bb8c7ca388882d11d655"
+  },
+  {
+    "film_id": "wikidata:Q956636",
+    "title": "Joe's Apartment",
+    "year": 1996,
+    "imdb_id": "tt0116707",
+    "runtime_minutes": 78,
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Musical"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q956636",
+    "catalog_version": "a4fa814438825b8df4d3e2a5e21b25fa4e9cff8b2db4e7bd388684ecfba3dad2"
+  },
+  {
+    "film_id": "wikidata:Q994481",
+    "title": "The Wild Bunch",
+    "year": 1969,
+    "imdb_id": "tt0065214",
+    "runtime_minutes": 145,
+    "genres": [
+      "Heist",
+      "Vigilante",
+      "Western"
+    ],
+    "aliases": [
+      "'' The Wild Bunch ''",
+      "Wild Bunch"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q994481",
+    "catalog_version": "0f5ecfa416a6429b3324c25a0abe861e3ed6d95dd9aefb790d492c9b0dbfe77a"
+  }
+]

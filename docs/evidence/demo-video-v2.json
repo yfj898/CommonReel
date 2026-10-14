@@ -1,0 +1,17 @@
+{
+  "artifact": "C:\\Users\\Admin\\Desktop\\any\\CommonReel\\dist\\CommonReel-demo.mp4",
+  "narration_seconds": 163.91,
+  "chapters": 7,
+  "source_frames": 37,
+  "method": "Actual browser Page.screencastFrame + screenshots; edited holds and shortened idle waits; no generated product states",
+  "narration": "Offline Microsoft Zira Desktop, original English project text, no third-party music",
+  "phone": "NOT_RUN; narrow browser viewport only",
+  "group": "constructed; CSV fixture; no human trial",
+  "sha256": "1de09e20ed273805536742dd9558f5db60b2dbfcfa1a218452335b3d0bc1b64e",
+  "bytes": 4206668,
+  "public_url": null,
+  "decode_exit_code": 0,
+  "container_duration": "00:02:44.05",
+  "decoded_frames": 3936,
+  "visual_qa": "Seven chapter frames inspected; constant frame rate/intro hold repaired and rechecked"
+}

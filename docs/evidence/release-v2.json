@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-14T14:55:59Z",
+  "source_snapshot_sha256": "51a5de929b67c1dd735b6631a751acbdbb4605df4f8f791b8522adf6d10248f3",
+  "binary_sha256": "0639f2aa1272f2f740bd1a1baa4672884f643d02de711c3616d00bc6fd7a2f2d",
+  "catalog_sha256": "831ada765c79d4adf8583b2d4d4e77aac7a66ff314c2357806d06b2985978d74",
+  "catalog_count": 217,
+  "genre_map_sha256": "f5450eac9a24a387ece13272805b79b529b0fd05c0db5f67bbf6d3a77ac053bd",
+  "new_session_alias_and_expiry": "PASS",
+  "closed_create_replay_http": 410,
+  "new_profile_alias": "PASS",
+  "deleted_profile_create_replay_http": 410,
+  "readiness_db": "ready",
+  "loopback_listener": "PASS",
+  "configured_lan_listener": "PASS from separate on-computer probe; physical phone NOT_RUN",
+  "ollama_cloud": "disabled in owned server; cloud model tags rejected",
+  "operator_credentials_published": false
+}

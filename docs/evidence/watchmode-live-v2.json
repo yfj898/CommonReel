@@ -1,0 +1,15 @@
+{
+  "class": "real Watchmode HTTPS requests; bounded, noncommercial free-plan use",
+  "utc": "2026-10-14T13:46:03Z",
+  "region": "US",
+  "identifier_seed": "tt0114709 (Wikidata verified film)",
+  "exact_movie_matches": 1,
+  "search_http": 200,
+  "supply_http": 200,
+  "offer_count": 13,
+  "us_subscription_count": 1,
+  "non_image_response_sha256": "20931eadeb437fca31cfbf71c80f3275fb5eb9e903b1aa2d9a41ab2f5a4e3bd2",
+  "invalid_title_failure_http": 404,
+  "raw_supplier_data_published": false,
+  "no_real_429_claim": "Rate-limit handling uses a controlled adapter; account quota was not deliberately exhausted."
+}

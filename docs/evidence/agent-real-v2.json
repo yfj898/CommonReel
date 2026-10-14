@@ -1,0 +1,85 @@
+{
+  "class": "real local qwen3.5:4b + official MCP SDK + Streamable HTTP 2025-11-25; constructed group",
+  "utc": "2026-10-14T14:26:19Z",
+  "limits": {
+    "max_tools": 6,
+    "turn_seconds": 90,
+    "context_tokens": 4096
+  },
+  "task_count": 2,
+  "results": [
+    {
+      "task": "explicit member veto",
+      "http": 200,
+      "wall_seconds": 6.26,
+      "output": {
+        "status": "completed",
+        "reply": "Processed member m1 tonight inputs at room revision 5: no_change. Fields: vetoes.\nSee the page for current values; other members may make later changes. No response, save or deletion was performed.",
+        "steps": [
+          {
+            "origin": "model",
+            "tool": "get_room",
+            "ok": true,
+            "room_revision": 5
+          },
+          {
+            "fields": [
+              "vetoes"
+            ],
+            "origin": "model",
+            "target_member_id": "m1",
+            "tool": "set_member",
+            "ok": true,
+            "code": "no_change",
+            "room_revision": 5
+          }
+        ],
+        "elapsed_seconds": 6.107454,
+        "model": "qwen3.5:4b"
+      }
+    },
+    {
+      "task": "recommend and explain",
+      "http": 200,
+      "wall_seconds": 16.86,
+      "output": {
+        "status": "completed",
+        "reply": "Catalog: 217 movies. Supply verified in this view: 149. Excluded for unknown supply: 19.\n• Home Alone (1990), 103 min. Selected US subscriptions: provider 372. Estimated group score 3.00/5.\n• Sleepless in Seattle (1993), 105 min. Selected US subscriptions: provider 203. Estimated group score 3.00/5.\n• True Romance (1993), 120 min. Selected US subscriptions: provider 203. Estimated group score 3.00/5.\n• Father of the Bride Part II (1995), 101 min. Selected US subscriptions: provider 372. Estimated group score 3.00/5.\n• Tom and Huck (1995), 88 min. Selected US subscriptions: Disney+. Estimated group score 3.00/5.\n• Muppet Treasure Island (1996), 99 min. Selected US subscriptions: Disney+. Estimated group score 3.00/5.\n\nVerified candidate explanation\n• Home Alone (1990), 103 min. Selected US subscriptions: provider 372. Estimated group score 3.00/5.\n  Minimum member estimate 3.00; mean 3.00. Default score = 0.65 × minimum + 0.35 × mean. Supply queried 2026-10-14T13:46:16Z.\n\nScores are estimates, not acceptance or satisfaction. Subscription listings do not verify personal account entitlement. Record responses and save with page buttons.",
+        "steps": [
+          {
+            "origin": "model",
+            "tool": "shortlist",
+            "ok": true
+          },
+          {
+            "origin": "grounding_guard",
+            "tool": "explain_candidate",
+            "ok": true
+          }
+        ],
+        "elapsed_seconds": 16.8559269,
+        "model": "qwen3.5:4b"
+      }
+    }
+  ],
+  "state_after": {
+    "room_revision": 5,
+    "decision_version": 5,
+    "policy": {
+      "max_runtime_minutes": 120,
+      "provider_ids": [
+        203,
+        372
+      ],
+      "allow_rewatch": true
+    },
+    "vetoes": {
+      "m1": [
+        "Horror"
+      ],
+      "m2": null
+    }
+  },
+  "phone_test": "NOT_RUN",
+  "human_group_outcomes": "NOT_TESTED"
+}

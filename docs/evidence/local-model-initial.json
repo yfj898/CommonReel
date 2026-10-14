@@ -1,0 +1,21 @@
+{
+  "model": "qwen3.5:4b",
+  "elapsed_seconds": 86.08,
+  "message": {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "id": "call_lnvk4opp",
+        "function": {
+          "index": 0,
+          "name": "get_room",
+          "arguments": {}
+        }
+      }
+    ]
+  },
+  "done_reason": "stop",
+  "eval_count": 14,
+  "class": "real local model; tool execution not yet included"
+}

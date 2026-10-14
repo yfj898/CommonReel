@@ -1,0 +1,36 @@
+{
+  "class": "real local model + actual MCP SDK Streamable HTTP",
+  "model": "qwen3.5:4b",
+  "model_digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+  "test": "explicit shared policy update",
+  "output": {
+    "status": "completed",
+    "reply": "The shared policy has been updated successfully.\n\n**New policy settings:**\n*   **Maximum runtime:** 120 minutes\n*   **Providers:** [203, 372]\n*   **Allow rewatch:** true\n\nThe room revision is now 4.",
+    "steps": [
+      {
+        "tool": "get_room",
+        "ok": true,
+        "room_revision": 3
+      },
+      {
+        "tool": "set_policy",
+        "ok": true,
+        "room_revision": 4
+      }
+    ],
+    "elapsed_seconds": 6.7658223,
+    "model": "qwen3.5:4b"
+  },
+  "wall_seconds": 6.77,
+  "state_after": {
+    "room_revision": 4,
+    "policy": {
+      "max_runtime_minutes": 120,
+      "provider_ids": [
+        203,
+        372
+      ],
+      "allow_rewatch": true
+    }
+  }
+}

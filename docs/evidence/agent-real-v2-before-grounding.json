@@ -1,0 +1,78 @@
+{
+  "class": "real local qwen3.5:4b + official MCP SDK + Streamable HTTP 2025-11-25; constructed group",
+  "utc": "2026-10-14T13:46:39Z",
+  "limits": {
+    "max_tools": 6,
+    "turn_seconds": 90,
+    "context_tokens": 4096
+  },
+  "task_count": 2,
+  "results": [
+    {
+      "task": "explicit member veto",
+      "http": 200,
+      "wall_seconds": 7.03,
+      "output": {
+        "status": "completed",
+        "reply": "I've successfully updated Alex's (m1) genre vetoes to include Horror. The room revision has moved from 4 to 5, and the veto is now set for tonight.",
+        "steps": [
+          {
+            "tool": "get_room",
+            "ok": true,
+            "room_revision": 4
+          },
+          {
+            "tool": "set_member",
+            "ok": true,
+            "room_revision": 5
+          }
+        ],
+        "elapsed_seconds": 7.0251856,
+        "model": "qwen3.5:4b"
+      }
+    },
+    {
+      "task": "recommend and explain",
+      "http": 200,
+      "wall_seconds": 28.89,
+      "output": {
+        "status": "completed",
+        "reply": "Based on the JSON data provided, there are two movies listed. However, the primary focus for recommendations and \"watch\" links seems to be **True Romance**, followed by **Father of the Bride Part II**.\n\nHere is a summary of the availability and details for both:\n\n### 1. True Romance (1993)\n*   **Genre:** Action, Crime, Drama, Romance, Thriller\n*   **Runtime:** 120 minutes\n*   **Rating:** Highly available with a high average score (estimated minimum is 3/5).\n*   **Streaming Options:** It is available on multiple platforms for both subscription and rental.\n    *   **Subscription:** Netflix, Sundance Now, YouTube TV, TBS, TruTV, Disney+.\n    *   **Rental:** Amazon Prime Video, Plex, Google Play, Fandango, Apple TV.\n\n### 2. Father of the Bride Part II (1995)\n*   **Genre:** Comedy\n*   **Runtime:** 101 minutes\n*   **Rating:** Highly available with a high average score (estimated minimum is 3/5).\n*   **Streaming Options:** Widely available across major services.\n    *   **Subscription:** TNT Drama, YouTube TV, TBS, TrueTV, Disney+, DirecTV Stream.\n    *   **Rental:** Amazon Prime Video, Apple TV, Fandango.\n\n### Data Observation Notes\n*   **Filtering:** The data shows that out of 217 total items in the catalog, 30 were verified and selected based on filters (likely regarding genre veto or runtime). 139 items were excluded due to unknown availability, and 34 were excluded based on specific user preferences (genre veto, no selected subscription, or runtime).\n*   **Region:** All offers are currently listed for the **US** region.",
+        "steps": [
+          {
+            "tool": "shortlist",
+            "ok": true
+          }
+        ],
+        "elapsed_seconds": 28.8599531,
+        "model": "qwen3.5:4b"
+      }
+    }
+  ],
+  "state_after": {
+    "room_revision": 5,
+    "decision_version": 5,
+    "policy": {
+      "max_runtime_minutes": 120,
+      "provider_ids": [
+        203,
+        372
+      ],
+      "allow_rewatch": true
+    },
+    "vetoes": {
+      "m1": [
+        "Horror"
+      ],
+      "m2": null
+    }
+  },
+  "phone_test": "NOT_RUN",
+  "human_group_outcomes": "NOT_TESTED",
+  "assessment": {
+    "explicit_member_update": "PASS: state readback confirms Horror veto on m1",
+    "recommend_and_explain": "FAIL: no explain_candidate call; final text contains unverified provider names and overstates neutral score",
+    "overall_success_claim": false,
+    "followup": "Go output grounding required; this pre-fix run is retained separately"
+  }
+}
