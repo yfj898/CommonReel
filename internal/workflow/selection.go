@@ -488,8 +488,19 @@ func (a *App) catalogRoutes(mux *http.ServeMux) {
 	mux.HandleFunc("GET /api/v1/catalog", func(w http.ResponseWriter, r *http.Request) {
 		films := []Film{}
 		q := strings.ToLower(r.URL.Query().Get("q"))
+		ids := map[string]bool{}
+		if raw := r.URL.Query().Get("ids"); raw != "" {
+			parts := strings.Split(raw, ",")
+			if len(parts) > 100 {
+				writeError(w, fail("INVALID_ARGUMENT", 400, "request at most 100 film identifiers"))
+				return
+			}
+			for _, id := range parts {
+				ids[strings.TrimSpace(id)] = true
+			}
+		}
 		for _, f := range a.cfg.Films {
-			if q == "" || strings.Contains(strings.ToLower(f.Title), q) {
+			if (len(ids) == 0 || ids[f.ID] || (f.IMDb != "" && ids["imdb:"+f.IMDb])) && (q == "" || strings.Contains(strings.ToLower(f.Title), q)) {
 				films = append(films, f)
 			}
 			if len(films) >= 100 {

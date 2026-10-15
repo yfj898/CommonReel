@@ -1,5 +1,9 @@
 # Local English demo
 
+2026-10-15: the frontend has been redesigned; see `FRONTEND_REDESIGN.md`.
+The local video below records the October 14 interface. Re-record it before
+using it as a demonstration of the current visual design.
+
 Artifact: `dist/CommonReel-demo.mp4`; approximately 2:44, below three minutes.
 Public YouTube/Vimeo URL: **PENDING**. Verification metadata:
 `evidence/demo-video-v2.json`.

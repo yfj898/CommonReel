@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-15",
+  "class": "Observed running Go app; real supplier facts; constructed group and CSV input",
+  "references": [
+    "https://www.justwatch.com/us",
+    "https://support.justwatch.com/article/understanding-provider-filters-in-the-just-watch-app",
+    "https://nightpick.app/",
+    "https://letterboxd.com/"
+  ],
+  "checks": {
+    "create_and_join": "PASS: two member entries, Alex and Sam",
+    "preferences": "PASS: explicit Horror veto via member editor",
+    "policy": "PASS: selected Netflix + Disney+, explicit 120-minute save",
+    "initial_shortlist": "PASS: six supplier-backed candidates",
+    "record_and_save": "PASS: propose Sleepless in Seattle, one acceptance still disables save, two acceptance records enable save; supply refresh then saved",
+    "reload": "PASS: saved record and film metadata recover; completed save button disabled",
+    "csv": "PASS: constructed four-row fixture; one reliable Home Alone match, one duplicate, two pending; watched remains separate from liked",
+    "history_labels": "PASS: Home Alone (1990), not an internal QID; public metadata batch only",
+    "empty_result": "PASS: one-minute limit excludes all 217 films; no silent relaxation",
+    "changed_inputs": "PASS: prior proposal and responses cleared; historical saved choice labelled as previous limits",
+    "after_import_shortlist": "PASS: five returned candidates; Home Alone excluded",
+    "dialogs": "PASS: member, history, assistant and reusable-profile open/close",
+    "skip_to_content": "PASS: main receives focus and invitation hash is preserved"
+  },
+  "viewports": {
+    "desktop": {
+      "viewport_width": 1280,
+      "document_width": 1265,
+      "horizontal_overflow": false
+    },
+    "narrow": {
+      "viewport_width": 360,
+      "document_width": 345,
+      "horizontal_overflow": false
+    },
+    "history_dialog_narrow": {
+      "client_width": 306,
+      "scroll_width": 306
+    }
+  },
+  "validation": {
+    "javascript_syntax": "node --check: PASS",
+    "go_test": "go test -count=1 ./...: PASS; existing 25 root tests",
+    "go_vet": "PASS",
+    "go_build": "PASS",
+    "catalog_id_lookup": {
+      "exact_ids": "PASS",
+      "duplicate_ids": "PASS",
+      "unknown_ids": "PASS",
+      "title_query_intersection": "PASS",
+      "imdb_id": "PASS",
+      "limit_101": "400",
+      "external_supplier_calls": "none"
+    }
+  },
+  "physical_phone": "NOT_RUN; earlier owner response still applies",
+  "human_study": "NOT_TESTED; no usability or decision-time improvement claimed",
+  "real_local_model": "Not rerun for this frontend change; assistant controls moved, existing business handler retained",
+  "video": "October 14 video shows previous UI; recapture before representing the current design",
+  "screenshots": [
+    "redesign-home-desktop.png",
+    "redesign-home-mobile.png",
+    "redesign-setup-mobile.png",
+    "redesign-member-mobile.png",
+    "redesign-empty-mobile.png",
+    "redesign-choice-desktop.png",
+    "redesign-films-mobile.png",
+    "redesign-films-desktop.png"
+  ],
+  "canonical_source_sha256": {
+    "internal/workflow/web/index.html": "96d160f3c2d8156b727c5fcfe3b411406c226c262cddce3dab94685d4a1e8432",
+    "internal/workflow/web/style.css": "38b1188183a9a1fa497ae7c1459858538155ad696ab9539f232cfd33f771f5e0",
+    "internal/workflow/web/app.js": "c32b7786accbfc42b9abb7f933365e613cde3c317b88182e0fe0cb8155b81c8f",
+    "internal/workflow/selection.go": "bda0cfeed60179f72605d9293e2b0a3e7e23a4fc963adf94ef568875c924c380"
+  }
+}
