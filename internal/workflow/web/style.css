@@ -29,3 +29,5 @@
 @media(max-width:640px){.hero{grid-template-columns:minmax(0,1fr)}.hero h1{font-size:46px;letter-spacing:-2.7px}.create-field{width:100%;min-width:0}.room-nav .nav-long{display:none}.room-nav .nav-short{display:inline}.room-nav button{min-width:0}.view-heading:has(#find){flex-direction:column;align-items:stretch}.view-heading #find{align-self:flex-start}.room-context>span{min-width:0;overflow-wrap:anywhere}}
 
 .seen-titles{padding:15px 18px 15px 32px;background:#17251f;border:1px solid #405a43;border-radius:8px;color:#cfe0c7;font-size:13px}.seen-titles li+li{margin-top:6px}
+
+.title-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.protocol-badge{display:block;white-space:normal;overflow-wrap:anywhere;line-height:1.7}.bubble{overflow-wrap:anywhere}

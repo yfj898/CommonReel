@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-16",
+  "classification": "Observed local qwen3.5:4b + real MCP; constructed two-member group; DOM-rendered trace, not HTTP capture",
+  "trace": "Alex does not want Horror tonight.\nProcessed member m1 tonight inputs at room revision 5: updated. Fields: vetoes.\nSee the page for current values; other members may make later changes. No response, save or deletion was performed.\n\nMCP tool trace:\n[model] get_room: executed · room v4\n[model] set_member: executed (updated) · room v5\nStatus: completed · Model: qwen3.5:4b · 6.87s\nFind films that fit our limits and explain the first candidate.\nCatalog: 217 movies. Supply verified in this view: 30. Excluded for unknown supply: 138.\n• Home Alone (1990), 103 min. Selected US subscriptions: Disney+. Estimated group score 3.00/5.\n• Sleepless in Seattle (1993), 105 min. Selected US subscriptions: Netflix. Estimated group score 3.00/5.\n• True Romance (1993), 120 min. Selected US subscriptions: Netflix. Estimated group score 3.00/5.\n• Father of the Bride Part II (1995), 101 min. Selected US subscriptions: Disney+. Estimated group score 3.00/5.\n\nVerified candidate explanation\n• Home Alone (1990), 103 min. Selected US subscriptions: Disney+. Estimated group score 3.00/5.\n  Minimum member estimate 3.00; mean 3.00. Default score = 0.65 × minimum + 0.35 × mean. Supply queried 2026-10-16T15:58:20Z.\n\nScores are estimates, not acceptance or satisfaction. Subscription listings do not verify personal account entitlement. Record responses and save with page buttons.\n\nMCP tool trace:\n[model] catalog_info: executed\n[model] get_room: executed · room v5\n[model] search_movies: executed\n[model] shortlist: executed\n[grounding_guard] explain_candidate: executed\nStatus: completed · Model: qwen3.5:4b · 25.57s",
+  "boundaries": {
+    "phone": "NOT_RUN",
+    "human_study": "NOT_RUN",
+    "recommendation_snapshot": "Before later CSV import; Home Alone was not yet recorded watched"
+  }
+}

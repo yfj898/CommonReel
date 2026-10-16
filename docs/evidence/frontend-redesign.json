@@ -55,8 +55,8 @@
   },
   "physical_phone": "NOT_RUN; earlier owner response still applies",
   "human_study": "NOT_TESTED; no usability or decision-time improvement claimed",
-  "real_local_model": "Not rerun for this frontend change; assistant controls moved, existing business handler retained",
-  "video": "October 14 video shows previous UI; recapture before representing the current design",
+  "real_local_model": "Rerun for October 16/17 assistant enhancement; see agent-ui-refresh.json. Earlier redesign-only checks did not rerun the model.",
+  "video": "Rebuilt October 17 from actual October 15-17 screenshots; explicit still-image demo; see demo-video-v2.json and scripts/demo-captures.json.",
   "screenshots": [
     "redesign-home-desktop.png",
     "redesign-home-mobile.png",
@@ -68,9 +68,43 @@
     "redesign-films-desktop.png"
   ],
   "canonical_source_sha256": {
-    "internal/workflow/web/index.html": "96d160f3c2d8156b727c5fcfe3b411406c226c262cddce3dab94685d4a1e8432",
-    "internal/workflow/web/style.css": "38b1188183a9a1fa497ae7c1459858538155ad696ab9539f232cfd33f771f5e0",
-    "internal/workflow/web/app.js": "c32b7786accbfc42b9abb7f933365e613cde3c317b88182e0fe0cb8155b81c8f",
+    "internal/workflow/web/index.html": "572308dbcd896fd72d835553df8cdcaa0794a018e3d070af0b017cf1ce971681",
+    "internal/workflow/web/style.css": "4408c9630e1e0b26cc46b3166e306bd869ed0af9b2106244e071266e6723fa89",
+    "internal/workflow/web/app.js": "850b537fa9567513f4becf6766d9b6e20acd9e77e75b87a0ab80bc3b05b96a58",
     "internal/workflow/selection.go": "bda0cfeed60179f72605d9293e2b0a3e7e23a4fc963adf94ef568875c924c380"
+  },
+  "followup_2026_10_17": {
+    "changes": [
+      "Header assistant entry",
+      "Protocol/simulation badge",
+      "Model vs grounding_guard origin; refused code, model and elapsed time"
+    ],
+    "desktop": {
+      "viewport_width": 1039,
+      "document_width": 1039,
+      "horizontal_overflow": false
+    },
+    "narrow": {
+      "viewport_width": 360,
+      "document_width": 345,
+      "dialog_client_width": 306,
+      "dialog_scroll_width": 306,
+      "horizontal_overflow": false
+    },
+    "real_model": "PASS: actual member mutation 6.87s and recommendation with guard explanation 25.57s; DOM trace in agent-ui-refresh.json",
+    "workflow": "PASS: CSV 4 rows -> matched 1, duplicate 1, pending 2; five post-import candidates; Home Alone excluded; one accept cannot save; two accepts save after real supplier refresh",
+    "screenshots": [
+      "submission-agent-grounding.png",
+      "submission-agent-veto.png",
+      "submission-choice.png",
+      "submission-films.png",
+      "submission-import.png",
+      "submission-member.png",
+      "submission-mobile.png",
+      "submission-pending.png",
+      "submission-setup.png"
+    ],
+    "phone": "NOT_RUN",
+    "human_study": "NOT_RUN"
   }
 }

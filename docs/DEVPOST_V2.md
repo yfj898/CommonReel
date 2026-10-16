@@ -1,78 +1,69 @@
-# CommonReel — a group-recorded choice for movie night
+# CommonReel — A Group-Recorded Choice for Movie Night
 
-Status: reviewable English submission draft; not posted. Track: Alexa+.
+**Track:** Alexa+ (Self-Hosted MCP Server `2025-11-25` + Companion Web Simulation)
+**Mini-challenges:** No eligibility claim is made from this primary-track repository alone. Open Source requires a qualifying additional contribution and its URL; AWS Builder is not claimed.
+**Repository:** [https://github.com/yfj898/CommonReel](https://github.com/yfj898/CommonReel)
+
+---
 
 ## Inspiration
 
-A few friends in one room still have different limits: time, available
-subscriptions, genre vetoes and movies they have already watched. A personal
-recommendation score does not settle that shared decision. CommonReel brings
-those inputs into one explicit, editable record.
+Picking a movie with two to four friends in the same room is rarely solved by a single personal recommendation score. Every person brings hard boundaries: how much time the group has tonight, which US streaming subscriptions are available on the screen, genres someone wants to skip (*genre vetoes*), and films people have already watched.
 
-This target audience and pain point are hypotheses. We have not measured
-group satisfaction or time saved, and no human group study has been run.
+Two engineering concerns shaped the implementation. The concurrency case was exercised with controlled tests; the model failure was observed in a real local-model run:
 
-## What it does
+1. **Concurrent state collisions (controlled test scenario):** If one person edits a runtime limit or genre veto while others are recording responses on a candidate film, naive state handling either overwrites edits or lets a group save an outdated decision.
+2. **LLM streaming-provider hallucinations:** In our first live local-model run (`docs/evidence/agent-real-v2-before-grounding.json`), `qwen3.5:4b` read numeric provider IDs from tool output, invented streaming platform names (*Sundance Now, TNT Drama, TruTV*), and skipped calling the candidate explanation tool.
 
-Two to four adults join a local room on their phones or browser. They select
-tonight's US platforms and runtime, record genre preferences and vetoes, and
-optionally import Netflix Viewing Activity CSV or a reusable profile copy.
+**CommonReel** addresses both problems: it brings a small group's movie-night limits into one explicit, versioned record, and pairs a real **MCP `2025-11-25` server/client workflow** with **deterministic Go fact grounding** so an AI assistant can plan tool calls while Go controls displayed film facts and enforces group decision rules.
 
-Go filters a 217-film verified catalog before ranking. Unknown or conflicting
-runtime, vetoed genres, disallowed rewatch and unconfirmed subscription supply
-are excluded. A local model uses real MCP tools to update explicit inputs,
-recommend and explain. Go renders final film facts from tool results so
-generated provider names cannot become availability claims.
+---
 
-The page proposes a candidate and records each member entry's response.
-Everyone may act for someone else, so the result is called a group-recorded
-choice. All entries must record acceptance for the same decision version;
-changed inputs invalidate old responses. Saving refreshes current supply and
-rejects concurrent or stale decisions. Profiles keep normalized history across
-nights; room copies expire after 24 hours or on close.
+## What It Does
 
-## How we built it
+1. **Zero-Account LAN Room Setup (2–4 Adults):** One person creates a room and shares a capability link or locally generated QR code over same-Wi-Fi LAN. Friends join with a nickname—no accounts or cloud sign-ins required.
+2. **Explicit Shared Limits & Individual Vetoes:** The room sets tonight's max runtime, active US streaming subscriptions, and rewatch policy. Each member sets liked genres, hard genre vetoes, and known watched films (manually, via optional **Netflix Viewing Activity CSV** import, or via a **reusable profile recovery code**).
+3. **Strict Eligibility Before Ranking:** Go filters a **217-film Wikidata CC0 catalog** against verified **Watchmode US subscription facts**. Unknown runtime, conflicting metadata, unconfirmed/expired supply, and rent/buy-only listings are strictly excluded. Eligible candidates are ranked using an explainable group estimate ($0.65 \times \min + 0.35 \times \text{mean}$), where *"watched does not mean liked."*
+4. **Alexa+ Web Simulation via Real MCP (`2025-11-25`):** Users can ask the assistant to update explicit limits, find qualifying films, or explain a candidate. A local Ollama model calls our self-hosted MCP server over **Streamable HTTP (`2025-11-25`)**, while all forms remain usable if inference is slow or offline.
+5. **Versioned Group-Recorded Choice:** Proposing a candidate opens an acceptance record for every member entry. Anyone holding the room invite may record for another member, so the outcome is explicitly modeled as a **group-recorded choice** (not proof of personal consent). Saving refreshes live streaming supply outside the SQLite write transaction and commits only if all member entries accept the current `decision_version`.
 
-The runtime is Go, SQLite WAL, the official MCP Go SDK, Streamable HTTP
-2025-11-25, browser forms/SSE and local Ollama qwen3.5:4b. Page and MCP paths
-share one business module. Separate room and decision versions prevent an
-individual response from clearing other responses while preserving CAS.
-Idempotency stores minimal receipts, never full historical room snapshots.
+---
 
-Wikidata CC0 metadata is joined by stable identifiers. Watchmode provides
-bounded, cached US non-image supply facts under the free plan. CSV matching
-runs locally. No paid model API, AWS service, movie image or playback system
-is required. This is a web simulation with a working self-hosted MCP server;
-it does not connect to an Alexa device.
+## How We Built It
 
-## Challenges and what we learned
+- **Unified Go Workflow Engine & Dual-Version Concurrency (`internal/workflow`):** Both the web UI (`/api/v1`) and the MCP server (`/mcp`) execute against a single Go domain module backed by **SQLite WAL** (`modernc.org/sqlite`). We separated `room_revision` (incremented on every write for CAS and SSE sync) from `decision_version` (incremented only when members, preferences, policies, or candidate eligibility facts change). Recording one member's acceptance increments `room_revision` without clearing other members' responses, whereas changing a veto atomically increments both versions and invalidates stale responses.
+- **Official Go MCP SDK (`v1.8.0`) over Streamable HTTP (`2025-11-25`):** The server exposes 7 whitelisted tools (`catalog_info`, `get_room`, `set_member`, `set_policy`, `shortlist`, `search_movies`, `explain_candidate`). Final-authority actions (`record_acceptance`, `save_choice`, `remove_member`, `close_session`, profile maintenance) are excluded from MCP and restricted to page controls.
+- **Capability Isolation & Transport Binding:** Room invite tokens and 256-bit profile recovery codes are generated with browser `crypto.getRandomValues`, sent in HTTP headers, and stored as SHA-256 hashes. The Go MCP client binds `Authorization: Bearer <room-secret>` and `X-CommonReel-Session` at the transport layer (`capabilityTransport`), keeping capability secrets out of model arguments and binding calls to one room; cross-room injection is covered by controlled tests.
+- **Two-Layer Hallucination & Authority Guard (`agent_policy.go` & `grounding.go`):**
+  - **Write Guard (`guardAgentWrite`):** Before executing `set_policy` or `set_member`, Go checks that the user's request contains explicit lexical evidence for any relaxed hard limit.
+  - **Read Grounding (`grounding_guard`):** Go renders all user-facing film facts, provider labels, and score breakdowns directly from verified MCP tool results. If the model omits a requested explanation call, Go executes a logged MCP `explain_candidate` call tagged `origin=grounding_guard` (kept distinct from `origin=model`).
+- **Dependency-Free Dark Cinema Frontend (`internal/workflow/web`):** Redesigned on 2026-10-15 with a dark visual hierarchy inspired by JustWatch and Letterboxd (`docs/FRONTEND_REDESIGN.md`). Embedded into the Go binary with zero Node/bundler runtime dependencies, responsive down to 360px viewports, and synchronized via `fetch`-streamed SSE.
 
-The first real model recommendation invented platform names after reading
-numeric source IDs and omitted a requested explanation tool. That run is
-retained as a failure. We moved factual output ownership to Go, added a
-visible MCP grounding step, and reran the workflow. A model remains useful
-for planning tools, while domain rules retain authority.
+---
 
-Wikidata SPARQL returned HTTP 429, so the metadata builder switched to the
-official entity API with exact IMDb cross-checks. We also corrected our own
-initial genre-ID mapping mistakes using official English labels. Explicit
-unknowns and provenance mattered more than presenting a larger catalog.
+## Challenges We Ran Into & What We Learned
 
-## Evidence and limitations
+1. **Turning a Real LLM Failure into Deterministic Grounding:** When `qwen3.5:4b` invented provider names from numeric source IDs and skipped `explain_candidate` in our first real run, we retained that failed trace (`docs/evidence/agent-real-v2-before-grounding.json`), moved factual prose rendering to Go, added `origin=grounding_guard`, and verified the grounded rerun (`docs/evidence/agent-real-v2.json`).
+2. **Wikidata SPARQL Rate Limits & Genre Mapping:** Wikidata SPARQL returned HTTP 429 during catalog construction, so `scripts/build-catalog-entities.py` switched to the official Wikidata Entity API with exact IMDb cross-checks and verified English genre labels (`assets/genre-map.json`).
+3. **Out-of-Transaction Supply Refresh on Save:** To prevent network latency from locking SQLite writes or allowing stale commits, `save_choice` refreshes Watchmode supply outside the write transaction and re-verifies `room_revision`, `decision_version`, and `facts_version` before committing (`TestSaveRefreshDoesNotLockRoomAndRejectsConcurrentPolicyChange`).
 
-The repository includes controlled HTTP/SQLite/MCP tests, real supplier
-success and invalid-title failure, real local-model tool traces, and browser
-screens. A genuine phone test remains NOT_RUN because the owner could not
-test a phone. Multi-browser compatibility and human benefits are unmeasured.
-Neutral and preference-adjusted scores are estimates, not acceptance.
+---
 
-## Submission links
+## Verification Scope & Honest Boundaries
 
-- GitHub repository: [yfj898/CommonReel](https://github.com/yfj898/CommonReel).
-- Public YouTube/Vimeo demo: PENDING — local 2:44 English edited demo is ready.
-- Product feedback: PRODUCT_FEEDBACK_V2.md.
-- Evidence and test scope: ACCEPTANCE.md and IMPLEMENTATION_STATUS.md.
+- **Target Audience & Human Outcomes:** The target pain point is a product hypothesis. Live supplier probes, multi-origin browser sync, and 360px viewport checks used constructed 2–3 member groups and Netflix-format CSV fixtures. **No human group study has been run, and no group satisfaction or time-saving claim is made.**
+- **Alexa+ Simulation Scope:** This is a web simulation backed by a working self-hosted MCP server (`2025-11-25`); it does not connect to or claim certification on an Alexa device.
+- **Physical Phone Status:** LAN listener binding (`-lan`) and 360×800 narrow browser viewports are verified (`PASS`). Testing on a physical phone remained `NOT_RUN` on 2026-10-14/15 because the owner could not test a phone at that time.
+- **Legacy Prototype Separation:** Earlier offline MovieLens 1M user-kNN metrics (`docs/LEGACY_PROTOTYPE.md`, port 8092) remain independent research benchmarks and are not claimed as live v2 group results.
 
-Before final submission, the owner must review identity/eligibility,
-registration and all final fields. Official requirements were rechecked on
-2026-10-14: [competition rules](https://amazonappdev2026.devpost.com/rules).
+---
+
+## Submission Links
+
+- **GitHub Repository:** [yfj898/CommonReel](https://github.com/yfj898/CommonReel)
+- **Public YouTube/Vimeo Demo (< 3 min):** PENDING — local English edited demo (`dist/CommonReel-demo.mp4`); inspect `docs/evidence/demo-video-v2.json` for current duration, source captures and hash.
+- **Product Feedback:** [docs/PRODUCT_FEEDBACK_V2.md](PRODUCT_FEEDBACK_V2.md)
+- **Acceptance & Implementation Evidence:** [docs/ACCEPTANCE.md](ACCEPTANCE.md) and [docs/IMPLEMENTATION_STATUS.md](IMPLEMENTATION_STATUS.md)
+
+
+Status: English submission draft, not posted. The [official rules](https://amazonappdev2026.devpost.com/rules) were rechecked on 2026-10-16. The owner still needs to review eligibility and final fields and supply a public YouTube/Vimeo URL. The primary-track code and the separate Open Source mini-challenge contribution requirement are distinct.

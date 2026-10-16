@@ -1,0 +1,53 @@
+{
+  "description": "Real browser screenshots, not generated app states. October 15 home captures plus October 16/17 enhanced assistant/workflow captures.",
+  "chapters": [
+    {
+      "date": "2026-10-15",
+      "files": [
+        "redesign-home-desktop.png",
+        "redesign-home-mobile.png"
+      ]
+    },
+    {
+      "date": "2026-10-16/17",
+      "files": [
+        "submission-setup.png",
+        "submission-member.png"
+      ]
+    },
+    {
+      "date": "2026-10-16/17",
+      "files": [
+        "submission-agent-veto.png",
+        "submission-agent-grounding.png"
+      ]
+    },
+    {
+      "date": "2026-10-16/17",
+      "files": [
+        "submission-import.png"
+      ]
+    },
+    {
+      "date": "October 17 shortlist; October 15 empty-result capture",
+      "files": [
+        "submission-films.png",
+        "redesign-empty-mobile.png"
+      ]
+    },
+    {
+      "date": "2026-10-16/17",
+      "files": [
+        "submission-pending.png",
+        "submission-choice.png"
+      ]
+    },
+    {
+      "date": "2026-10-16/17",
+      "files": [
+        "submission-mobile.png",
+        "submission-agent-grounding.png"
+      ]
+    }
+  ]
+}

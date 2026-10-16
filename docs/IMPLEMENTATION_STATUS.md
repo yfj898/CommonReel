@@ -1,4 +1,4 @@
-# Spec execution — 2026-10-14
+# Spec execution — updated 2026-10-17
 
 Overall: **PARTIAL — local implementation and reviewable artifacts delivered;
 public video/final submission and physical-phone evidence remain open.**
@@ -28,10 +28,7 @@ latest two-task report records a no-change member update and a recommendation
 with a guarded explanation. The earlier policy run proves an actual policy
 mutation; the browser demo proves an actual member mutation.
 
-`go test -count=1 ./...` and `go vet ./...` passed. The machine-readable test
-report enumerates pass events, including parent/subtest events. `go test -race`
-is NOT_RUN because the Windows CGO compiler is unavailable. No human group
-trials or satisfaction/time-saving results exist.
+`go test -count=1 ./...`, `go vet ./...`, the v2 build and JavaScript syntax check passed again for the October 16/17 enhancement. The historical machine-readable test report enumerates pass events, including parent/subtest events. Windows `go test -race` remains NOT_RUN because its CGO compiler is unavailable. Separately, [Linux CI run 38753594156](https://github.com/yfj898/CommonReel/actions/runs/38753594156) passed race tests, vet and all-package build for the previous published commit `55896f6`; the new publication has its own CI result. No human group trials or satisfaction/time-saving results exist.
 
 Open external steps: upload the local demo to a public YouTube/Vimeo URL, and review/complete
 Devpost registration and final submission. No account agreement or final
@@ -39,3 +36,8 @@ submission was accepted on the owner's behalf.
 
 Deadline rechecked against the [official rules](https://amazonappdev2026.devpost.com/rules):
 2026-10-23 12:00 PDT = **2026-10-24 03:00 Asia/Shanghai**.
+
+
+October 16/17 follow-up: the visible header assistant entry and protocol badge now expose the actual MCP path. UI traces show `origin=model` separately from `origin=grounding_guard`, refusal codes, the configured model and elapsed seconds. Actual model turns took 6.87s for a member mutation and 25.57s for recommendation/explanation on this machine; these are observations, not a benchmark. See `evidence/agent-ui-refresh.json`. The CSV fixture, post-import eligibility, acceptance gate and supply-refresh save were rerun in the browser. The 360px assistant dialog had client/scroll width 306/306; physical phone remains NOT_RUN.
+
+The demo was rebuilt from 13 real screenshot appearances of the dark interface, with offline English narration. It is an edited still-image demo, not a continuous interaction recording. Its exact source list and checksums are committed; private `.runtime/demo-recording` frames are no longer required.

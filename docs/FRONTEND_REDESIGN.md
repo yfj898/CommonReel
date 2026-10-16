@@ -39,3 +39,6 @@ No improvement in satisfaction or decision time has been measured.
 The October 14 demo video captures the previous visual design. It remains
 historical evidence of that workflow and needs a new capture before it can
 represent this redesign in a final competition submission.
+
+
+October 17 follow-up: the local demo has now been rebuilt from declared dark-interface screenshots, including the enhanced assistant and current save flow. See `DEMO_VIDEO_V2.md` and `evidence/demo-video-v2.json`. It is explicitly a still-image edit; public upload remains pending. The original October 14 video note above describes the historical state at redesign time.

@@ -1,30 +1,11 @@
 # Local English demo
 
-2026-10-15: the frontend has been redesigned; see `FRONTEND_REDESIGN.md`.
-The local video below records the October 14 interface. Re-record it before
-using it as a demonstration of the current visual design.
+Updated 2026-10-17. Artifact: `dist/CommonReel-demo.mp4`; 2:44.01, below three minutes. Public YouTube/Vimeo URL: **PENDING**. Current hash, decode results and image hashes are in `evidence/demo-video-v2.json`.
 
-Artifact: `dist/CommonReel-demo.mp4`; approximately 2:44, below three minutes.
-Public YouTube/Vimeo URL: **PENDING**. Verification metadata:
-`evidence/demo-video-v2.json`.
+This version uses actual October 15-17 screenshots of the running dark interface, edited into seven chapters with offline English narration. It is a **still-image demonstration**, not a continuous screen recording. All 13 image appearances are declared in `scripts/demo-captures.json`; repeated images count as separate appearances. The home and no-results captures are from October 15; the enhanced assistant, member, CSV, candidates, response and saved-choice screens were captured October 16/17. No generated product states, external music, movie posters or third-party footage are used.
 
-The video uses actual browser screencast frames and screenshots from the
-running application, edited into chapters with shortened idle waits and
-offline English narration. No generated product states, human testimonials,
-external music, movie posters or third-party video footage are used.
+The group and Netflix-format CSV are constructed. The latest two-entry browser workflow exercised an actual local-model member mutation, a recommendation with real MCP calls and a distinct Go grounding call, CSV classification, real supplier checks and page-controlled save. The assistant recommendation snapshot precedes the CSV import; Home Alone becomes known watched and is excluded by the subsequent page shortlist. The narrow view is browser emulation. No physical phone or human group was tested.
 
-The group and Netflix-format CSV are constructed. Three member entries,
-cross-origin synchronization, real local model/MCP calls, CSV classification,
-real supply filtering and page-controlled save were exercised. The narrow
-view is browser emulation; no physical phone was tested. Captions and the
-narration explicitly state these boundaries.
+The narration is `scripts/demo-narration.json`. On Windows, recreate audio with `powershell -ExecutionPolicy Bypass -File scripts/render-demo-audio.ps1` (offline Microsoft Zira Desktop). Then run `python scripts/build-demo.py`. If needed, install the authoring dependency with `python -m pip install --target .runtime/video-deps imageio-ffmpeg==0.6.0`. These are authoring dependencies, not Go application runtime dependencies.
 
-The narration is `scripts/demo-narration.json`. Windows SAPI creates local
-WAV chapters through `scripts/render-demo-audio.ps1`; `scripts/build-demo.py`
-encodes captured local frames with an isolated imageio-ffmpeg dependency.
-These are authoring tools, not runtime application dependencies.
-
-Seven chapters cover the shared record, room inputs, genuine MCP calls,
-optional CSV, verified eligibility, versioned response/save flow and evidence
-limits. Review the local video before public upload. Keep credentials,
-recovery codes and live invitation material out of any future recording.
+The builder reads committed screenshots and generated WAV chapters, normalizes image dimensions before concatenation, and records source hashes. It does not require private `.runtime/demo-recording/frames.json`. Full ffmpeg decode succeeded (3,935 frames, H.264/AAC, 1280 square, 24fps); 13 sampled frames were inspected to verify every declared hold, titles, captions and transitions. Public upload and final submission are still separate unfinished steps.
