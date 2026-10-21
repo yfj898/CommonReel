@@ -1,0 +1,133 @@
+{
+  "utc": "2026-10-18T05:07:51.821571+00:00",
+  "source": "Current local working tree, including uncommitted refactoring and review fixes",
+  "go_version": "1.26.4",
+  "node_version": "24.15.0",
+  "windows": {
+    "root_tests_passed": 31,
+    "subtests_passed": 9,
+    "failures": 0
+  },
+  "linux_race": {
+    "root_tests_passed": 31,
+    "subtests_passed": 9,
+    "failures": 0
+  },
+  "node_tests": {
+    "passed": 4,
+    "failed": 0
+  },
+  "coverage_percent": 61.9,
+  "gofmt": "PASS",
+  "go_vet": "PASS",
+  "go_build": "PASS",
+  "javascript_syntax": "PASS",
+  "browser": {
+    "class": "Real interactions in one in-app browser with separate loopback and private-address origins",
+    "workflow": [
+      "create",
+      "join_two_members",
+      "save_limits",
+      "real_supply_shortlist",
+      "local_model_member_update",
+      "cross_origin_sync",
+      "csv_import",
+      "watched_and_veto_exclusion",
+      "candidate_explanation",
+      "propose",
+      "one_acceptance_save_disabled",
+      "second_acceptance_save_enabled",
+      "fresh_supply_save",
+      "reload_and_exact_id_metadata",
+      "saved_status_consistency",
+      "strict_one_minute_empty_results"
+    ],
+    "narrow": {
+      "inner_width": 360,
+      "client_width": 360,
+      "scroll_width": 360,
+      "overflow": false
+    },
+    "desktop": {
+      "inner_width": 1280,
+      "client_width": 1265,
+      "scroll_width": 1265,
+      "overflow": false
+    },
+    "physical_phone": "NOT_RUN"
+  },
+  "csv_fixture": {
+    "synthetic_rows": 4,
+    "matched": 1,
+    "duplicate": 1,
+    "pending": 2,
+    "matched_title": "Home Alone (1990)"
+  },
+  "saved_room": {
+    "members": 2,
+    "runtime": 120,
+    "acceptances": 2,
+    "has_choice": true,
+    "watched_counts": [
+      0,
+      1
+    ]
+  },
+  "real_supplier": {
+    "class": "Watchmode HTTP attempts with configured free key; cached facts reused",
+    "phases": [
+      {
+        "port": 8093,
+        "request_attempts": 60,
+        "process_request_cap": 60
+      },
+      {
+        "port": 8094,
+        "request_attempts": 123,
+        "process_request_cap": 150
+      },
+      {
+        "port": 8095,
+        "request_attempts": 61,
+        "process_request_cap": 90
+      },
+      {
+        "port": 8096,
+        "request_attempts": 0,
+        "process_request_cap": 600
+      }
+    ],
+    "total_request_attempts": 244
+  },
+  "real_local_model": {
+    "model": "qwen3.5:4b",
+    "ui_member_update_seconds": 7.11,
+    "ui_explanation": {
+      "seconds": 6.95,
+      "status": "completed",
+      "tool": "explain_candidate",
+      "origin": "model",
+      "existing_choice_unchanged": true
+    },
+    "before_report": "ai-full-review-before-prompt-2026-10-18.json",
+    "after_report": "ai-full-review-2026-10-18.json",
+    "after_workflow_cases": 7,
+    "after_checks_passed": 7,
+    "after_actual_model_turns": 6,
+    "pre_model_clarifications": 1,
+    "explanation_origin": "grounding_guard"
+  },
+  "human_group_trials": 0,
+  "remote_ci_this_round": "NOT_RUN",
+  "cleanup": {
+    "old_test_ports_released": [8093, 8094, 8095],
+    "retained_test_port": 8096
+  },
+  "screenshots": [
+    "full-review-agent-2026-10-18.png",
+    "full-review-import-2026-10-18.png",
+    "full-review-choice-360-2026-10-18.png",
+    "full-review-choice-desktop-2026-10-18.png",
+    "full-review-empty-2026-10-18.png"
+  ]
+}

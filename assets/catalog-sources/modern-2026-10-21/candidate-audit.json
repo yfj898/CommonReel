@@ -1,0 +1,1949 @@
+{
+  "unique_entities": 69,
+  "selected_count": 30,
+  "counts": {
+    "selected": 30,
+    "excluded": 11,
+    "reserve_not_selected": 28
+  },
+  "unresolved_sitelinks": [
+    {
+      "requested_title": "Inside Out (2015 film)",
+      "reason": "enwiki_sitelink_missing",
+      "raw_file": "raw/candidate-batch-00.json"
+    },
+    {
+      "requested_title": "Minari (film)",
+      "reason": "enwiki_sitelink_missing",
+      "raw_file": "raw/candidate-batch-03.json"
+    },
+    {
+      "requested_title": "Nomadland (film)",
+      "reason": "enwiki_sitelink_missing",
+      "raw_file": "raw/candidate-batch-03.json"
+    },
+    {
+      "requested_title": "The Worst Person in the World (film)",
+      "reason": "enwiki_sitelink_missing",
+      "raw_file": "raw/candidate-batch-03.json"
+    }
+  ],
+  "entries": [
+    {
+      "qid": "Q103372692",
+      "title": "Encanto",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-01.json",
+      "imdb_ids": [
+        "tt2953050"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2021
+      ],
+      "genre_ids": [
+        "Q157394",
+        "Q842256"
+      ],
+      "instance_ids": [
+        "Q202866"
+      ],
+      "runtimes": [
+        "109"
+      ]
+    },
+    {
+      "qid": "Q104686893",
+      "title": "CODA",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-01.json",
+      "imdb_ids": [
+        "tt10366460"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2021
+      ],
+      "genre_ids": [
+        "Q842256",
+        "Q859369"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "111"
+      ]
+    },
+    {
+      "qid": "Q104845027",
+      "title": "Turning Red",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-03.json",
+      "imdb_ids": [
+        "tt8097030"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2022
+      ],
+      "genre_ids": [
+        "Q1361932",
+        "Q157394",
+        "Q157443",
+        "Q202866",
+        "Q319221"
+      ],
+      "instance_ids": [
+        "Q202866"
+      ],
+      "runtimes": [
+        "100"
+      ]
+    },
+    {
+      "qid": "Q108314506",
+      "title": "The Banshees of Inisherin",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-03.json",
+      "imdb_ids": [
+        "tt11813216"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2022,
+        2023
+      ],
+      "genre_ids": [
+        "Q130232",
+        "Q157443",
+        "Q192881",
+        "Q53094"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "114"
+      ]
+    },
+    {
+      "qid": "Q109228991",
+      "title": "Dune: Part Two",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-02.json",
+      "imdb_ids": [
+        "tt15239678"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2024
+      ],
+      "genre_ids": [
+        "Q188473",
+        "Q2973181",
+        "Q319221",
+        "Q471839",
+        "Q652256"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "165"
+      ]
+    },
+    {
+      "qid": "Q109447163",
+      "title": "Marcel the Shell with Shoes On",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-03.json",
+      "imdb_ids": [
+        "tt15339456"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2021,
+        2022,
+        2023
+      ],
+      "genre_ids": [
+        "Q1361932",
+        "Q157443",
+        "Q459435"
+      ],
+      "instance_ids": [
+        "Q202866"
+      ],
+      "runtimes": [
+        "90"
+      ]
+    },
+    {
+      "qid": "Q111165179",
+      "title": "Nimona",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-04.json",
+      "imdb_ids": [
+        "tt19500164"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2023
+      ],
+      "genre_ids": [
+        "Q1361932",
+        "Q157394",
+        "Q157443",
+        "Q188473",
+        "Q20442589",
+        "Q319221",
+        "Q471839"
+      ],
+      "instance_ids": [
+        "Q202866"
+      ],
+      "runtimes": [
+        "102"
+      ]
+    },
+    {
+      "qid": "Q111668106",
+      "title": "Aftersun",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-03.json",
+      "imdb_ids": [
+        "tt19770238"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2022,
+        2023
+      ],
+      "genre_ids": [
+        "Q127739154",
+        "Q130232"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "101"
+      ]
+    },
+    {
+      "qid": "Q112114745",
+      "title": "The Holdovers",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-01.json",
+      "imdb_ids": [
+        "tt14849194"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2023,
+        2024
+      ],
+      "genre_ids": [
+        "Q28026639",
+        "Q859369"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "133"
+      ]
+    },
+    {
+      "qid": "Q113877606",
+      "title": "Inside Out 2",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-01.json",
+      "imdb_ids": [
+        "tt22022452"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2024
+      ],
+      "genre_ids": [
+        "Q102429885",
+        "Q859369"
+      ],
+      "instance_ids": [
+        "Q202866"
+      ],
+      "runtimes": [
+        "96"
+      ]
+    },
+    {
+      "qid": "Q115053037",
+      "title": "Godzilla Minus One",
+      "selected": false,
+      "decision": "excluded",
+      "reasons": [
+        "conflicting_runtime"
+      ],
+      "raw_file": "raw/candidate-batch-04.json",
+      "imdb_ids": [
+        "tt23289160"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2023,
+        2024
+      ],
+      "genre_ids": [
+        "Q1065444",
+        "Q130232",
+        "Q1342372",
+        "Q188473",
+        "Q200092",
+        "Q2484376",
+        "Q319221",
+        "Q471839",
+        "Q814158",
+        "Q846544"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "124",
+        "125"
+      ]
+    },
+    {
+      "qid": "Q116025865",
+      "title": "Past Lives",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-01.json",
+      "imdb_ids": [
+        "tt13238346"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2023,
+        2024
+      ],
+      "genre_ids": [
+        "Q130232"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "106"
+      ]
+    },
+    {
+      "qid": "Q116413183",
+      "title": "American Fiction",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-04.json",
+      "imdb_ids": [
+        "tt23561236"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2023
+      ],
+      "genre_ids": [
+        "Q130232"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "117"
+      ]
+    },
+    {
+      "qid": "Q117037697",
+      "title": "Anatomy of a Fall",
+      "selected": false,
+      "decision": "excluded",
+      "reasons": [
+        "conflicting_runtime"
+      ],
+      "raw_file": "raw/candidate-batch-04.json",
+      "imdb_ids": [
+        "tt17009710"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2023,
+        2024
+      ],
+      "genre_ids": [
+        "Q130232",
+        "Q2484376",
+        "Q3072039",
+        "Q959790"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "150",
+        "156"
+      ]
+    },
+    {
+      "qid": "Q119786383",
+      "title": "Robot Dreams",
+      "selected": false,
+      "decision": "excluded",
+      "reasons": [
+        "conflicting_runtime"
+      ],
+      "raw_file": "raw/candidate-batch-04.json",
+      "imdb_ids": [
+        "tt13429870"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2023,
+        2024
+      ],
+      "genre_ids": [
+        "Q130232",
+        "Q157443",
+        "Q202866",
+        "Q842256"
+      ],
+      "instance_ids": [
+        "Q202866"
+      ],
+      "runtimes": [
+        "90",
+        "96",
+        "101",
+        "102",
+        "103"
+      ]
+    },
+    {
+      "qid": "Q122335323",
+      "title": "Sing Sing",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-04.json",
+      "imdb_ids": [
+        "tt28479262"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2023,
+        2024
+      ],
+      "genre_ids": [
+        "Q130232"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "105"
+      ]
+    },
+    {
+      "qid": "Q123169098",
+      "title": "The Life of Chuck",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-04.json",
+      "imdb_ids": [
+        "tt12908150"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2024,
+        2025
+      ],
+      "genre_ids": [
+        "Q130232",
+        "Q157394",
+        "Q471839"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "111"
+      ]
+    },
+    {
+      "qid": "Q123690368",
+      "title": "A Real Pain",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-04.json",
+      "imdb_ids": [
+        "tt21823606"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2024,
+        2025
+      ],
+      "genre_ids": [
+        "Q859369"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "90"
+      ]
+    },
+    {
+      "qid": "Q123690673",
+      "title": "Thelma",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-04.json",
+      "imdb_ids": [
+        "tt23778968"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2024
+      ],
+      "genre_ids": [
+        "Q157443",
+        "Q188473"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "97"
+      ]
+    },
+    {
+      "qid": "Q124378349",
+      "title": "The Wild Robot",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-02.json",
+      "imdb_ids": [
+        "tt29623480"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2024
+      ],
+      "genre_ids": [
+        "Q130232",
+        "Q319221",
+        "Q471839"
+      ],
+      "instance_ids": [
+        "Q202866"
+      ],
+      "runtimes": [
+        "102"
+      ]
+    },
+    {
+      "qid": "Q124656179",
+      "title": "Memoir of a Snail",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-04.json",
+      "imdb_ids": [
+        "tt23770030"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2024,
+        2025
+      ],
+      "genre_ids": [
+        "Q130232",
+        "Q138831212"
+      ],
+      "instance_ids": [
+        "Q202866"
+      ],
+      "runtimes": [
+        "94"
+      ]
+    },
+    {
+      "qid": "Q125622088",
+      "title": "Flow",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-02.json",
+      "imdb_ids": [
+        "tt4772188"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2024,
+        2025
+      ],
+      "genre_ids": [
+        "Q1361932",
+        "Q157394",
+        "Q319221"
+      ],
+      "instance_ids": [
+        "Q202866"
+      ],
+      "runtimes": [
+        "80"
+      ]
+    },
+    {
+      "qid": "Q126390903",
+      "title": "Wallace and Gromit: Vengeance Most Fowl",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-04.json",
+      "imdb_ids": [
+        "tt17163970"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2024,
+        2025
+      ],
+      "genre_ids": [
+        "Q157443",
+        "Q18089587"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "79"
+      ]
+    },
+    {
+      "qid": "Q15270647",
+      "title": "Zootopia",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-00.json",
+      "imdb_ids": [
+        "tt2948356"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2016
+      ],
+      "genre_ids": [
+        "Q1361932",
+        "Q157443",
+        "Q25533274",
+        "Q2678111",
+        "Q319221",
+        "Q4984974"
+      ],
+      "instance_ids": [
+        "Q202866"
+      ],
+      "runtimes": [
+        "108"
+      ]
+    },
+    {
+      "qid": "Q16954098",
+      "title": "Brooklyn",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-02.json",
+      "imdb_ids": [
+        "tt2381111"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2015,
+        2016
+      ],
+      "genre_ids": [
+        "Q130232",
+        "Q1919632"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "112"
+      ]
+    },
+    {
+      "qid": "Q18154496",
+      "title": "Spotlight",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-02.json",
+      "imdb_ids": [
+        "tt1895587"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2015,
+        2016
+      ],
+      "genre_ids": [
+        "Q130232",
+        "Q645928"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "128"
+      ]
+    },
+    {
+      "qid": "Q18415459",
+      "title": "The Nice Guys",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-02.json",
+      "imdb_ids": [
+        "tt3799694"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2016
+      ],
+      "genre_ids": [
+        "Q1200678",
+        "Q157443",
+        "Q4984974"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "116"
+      ]
+    },
+    {
+      "qid": "Q18547944",
+      "title": "The Martian",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-00.json",
+      "imdb_ids": [
+        "tt3659388"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2015
+      ],
+      "genre_ids": [
+        "Q130232",
+        "Q15898171",
+        "Q188473",
+        "Q319221",
+        "Q471839"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "141"
+      ]
+    },
+    {
+      "qid": "Q18647981",
+      "title": "Moana",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-00.json",
+      "imdb_ids": [
+        "tt3521164"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2016
+      ],
+      "genre_ids": [
+        "Q157443",
+        "Q188473",
+        "Q319221",
+        "Q842256",
+        "Q859369"
+      ],
+      "instance_ids": [
+        "Q202866"
+      ],
+      "runtimes": [
+        "107"
+      ]
+    },
+    {
+      "qid": "Q18703032",
+      "title": "Room",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-02.json",
+      "imdb_ids": [
+        "tt3170832"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2015,
+        2016
+      ],
+      "genre_ids": [
+        "Q130232"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "118"
+      ]
+    },
+    {
+      "qid": "Q18703094",
+      "title": "Captain Fantastic",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-02.json",
+      "imdb_ids": [
+        "tt3553976"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2016
+      ],
+      "genre_ids": [
+        "Q1054574",
+        "Q130232",
+        "Q157443"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "118"
+      ]
+    },
+    {
+      "qid": "Q19850715",
+      "title": "The Big Short",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-02.json",
+      "imdb_ids": [
+        "tt1596363"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2015,
+        2016
+      ],
+      "genre_ids": [
+        "Q130232",
+        "Q645928",
+        "Q859369",
+        "Q959790"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "130"
+      ]
+    },
+    {
+      "qid": "Q20382729",
+      "title": "Arrival",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-00.json",
+      "imdb_ids": [
+        "tt2543164"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2016
+      ],
+      "genre_ids": [
+        "Q1200678",
+        "Q130232",
+        "Q2484376",
+        "Q471839"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "116"
+      ]
+    },
+    {
+      "qid": "Q20856802",
+      "title": null,
+      "selected": false,
+      "decision": "excluded",
+      "reasons": [
+        "english_label_missing"
+      ],
+      "raw_file": "raw/candidate-batch-00.json",
+      "imdb_ids": [
+        "tt3783958"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2016,
+        2017
+      ],
+      "genre_ids": [
+        "Q1054574",
+        "Q130232",
+        "Q157443",
+        "Q3072043",
+        "Q842256",
+        "Q859369"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "128"
+      ]
+    },
+    {
+      "qid": "Q21819857",
+      "title": "Sing Street",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-02.json",
+      "imdb_ids": [
+        "tt3544112"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2016
+      ],
+      "genre_ids": [
+        "Q102429885",
+        "Q130232",
+        "Q842256",
+        "Q859369"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "106"
+      ]
+    },
+    {
+      "qid": "Q21935651",
+      "title": "Dunkirk",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-00.json",
+      "imdb_ids": [
+        "tt5013056"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2017
+      ],
+      "genre_ids": [
+        "Q130232",
+        "Q17013749",
+        "Q369747"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "106"
+      ]
+    },
+    {
+      "qid": "Q22236109",
+      "title": "Hunt for the Wilderpeople",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-02.json",
+      "imdb_ids": [
+        "tt4698684"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2016,
+        2017
+      ],
+      "genre_ids": [
+        "Q130232",
+        "Q157443",
+        "Q319221"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "101"
+      ]
+    },
+    {
+      "qid": "Q23016644",
+      "title": "Baby Driver",
+      "selected": false,
+      "decision": "excluded",
+      "reasons": [
+        "runtime_unit_not_minute"
+      ],
+      "raw_file": "raw/candidate-batch-03.json",
+      "imdb_ids": [
+        "tt3890160"
+      ],
+      "invalid_runtime_units": [
+        {
+          "amount": "+6751",
+          "unit": "http://www.wikidata.org/entity/Q11574"
+        }
+      ],
+      "release_years": [
+        2017
+      ],
+      "genre_ids": [
+        "Q1788980",
+        "Q188473",
+        "Q2678111",
+        "Q319221"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "113"
+      ]
+    },
+    {
+      "qid": "Q23755544",
+      "title": "Hidden Figures",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-00.json",
+      "imdb_ids": [
+        "tt4846340"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2016,
+        2017
+      ],
+      "genre_ids": [
+        "Q130232",
+        "Q645928"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "127"
+      ]
+    },
+    {
+      "qid": "Q23780734",
+      "title": "Black Panther",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-00.json",
+      "imdb_ids": [
+        "tt1825683"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2018
+      ],
+      "genre_ids": [
+        "Q1535153",
+        "Q188473",
+        "Q319221",
+        "Q471839"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "134"
+      ]
+    },
+    {
+      "qid": "Q24053263",
+      "title": "Logan",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-02.json",
+      "imdb_ids": [
+        "tt3315342"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2017
+      ],
+      "genre_ids": [
+        "Q130232",
+        "Q1535153",
+        "Q15898171",
+        "Q188473",
+        "Q20443008",
+        "Q471839"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "137"
+      ]
+    },
+    {
+      "qid": "Q25136235",
+      "title": "Get Out",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-00.json",
+      "imdb_ids": [
+        "tt5052448"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2017
+      ],
+      "genre_ids": [
+        "Q1200678",
+        "Q200092",
+        "Q224700",
+        "Q2484376"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "104"
+      ]
+    },
+    {
+      "qid": "Q26698156",
+      "title": "The Shape of Water",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-00.json",
+      "imdb_ids": [
+        "tt5580390"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2017,
+        2018
+      ],
+      "genre_ids": [
+        "Q102706436",
+        "Q1054574",
+        "Q130232",
+        "Q157394",
+        "Q1919632",
+        "Q2484376"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "123"
+      ]
+    },
+    {
+      "qid": "Q27480769",
+      "title": "Lady Bird",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-02.json",
+      "imdb_ids": [
+        "tt4925292"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2017,
+        2018
+      ],
+      "genre_ids": [
+        "Q130232",
+        "Q192881",
+        "Q20442589",
+        "Q859369"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "93"
+      ]
+    },
+    {
+      "qid": "Q27590871",
+      "title": "Paddington 2",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-00.json",
+      "imdb_ids": [
+        "tt4468740"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2017,
+        2018
+      ],
+      "genre_ids": [
+        "Q1361932",
+        "Q157443",
+        "Q319221"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "103"
+      ]
+    },
+    {
+      "qid": "Q29514872",
+      "title": "The Florida Project",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-02.json",
+      "imdb_ids": [
+        "tt5649144"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2017,
+        2018
+      ],
+      "genre_ids": [
+        "Q130232"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "115"
+      ]
+    },
+    {
+      "qid": "Q29588607",
+      "title": "Spider-Man: Into the Spider-Verse",
+      "selected": false,
+      "decision": "excluded",
+      "reasons": [
+        "conflicting_runtime"
+      ],
+      "raw_file": "raw/candidate-batch-00.json",
+      "imdb_ids": [
+        "tt4633694"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2018,
+        2019
+      ],
+      "genre_ids": [
+        "Q130232",
+        "Q1535153",
+        "Q157443",
+        "Q188473",
+        "Q319221",
+        "Q471839"
+      ],
+      "instance_ids": [
+        "Q202866"
+      ],
+      "runtimes": [
+        "116",
+        "117"
+      ]
+    },
+    {
+      "qid": "Q31202708",
+      "title": null,
+      "selected": false,
+      "decision": "excluded",
+      "reasons": [
+        "conflicting_runtime",
+        "english_label_missing"
+      ],
+      "raw_file": "raw/candidate-batch-01.json",
+      "imdb_ids": [
+        "tt1745960"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2022
+      ],
+      "genre_ids": [
+        "Q130232",
+        "Q188473",
+        "Q319221"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "130",
+        "131"
+      ]
+    },
+    {
+      "qid": "Q31271384",
+      "title": "Puss in Boots: The Last Wish",
+      "selected": false,
+      "decision": "excluded",
+      "reasons": [
+        "conflicting_runtime"
+      ],
+      "raw_file": "raw/candidate-batch-01.json",
+      "imdb_ids": [
+        "tt3915174"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2022,
+        2023
+      ],
+      "genre_ids": [
+        "Q1361932",
+        "Q157394",
+        "Q157443",
+        "Q188473",
+        "Q1957385",
+        "Q2484376",
+        "Q319221",
+        "Q842256"
+      ],
+      "instance_ids": [
+        "Q202866"
+      ],
+      "runtimes": [
+        "100",
+        "102"
+      ]
+    },
+    {
+      "qid": "Q3521099",
+      "title": "The Grand Budapest Hotel",
+      "selected": false,
+      "decision": "excluded",
+      "reasons": [
+        "year_outside_2015_2025"
+      ],
+      "raw_file": "raw/candidate-batch-02.json",
+      "imdb_ids": [
+        "tt2278388"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2014
+      ],
+      "genre_ids": [
+        "Q1054574",
+        "Q130232",
+        "Q157443",
+        "Q192881",
+        "Q319221",
+        "Q959790"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "99"
+      ]
+    },
+    {
+      "qid": "Q47482560",
+      "title": "The Boy and the Heron",
+      "selected": false,
+      "decision": "excluded",
+      "reasons": [
+        "film_instance_missing"
+      ],
+      "raw_file": "raw/candidate-batch-04.json",
+      "imdb_ids": [
+        "tt6587046"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2023,
+        2024
+      ],
+      "genre_ids": [
+        "Q130232",
+        "Q157394",
+        "Q319221"
+      ],
+      "instance_ids": [
+        "Q20650540"
+      ],
+      "runtimes": [
+        "124"
+      ]
+    },
+    {
+      "qid": "Q54021143",
+      "title": "The Mitchells vs. The Machines",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-01.json",
+      "imdb_ids": [
+        "tt7979580"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2021
+      ],
+      "genre_ids": [
+        "Q47009776",
+        "Q471839",
+        "Q628165"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "113"
+      ]
+    },
+    {
+      "qid": "Q54862508",
+      "title": "Jojo Rabbit",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-03.json",
+      "imdb_ids": [
+        "tt2584384"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2019,
+        2020
+      ],
+      "genre_ids": [
+        "Q130232",
+        "Q157443",
+        "Q369747",
+        "Q859369"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "108"
+      ]
+    },
+    {
+      "qid": "Q55081822",
+      "title": "Ford v Ferrari",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-01.json",
+      "imdb_ids": [
+        "tt1950186"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2019
+      ],
+      "genre_ids": [
+        "Q130232",
+        "Q1339864",
+        "Q188473",
+        "Q645928"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "152"
+      ]
+    },
+    {
+      "qid": "Q56881140",
+      "title": "Little Women",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-01.json",
+      "imdb_ids": [
+        "tt3281548"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2019,
+        2020
+      ],
+      "genre_ids": [
+        "Q130232"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "134"
+      ]
+    },
+    {
+      "qid": "Q57982486",
+      "title": "Knives Out",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-00.json",
+      "imdb_ids": [
+        "tt8946378"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2019,
+        2020
+      ],
+      "genre_ids": [
+        "Q1200678",
+        "Q130232",
+        "Q157443",
+        "Q2484376",
+        "Q959790"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "130"
+      ]
+    },
+    {
+      "qid": "Q5815826",
+      "title": "Coco",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-00.json",
+      "imdb_ids": [
+        "tt2380307"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2017,
+        2018
+      ],
+      "genre_ids": [
+        "Q130232",
+        "Q1361932",
+        "Q157394",
+        "Q157443",
+        "Q1919632",
+        "Q25533274",
+        "Q31888058",
+        "Q319221",
+        "Q842256"
+      ],
+      "instance_ids": [
+        "Q202866"
+      ],
+      "runtimes": [
+        "109"
+      ]
+    },
+    {
+      "qid": "Q60611804",
+      "title": "The Farewell",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-03.json",
+      "imdb_ids": [
+        "tt8637428"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2019,
+        2020
+      ],
+      "genre_ids": [
+        "Q130232",
+        "Q859369"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "98"
+      ]
+    },
+    {
+      "qid": "Q60834962",
+      "title": "Dune",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-01.json",
+      "imdb_ids": [
+        "tt1160419"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2021
+      ],
+      "genre_ids": [
+        "Q188473",
+        "Q2973181",
+        "Q319221",
+        "Q471839"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "155"
+      ]
+    },
+    {
+      "qid": "Q6144664",
+      "title": "Inside Out",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/inside-out-direct.json",
+      "imdb_ids": [
+        "tt2096673"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2015
+      ],
+      "genre_ids": [
+        "Q130232",
+        "Q1361932",
+        "Q157394",
+        "Q157443",
+        "Q2143665",
+        "Q319221",
+        "Q859369"
+      ],
+      "instance_ids": [
+        "Q202866"
+      ],
+      "runtimes": [
+        "94"
+      ]
+    },
+    {
+      "qid": "Q61448040",
+      "title": "Parasite",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-01.json",
+      "imdb_ids": [
+        "tt6751668"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2019,
+        2020
+      ],
+      "genre_ids": [
+        "Q2484376",
+        "Q53094",
+        "Q859369"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "132"
+      ]
+    },
+    {
+      "qid": "Q64744044",
+      "title": "Soul",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-01.json",
+      "imdb_ids": [
+        "tt2948372"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2020
+      ],
+      "genre_ids": [
+        "Q157394",
+        "Q31888058",
+        "Q319221",
+        "Q859369"
+      ],
+      "instance_ids": [
+        "Q202866"
+      ],
+      "runtimes": [
+        "101"
+      ]
+    },
+    {
+      "qid": "Q65084655",
+      "title": "Palm Springs",
+      "selected": true,
+      "decision": "selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-01.json",
+      "imdb_ids": [
+        "tt9484998"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2020
+      ],
+      "genre_ids": [
+        "Q157443"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "90"
+      ]
+    },
+    {
+      "qid": "Q65158549",
+      "title": "Sound of Metal",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-03.json",
+      "imdb_ids": [
+        "tt5363618"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2019,
+        2020,
+        2021
+      ],
+      "genre_ids": [
+        "Q130232"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "120"
+      ]
+    },
+    {
+      "qid": "Q67208596",
+      "title": "Klaus",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-03.json",
+      "imdb_ids": [
+        "tt4729430"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2019
+      ],
+      "genre_ids": [
+        "Q157394",
+        "Q157443",
+        "Q2143665",
+        "Q28026639",
+        "Q319221"
+      ],
+      "instance_ids": [
+        "Q202866"
+      ],
+      "runtimes": [
+        "96"
+      ]
+    },
+    {
+      "qid": "Q68681463",
+      "title": "Wolfwalkers",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-03.json",
+      "imdb_ids": [
+        "tt5198068"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2020
+      ],
+      "genre_ids": [
+        "Q157394",
+        "Q319221",
+        "Q459290"
+      ],
+      "instance_ids": [
+        "Q202866"
+      ],
+      "runtimes": [
+        "103"
+      ]
+    },
+    {
+      "qid": "Q73895818",
+      "title": "Guillermo del Toro's Pinocchio",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-03.json",
+      "imdb_ids": [
+        "tt1488589"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2022
+      ],
+      "genre_ids": [
+        "Q157394",
+        "Q1957385",
+        "Q842256"
+      ],
+      "instance_ids": [
+        "Q202866"
+      ],
+      "runtimes": [
+        "114"
+      ]
+    },
+    {
+      "qid": "Q83808444",
+      "title": "Everything Everywhere All at Once",
+      "selected": false,
+      "decision": "excluded",
+      "reasons": [
+        "conflicting_runtime"
+      ],
+      "raw_file": "raw/candidate-batch-01.json",
+      "imdb_ids": [
+        "tt6710474"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2022
+      ],
+      "genre_ids": [
+        "Q1033891",
+        "Q1770859",
+        "Q188473",
+        "Q21858363",
+        "Q471839",
+        "Q859369"
+      ],
+      "instance_ids": [
+        "Q11424"
+      ],
+      "runtimes": [
+        "139",
+        "140"
+      ]
+    },
+    {
+      "qid": "Q97925311",
+      "title": "Luca",
+      "selected": false,
+      "decision": "reserve_not_selected",
+      "reasons": [],
+      "raw_file": "raw/candidate-batch-03.json",
+      "imdb_ids": [
+        "tt12801262"
+      ],
+      "invalid_runtime_units": [],
+      "release_years": [
+        2021
+      ],
+      "genre_ids": [
+        "Q102429885",
+        "Q111280422",
+        "Q1361932",
+        "Q157394",
+        "Q157443",
+        "Q319221",
+        "Q663106"
+      ],
+      "instance_ids": [
+        "Q202866"
+      ],
+      "runtimes": [
+        "95"
+      ]
+    }
+  ]
+}

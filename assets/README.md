@@ -1,17 +1,27 @@
-# Catalog snapshot
+# Reproducible 247-film metadata snapshot
 
-`catalog-v2.json` contains 217 movie records derived from Wikidata structured
-data (CC0). The adjacent manifest records the SHA-256, stable identifiers,
-source, builder and exclusions. IMDb identifiers from GroupLens
-`ml-latest-small/links.csv` were used only to verify joins; no ratings, user
-profiles, images, encyclopedia prose or Watchmode responses are bundled here.
+`catalog-v2.json` contains the retained **217** Wikidata film objects plus
+**30** checked recent films (2015–2024). All original film and IMDb identifiers
+are preserved. The loader-required checksum and count are in the manifest.
 
-Runtime values were accepted only from Wikidata P2047 values whose unit is
-Q7727 (minute). Missing/conflicting values and missing canonical genre tags
-were excluded. The mapping report is bounded to 650 seed records, not all
-cinema. It does not imply complete alias or remake coverage.
+The legacy audit used 650 GroupLens IMDb seeds. The addition uses 30 fixed
+Wikidata/IMDb/title/year tuples and retained official CC0 responses under
+`catalog-sources/modern-2026-10-21`. A unique positive P2047 minute value and
+reviewed explicit source genre tags are required; conflicting films were
+excluded, not resolved by choosing a convenient duration.
 
-Rebuild explicitly with `python scripts/build-catalog-entities.py` after
-downloading `ml-latest-small.zip` from GroupLens into local `data/`. Review the
-new manifest, then copy its two generated catalog files into this directory.
-Supplier availability is always separate, private and time limited.
+From the project root, rebuild without network/key/MovieLens download:
+
+```sh
+python scripts/build-catalog-entities.py --modern-only
+```
+
+Review `data/catalog-v2.json` and its manifest, then copy both here. The command
+also synchronizes the full selection and genre map. `catalog-base-selection.json`
+retains the original 217 identifier boundary. The original full legacy builder
+is still available with the separate local MovieLens ZIP.
+
+[Per-film provenance and exclusions](../docs/MODERN_CATALOG_SOURCES.md).
+Metadata is CC0. Movie posters, research ratings/users, personal history and
+Watchmode raw responses/caches are not included. Subscription supply is checked
+separately at runtime and remains time limited.

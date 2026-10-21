@@ -1,0 +1,19 @@
+{
+  "source": "Official Wikidata English genre labels (wbgetentities)",
+  "checked_utc": "2026-10-21",
+  "scope": "source-label normalization, not a complete genre ontology or content safety classifier",
+  "genres": {
+    "Q102706436": {
+      "label": "magic realist film",
+      "tags": [
+        "Magic Realist"
+      ]
+    },
+    "Q47009776": {
+      "label": "apocalyptic film",
+      "tags": [
+        "Apocalyptic"
+      ]
+    }
+  }
+}

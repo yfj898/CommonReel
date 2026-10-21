@@ -1,0 +1,30 @@
+{
+  "name": "06-reload-and-language",
+  "frames": [
+    {
+      "file": "00000.jpg",
+      "timestamp": 1792554998.454303,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00001.jpg",
+      "timestamp": 1792554998.47644,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00002.jpg",
+      "timestamp": 1792554998.50656,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00003.jpg",
+      "timestamp": 1792554998.56596,
+      "width": 1280,
+      "height": 900
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,72 @@
+{
+  "name": "05-save-final",
+  "frames": [
+    {
+      "file": "00000.jpg",
+      "timestamp": 1792554968.889194,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00001.jpg",
+      "timestamp": 1792554968.923455,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00002.jpg",
+      "timestamp": 1792554969.20111,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00003.jpg",
+      "timestamp": 1792554969.478755,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00004.jpg",
+      "timestamp": 1792554969.763863,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00005.jpg",
+      "timestamp": 1792554969.784728,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00006.jpg",
+      "timestamp": 1792554969.805286,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00007.jpg",
+      "timestamp": 1792554969.826375,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00008.jpg",
+      "timestamp": 1792554969.867955,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00009.jpg",
+      "timestamp": 1792554969.888854,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00010.jpg",
+      "timestamp": 1792554971.869242,
+      "width": 1280,
+      "height": 900
+    }
+  ],
+  "errors": []
+}

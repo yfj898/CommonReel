@@ -26,9 +26,12 @@ func (t headersTransport) RoundTrip(r *http.Request) (*http.Response, error) {
 	r.Header.Set("X-CommonReel-Session", t.id)
 	return http.DefaultTransport.RoundTrip(r)
 }
-func TestMCPUsesBoundRoomAndOnlyAllowsSevenTools(t *testing.T) {
-	h := newHarness(t, workflow.Config{})
+func TestMCPUsesBoundRoomAndOnlyAllowsEightTools(t *testing.T) {
+	h := newHarness(t, workflow.Config{Films: []workflow.Film{{ID: "a", Title: "A", Runtime: 90, Version: "v1"}}})
 	h.cmd("join_member", map[string]any{"name": "Alex"})
+	if status, result := h.cmd("update_member", map[string]any{"member_id": "m1", "patch": map[string]any{"seen": []string{"a"}, "ratings": map[string]float64{"a": 4}, "likes": map[string]bool{"a": true}}}); status != 200 {
+		t.Fatal(status, result)
+	}
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
 	client := mcp.NewClient(&mcp.Implementation{Name: "acceptance", Version: "1"}, nil)
@@ -41,7 +44,7 @@ func TestMCPUsesBoundRoomAndOnlyAllowsSevenTools(t *testing.T) {
 	if e != nil {
 		t.Fatal(e)
 	}
-	if len(tools.Tools) != 7 {
+	if len(tools.Tools) != 8 {
 		t.Fatal("whitelist", len(tools.Tools))
 	}
 	for _, tool := range tools.Tools {
@@ -49,7 +52,23 @@ func TestMCPUsesBoundRoomAndOnlyAllowsSevenTools(t *testing.T) {
 			t.Fatal("forbidden tool", tool.Name)
 		}
 	}
-	res, e := session.CallTool(ctx, &mcp.CallToolParams{Name: "set_member", Arguments: map[string]any{"member_id": "m1", "expected_room_revision": h.rev, "operation_key": "mcp-edit-0001", "patch": map[string]any{"vetoes": []string{"Horror"}}}})
+	res, e := session.CallTool(ctx, &mcp.CallToolParams{Name: "get_room", Arguments: map[string]any{}})
+	if e != nil || res.IsError {
+		t.Fatal(e, res)
+	}
+	b, e := json.Marshal(res.StructuredContent)
+	if e != nil {
+		t.Fatal(e)
+	}
+	var view workflow.Session
+	if e = json.Unmarshal(b, &view); e != nil || len(view.Members) != 1 {
+		t.Fatal(e, string(b))
+	}
+	m := view.Members[0]
+	if m.SeenCount != 1 || len(m.Preferences.Seen) != 0 || len(m.History.Seen) != 0 || len(m.Preferences.Ratings) != 0 || len(m.Preferences.Likes) != 0 {
+		t.Fatal("personal inputs leaked into model view", string(b))
+	}
+	res, e = session.CallTool(ctx, &mcp.CallToolParams{Name: "set_member", Arguments: map[string]any{"member_id": "m1", "expected_room_revision": h.rev, "operation_key": "mcp-edit-0001", "patch": map[string]any{"vetoes": []string{"Horror"}}}})
 	if e != nil || res.IsError {
 		t.Fatal(e, res)
 	}
@@ -70,7 +89,7 @@ func TestAgentUnknownToolCannotSaveAndAmbiguousSpeakerIsClarified(t *testing.T) 
 		json.NewEncoder(w).Encode(map[string]any{"message": map[string]any{"role": "assistant", "content": "", "tool_calls": []any{map[string]any{"function": map[string]any{"name": "save_choice", "arguments": map[string]any{}}}}}})
 	}))
 	defer model.Close()
-	h := newHarness(t, workflow.Config{OllamaEndpoint: model.URL, OllamaModel: "controlled", AllowTestModel: true})
+	h := newHarness(t, workflow.Config{OllamaEndpoint: model.URL, OllamaModel: "controlled"})
 	h.app.SetMCPEndpoint(h.server.URL + "/mcp")
 	h.cmd("join_member", map[string]any{"name": "Alex"})
 	h.cmd("join_member", map[string]any{"name": "Sam"})
@@ -85,6 +104,88 @@ func TestAgentUnknownToolCannotSaveAndAmbiguousSpeakerIsClarified(t *testing.T) 
 	_, room := h.call("GET", "/api/v1/sessions/"+h.id, nil)
 	if room["room_revision"] != float64(h.rev) {
 		t.Fatal("agent exceeded authority", room)
+	}
+}
+
+func TestAgentPreservesMCPRejectionReason(t *testing.T) {
+	staleRevision := 0
+	model := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		json.NewEncoder(w).Encode(map[string]any{"message": map[string]any{"role": "assistant", "tool_calls": []any{map[string]any{"function": map[string]any{
+			"name": "set_member", "arguments": map[string]any{"member_id": "m1", "expected_room_revision": staleRevision, "patch": map[string]any{"vetoes": []string{"Horror"}}},
+		}}}}})
+	}))
+	defer model.Close()
+	h := newHarness(t, workflow.Config{OllamaEndpoint: model.URL, OllamaModel: "controlled"})
+	if err := h.app.SetMCPEndpoint(h.server.URL + "/mcp"); err != nil {
+		t.Fatal(err)
+	}
+	h.cmd("join_member", map[string]any{"name": "Alex"})
+	h.cmd("join_member", map[string]any{"name": "Sam"})
+	staleRevision = h.rev - 1
+	status, result := h.call("POST", "/api/v1/sessions/"+h.id+"/agent-turns", map[string]any{"operation_key": "stale-agent-0001", "message": "For Alex (m1), set the genre veto to Horror."})
+	if status != 200 || result["status"] != "tool_rejected" {
+		t.Fatal(status, result)
+	}
+	steps := result["steps"].([]any)
+	if len(steps) != 1 || steps[0].(map[string]any)["code"] != "REVISION_CONFLICT" || !strings.Contains(result["reply"].(string), "refresh") {
+		t.Fatal("MCP rejection reason was lost", result)
+	}
+	_, room := h.call("GET", "/api/v1/sessions/"+h.id, nil)
+	if room["room_revision"] != float64(h.rev) {
+		t.Fatal("rejected tool changed the room", room)
+	}
+}
+
+func TestAgentMemberTargetsUseWholeIDsAndUnambiguousNames(t *testing.T) {
+	for _, tc := range []struct {
+		name, secondName, message, speaker, target string
+		changed                                    bool
+	}{
+		{"unknown_id", "Sam", "Set m10's veto to Horror", "", "m1", false},
+		{"whole_id", "Sam", "Set m1's veto to Horror", "", "m1", true},
+		{"duplicate_name", "alex", "Set Alex's veto to Horror", "", "m1", false},
+		{"id_disambiguates_duplicate", "alex", "Set m2's veto to Horror", "", "m2", true},
+		{"explicit_target_overrides_speaker", "Sam", "Set Sam's veto to Horror", "m1", "m1", false},
+		{"named_target", "Sam", "Set Sam's veto to Horror", "m1", "m2", true},
+		{"selected_speaker", "Sam", "I do not want Horror", "m1", "m1", true},
+	} {
+		t.Run(tc.name, func(t *testing.T) {
+			calls, revision := 0, 0
+			model := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+				calls++
+				message := map[string]any{"role": "assistant", "content": "Updated."}
+				if calls == 1 {
+					message["tool_calls"] = []any{map[string]any{"function": map[string]any{"name": "set_member", "arguments": map[string]any{"member_id": tc.target, "expected_room_revision": revision, "patch": map[string]any{"vetoes": []string{"Horror"}}}}}}
+				}
+				json.NewEncoder(w).Encode(map[string]any{"message": message})
+			}))
+			defer model.Close()
+			h := newHarness(t, workflow.Config{OllamaEndpoint: model.URL, OllamaModel: "controlled"})
+			h.app.SetMCPEndpoint(h.server.URL + "/mcp")
+			h.cmd("join_member", map[string]any{"name": "Alex"})
+			h.cmd("join_member", map[string]any{"name": tc.secondName})
+			revision = h.rev
+			status, result := h.call("POST", "/api/v1/sessions/"+h.id+"/agent-turns", map[string]any{"operation_key": "target-0001", "message": tc.message, "speaker_member_id": tc.speaker})
+			wantStatus, wantRevision := "clarification", revision
+			if tc.changed {
+				wantStatus, wantRevision = "completed", revision+1
+			}
+			if status != 200 || result["status"] != wantStatus {
+				t.Fatal(status, result)
+			}
+			_, room := h.call("GET", "/api/v1/sessions/"+h.id, nil)
+			if room["room_revision"] != float64(wantRevision) {
+				t.Fatal("unexpected room change", room)
+			}
+			for _, raw := range room["members"].([]any) {
+				member := raw.(map[string]any)
+				vetoes, _ := member["preferences"].(map[string]any)["vetoes"].([]any)
+				wantVeto := tc.changed && member["id"] == tc.target
+				if wantVeto && (len(vetoes) != 1 || vetoes[0] != "Horror") || !wantVeto && len(vetoes) != 0 {
+					t.Fatal("wrong member modified", room)
+				}
+			}
+		})
 	}
 }
 
@@ -308,6 +409,14 @@ func TestConcurrentRetriesRestartAndExpiry(t *testing.T) {
 func TestReconnectGetsSnapshotAndCloseRetryReturnsOnlyReceipt(t *testing.T) {
 	h := newHarness(t, workflow.Config{})
 	h.cmd("join_member", map[string]any{"name": "Alex"})
+	create := map[string]any{"name": "Tonight", "invite_token": h.secret, "operation_key": "create-0001"}
+	if status, receipt := h.call("POST", "/api/v1/sessions", create); status != 201 || receipt["replayed"] != true {
+		t.Fatal("create retry did not replay", status, receipt)
+	}
+	create["operation_key"] = "create-alias-0002"
+	if status, receipt := h.call("POST", "/api/v1/sessions", create); status != 409 {
+		t.Fatal("another create key replaced the room", status, receipt)
+	}
 	req, _ := http.NewRequest("GET", h.server.URL+"/api/v1/sessions/"+h.id+"/events", nil)
 	req.Header.Set("Authorization", "Bearer "+h.secret)
 	res, e := http.DefaultClient.Do(req)
@@ -354,6 +463,12 @@ func TestReusableHistoryCopiesAndDeletionWithdrawActiveData(t *testing.T) {
 		t.Fatal(status, p)
 	}
 	pid := p["resource_id"].(string)
+	if status, receipt := h.call("POST", "/api/v1/profiles", map[string]any{"recovery_token": recovery, "operation_key": "profile-0001"}); status != 201 || receipt["replayed"] != true {
+		t.Fatal("profile create retry did not replay", status, receipt)
+	}
+	if status, receipt := h.call("POST", "/api/v1/profiles", map[string]any{"recovery_token": recovery, "operation_key": "profile-alias-0002"}); status != 409 {
+		t.Fatal("another create key replaced the profile", status, receipt)
+	}
 	if status, _ := h.call("GET", "/api/v1/profiles/"+pid, nil); status != 401 {
 		t.Fatal("room capability read a profile", status)
 	}
@@ -893,5 +1008,268 @@ func TestSessionCapabilityAndCompetingWrites(t *testing.T) {
 	status, _ = call("/api/v1/sessions/"+id+"/commands", token, map[string]any{"type": "join_member", "expected_room_revision": 1, "operation_key": "join-0002", "name": "Sam"})
 	if status != 409 {
 		t.Fatalf("stale join %d", status)
+	}
+}
+
+func TestRuntimePreviewIsReadOnlyAndCountsBeforeDisplayLimit(t *testing.T) {
+	now := time.Date(2026, 10, 21, 0, 0, 0, 0, time.UTC)
+	supplier := &supply{available: true, now: now}
+	films := []workflow.Film{}
+	for i := 0; i < 8; i++ {
+		films = append(films, workflow.Film{ID: fmt.Sprintf("film:%d", i), Title: fmt.Sprintf("Film %d", i), Runtime: 100 + i, Genres: []string{"Comedy"}, Version: "v1"})
+	}
+	h := newHarness(t, workflow.Config{Now: func() time.Time { return now }, Films: films, Supplier: supplier})
+	h.cmd("join_member", map[string]any{"name": "Alex"})
+	h.cmd("join_member", map[string]any{"name": "Sam"})
+	h.cmd("update_policy", map[string]any{"policy": map[string]any{"max_runtime_minutes": 120, "provider_ids": []int{8}, "allow_rewatch": false}})
+	h.call("GET", "/api/v1/sessions/"+h.id+"/shortlist", nil)
+	h.cmd("update_policy", map[string]any{"policy": map[string]any{"max_runtime_minutes": 90, "provider_ids": []int{8}, "allow_rewatch": false}})
+	_, before := h.call("GET", "/api/v1/sessions/"+h.id, nil)
+	calls := supplier.calls
+	status, p := h.call("POST", "/api/v1/sessions/"+h.id+"/runtime-preview", map[string]any{"max_runtime_minutes": 120})
+	if status != 200 {
+		t.Fatalf("preview %d %v", status, p)
+	}
+	if p["current_feasible_count"] != float64(0) || p["proposed_feasible_count"] != float64(8) || p["newly_feasible_count"] != float64(8) || len(p["candidates"].([]any)) != 6 {
+		t.Fatal("incorrect full counts", p)
+	}
+	if p["preview_basis"] == "" || p["room_revision"] != float64(h.rev) {
+		t.Fatal("missing basis", p)
+	}
+	_, after := h.call("GET", "/api/v1/sessions/"+h.id, nil)
+	if hashJSON(before) != hashJSON(after) || supplier.calls != calls {
+		t.Fatal("preview mutated room or fetched supplier", before, after, supplier.calls, calls)
+	}
+}
+func hashJSON(v any) string { b, _ := json.Marshal(v); return string(b) }
+
+func runtimeHarness(t *testing.T) (*harness, *supply, *time.Time) {
+	t.Helper()
+	now := time.Date(2026, 10, 21, 0, 0, 0, 0, time.UTC)
+	supplier := &supply{available: true, now: now}
+	films := []workflow.Film{{ID: "short", Title: "Short", Runtime: 80, Genres: []string{"Comedy"}, Version: "v1"}, {ID: "long", Title: "Long", Runtime: 105, Genres: []string{"Comedy"}, Version: "v1"}}
+	h := newHarness(t, workflow.Config{Now: func() time.Time { return now }, Films: films, Supplier: supplier})
+	h.cmd("join_member", map[string]any{"name": "Alex"})
+	h.cmd("join_member", map[string]any{"name": "Sam"})
+	h.cmd("update_policy", map[string]any{"policy": map[string]any{"max_runtime_minutes": 120, "provider_ids": []int{8}, "allow_rewatch": false}})
+	h.call("GET", "/api/v1/sessions/"+h.id+"/shortlist", nil)
+	h.cmd("update_policy", map[string]any{"policy": map[string]any{"max_runtime_minutes": 90, "provider_ids": []int{8}, "allow_rewatch": false}})
+	return h, supplier, &now
+}
+func TestRuntimePreviewApplyClearsDecisionsAndIsIdempotent(t *testing.T) {
+	h, supplier, _ := runtimeHarness(t)
+	h.cmd("propose_candidate", map[string]any{"film_id": "short"})
+	_, room := h.call("GET", "/api/v1/sessions/"+h.id, nil)
+	h.cmd("record_acceptance", map[string]any{"target_member_id": "m1", "film_id": "short", "decision_version": room["decision_version"], "response": "accept"})
+	_, p := h.call("POST", "/api/v1/sessions/"+h.id+"/runtime-preview", map[string]any{"max_runtime_minutes": 120})
+	if p["newly_feasible_count"] != float64(1) {
+		t.Fatal(p)
+	}
+	calls := supplier.calls
+	body := map[string]any{"type": "apply_runtime_preview", "operation_key": "apply-preview-01", "expected_room_revision": h.rev, "max_runtime_minutes": 120, "preview_basis": p["preview_basis"]}
+	status, r := h.call("POST", "/api/v1/sessions/"+h.id+"/commands", body)
+	if status != 200 {
+		t.Fatal(status, r)
+	}
+	status, replay := h.call("POST", "/api/v1/sessions/"+h.id+"/commands", body)
+	if status != 200 || replay["replayed"] != true || r["room_revision"] != replay["room_revision"] {
+		t.Fatal(status, replay)
+	}
+	_, room = h.call("GET", "/api/v1/sessions/"+h.id, nil)
+	if room["policy"].(map[string]any)["max_runtime_minutes"] != float64(120) || room["active_candidate"] != nil || len(room["acceptances"].(map[string]any)) != 0 || supplier.calls != calls {
+		t.Fatal("apply contract", room, supplier.calls, calls)
+	}
+}
+func TestRuntimePreviewRejectsStaleRoomExpiredSupplyAndNoNewFilms(t *testing.T) {
+	for _, reason := range []string{"room", "expiry", "unknown", "composite", "invalid"} {
+		t.Run(reason, func(t *testing.T) {
+			h, _, now := runtimeHarness(t)
+			if reason == "composite" {
+				h.cmd("update_member", map[string]any{"member_id": "m1", "patch": map[string]any{"vetoes": []string{"Comedy"}}})
+			}
+			if reason == "unknown" {
+				*now = now.Add(2 * time.Hour)
+			}
+			status, p := h.call("POST", "/api/v1/sessions/"+h.id+"/runtime-preview", map[string]any{"max_runtime_minutes": 120})
+			if status != 200 {
+				t.Fatal(status, p)
+			}
+			expected := h.rev
+			if reason == "room" {
+				h.cmd("update_member", map[string]any{"member_id": "m1", "patch": map[string]any{"liked_genres": []string{"Comedy"}}})
+			}
+			if reason == "expiry" {
+				*now = now.Add(2 * time.Hour)
+			}
+			target := 120
+			if reason == "invalid" {
+				target = 601
+			}
+			status, r := h.call("POST", "/api/v1/sessions/"+h.id+"/commands", map[string]any{"type": "apply_runtime_preview", "operation_key": "apply-stale-0001", "expected_room_revision": expected, "max_runtime_minutes": target, "preview_basis": p["preview_basis"]})
+			if status != 409 && status != 400 {
+				t.Fatal("invalid preview applied", status, r)
+			}
+			if reason == "room" && r["code"] != "REVISION_CONFLICT" {
+				t.Fatal(r)
+			}
+			if reason == "unknown" && p["proposed_unknown_count"] != float64(2) {
+				t.Fatal(p)
+			}
+			if reason == "composite" && p["newly_feasible_count"] != float64(0) {
+				t.Fatal("runtime counted vetoed films", p)
+			}
+			_, s := h.call("GET", "/api/v1/sessions/"+h.id, nil)
+			if s["policy"].(map[string]any)["max_runtime_minutes"] != float64(90) {
+				t.Fatal(s)
+			}
+		})
+	}
+}
+
+func TestAgentRuntimePreviewModeRejectsWritesAndGroundsCard(t *testing.T) {
+	for _, scenario := range []struct {
+		write bool
+		mode  string
+	}{{false, "runtime_preview"}, {true, "runtime_preview"}, {false, ""}} {
+		write := scenario.write
+		t.Run(scenario.mode+fmt.Sprint(write), func(t *testing.T) {
+			calls := 0
+			model := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+				var input map[string]any
+				json.NewDecoder(r.Body).Decode(&input)
+				tools := input["tools"].([]any)
+				for _, v := range tools {
+					name := v.(map[string]any)["function"].(map[string]any)["name"]
+					if scenario.mode == "runtime_preview" && (name == "set_policy" || name == "set_member" || name == "shortlist") {
+						t.Errorf("write-capable tool advertised in preview: %v", name)
+					}
+				}
+				calls++
+				message := map[string]any{"role": "assistant", "content": "999 extra movies on Imaginary Stream. I changed your limit."}
+				if calls == 1 {
+					name := "runtime_preview"
+					args := map[string]any{"max_runtime_minutes": 120}
+					if write {
+						name = "set_policy"
+						args = map[string]any{}
+					}
+					message["tool_calls"] = []any{map[string]any{"function": map[string]any{"name": name, "arguments": args}}}
+				}
+				json.NewEncoder(w).Encode(map[string]any{"message": message})
+			}))
+			defer model.Close()
+			h := newHarness(t, workflow.Config{OllamaEndpoint: model.URL, OllamaModel: "controlled", Films: []workflow.Film{{ID: "long", Title: "Long", Runtime: 105, Genres: []string{"Comedy"}, Version: "v1"}}, Supplier: &supply{available: true, now: time.Now()}})
+			h.app.SetMCPEndpoint(h.server.URL + "/mcp")
+			h.cmd("join_member", map[string]any{"name": "Alex"})
+			h.cmd("join_member", map[string]any{"name": "Sam"})
+			h.cmd("update_policy", map[string]any{"policy": map[string]any{"max_runtime_minutes": 120, "provider_ids": []int{8}, "allow_rewatch": false}})
+			h.call("GET", "/api/v1/sessions/"+h.id+"/shortlist", nil)
+			h.cmd("update_policy", map[string]any{"policy": map[string]any{"max_runtime_minutes": 90, "provider_ids": []int{8}, "allow_rewatch": false}})
+			status, out := h.call("POST", "/api/v1/sessions/"+h.id+"/agent-turns", map[string]any{"operation_key": "preview-agent-01", "message": "Preview 120 minutes without changing the room.", "mode": scenario.mode})
+			if status != 200 {
+				t.Fatal(status, out)
+			}
+			if write {
+				if out["status"] != "tool_rejected" {
+					t.Fatal(out)
+				}
+			} else {
+				p, ok := out["runtime_preview"].(map[string]any)
+				if !ok || p["newly_feasible_count"] != float64(1) || strings.Contains(out["reply"].(string), "999") {
+					t.Fatal("ungrounded preview", out)
+				}
+			}
+			_, s := h.call("GET", "/api/v1/sessions/"+h.id, nil)
+			if s["room_revision"] != float64(h.rev) || s["policy"].(map[string]any)["max_runtime_minutes"] != float64(90) {
+				t.Fatal("hypothesis changed room", s)
+			}
+		})
+	}
+}
+
+func TestCatalogExpansionPreservesExternalWatchedIdentityAndPreferenceMeaning(t *testing.T) {
+	db := t.TempDir() + "/expanded.db"
+	supplier := &supply{available: true, now: time.Now()}
+	h := newHarness(t, workflow.Config{Database: db, Supplier: supplier})
+	h.cmd("join_member", map[string]any{"name": "Alex"})
+	h.cmd("join_member", map[string]any{"name": "Sam"})
+	h.cmd("update_member", map[string]any{"member_id": "m1", "patch": map[string]any{"seen": []string{"imdb:tt1234567"}}})
+	h.cmd("update_policy", map[string]any{"policy": map[string]any{"max_runtime_minutes": 120, "provider_ids": []int{8}, "allow_rewatch": false}})
+	h.server.Close()
+	h.app.Close()
+	app, e := workflow.Open(workflow.Config{Database: db, Supplier: supplier, Films: []workflow.Film{{ID: "wikidata:Q1", IMDb: "tt1234567", Title: "Expanded film", Runtime: 100, Genres: []string{"Comedy"}, Prior: 3, Version: "v2"}}})
+	if e != nil {
+		t.Fatal(e)
+	}
+	h.app = app
+	h.server = httptest.NewServer(app.Handler())
+	t.Cleanup(func() { h.server.Close(); app.Close() })
+	status, list := h.call("GET", "/api/v1/sessions/"+h.id+"/shortlist", nil)
+	if status != 200 || len(list["candidates"].([]any)) != 0 || list["filtered"].(map[string]any)["already_seen"] != float64(1) {
+		t.Fatal("old external history lost", status, list)
+	}
+	h.cmd("update_policy", map[string]any{"policy": map[string]any{"max_runtime_minutes": 120, "provider_ids": []int{8}, "allow_rewatch": true}})
+	_, list = h.call("GET", "/api/v1/sessions/"+h.id+"/shortlist", nil)
+	c := list["candidates"].([]any)[0].(map[string]any)
+	if c["preference_basis"] != "catalog_baseline" || c["estimated_group_score"] != float64(3) {
+		t.Fatal("watched inferred as liked", c)
+	}
+	h.cmd("update_member", map[string]any{"member_id": "m1", "patch": map[string]any{"likes": map[string]bool{"wikidata:Q1": true}}})
+	_, list = h.call("GET", "/api/v1/sessions/"+h.id+"/shortlist", nil)
+	c = list["candidates"].([]any)[0].(map[string]any)
+	if c["preference_basis"] != "partial_explicit" || c["estimate_basis"].(map[string]any)["m1"] != "liked_film_genre_match" {
+		t.Fatal("explicit preference evidence missing", c)
+	}
+}
+
+func TestRuntimePreviewRejectsChangedSupplyWithoutRoomEdit(t *testing.T) {
+	h, supplier, _ := runtimeHarness(t)
+	_, p := h.call("POST", "/api/v1/sessions/"+h.id+"/runtime-preview", map[string]any{"max_runtime_minutes": 120})
+	status, created := h.call("POST", "/api/v1/sessions", map[string]any{"name": "Other room", "invite_token": strings.Repeat("a", 64), "operation_key": "create-other-01"})
+	if status != 201 {
+		t.Fatal(status, created)
+	}
+	other := &harness{t: t, app: h.app, server: h.server, id: created["resource_id"].(string), secret: strings.Repeat("a", 64), rev: 1}
+	other.cmd("join_member", map[string]any{"name": "C"})
+	other.cmd("join_member", map[string]any{"name": "D"})
+	other.cmd("update_policy", map[string]any{"policy": map[string]any{"max_runtime_minutes": 120, "provider_ids": []int{8}, "allow_rewatch": false}})
+	other.cmd("propose_candidate", map[string]any{"film_id": "long"})
+	_, s := other.call("GET", "/api/v1/sessions/"+other.id, nil)
+	for _, m := range s["members"].([]any) {
+		other.cmd("record_acceptance", map[string]any{"target_member_id": m.(map[string]any)["id"], "film_id": "long", "decision_version": s["decision_version"], "response": "accept"})
+	}
+	supplier.mu.Lock()
+	supplier.available = false
+	supplier.mu.Unlock()
+	other.cmd("save_choice", map[string]any{"film_id": "long", "decision_version": s["decision_version"]})
+	status, result := h.call("POST", "/api/v1/sessions/"+h.id+"/commands", map[string]any{"type": "apply_runtime_preview", "operation_key": "apply-changed-facts-01", "expected_room_revision": h.rev, "max_runtime_minutes": 120, "preview_basis": p["preview_basis"]})
+	if status != 409 || result["code"] != "PREVIEW_STALE" {
+		t.Fatal("changed supply accepted", status, result)
+	}
+}
+
+func TestAgentHypothesisCannotWriteInOrdinaryMode(t *testing.T) {
+	calls, revision := 0, 0
+	model := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		calls++
+		name := "get_room"
+		args := map[string]any{}
+		if calls > 1 {
+			name = "set_policy"
+			args = map[string]any{"expected_room_revision": revision, "policy": map[string]any{"max_runtime_minutes": 96, "provider_ids": []int{8}, "allow_rewatch": false}}
+		}
+		json.NewEncoder(w).Encode(map[string]any{"message": map[string]any{"role": "assistant", "tool_calls": []any{map[string]any{"function": map[string]any{"name": name, "arguments": args}}}}})
+	}))
+	defer model.Close()
+	h := newHarness(t, workflow.Config{OllamaEndpoint: model.URL, OllamaModel: "controlled"})
+	h.app.SetMCPEndpoint(h.server.URL + "/mcp")
+	h.cmd("join_member", map[string]any{"name": "Alex"})
+	h.cmd("join_member", map[string]any{"name": "Sam"})
+	h.cmd("update_policy", map[string]any{"policy": map[string]any{"max_runtime_minutes": 81, "provider_ids": []int{8}, "allow_rewatch": false}})
+	revision = h.rev
+	_, out := h.call("POST", "/api/v1/sessions/"+h.id+"/agent-turns", map[string]any{"operation_key": "hypothesis-normal-01", "message": "What if we had 96 minutes?"})
+	_, s := h.call("GET", "/api/v1/sessions/"+h.id, nil)
+	if s["room_revision"] != float64(revision) || out["status"] != "clarification" {
+		t.Fatal("hypothesis authorized a real write", out, s)
 	}
 }

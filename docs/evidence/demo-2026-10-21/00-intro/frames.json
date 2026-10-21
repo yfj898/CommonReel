@@ -1,0 +1,66 @@
+{
+  "name": "00-intro",
+  "frames": [
+    {
+      "file": "00000.jpg",
+      "timestamp": 1792554476.625969,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00001.jpg",
+      "timestamp": 1792554476.865184,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00002.jpg",
+      "timestamp": 1792554477.082938,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00003.jpg",
+      "timestamp": 1792554477.298056,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00004.jpg",
+      "timestamp": 1792554477.388556,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00005.jpg",
+      "timestamp": 1792554477.423161,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00006.jpg",
+      "timestamp": 1792554477.45877,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00007.jpg",
+      "timestamp": 1792554477.486053,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00008.jpg",
+      "timestamp": 1792554477.520901,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00009.jpg",
+      "timestamp": 1792554477.548351,
+      "width": 1280,
+      "height": 900
+    }
+  ],
+  "errors": []
+}

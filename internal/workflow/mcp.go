@@ -65,13 +65,7 @@ func (a *App) mcpServer(id, secret string) *mcp.Server {
 		if e != nil {
 			return toolResult(nil, e)
 		}
-		v = sessionView(v)
-		for i := range v.Members {
-			v.Members[i].SourceProfile = ""
-			v.Members[i].Preferences.Ratings = nil
-			v.Members[i].Preferences.Likes = nil
-		}
-		return toolResult(v, nil)
+		return toolResult(modelSessionView(v), nil)
 	})
 	mcp.AddTool(s, t("set_member", "Patch an explicit existing member's tonight inputs. Cannot add members, record responses or modify profiles.", false), func(ctx context.Context, r *mcp.CallToolRequest, in MCPMember) (*mcp.CallToolResult, map[string]any, error) {
 		v, e := a.command(ctx, id, secret, Command{Type: "update_member", Expected: in.Expected, Key: in.Key, MemberID: in.MemberID, Patch: &in.Patch})
@@ -83,6 +77,10 @@ func (a *App) mcpServer(id, secret string) *mcp.Server {
 	})
 	mcp.AddTool(s, t("shortlist", "Rank at most six eligible movies. fair, average, catalog_prior; empty results never relax constraints.", true), func(ctx context.Context, r *mcp.CallToolRequest, in MCPShortlist) (*mcp.CallToolResult, map[string]any, error) {
 		v, e := a.shortlist(ctx, id, secret, in.Mode)
+		return toolResult(v, e)
+	})
+	mcp.AddTool(s, t("runtime_preview", "Read-only runtime what-if. Use only current cached supply; never changes the room or fetches supply. Supply unknowns stay excluded. Apply is a page action.", true), func(ctx context.Context, r *mcp.CallToolRequest, in RuntimePreviewInput) (*mcp.CallToolResult, map[string]any, error) {
+		v, e := a.runtimePreview(ctx, id, secret, in.MaxRuntime)
 		return toolResult(v, e)
 	})
 	mcp.AddTool(s, t("search_movies", "Search only the supported movie catalog; matching a title alone does not prove eligibility.", true), func(ctx context.Context, r *mcp.CallToolRequest, in MCPQuery) (*mcp.CallToolResult, map[string]any, error) {

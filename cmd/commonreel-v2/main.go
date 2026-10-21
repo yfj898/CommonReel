@@ -94,10 +94,6 @@ func main() {
 	if e = os.MkdirAll(filepath.Dir(*db), 0700); e != nil {
 		log.Fatal(e)
 	}
-	model := os.Getenv("OLLAMA_MODEL")
-	if model == "" {
-		model = "qwen3.5:4b"
-	}
 	supplier := &workflow.Watchmode{Key: os.Getenv("WATCHMODE_API_KEY"), Limit: *cap}
 	origin := "http://" + *listen
 	inviteOrigin := origin
@@ -118,7 +114,7 @@ func main() {
 		inviteOrigin = "http://" + lanAddress
 		allowedHosts = append(allowedHosts, *lan)
 	}
-	app, e := workflow.Open(workflow.Config{Database: *db, Films: films, Supplier: supplier, AllowedHosts: allowedHosts, InviteOrigin: inviteOrigin, OllamaEndpoint: os.Getenv("OLLAMA_ENDPOINT"), OllamaModel: model})
+	app, e := workflow.Open(workflow.Config{Database: *db, Films: films, Supplier: supplier, AllowedHosts: allowedHosts, InviteOrigin: inviteOrigin, OllamaEndpoint: os.Getenv("OLLAMA_ENDPOINT"), OllamaModel: os.Getenv("OLLAMA_MODEL")})
 	if e != nil {
 		log.Fatal(e)
 	}

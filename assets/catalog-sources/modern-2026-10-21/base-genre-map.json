@@ -1,0 +1,1030 @@
+{
+  "source": "Official Wikidata English genre labels (wbgetentities)",
+  "checked_utc": "2026-10-14",
+  "scope": "source-label normalization, not a complete genre ontology or content safety classifier",
+  "genres": {
+    "Q102429885": {
+      "label": "coming-of-age film",
+      "tags": [
+        "Coming-of-Age"
+      ]
+    },
+    "Q102439494": {
+      "label": "magic realist fiction",
+      "tags": [
+        "Magic Realist"
+      ]
+    },
+    "Q1029945": {
+      "label": "education novel",
+      "tags": [
+        "Education Novel"
+      ]
+    },
+    "Q1033891": {
+      "label": "martial arts film",
+      "tags": [
+        "Martial Arts"
+      ]
+    },
+    "Q104097073": {
+      "label": "transgender film",
+      "tags": [
+        "Transgender"
+      ]
+    },
+    "Q104765957": {
+      "label": "time-travel film",
+      "tags": [
+        "Time-Travel"
+      ]
+    },
+    "Q1054574": {
+      "label": "romance film",
+      "tags": [
+        "Romance"
+      ]
+    },
+    "Q1056617": {
+      "label": "love letter",
+      "tags": [
+        "Love Letter"
+      ]
+    },
+    "Q10654943": {
+      "label": "knight film",
+      "tags": [
+        "Knight"
+      ]
+    },
+    "Q108466999": {
+      "label": "comedy horror film",
+      "tags": [
+        "Comedy",
+        "Horror"
+      ]
+    },
+    "Q109629396": {
+      "label": "psychological horror film",
+      "tags": [
+        "Horror"
+      ]
+    },
+    "Q109733304": {
+      "label": "psychological thriller film",
+      "tags": [
+        "Thriller"
+      ]
+    },
+    "Q109733333": {
+      "label": "political thriller film",
+      "tags": [
+        "Thriller"
+      ]
+    },
+    "Q109733630": {
+      "label": "police procedural film",
+      "tags": [
+        "Police Procedural"
+      ]
+    },
+    "Q111278985": {
+      "label": "American football film",
+      "tags": [
+        "American Football"
+      ]
+    },
+    "Q111984153": {
+      "label": "young adult fiction",
+      "tags": [
+        "Young Adult"
+      ]
+    },
+    "Q11304653": {
+      "label": "suspense film",
+      "tags": [
+        "Suspense"
+      ]
+    },
+    "Q113485322": {
+      "label": "crime drama film",
+      "tags": [
+        "Crime",
+        "Drama"
+      ]
+    },
+    "Q11366": {
+      "label": "alternative rock",
+      "tags": [
+        "Alternative Rock"
+      ]
+    },
+    "Q1146335": {
+      "label": "teen film",
+      "tags": [
+        "Teen"
+      ]
+    },
+    "Q1152184": {
+      "label": "Shakespearean comedy",
+      "tags": [
+        "Comedy"
+      ]
+    },
+    "Q116456802": {
+      "label": "war drama",
+      "tags": [
+        "Drama",
+        "War"
+      ]
+    },
+    "Q116514801": {
+      "label": "historical drama film",
+      "tags": [
+        "Drama"
+      ]
+    },
+    "Q116790414": {
+      "label": "2D platform game",
+      "tags": [
+        "2D Platform Game"
+      ]
+    },
+    "Q117318778": {
+      "label": "postmodern fiction",
+      "tags": [
+        "Postmodern"
+      ]
+    },
+    "Q118612349": {
+      "label": "romantic comedy film",
+      "tags": [
+        "Comedy",
+        "Romance"
+      ]
+    },
+    "Q1196408": {
+      "label": "historical fiction",
+      "tags": [
+        "Historical"
+      ]
+    },
+    "Q1200678": {
+      "label": "mystery film",
+      "tags": [
+        "Mystery"
+      ]
+    },
+    "Q121389176": {
+      "label": "humorous fiction",
+      "tags": [
+        "Humorous"
+      ]
+    },
+    "Q1248788": {
+      "label": "realist novel",
+      "tags": [
+        "Realist Novel"
+      ]
+    },
+    "Q128758": {
+      "label": "satire",
+      "tags": [
+        "Satire"
+      ]
+    },
+    "Q130232": {
+      "label": "drama film",
+      "tags": [
+        "Drama"
+      ]
+    },
+    "Q1312571": {
+      "label": "developmental novel",
+      "tags": [
+        "Developmental Novel"
+      ]
+    },
+    "Q131539": {
+      "label": "children's literature",
+      "tags": [
+        "Children'S Literature"
+      ]
+    },
+    "Q132311": {
+      "label": "fantasy",
+      "tags": [
+        "Fantasy"
+      ]
+    },
+    "Q1339864": {
+      "label": "sport film",
+      "tags": [
+        "Sport"
+      ]
+    },
+    "Q1341051": {
+      "label": "post-apocalyptic film",
+      "tags": [
+        "Post-Apocalyptic"
+      ]
+    },
+    "Q1342372": {
+      "label": "monster film",
+      "tags": [
+        "Monster"
+      ]
+    },
+    "Q1347298": {
+      "label": "serialized fiction",
+      "tags": [
+        "Serialized"
+      ]
+    },
+    "Q1361932": {
+      "label": "family film",
+      "tags": [
+        "Family"
+      ]
+    },
+    "Q1433443": {
+      "label": "sword-and-sandal film",
+      "tags": [
+        "Sword-And-Sandal"
+      ]
+    },
+    "Q1535153": {
+      "label": "superhero film",
+      "tags": [
+        "Superhero"
+      ]
+    },
+    "Q1551015": {
+      "label": "group portrait",
+      "tags": [
+        "Group Portrait"
+      ]
+    },
+    "Q157394": {
+      "label": "fantasy film",
+      "tags": [
+        "Fantasy"
+      ]
+    },
+    "Q157443": {
+      "label": "comedy film",
+      "tags": [
+        "Comedy"
+      ]
+    },
+    "Q15898171": {
+      "label": "survival film",
+      "tags": [
+        "Survival"
+      ]
+    },
+    "Q16538713": {
+      "label": "chase film",
+      "tags": [
+        "Chase"
+      ]
+    },
+    "Q16575965": {
+      "label": "horror fiction",
+      "tags": [
+        "Horror"
+      ]
+    },
+    "Q16950433": {
+      "label": "comedy thriller",
+      "tags": [
+        "Comedy",
+        "Thriller"
+      ]
+    },
+    "Q17013749": {
+      "label": "historical film",
+      "tags": [
+        "Historical"
+      ]
+    },
+    "Q170238": {
+      "label": "sitcom",
+      "tags": [
+        "Sitcom"
+      ]
+    },
+    "Q170539": {
+      "label": "parody",
+      "tags": [
+        "Parody"
+      ]
+    },
+    "Q17172848": {
+      "label": "theatre",
+      "tags": [
+        "Theatre"
+      ]
+    },
+    "Q172980": {
+      "label": "Western film",
+      "tags": [
+        "Western"
+      ]
+    },
+    "Q174526": {
+      "label": "cyberpunk",
+      "tags": [
+        "Cyberpunk"
+      ]
+    },
+    "Q1776156": {
+      "label": "girls with guns",
+      "tags": [
+        "Girls With Guns"
+      ]
+    },
+    "Q1788980": {
+      "label": "crime comedy film",
+      "tags": [
+        "Comedy",
+        "Crime"
+      ]
+    },
+    "Q182015": {
+      "label": "thriller",
+      "tags": [
+        "Thriller"
+      ]
+    },
+    "Q185867": {
+      "label": "film noir",
+      "tags": [
+        "Film-Noir"
+      ]
+    },
+    "Q187760": {
+      "label": "new wave",
+      "tags": [
+        "New Wave"
+      ]
+    },
+    "Q188473": {
+      "label": "action film",
+      "tags": [
+        "Action"
+      ]
+    },
+    "Q1894374": {
+      "label": "tech noir",
+      "tags": [
+        "Film-Noir"
+      ]
+    },
+    "Q1919632": {
+      "label": "melodrama",
+      "tags": [
+        "Drama"
+      ]
+    },
+    "Q192881": {
+      "label": "tragicomedy",
+      "tags": [
+        "Comedy"
+      ]
+    },
+    "Q193355": {
+      "label": "blues rock",
+      "tags": [
+        "Blues Rock"
+      ]
+    },
+    "Q19367312": {
+      "label": "crime thriller film",
+      "tags": [
+        "Crime",
+        "Thriller"
+      ]
+    },
+    "Q19765983": {
+      "label": "romantic fiction",
+      "tags": [
+        "Romance"
+      ]
+    },
+    "Q200092": {
+      "label": "horror film",
+      "tags": [
+        "Horror"
+      ]
+    },
+    "Q20442589": {
+      "label": "LGBTQ-related film",
+      "tags": [
+        "Lgbtq-Related"
+      ]
+    },
+    "Q20443008": {
+      "label": "dystopian film",
+      "tags": [
+        "Dystopian"
+      ]
+    },
+    "Q20656232": {
+      "label": "science fiction action film",
+      "tags": [
+        "Action",
+        "Sci-Fi"
+      ]
+    },
+    "Q20668387": {
+      "label": "didactic literature",
+      "tags": [
+        "Didactic Literature"
+      ]
+    },
+    "Q20669641": {
+      "label": "Gothic fiction",
+      "tags": [
+        "Gothic"
+      ]
+    },
+    "Q2096633": {
+      "label": "pirate film",
+      "tags": [
+        "Pirate"
+      ]
+    },
+    "Q21192427": {
+      "label": "crossover fiction",
+      "tags": [
+        "Crossover"
+      ]
+    },
+    "Q21322403": {
+      "label": "pritcha",
+      "tags": [
+        "Pritcha"
+      ]
+    },
+    "Q2137852": {
+      "label": "vampire film",
+      "tags": [
+        "Vampire"
+      ]
+    },
+    "Q21401869": {
+      "label": "flashback film",
+      "tags": [
+        "Flashback"
+      ]
+    },
+    "Q2143665": {
+      "label": "children's film",
+      "tags": [
+        "Children'S"
+      ]
+    },
+    "Q21615367": {
+      "label": "children's novel",
+      "tags": [
+        "Children'S Novel"
+      ]
+    },
+    "Q21802675": {
+      "label": "adventure fiction",
+      "tags": [
+        "Adventure"
+      ]
+    },
+    "Q222639": {
+      "label": "swashbuckler film",
+      "tags": [
+        "Swashbuckler"
+      ]
+    },
+    "Q223770": {
+      "label": "B movie",
+      "tags": [
+        "B Movie"
+      ]
+    },
+    "Q223945": {
+      "label": "Bildungsroman",
+      "tags": [
+        "Bildungsroman"
+      ]
+    },
+    "Q224700": {
+      "label": "comedy horror",
+      "tags": [
+        "Comedy",
+        "Horror"
+      ]
+    },
+    "Q2254193": {
+      "label": "rape and revenge film",
+      "tags": [
+        "Rape And Revenge"
+      ]
+    },
+    "Q2292320": {
+      "label": "sexploitation film",
+      "tags": [
+        "Sexploitation"
+      ]
+    },
+    "Q2297927": {
+      "label": "spy film",
+      "tags": [
+        "Spy"
+      ]
+    },
+    "Q22981906": {
+      "label": "treasure hunt film",
+      "tags": [
+        "Treasure Hunt"
+      ]
+    },
+    "Q2421031": {
+      "label": "neo-noir",
+      "tags": [
+        "Film-Noir"
+      ]
+    },
+    "Q2439025": {
+      "label": "erotic thriller",
+      "tags": [
+        "Thriller"
+      ]
+    },
+    "Q24723": {
+      "label": "literary fairy tale",
+      "tags": [
+        "Literary Fairy Tale"
+      ]
+    },
+    "Q2484376": {
+      "label": "thriller film",
+      "tags": [
+        "Thriller"
+      ]
+    },
+    "Q248583": {
+      "label": "screwball comedy film",
+      "tags": [
+        "Comedy"
+      ]
+    },
+    "Q24925": {
+      "label": "science fiction",
+      "tags": [
+        "Sci-Fi"
+      ]
+    },
+    "Q25110269": {
+      "label": "live-action/animated film",
+      "tags": [
+        "Action",
+        "Animation"
+      ]
+    },
+    "Q25533274": {
+      "label": "detective film",
+      "tags": [
+        "Detective"
+      ]
+    },
+    "Q2642760": {
+      "label": "vigilante film",
+      "tags": [
+        "Vigilante"
+      ]
+    },
+    "Q2678111": {
+      "label": "action comedy film",
+      "tags": [
+        "Action",
+        "Comedy"
+      ]
+    },
+    "Q28026639": {
+      "label": "Christmas film",
+      "tags": [
+        "Christmas"
+      ]
+    },
+    "Q2973181": {
+      "label": "speculative fiction film",
+      "tags": [
+        "Speculative Fiction"
+      ]
+    },
+    "Q3056541": {
+      "label": "autobiographical novel",
+      "tags": [
+        "Biography"
+      ]
+    },
+    "Q3072039": {
+      "label": "trial film",
+      "tags": [
+        "Trial"
+      ]
+    },
+    "Q3076696": {
+      "label": "association football film",
+      "tags": [
+        "Association Football"
+      ]
+    },
+    "Q31888058": {
+      "label": "ghost film",
+      "tags": [
+        "Ghost"
+      ]
+    },
+    "Q319221": {
+      "label": "adventure film",
+      "tags": [
+        "Adventure"
+      ]
+    },
+    "Q3327002": {
+      "label": "medieval film",
+      "tags": [
+        "Medieval"
+      ]
+    },
+    "Q3634883": {
+      "label": "supernatural film",
+      "tags": [
+        "Supernatural"
+      ]
+    },
+    "Q369747": {
+      "label": "war film",
+      "tags": [
+        "War"
+      ]
+    },
+    "Q3811649": {
+      "label": "juvenile fantasy",
+      "tags": [
+        "Fantasy"
+      ]
+    },
+    "Q3990883": {
+      "label": "action thriller",
+      "tags": [
+        "Action",
+        "Thriller"
+      ]
+    },
+    "Q40831": {
+      "label": "comedy",
+      "tags": [
+        "Comedy"
+      ]
+    },
+    "Q4184": {
+      "label": "autobiography",
+      "tags": [
+        "Biography"
+      ]
+    },
+    "Q43911809": {
+      "label": "supernatural horror film",
+      "tags": [
+        "Horror"
+      ]
+    },
+    "Q44563": {
+      "label": "picaresque novel",
+      "tags": [
+        "Picaresque Novel"
+      ]
+    },
+    "Q455315": {
+      "label": "compilation film",
+      "tags": [
+        "Compilation"
+      ]
+    },
+    "Q459290": {
+      "label": "independent film",
+      "tags": [
+        "Independent"
+      ]
+    },
+    "Q4674071": {
+      "label": "acid Western",
+      "tags": [
+        "Western"
+      ]
+    },
+    "Q471839": {
+      "label": "science fiction film",
+      "tags": [
+        "Sci-Fi"
+      ]
+    },
+    "Q4774498": {
+      "label": "anti-war film",
+      "tags": [
+        "War"
+      ]
+    },
+    "Q485395": {
+      "label": "gothic rock",
+      "tags": [
+        "Gothic Rock"
+      ]
+    },
+    "Q496523": {
+      "label": "heist film",
+      "tags": [
+        "Heist"
+      ]
+    },
+    "Q4984974": {
+      "label": "buddy cop film",
+      "tags": [
+        "Buddy Cop"
+      ]
+    },
+    "Q503354": {
+      "label": "Christmas carol",
+      "tags": [
+        "Christmas Carol"
+      ]
+    },
+    "Q53094": {
+      "label": "black comedy",
+      "tags": [
+        "Comedy"
+      ]
+    },
+    "Q538812": {
+      "label": "novel of manners",
+      "tags": [
+        "Novel Of Manners"
+      ]
+    },
+    "Q5442753": {
+      "label": "female buddy film",
+      "tags": [
+        "Female Buddy"
+      ]
+    },
+    "Q56451354": {
+      "label": "children's fiction",
+      "tags": [
+        "Children'S"
+      ]
+    },
+    "Q5778924": {
+      "label": "black comedy film",
+      "tags": [
+        "Comedy"
+      ]
+    },
+    "Q5793767": {
+      "label": "children's story",
+      "tags": [
+        "Children'S Story"
+      ]
+    },
+    "Q580850": {
+      "label": "techno-thriller",
+      "tags": [
+        "Thriller"
+      ]
+    },
+    "Q586250": {
+      "label": "prison film",
+      "tags": [
+        "Prison"
+      ]
+    },
+    "Q5897543": {
+      "label": "hood film",
+      "tags": [
+        "Hood"
+      ]
+    },
+    "Q590103": {
+      "label": "psychological thriller",
+      "tags": [
+        "Thriller"
+      ]
+    },
+    "Q598929": {
+      "label": "post-punk",
+      "tags": [
+        "Post-Punk"
+      ]
+    },
+    "Q599558": {
+      "label": "erotic film",
+      "tags": [
+        "Erotic"
+      ]
+    },
+    "Q622291": {
+      "label": "political thriller",
+      "tags": [
+        "Thriller"
+      ]
+    },
+    "Q622370": {
+      "label": "docudrama",
+      "tags": [
+        "Drama"
+      ]
+    },
+    "Q622548": {
+      "label": "parody film",
+      "tags": [
+        "Parody"
+      ]
+    },
+    "Q628165": {
+      "label": "road movie",
+      "tags": [
+        "Road Movie"
+      ]
+    },
+    "Q63214877": {
+      "label": "psychological drama film",
+      "tags": [
+        "Drama"
+      ]
+    },
+    "Q645928": {
+      "label": "biographical film",
+      "tags": [
+        "Biography"
+      ]
+    },
+    "Q652256": {
+      "label": "epic film",
+      "tags": [
+        "Epic"
+      ]
+    },
+    "Q6585139": {
+      "label": "mystery fiction",
+      "tags": [
+        "Mystery"
+      ]
+    },
+    "Q663106": {
+      "label": "buddy film",
+      "tags": [
+        "Buddy"
+      ]
+    },
+    "Q70077691": {
+      "label": "group photograph",
+      "tags": [
+        "Group Photograph"
+      ]
+    },
+    "Q7168625": {
+      "label": "historical drama",
+      "tags": [
+        "Drama"
+      ]
+    },
+    "Q7210294": {
+      "label": "political drama",
+      "tags": [
+        "Drama"
+      ]
+    },
+    "Q738473": {
+      "label": "romance",
+      "tags": [
+        "Romance"
+      ]
+    },
+    "Q7444356": {
+      "label": "gangster film",
+      "tags": [
+        "Gangster"
+      ]
+    },
+    "Q747483": {
+      "label": "erotic literature",
+      "tags": [
+        "Erotic Literature"
+      ]
+    },
+    "Q761469": {
+      "label": "science fiction comedy",
+      "tags": [
+        "Comedy",
+        "Sci-Fi"
+      ]
+    },
+    "Q7696995": {
+      "label": "comedy television program",
+      "tags": [
+        "Comedy"
+      ]
+    },
+    "Q794912": {
+      "label": "dark fantasy",
+      "tags": [
+        "Fantasy"
+      ]
+    },
+    "Q80930": {
+      "label": "tragedy",
+      "tags": [
+        "Tragedy"
+      ]
+    },
+    "Q8275050": {
+      "label": "children's book",
+      "tags": [
+        "Children'S Book"
+      ]
+    },
+    "Q83270": {
+      "label": "hard rock",
+      "tags": [
+        "Hard Rock"
+      ]
+    },
+    "Q842256": {
+      "label": "musical film",
+      "tags": [
+        "Musical"
+      ]
+    },
+    "Q846224": {
+      "label": "fighting game",
+      "tags": [
+        "Fighting Game"
+      ]
+    },
+    "Q853630": {
+      "label": "slasher film",
+      "tags": [
+        "Slasher"
+      ]
+    },
+    "Q859369": {
+      "label": "comedy drama",
+      "tags": [
+        "Comedy",
+        "Drama"
+      ]
+    },
+    "Q860626": {
+      "label": "romantic comedy",
+      "tags": [
+        "Comedy",
+        "Romance"
+      ]
+    },
+    "Q870452": {
+      "label": "family saga",
+      "tags": [
+        "Family"
+      ]
+    },
+    "Q895583": {
+      "label": "boxing film",
+      "tags": [
+        "Boxing"
+      ]
+    },
+    "Q904447": {
+      "label": "military science fiction",
+      "tags": [
+        "Sci-Fi"
+      ]
+    },
+    "Q93204": {
+      "label": "documentary film",
+      "tags": [
+        "Documentary"
+      ]
+    },
+    "Q959790": {
+      "label": "crime film",
+      "tags": [
+        "Crime"
+      ]
+    },
+    "Q98526245": {
+      "label": "fantasy television series",
+      "tags": [
+        "Fantasy"
+      ]
+    }
+  }
+}

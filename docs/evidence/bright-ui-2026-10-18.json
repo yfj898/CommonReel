@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-18",
+  "scope": "Brighter web interface with English and Simplified Chinese",
+  "languages": ["en", "zh-CN"],
+  "language_selection": "Browser language on first visit; explicit choice saved per browser origin",
+  "translation_scope": ["static UI", "dynamic workflow state", "genres", "dialog labels", "local validation", "known supply failure"],
+  "original_text_preserved": ["member names", "film titles", "imported titles", "model reply content"],
+  "checks": {
+    "node_behavior_tests_passed": 8,
+    "javascript_syntax": "PASS",
+    "go_test_all_packages": "PASS",
+    "final_embedded_binary_build": "PASS",
+    "static_phrase_catalog_coverage": "PASS",
+    "catalog_genre_translations_and_canonical_round_trip": "PASS"
+  },
+  "browser_observations": {
+    "engine": "In-app browser",
+    "language_switch_preserves_room_name_draft": "PASS",
+    "language_persists_after_reload": "PASS",
+    "member_dialog_switch_preserves_unsaved_chinese_values": "PASS",
+    "chinese_genres_submitted_to_existing_api": "PASS",
+    "member_named_Comedy_not_translated": "PASS",
+    "language_switch_preserves_candidate_and_acceptance": "PASS",
+    "real_supply_save_and_reload": "Sleepless in Seattle (1993), 105 minutes, two acceptance records",
+    "assistant_dialog_switch_preserves_message_draft": "PASS",
+    "chinese_and_english_360px": {"inner_width": 360, "scroll_width": 360},
+    "desktop": {"inner_width": 1280, "client_width": 1265, "scroll_width": 1265},
+    "actual_sidebar_after_final_fix": {"inner_width": 319, "client_width": 304, "scroll_width": 304},
+    "physical_phone": "NOT_RUN"
+  },
+  "supplier_failure_observed": {
+    "reason": "The isolated test process reached its explicit 60-request cap",
+    "result": "Save refused; no choice was created with unknown supply",
+    "recovery": "Restarted only the test process with a 150-request cap, queried again, proposed an eligible candidate, collected fresh responses and saved successfully"
+  },
+  "delivery": {
+    "port": 8096,
+    "prior_room": "Existing Full review room restored with its saved Bullets Over Broadway choice",
+    "temporary_port_8097": "STOPPED",
+    "source_pushed": false
+  }
+}

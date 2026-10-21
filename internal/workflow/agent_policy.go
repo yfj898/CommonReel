@@ -11,6 +11,9 @@ import (
 // tools; Go checks that changed hard fields have explicit evidence in the turn.
 func (a *App) guardAgentWrite(s Session, name string, args map[string]any, message string) error {
 	lower := strings.ToLower(message)
+	if regexp.MustCompile(`\bwhat if\b|\bif we (had|have|could)\b|\bpreview\b|试算|假如|如果`).MatchString(lower) {
+		return fail("FORBIDDEN", 403, "a hypothetical request cannot authorize a real edit; use runtime_preview")
+	}
 	if name == "set_policy" {
 		b, _ := json.Marshal(args["policy"])
 		var p Policy

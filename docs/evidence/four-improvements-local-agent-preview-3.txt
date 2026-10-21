@@ -1,0 +1,41 @@
+What if the runtime limit were 96 minutes? Preview only; do not change the room.
+Read-only preview: 81 → 96 minutes; eligible films 2 → 14, 12 newly eligible; 43 unknown under the proposed limit. No limits changed.
+
+MCP tool trace:
+[model] runtime_preview: executed · v5
+Status: completed · Model: qwen3.5:4b · 16.35s
+READ-ONLY WHAT-IF
+81 → 96 minutes
+
+2 → 14 eligible films · 12 newly eligible
+
+43 films have unknown metadata or supply under this limit. They are excluded.
+
+Hellraiser: Bloodline
+1996 · 85 minutes
+Amazon Prime
+US subscription · checked 10/21/2026, 10:37:19 AM
+Candyman: Farewell to the Flesh
+1995 · 93 minutes
+Amazon Prime
+US subscription · checked 10/21/2026, 10:37:19 AM
+Fled
+1996 · 90 minutes
+Amazon Prime
+US subscription · checked 10/21/2026, 10:37:21 AM
+Inside Out 2
+2024 · 96 minutes
+Disney+
+US subscription · checked 10/21/2026, 11:01:26 AM
+Fatal Instinct
+1993 · 86 minutes
+Amazon Prime
+US subscription · checked 10/21/2026, 10:37:21 AM
+Celtic Pride
+1996 · 87 minutes
+Amazon Prime
+US subscription · checked 10/21/2026, 10:37:22 AM
+
+Cached supply only. Platforms, vetoes and rewatch rules stay unchanged. Find films can refresh missing supply.
+
+Apply this runtime

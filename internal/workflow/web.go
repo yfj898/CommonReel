@@ -40,9 +40,6 @@ func (a *App) webRoutes(mux *http.ServeMux) {
 			availability["status"] = "external adapter configured"
 		}
 		endpoint := a.cfg.OllamaEndpoint
-		if endpoint == "" {
-			endpoint = "http://127.0.0.1:11434"
-		}
 		model := "unavailable"
 		req, _ := http.NewRequestWithContext(ctx, "GET", strings.TrimRight(endpoint, "/")+"/api/tags", nil)
 		if req != nil {

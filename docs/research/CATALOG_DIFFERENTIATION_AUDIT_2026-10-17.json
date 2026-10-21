@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-17",
+  "source_commit": "a9b85b9be91d8f6bf5c614cc86a20e2f87bf1bde",
+  "source": "assets/catalog-v2.json",
+  "sha256": "831ada765c79d4adf8583b2d4d4e77aac7a66ff314c2357806d06b2985978d74",
+  "film_count": 217,
+  "year_min": 1968,
+  "year_max": 1996,
+  "catalog_prior_distribution": {
+    "3.0": 217
+  },
+  "inference_from_selection_go": "Without an explicit film rating or positive genre match, estimate() returns catalog_prior. With all priors at 3.0, these sparse-input candidates tie at 3.0. This is not a measured recommendation-accuracy result.",
+  "evidence_boundaries": "Current local catalog/code audit; not user research, competitor testing or award probability."
+}

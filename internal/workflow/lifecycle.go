@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"log"
 	"net/http"
 	"time"
 )
@@ -21,27 +22,7 @@ func (a *App) Sweep(ctx context.Context) error {
 	if _, e = tx.ExecContext(ctx, "DELETE FROM v2_supply WHERE julianday(json_extract(payload,'$.fetched_at')) <= julianday(?)", a.cfg.Now().UTC().Add(-30*24*time.Hour).Format(time.RFC3339Nano)); e != nil {
 		return e
 	}
-	rows, e := tx.QueryContext(ctx, "SELECT payload FROM v2_sessions")
-	if e != nil {
-		return e
-	}
-	all := []Session{}
-	for rows.Next() {
-		var raw string
-		if e = rows.Scan(&raw); e != nil {
-			rows.Close()
-			return e
-		}
-		var st storedSession
-		if e = json.Unmarshal([]byte(raw), &st); e != nil {
-			rows.Close()
-			return e
-		}
-		st.Session.InviteHash = st.InviteHash
-		all = append(all, st.Session)
-	}
-	e = rows.Err()
-	rows.Close()
+	all, e := readSessions(ctx, tx)
 	if e != nil {
 		return e
 	}
@@ -51,10 +32,7 @@ func (a *App) Sweep(ctx context.Context) error {
 			s.Name = ""
 			s.Members = []Member{}
 			s.Policy = Policy{}
-			s.Candidate = nil
-			s.Acceptances = map[string]Acceptance{}
-			s.Revision++
-			s.Decision++
+			s.advanceDecision(nil)
 			if e = putSession(ctx, tx, s); e != nil {
 				return e
 			}
@@ -71,7 +49,9 @@ func (a *App) cleanupLoop() {
 		case <-a.stop:
 			return
 		case <-t.C:
-			a.Sweep(context.Background())
+			if e := a.Sweep(context.Background()); e != nil {
+				log.Printf("session cleanup failed: %v", e)
+			}
 		}
 	}
 }

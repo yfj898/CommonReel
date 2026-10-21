@@ -51,6 +51,21 @@
     "catalog_version": "ca1f517ab4228b30aa6194a543af2f74a679574c3a648e9d039562a6691c3175"
   },
   {
+    "film_id": "wikidata:Q103372692",
+    "title": "Encanto",
+    "year": 2021,
+    "imdb_id": "tt2953050",
+    "runtime_minutes": 109,
+    "genres": [
+      "Fantasy",
+      "Musical"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q103372692",
+    "catalog_version": "530cda8cf8eb310d6ce763d9b5c7e0e9d029313c373480b9c8face535c59467d"
+  },
+  {
     "film_id": "wikidata:Q104123",
     "title": "Pulp Fiction",
     "year": 1994,
@@ -71,6 +86,22 @@
     "catalog_prior": 3.0,
     "source": "https://www.wikidata.org/wiki/Q104123",
     "catalog_version": "54677e01c64610478f1557fa43ce20895355b617ce9b12cacc6ec6b80c5aab55"
+  },
+  {
+    "film_id": "wikidata:Q104686893",
+    "title": "CODA",
+    "year": 2021,
+    "imdb_id": "tt10366460",
+    "runtime_minutes": 111,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Musical"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q104686893",
+    "catalog_version": "aafb0cbacda4e64febef7f369c5eb20e7ca9c68112a9ca58cac34fa2ffd95607"
   },
   {
     "film_id": "wikidata:Q1049417",
@@ -160,6 +191,29 @@
     "catalog_version": "c65eb67276ce0cc326532615608dbdd95b8a916a98bf67373f79e3fc77e8e8c7"
   },
   {
+    "film_id": "wikidata:Q109228991",
+    "title": "Dune: Part Two",
+    "year": 2024,
+    "imdb_id": "tt15239678",
+    "runtime_minutes": 165,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Epic",
+      "Sci-Fi",
+      "Speculative Fiction"
+    ],
+    "aliases": [
+      "Dune 2",
+      "Dune II",
+      "Dune Part Two",
+      "Dune Part 2"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q109228991",
+    "catalog_version": "bc1de19bd829f82d2a426c4b22b72c777babec93ec3ba62cec4ee98369a554cc"
+  },
+  {
     "film_id": "wikidata:Q1093391",
     "title": "Mulholland Falls",
     "year": 1996,
@@ -234,6 +288,22 @@
     "catalog_version": "b488406d7c01d576f5ccd9ae956ac90411c9aac667afb4bb42845c3294876cf4"
   },
   {
+    "film_id": "wikidata:Q112114745",
+    "title": "The Holdovers",
+    "year": 2023,
+    "imdb_id": "tt14849194",
+    "runtime_minutes": 133,
+    "genres": [
+      "Christmas",
+      "Comedy",
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q112114745",
+    "catalog_version": "99be1c09f94481b86e5d89be5b92b9d742506bb8db9f94181ca6d4c0f3870bfa"
+  },
+  {
     "film_id": "wikidata:Q1127709",
     "title": "True Romance",
     "year": 1993,
@@ -306,6 +376,22 @@
     "catalog_prior": 3.0,
     "source": "https://www.wikidata.org/wiki/Q1137372",
     "catalog_version": "841b6fd8fc449a6de54cd70116c9ca7fa945a12995a92485013dba511a329d2d"
+  },
+  {
+    "film_id": "wikidata:Q113877606",
+    "title": "Inside Out 2",
+    "year": 2024,
+    "imdb_id": "tt22022452",
+    "runtime_minutes": 96,
+    "genres": [
+      "Comedy",
+      "Coming-of-Age",
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q113877606",
+    "catalog_version": "c40172e4cead8efd9341101f41269121f31fd926f3ee2131a4e0ac2e3aa036e8"
   },
   {
     "film_id": "wikidata:Q1139237",
@@ -386,6 +472,20 @@
     "catalog_prior": 3.0,
     "source": "https://www.wikidata.org/wiki/Q1160005",
     "catalog_version": "67e6381657ac2633b5b976a8ac6576a6418d1d4634b8e271799cf7891bb6b535"
+  },
+  {
+    "film_id": "wikidata:Q116025865",
+    "title": "Past Lives",
+    "year": 2023,
+    "imdb_id": "tt13238346",
+    "runtime_minutes": 106,
+    "genres": [
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q116025865",
+    "catalog_version": "5bfe596fab4325b0997a6a492b01e1c4de7b4b4cd94d3f6163fd26a68c5dff9f"
   },
   {
     "film_id": "wikidata:Q1163081",
@@ -630,6 +730,40 @@
     "catalog_prior": 3.0,
     "source": "https://www.wikidata.org/wiki/Q1218462",
     "catalog_version": "2f9e5074a0067ef34b9d2657fa3df6b3c65413036ede10e73f10011a707f0bdb"
+  },
+  {
+    "film_id": "wikidata:Q124378349",
+    "title": "The Wild Robot",
+    "year": 2024,
+    "imdb_id": "tt29623480",
+    "runtime_minutes": 102,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q124378349",
+    "catalog_version": "7f7dc4b1d4b8140ccf85f84d9055f6909b64afed253016a1798dc121b2f67ec1"
+  },
+  {
+    "film_id": "wikidata:Q125622088",
+    "title": "Flow",
+    "year": 2024,
+    "imdb_id": "tt4772188",
+    "runtime_minutes": 80,
+    "genres": [
+      "Adventure",
+      "Family",
+      "Fantasy"
+    ],
+    "aliases": [
+      "Straume"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q125622088",
+    "catalog_version": "c11956aff72f0392e6adaf1dd680905ca38fa36bedc1ad7b416770aff05ad093"
   },
   {
     "film_id": "wikidata:Q1304560",
@@ -969,6 +1103,27 @@
     "catalog_prior": 3.0,
     "source": "https://www.wikidata.org/wiki/Q1518218",
     "catalog_version": "d30b6f60b1fb0309f27ed84288f8979efe783f59c79aefce7779e27bbe8bae6d"
+  },
+  {
+    "film_id": "wikidata:Q15270647",
+    "title": "Zootopia",
+    "year": 2016,
+    "imdb_id": "tt2948356",
+    "runtime_minutes": 108,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Buddy Cop",
+      "Comedy",
+      "Detective",
+      "Family"
+    ],
+    "aliases": [
+      "Zootropolis"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q15270647",
+    "catalog_version": "2d3050e87b6303c7bc3b903fbb40a0310e5cbdbbd571d08f4e1e9e1bf9d190dc"
   },
   {
     "film_id": "wikidata:Q1534001",
@@ -1447,6 +1602,21 @@
     "catalog_version": "263d1d421554e3dd530b3efd61e6b1d1ba448043528ca53353379028e84d1d5b"
   },
   {
+    "film_id": "wikidata:Q18154496",
+    "title": "Spotlight",
+    "year": 2015,
+    "imdb_id": "tt1895587",
+    "runtime_minutes": 128,
+    "genres": [
+      "Biography",
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q18154496",
+    "catalog_version": "e6cb9a5676fc4349f796c60d2978beca0576533d000facbee8d86d2455e8abf9"
+  },
+  {
     "film_id": "wikidata:Q1824522",
     "title": "Mixed Nuts",
     "year": 1994,
@@ -1496,6 +1666,44 @@
     "catalog_prior": 3.0,
     "source": "https://www.wikidata.org/wiki/Q184701",
     "catalog_version": "b05467e9ae45345ded94bcc6fe762e257fca9677723b597471c75abaf886ec39"
+  },
+  {
+    "film_id": "wikidata:Q18547944",
+    "title": "The Martian",
+    "year": 2015,
+    "imdb_id": "tt3659388",
+    "runtime_minutes": 141,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Sci-Fi",
+      "Survival"
+    ],
+    "aliases": [
+      "Martian"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q18547944",
+    "catalog_version": "68b12bb09a9cc64c6879cc99b87f7f68cca1f0702884c3a402b816b3dd8496d5"
+  },
+  {
+    "film_id": "wikidata:Q18647981",
+    "title": "Moana",
+    "year": 2016,
+    "imdb_id": "tt3521164",
+    "runtime_minutes": 107,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Drama",
+      "Musical"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q18647981",
+    "catalog_version": "73c1f92f6bce1b35b5d291b6b5aa8c166d01cc1fe15b2a77fa56cc0eca954f83"
   },
   {
     "film_id": "wikidata:Q1869916",
@@ -1577,6 +1785,42 @@
     "catalog_prior": 3.0,
     "source": "https://www.wikidata.org/wiki/Q1971683",
     "catalog_version": "8805b91de51b74696fdf19cdc1ef2928a6b73203f084aab5fcdc230132fdceab"
+  },
+  {
+    "film_id": "wikidata:Q19850715",
+    "title": "The Big Short",
+    "year": 2015,
+    "imdb_id": "tt1596363",
+    "runtime_minutes": 130,
+    "genres": [
+      "Biography",
+      "Comedy",
+      "Crime",
+      "Drama"
+    ],
+    "aliases": [
+      "Big Short"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q19850715",
+    "catalog_version": "0a0ac53872429593ba920dce290bfc5de4a4df1097548671c3c620a614120c73"
+  },
+  {
+    "film_id": "wikidata:Q20382729",
+    "title": "Arrival",
+    "year": 2016,
+    "imdb_id": "tt2543164",
+    "runtime_minutes": 116,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q20382729",
+    "catalog_version": "2526a4a8011aeda2dce25a2fece2a9d0043740ff675b4bc8411332f98923f720"
   },
   {
     "film_id": "wikidata:Q204725",
@@ -1703,6 +1947,28 @@
     "catalog_version": "346fef43b147f05d0488a110375772ee186004af798ff241d38c159e6ed4f1ea"
   },
   {
+    "film_id": "wikidata:Q21935651",
+    "title": "Dunkirk",
+    "year": 2017,
+    "imdb_id": "tt5013056",
+    "runtime_minutes": 106,
+    "genres": [
+      "Drama",
+      "Historical",
+      "War"
+    ],
+    "aliases": [
+      "Dunkirk 70mm",
+      "Dunkirk: The IMAX Experience in 70mm Film",
+      "Dunkirk: The IMAX 2D Experience",
+      "Dunkirk The IMAX 2D Experience",
+      "Dunkirk The IMAX Experience in 70mm Film"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q21935651",
+    "catalog_version": "f8a54f54d69ec1eb9d47adaeb018d8827df9da8985853d5ee07edb6a167b3dec"
+  },
+  {
     "film_id": "wikidata:Q221345",
     "title": "Batman Forever",
     "year": 1995,
@@ -1783,6 +2049,38 @@
     "catalog_version": "2cae29ff6a80aa8d59a36812de32e2c82b59dca38b7367c3f5790cb98cf51f91"
   },
   {
+    "film_id": "wikidata:Q23755544",
+    "title": "Hidden Figures",
+    "year": 2016,
+    "imdb_id": "tt4846340",
+    "runtime_minutes": 127,
+    "genres": [
+      "Biography",
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q23755544",
+    "catalog_version": "a8f5cc9d42ea15c1fdc702cb83c861671cdb1c4040126bae228e96421c1ea928"
+  },
+  {
+    "film_id": "wikidata:Q23780734",
+    "title": "Black Panther",
+    "year": 2018,
+    "imdb_id": "tt1825683",
+    "runtime_minutes": 134,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Superhero"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q23780734",
+    "catalog_version": "14dbd9b1303d4b4d6eb1c112551e3a550f6f9be80f9aef7e2ae28dfd378e487d"
+  },
+  {
     "film_id": "wikidata:Q240849",
     "title": "Timecop",
     "year": 1994,
@@ -1852,6 +2150,23 @@
     "catalog_prior": 3.0,
     "source": "https://www.wikidata.org/wiki/Q249032",
     "catalog_version": "21b859d59ab95cf4dbb01c7bdc8b64caa9c727b438e29d6e3ec5021b97bb0c4d"
+  },
+  {
+    "film_id": "wikidata:Q25136235",
+    "title": "Get Out",
+    "year": 2017,
+    "imdb_id": "tt5052448",
+    "runtime_minutes": 104,
+    "genres": [
+      "Comedy",
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q25136235",
+    "catalog_version": "636855b5e6aa430b890b4318f07d3bc9f035f30a9275d2a9db98613bbf39a1d6"
   },
   {
     "film_id": "wikidata:Q2517431",
@@ -1981,6 +2296,26 @@
     "catalog_version": "ff9e30175c8a66e58d89672f8aca44ce3038b97c9b9c5b6f8eb8ec1ee5fe4403"
   },
   {
+    "film_id": "wikidata:Q26698156",
+    "title": "The Shape of Water",
+    "year": 2017,
+    "imdb_id": "tt5580390",
+    "runtime_minutes": 123,
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Magic Realist",
+      "Romance",
+      "Thriller"
+    ],
+    "aliases": [
+      "Shape of Water"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q26698156",
+    "catalog_version": "8665c50a8ec5dad71be8c8305de4a5f2d5449a46e921bcef735d425faabe60dd"
+  },
+  {
     "film_id": "wikidata:Q2704431",
     "title": "Mute Witness",
     "year": 1995,
@@ -2042,6 +2377,25 @@
     "catalog_prior": 3.0,
     "source": "https://www.wikidata.org/wiki/Q272595",
     "catalog_version": "3d834aa939fd5fb07e7ea260084de7414db78ec3354d78df72c1cd020f8f2b6d"
+  },
+  {
+    "film_id": "wikidata:Q27590871",
+    "title": "Paddington 2",
+    "year": 2017,
+    "imdb_id": "tt4468740",
+    "runtime_minutes": 103,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
+    "aliases": [
+      "Paddington:2 (India Only)",
+      "P:2"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q27590871",
+    "catalog_version": "51f63a3a9e9d08c7e55e259d89aa2e5123c51ba30994ccf6c28aed059101a671"
   },
   {
     "film_id": "wikidata:Q280918",
@@ -2777,6 +3131,25 @@
     "catalog_version": "1b1d40f6ca53b275d0b9ce9a55b08b3e703242f9159790e19bd6ff15b992934e"
   },
   {
+    "film_id": "wikidata:Q54021143",
+    "title": "The Mitchells vs. The Machines",
+    "year": 2021,
+    "imdb_id": "tt7979580",
+    "runtime_minutes": 113,
+    "genres": [
+      "Apocalyptic",
+      "Road Movie",
+      "Sci-Fi"
+    ],
+    "aliases": [
+      "Connected",
+      "The Mitchells vs The Machines"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q54021143",
+    "catalog_version": "4ad13d65234a859ae1b03eddcd54c7b2b16c59de4b14b640f7c255e668301d41"
+  },
+  {
     "film_id": "wikidata:Q540361",
     "title": "When Night Is Falling",
     "year": 1995,
@@ -2828,6 +3201,29 @@
     "catalog_version": "64de288fe3eb5bede56e6ec3b1bf46ed95f0c5927419aa095f312ed0836a9e60"
   },
   {
+    "film_id": "wikidata:Q55081822",
+    "title": "Ford v Ferrari",
+    "year": 2019,
+    "imdb_id": "tt1950186",
+    "runtime_minutes": 152,
+    "genres": [
+      "Action",
+      "Biography",
+      "Drama",
+      "Sport"
+    ],
+    "aliases": [
+      "Le Mans '66",
+      "Ford vs Ferrari",
+      "Ford versus Ferrari",
+      "Le Mans 66",
+      "Le Mans 1966"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q55081822",
+    "catalog_version": "22fb4bec83fbede943e3b0898e8aa46851fa66e18f6e2126e2da1e4ce7d545b5"
+  },
+  {
     "film_id": "wikidata:Q559429",
     "title": "Tom & Viv",
     "year": 1994,
@@ -2859,6 +3255,20 @@
     "catalog_prior": 3.0,
     "source": "https://www.wikidata.org/wiki/Q564893",
     "catalog_version": "6d0e6ce021c8ee99930ac77be55590a3f620cc230e943a4ed62dfa0575f31d34"
+  },
+  {
+    "film_id": "wikidata:Q56881140",
+    "title": "Little Women",
+    "year": 2019,
+    "imdb_id": "tt3281548",
+    "runtime_minutes": 134,
+    "genres": [
+      "Drama"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q56881140",
+    "catalog_version": "bf9847090a1a8f191b3dc662db57806a7e4d955617ffe1495badc1b210ed8e57"
   },
   {
     "film_id": "wikidata:Q574993",
@@ -2894,6 +3304,24 @@
     "catalog_version": "996ea9b3578f090da76c5914fc56a858252fa41275ac73e13cfb466ab940d331"
   },
   {
+    "film_id": "wikidata:Q57982486",
+    "title": "Knives Out",
+    "year": 2019,
+    "imdb_id": "tt8946378",
+    "runtime_minutes": 130,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q57982486",
+    "catalog_version": "b08a2bba560b3c67a9f02036eed91d7be333d569646481318a7c97df12b9ba3c"
+  },
+  {
     "film_id": "wikidata:Q580917",
     "title": "8 Seconds",
     "year": 1994,
@@ -2923,6 +3351,27 @@
     "catalog_prior": 3.0,
     "source": "https://www.wikidata.org/wiki/Q581501",
     "catalog_version": "67a038f6a1fb8f151538b766a04b83c7b85da3c8957425f66db4742cbfeee743"
+  },
+  {
+    "film_id": "wikidata:Q5815826",
+    "title": "Coco",
+    "year": 2017,
+    "imdb_id": "tt2380307",
+    "runtime_minutes": 109,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Detective",
+      "Drama",
+      "Family",
+      "Fantasy",
+      "Ghost",
+      "Musical"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q5815826",
+    "catalog_version": "7f0a340ba824796abbc087e1596665494f0a39fac8748a562673f81642b1daba"
   },
   {
     "film_id": "wikidata:Q584057",
@@ -2989,6 +3438,26 @@
     "catalog_version": "e82cbe16042bcb0da4b8d601ea8ab8d9e3dca141ee52e633c57514d6ac34856d"
   },
   {
+    "film_id": "wikidata:Q60834962",
+    "title": "Dune",
+    "year": 2021,
+    "imdb_id": "tt1160419",
+    "runtime_minutes": 155,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Speculative Fiction"
+    ],
+    "aliases": [
+      "Dune: Part One",
+      "Dune (2021)"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q60834962",
+    "catalog_version": "753040ed09c4fd69fe0ec07ec78e799cd65d5022c68bac173e2bad1a0612f637"
+  },
+  {
     "film_id": "wikidata:Q610097",
     "title": "The Perez Family",
     "year": 1995,
@@ -3019,6 +3488,43 @@
     "catalog_prior": 3.0,
     "source": "https://www.wikidata.org/wiki/Q610670",
     "catalog_version": "566594e1058542405168afc0c4825d30df011d9e23933bf0fc06a9162c786aa0"
+  },
+  {
+    "film_id": "wikidata:Q6144664",
+    "title": "Inside Out",
+    "year": 2015,
+    "imdb_id": "tt2096673",
+    "runtime_minutes": 94,
+    "genres": [
+      "Adventure",
+      "Children'S",
+      "Comedy",
+      "Drama",
+      "Family",
+      "Fantasy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q6144664",
+    "catalog_version": "d1206a64e6114418c955c9f6905829d543f241e7403c4ea57dd06c52253ed1b5"
+  },
+  {
+    "film_id": "wikidata:Q61448040",
+    "title": "Parasite",
+    "year": 2019,
+    "imdb_id": "tt6751668",
+    "runtime_minutes": 132,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Thriller"
+    ],
+    "aliases": [
+      "Gisaengchung"
+    ],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q61448040",
+    "catalog_version": "e0ee06de8f676fe76816ded33e61d5ffed4ed50ff6fe7e6cc5543add5b7ca446"
   },
   {
     "film_id": "wikidata:Q617249",
@@ -3100,6 +3606,38 @@
     "catalog_prior": 3.0,
     "source": "https://www.wikidata.org/wiki/Q645480",
     "catalog_version": "318b8525d6db16b488f841e21239a93da12972064ec7abdb65fb70662418e37b"
+  },
+  {
+    "film_id": "wikidata:Q64744044",
+    "title": "Soul",
+    "year": 2020,
+    "imdb_id": "tt2948372",
+    "runtime_minutes": 101,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Drama",
+      "Fantasy",
+      "Ghost"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q64744044",
+    "catalog_version": "6f8ce79b94b28f1f5c14ec05e8f0eff27f2bb21d8fa5f40d1656277c06e72c6d"
+  },
+  {
+    "film_id": "wikidata:Q65084655",
+    "title": "Palm Springs",
+    "year": 2020,
+    "imdb_id": "tt9484998",
+    "runtime_minutes": 90,
+    "genres": [
+      "Comedy"
+    ],
+    "aliases": [],
+    "catalog_prior": 3.0,
+    "source": "https://www.wikidata.org/wiki/Q65084655",
+    "catalog_version": "1ef390c10bb77cb8835baa8bdd948e1ebe077dc63eea662c7f2bff088819637e"
   },
   {
     "film_id": "wikidata:Q654736",

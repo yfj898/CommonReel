@@ -152,13 +152,7 @@ func (w *Watchmode) Fetch(ctx context.Context, f Film) (Availability, error) {
 	for _, r := range rows {
 		if r.Region == "US" {
 			offer := Offer{Name: r.Name, Region: r.Region, ProviderID: r.ID, Monetization: r.Type, URL: r.URL}
-			found := false
-			for _, v := range av.Offers {
-				if hashRequest(v) == hashRequest(offer) {
-					found = true
-				}
-			}
-			if !found {
+			if !contains(av.Offers, offer) {
 				av.Offers = append(av.Offers, offer)
 			}
 		}

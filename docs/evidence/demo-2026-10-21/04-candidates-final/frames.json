@@ -1,0 +1,42 @@
+{
+  "name": "04-candidates-final",
+  "frames": [
+    {
+      "file": "00000.jpg",
+      "timestamp": 1792554693.08297,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00001.jpg",
+      "timestamp": 1792554693.170749,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00002.jpg",
+      "timestamp": 1792554693.176181,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00003.jpg",
+      "timestamp": 1792554693.423913,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00004.jpg",
+      "timestamp": 1792554693.436251,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00005.jpg",
+      "timestamp": 1792554693.466464,
+      "width": 1280,
+      "height": 900
+    }
+  ],
+  "errors": []
+}

@@ -1,7 +1,10 @@
 """Official Wikidata entity API fallback when SPARQL is rate limited.
 Identifier joins must match IMDb exactly; titles are never trusted as identifiers.
 """
-import csv, hashlib, io, json, pathlib, re, time, urllib.parse, urllib.request, zipfile
+import csv, hashlib, io, json, pathlib, re, time, urllib.parse, urllib.request, zipfile, sys, subprocess
+if "--modern-only" in sys.argv:
+    subprocess.run([sys.executable,str(pathlib.Path(__file__).with_name("extend-catalog.py")),"--modern-only"],check=True)
+    raise SystemExit(0)
 from decimal import Decimal, ROUND_CEILING
 root=pathlib.Path(__file__).resolve().parents[1];data=root/'data';cache=data/'wikidata-entities';cache.mkdir(exist_ok=True)
 with zipfile.ZipFile(data/'ml-latest-small.zip') as z:
@@ -56,3 +59,5 @@ out=sorted([f for f in films.values() if selection is None or f['film_id'] in se
 manifest={'source':'Wikidata entity API, structured data CC0','identifier_seed':'GroupLens ml-latest-small IMDb identifiers; title requests are accepted only after exact IMDb cross-check','seed_count':len(movies),'catalog_count':len(out),'excluded_metadata':missing,'sha256':hashlib.sha256(payload).hexdigest(),'film_ids':[f['film_id'] for f in out],'created_utc':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),'watchmode_data_included':False,'genre_mapping':genre_ids,'genre_map_sha256':hashlib.sha256((root/'assets/genre-map.json').read_bytes()).hexdigest(),'identifier_seed_sha256':hashlib.sha256((data/'ml-latest-small.zip').read_bytes()).hexdigest(),'genre_mapping_evidence':'Official English labels for all 168 observed genre IDs; composite source labels normalize into each explicit known tag; remaining source labels retained as their own tags; not a complete genre ontology','builder':'scripts/build-catalog-entities.py','runtime_units':'Wikidata P2047 unit Q7727 (minute); distinct source values conflict; fractional minutes round upward, never downward'}
 (data/'catalog-v2.manifest.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8');print('catalog_count',len(out),flush=True)
 
+
+subprocess.run([sys.executable,str(root/"scripts/extend-catalog.py"),"--base-file",str(data/"catalog-v2.json")],check=True)

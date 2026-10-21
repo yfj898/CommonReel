@@ -1,6 +1,6 @@
 # v2 acceptance evidence
 
-2026-10-14. Engineering tests, real integrations, browser checks and human
+Updated 2026-10-21. Engineering tests, real integrations, browser checks and human
 outcomes are different evidence classes. PASS below refers to the described
 scenario, not exhaustive proof across devices, networks or third-party data.
 
@@ -27,25 +27,23 @@ scenario, not exhaustive proof across devices, networks or third-party data.
 | AT19 | Unknown tool, other-room fields, ambiguous speaker and forbidden operations refused through actual SDK/controlled model | PASS for tested adversarial cases |
 | AT20 | Real local model updates via MCP; recommendation explanation uses logged Go grounding when model omits it. Initial ungrounded model run failed and is retained | PASS_WITH_GUARD |
 | AT21 | Closing and profile deletion cancel model requests; private history/capability absent from model body; no raw chat persistence | PASS |
-| AT22 | 217 fixed films, official genre-label map, runtime units and manifest hashes; real US API 200 and invalid-title 404, separate controlled 429 | PASS |
-| AT23 | One IAB engine, two origins with separate browser storage; actual 360×800 viewport. Owner said a phone cannot be tested now. No independent browser-engine or human group trial | Browser PASS; phone NOT_RUN |
-| AT24 | English draft, run instructions, tool feedback, source published at [yfj898/CommonReel](https://github.com/yfj898/CommonReel), local source bundle and local edited demo; public video and final submission not done | PARTIAL |
+| AT22 | 247 fixed films, retained 217 + checked 30 recent; reproducible CC0 identifiers, minute runtimes and explicit genres; real supply and controlled failures separated | PASS |
+| AT23 | IAB/Edge Chromium mobile emulation, loopback and actual private-IP origins, 2/3/4 constructed groups; 360×800 / 390×844 touch, 319px and 1280px; reconnect and drafts | Simulation PASS; physical phone and human outcomes NOT_RUN |
+| AT24 | English current source/docs/feedback, approximately 2:42 real-interaction video, subtitles and upload copy; owner takes YouTube upload and final Devpost submission | Local materials PASS; owner steps OPEN |
+| AT25 | Exact runtime before/after/new sets, six-display truncation only after counts, no preview write or supplier call, stale facts/revisions/expiry rejected, apply idempotent | PASS |
+| AT26 | Eighth MCP tool, host read-only mode rejects writers, hypothetical ordinary requests cannot authorize edits, cards use validated tool objects | PASS |
+| AT27 | Optional explicit film likes, baseline/partial evidence labels, unchanged scoring, old external IMDb watched identity after catalog expansion | PASS |
 
-Reproduce the controlled seam tests with `go test -count=1 ./...` and inspect
-`evidence/tests-v2.json`. These use real temporary SQLite and actual MCP SDK
-transport. Supplier/model failure scenarios use explicit adapters. The live
-model and supplier reports are separate files. `go vet ./...` passed.
-`go test -race` is NOT_RUN because this Windows environment lacks the required
-CGO compiler; ordinary concurrency tests do not replace it.
+Reproduce controlled HTTP/MCP seams with `go test -count=1 ./...`; temporary
+SQLite databases and the actual MCP SDK are used. Supplier/model failure
+adapters and clocks are explicit fixtures. The October 21 run passed **38
+top-level tests and 17 subtests**, vet/build, and **9 Node tests**. The same Go
+cases passed actual Linux WSL `-race`; Windows local race was not run because
+that environment lacks its CGO compiler.
 
-Browser scope is precise: localhost and the selected WLAN address in the
-same desktop IAB, not separate people, hardware or network paths. A member
-joined on the other origin and appeared by SSE; switching invite fragments
-was reproduced, fixed and checked. A four-row CSV fixture yielded one match,
-one duplicate and two pending titles. The chosen movie was saved after three
-acceptance records; this proves the record workflow, not anyone's consent.
-
-The physical phone status follows the owner's explicit response on
-2026-10-14. No satisfaction, retention, decision-time improvement or production
-availability statistic is inferred. Dataset coverage and source facts can
-change; unknowns stay excluded. Runtime/source facts and scores remain distinct.
+See [the current matrix](FOUR_IMPROVEMENTS_2026-10-21.md) and
+[evidence/four-improvements-2026-10-21.json](evidence/four-improvements-2026-10-21.json)
+for individual browser, real model, controlled-fault and layout results. The
+recorded demo's 0→19 result is a particular valid cache snapshot; it is not a
+catalog-wide availability promise or a user-outcome metric. Physical phones
+and human group satisfaction/decision-time outcomes remain NOT_RUN.

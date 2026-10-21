@@ -1,0 +1,769 @@
+{
+  "date": "2026-10-21",
+  "scope": "four approved improvements; constructed members, not a human study",
+  "catalog": {
+    "retained": 217,
+    "added": 30,
+    "total": 247,
+    "added_years": [
+      2015,
+      2024
+    ],
+    "source": "Wikidata CC0",
+    "original_objects_preserved": true,
+    "supply_included": false
+  },
+  "engineering": {
+    "windows-tests": {
+      "state": "PASS",
+      "top_level": 38,
+      "subtests": 17,
+      "failures": 0,
+      "tests": [
+        {
+          "package": "commonreel/internal/catalog",
+          "name": "TestFutureRatingsCannotAffectTrainingPredictions",
+          "seconds": 0
+        },
+        {
+          "package": "commonreel/internal/room",
+          "name": "TestConcurrentRetryAndDurability",
+          "seconds": 0.03
+        },
+        {
+          "package": "commonreel/internal/room",
+          "name": "TestCompetingWritesHaveOneWinner",
+          "seconds": 0
+        },
+        {
+          "package": "commonreel/internal/recommend",
+          "name": "TestVetoesAndEmptyResult",
+          "seconds": 0
+        },
+        {
+          "package": "commonreel/internal/recommend",
+          "name": "TestRejectAmbiguousPreferences",
+          "seconds": 0
+        },
+        {
+          "package": "commonreel/internal/app",
+          "name": "TestStreamableHTTPWorkflow",
+          "seconds": 0.01
+        },
+        {
+          "package": "commonreel/internal/app",
+          "name": "TestCrossOriginAndHostProtection",
+          "seconds": 0
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentReceiptFailureIsReportedAndCanBeRetried",
+          "seconds": 0.07
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestStoredSessionReadFailuresReachSweepAndOpen",
+          "seconds": 0.06
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestRepeatingProposalKeepsResponsesAndNewProposalClearsThem",
+          "seconds": 0.06
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestWatchmodeDeduplicatesExactOffersAndPreservesPurchaseTypes",
+          "seconds": 0
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestMCPUsesBoundRoomAndOnlyAllowsEightTools",
+          "seconds": 0.05
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentUnknownToolCannotSaveAndAmbiguousSpeakerIsClarified",
+          "seconds": 0.05
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentPreservesMCPRejectionReason",
+          "seconds": 0.06
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentMemberTargetsUseWholeIDsAndUnambiguousNames/unknown_id",
+          "seconds": 0.05
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentMemberTargetsUseWholeIDsAndUnambiguousNames/whole_id",
+          "seconds": 0.06
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentMemberTargetsUseWholeIDsAndUnambiguousNames/duplicate_name",
+          "seconds": 0.05
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentMemberTargetsUseWholeIDsAndUnambiguousNames/id_disambiguates_duplicate",
+          "seconds": 0.06
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentMemberTargetsUseWholeIDsAndUnambiguousNames/explicit_target_overrides_speaker",
+          "seconds": 0.05
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentMemberTargetsUseWholeIDsAndUnambiguousNames/named_target",
+          "seconds": 0.05
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentMemberTargetsUseWholeIDsAndUnambiguousNames/selected_speaker",
+          "seconds": 0.05
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentMemberTargetsUseWholeIDsAndUnambiguousNames",
+          "seconds": 0.37
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestClosingRoomCancelsPendingLocalModelTurn",
+          "seconds": 0.05
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentDisplaysToolFactsInsteadOfInventedModelPlatforms",
+          "seconds": 0.06
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestExplicitLANHostAndSameOriginOnly",
+          "seconds": 0.04
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestCompetingClientsAndFourMemberCapacity",
+          "seconds": 0.05
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestSupplier429StopsFurtherRefreshAndLeavesNoCandidates",
+          "seconds": 0.05
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestConcurrentRetriesRestartAndExpiry",
+          "seconds": 0.04
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestReconnectGetsSnapshotAndCloseRetryReturnsOnlyReceipt",
+          "seconds": 0.04
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestReusableHistoryCopiesAndDeletionWithdrawActiveData",
+          "seconds": 0.06
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestUnknownFactsAndWrongMonetizationNeverQualify",
+          "seconds": 0.07
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestImportRejectsUnknownHeadersAndPreservesManualInputsOnReplace",
+          "seconds": 0.08
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestDeletingLinkedProfileCancelsModelAndWithdrawsHistory",
+          "seconds": 0.06
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestSavingRejectsChangedOrUnknownFreshSupply/unknown",
+          "seconds": 0.06
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestSavingRejectsChangedOrUnknownFreshSupply/changed",
+          "seconds": 0.06
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestSavingRejectsChangedOrUnknownFreshSupply",
+          "seconds": 0.12
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestSaveRefreshDoesNotLockRoomAndRejectsConcurrentPolicyChange",
+          "seconds": 0.06
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestGroupChoiceHonorsHardConditionsAndVersionedAcceptances",
+          "seconds": 0.06
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestExpiredCandidateFactsClearRecordedResponsesOnRead",
+          "seconds": 0.05
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestSessionCapabilityAndCompetingWrites",
+          "seconds": 0.04
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestRuntimePreviewIsReadOnlyAndCountsBeforeDisplayLimit",
+          "seconds": 0.06
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestRuntimePreviewApplyClearsDecisionsAndIsIdempotent",
+          "seconds": 0.06
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestRuntimePreviewRejectsStaleRoomExpiredSupplyAndNoNewFilms/room",
+          "seconds": 0.06
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestRuntimePreviewRejectsStaleRoomExpiredSupplyAndNoNewFilms/expiry",
+          "seconds": 0.05
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestRuntimePreviewRejectsStaleRoomExpiredSupplyAndNoNewFilms/unknown",
+          "seconds": 0.05
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestRuntimePreviewRejectsStaleRoomExpiredSupplyAndNoNewFilms/composite",
+          "seconds": 0.05
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestRuntimePreviewRejectsStaleRoomExpiredSupplyAndNoNewFilms/invalid",
+          "seconds": 0.05
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestRuntimePreviewRejectsStaleRoomExpiredSupplyAndNoNewFilms",
+          "seconds": 0.27
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentRuntimePreviewModeRejectsWritesAndGroundsCard/runtime_previewfalse",
+          "seconds": 0.07
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentRuntimePreviewModeRejectsWritesAndGroundsCard/runtime_previewtrue",
+          "seconds": 0.06
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentRuntimePreviewModeRejectsWritesAndGroundsCard/false",
+          "seconds": 0.06
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentRuntimePreviewModeRejectsWritesAndGroundsCard",
+          "seconds": 0.19
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestCatalogExpansionPreservesExternalWatchedIdentityAndPreferenceMeaning",
+          "seconds": 0.06
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestRuntimePreviewRejectsChangedSupplyWithoutRoomEdit",
+          "seconds": 0.07
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentHypothesisCannotWriteInOrdinaryMode",
+          "seconds": 0.07
+        }
+      ]
+    },
+    "linux-race": {
+      "state": "PASS",
+      "top_level": 38,
+      "subtests": 17,
+      "failures": 0,
+      "tests": [
+        {
+          "package": "commonreel/internal/recommend",
+          "name": "TestVetoesAndEmptyResult",
+          "seconds": 0
+        },
+        {
+          "package": "commonreel/internal/recommend",
+          "name": "TestRejectAmbiguousPreferences",
+          "seconds": 0
+        },
+        {
+          "package": "commonreel/internal/catalog",
+          "name": "TestFutureRatingsCannotAffectTrainingPredictions",
+          "seconds": 0
+        },
+        {
+          "package": "commonreel/internal/room",
+          "name": "TestConcurrentRetryAndDurability",
+          "seconds": 0.06
+        },
+        {
+          "package": "commonreel/internal/room",
+          "name": "TestCompetingWritesHaveOneWinner",
+          "seconds": 0.01
+        },
+        {
+          "package": "commonreel/internal/app",
+          "name": "TestStreamableHTTPWorkflow",
+          "seconds": 0.08
+        },
+        {
+          "package": "commonreel/internal/app",
+          "name": "TestCrossOriginAndHostProtection",
+          "seconds": 0.03
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentReceiptFailureIsReportedAndCanBeRetried",
+          "seconds": 0.2
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestStoredSessionReadFailuresReachSweepAndOpen",
+          "seconds": 0.08
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestRepeatingProposalKeepsResponsesAndNewProposalClearsThem",
+          "seconds": 0.13
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestWatchmodeDeduplicatesExactOffersAndPreservesPurchaseTypes",
+          "seconds": 0
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestMCPUsesBoundRoomAndOnlyAllowsEightTools",
+          "seconds": 0.19
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentUnknownToolCannotSaveAndAmbiguousSpeakerIsClarified",
+          "seconds": 0.14
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentPreservesMCPRejectionReason",
+          "seconds": 0.15
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentMemberTargetsUseWholeIDsAndUnambiguousNames/unknown_id",
+          "seconds": 0.13
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentMemberTargetsUseWholeIDsAndUnambiguousNames/whole_id",
+          "seconds": 0.15
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentMemberTargetsUseWholeIDsAndUnambiguousNames/duplicate_name",
+          "seconds": 0.14
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentMemberTargetsUseWholeIDsAndUnambiguousNames/id_disambiguates_duplicate",
+          "seconds": 0.16
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentMemberTargetsUseWholeIDsAndUnambiguousNames/explicit_target_overrides_speaker",
+          "seconds": 0.13
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentMemberTargetsUseWholeIDsAndUnambiguousNames/named_target",
+          "seconds": 0.15
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentMemberTargetsUseWholeIDsAndUnambiguousNames/selected_speaker",
+          "seconds": 0.16
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentMemberTargetsUseWholeIDsAndUnambiguousNames",
+          "seconds": 1.02
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestClosingRoomCancelsPendingLocalModelTurn",
+          "seconds": 0.14
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentDisplaysToolFactsInsteadOfInventedModelPlatforms",
+          "seconds": 0.18
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestExplicitLANHostAndSameOriginOnly",
+          "seconds": 0.07
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestCompetingClientsAndFourMemberCapacity",
+          "seconds": 0.11
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestSupplier429StopsFurtherRefreshAndLeavesNoCandidates",
+          "seconds": 0.09
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestConcurrentRetriesRestartAndExpiry",
+          "seconds": 0.11
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestReconnectGetsSnapshotAndCloseRetryReturnsOnlyReceipt",
+          "seconds": 0.09
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestReusableHistoryCopiesAndDeletionWithdrawActiveData",
+          "seconds": 0.14
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestUnknownFactsAndWrongMonetizationNeverQualify",
+          "seconds": 0.13
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestImportRejectsUnknownHeadersAndPreservesManualInputsOnReplace",
+          "seconds": 0.27
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestDeletingLinkedProfileCancelsModelAndWithdrawsHistory",
+          "seconds": 0.16
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestSavingRejectsChangedOrUnknownFreshSupply/unknown",
+          "seconds": 0.13
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestSavingRejectsChangedOrUnknownFreshSupply/changed",
+          "seconds": 0.13
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestSavingRejectsChangedOrUnknownFreshSupply",
+          "seconds": 0.26
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestSaveRefreshDoesNotLockRoomAndRejectsConcurrentPolicyChange",
+          "seconds": 0.12
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestGroupChoiceHonorsHardConditionsAndVersionedAcceptances",
+          "seconds": 0.13
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestExpiredCandidateFactsClearRecordedResponsesOnRead",
+          "seconds": 0.11
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestSessionCapabilityAndCompetingWrites",
+          "seconds": 0.08
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestRuntimePreviewIsReadOnlyAndCountsBeforeDisplayLimit",
+          "seconds": 0.14
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestRuntimePreviewApplyClearsDecisionsAndIsIdempotent",
+          "seconds": 0.14
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestRuntimePreviewRejectsStaleRoomExpiredSupplyAndNoNewFilms/room",
+          "seconds": 0.12
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestRuntimePreviewRejectsStaleRoomExpiredSupplyAndNoNewFilms/expiry",
+          "seconds": 0.11
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestRuntimePreviewRejectsStaleRoomExpiredSupplyAndNoNewFilms/unknown",
+          "seconds": 0.11
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestRuntimePreviewRejectsStaleRoomExpiredSupplyAndNoNewFilms/composite",
+          "seconds": 0.12
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestRuntimePreviewRejectsStaleRoomExpiredSupplyAndNoNewFilms/invalid",
+          "seconds": 0.11
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestRuntimePreviewRejectsStaleRoomExpiredSupplyAndNoNewFilms",
+          "seconds": 0.56
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentRuntimePreviewModeRejectsWritesAndGroundsCard/runtime_previewfalse",
+          "seconds": 0.17
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentRuntimePreviewModeRejectsWritesAndGroundsCard/runtime_previewtrue",
+          "seconds": 0.16
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentRuntimePreviewModeRejectsWritesAndGroundsCard/false",
+          "seconds": 0.18
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentRuntimePreviewModeRejectsWritesAndGroundsCard",
+          "seconds": 0.51
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestCatalogExpansionPreservesExternalWatchedIdentityAndPreferenceMeaning",
+          "seconds": 0.12
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestRuntimePreviewRejectsChangedSupplyWithoutRoomEdit",
+          "seconds": 0.17
+        },
+        {
+          "package": "commonreel/internal/workflow",
+          "name": "TestAgentHypothesisCannotWriteInOrdinaryMode",
+          "seconds": 0.16
+        }
+      ]
+    },
+    "vet": "PASS",
+    "all_package_build": "PASS",
+    "node": {
+      "state": "PASS",
+      "tests": 9,
+      "syntax": [
+        "app.js",
+        "i18n.js"
+      ]
+    },
+    "windows_local_race": "NOT_RUN; actual race evidence is Linux WSL"
+  },
+  "browser": {
+    "engine": "Chromium: IAB and Edge",
+    "instance": "same Go instance; independent acceptance DB",
+    "origins": [
+      "loopback HTTP",
+      "actual WLAN private-IP HTTP"
+    ],
+    "physical_device": false,
+    "touch": "PASS: Edge CDP touch events with mobile metrics; IAB raw touch unsupported",
+    "viewports": [
+      [
+        360,
+        800
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        319,
+        800
+      ],
+      [
+        1280,
+        900
+      ]
+    ],
+    "layout_checks": [
+      {
+        "width": 319,
+        "height": 800,
+        "language": "zh-CN",
+        "mobile": true,
+        "clientWidth": 319,
+        "overflowControls": [],
+        "scrollWidth": 319
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "language": "en",
+        "mobile": true,
+        "clientWidth": 390,
+        "overflowControls": [],
+        "scrollWidth": 390
+      },
+      {
+        "width": 1280,
+        "height": 900,
+        "language": "en",
+        "mobile": false,
+        "clientWidth": 1265,
+        "overflowControls": [],
+        "scrollWidth": 1265
+      }
+    ],
+    "workflows": [
+      {
+        "members": 2,
+        "state": "PASS",
+        "explicit_like": "Arrival",
+        "preview": {
+          "minutes": [
+            80,
+            95
+          ],
+          "eligible": [
+            0,
+            6
+          ],
+          "new": 6
+        },
+        "stale_preview_disabled": true,
+        "final_film": "Inside Out 2",
+        "acceptances": "2/2",
+        "reload": "PASS"
+      },
+      {
+        "members": 3,
+        "state": "PASS",
+        "cold_start": "catalog_baseline",
+        "model": "qwen3.5:4b via actual MCP",
+        "preview": {
+          "minutes": [
+            81,
+            96
+          ],
+          "eligible": [
+            2,
+            14
+          ],
+          "new": 12,
+          "unknown": 43,
+          "elapsed_seconds": 16.35
+        },
+        "final_film": "Hellraiser: Bloodline",
+        "acceptances": "3/3",
+        "reload": "PASS"
+      },
+      {
+        "members": 4,
+        "state": "PASS",
+        "explicit_like": "Inside Out 2",
+        "vetoes": [
+          "Horror",
+          "Musical"
+        ],
+        "model_unavailable_forms": "PASS; actual unavailable loopback model endpoint in this instance",
+        "initial_form_preview": {
+          "minutes": [
+            81,
+            96
+          ],
+          "eligible": [
+            0,
+            14
+          ],
+          "new": 14,
+          "unknown": 11
+        },
+        "final_film": "Inside Out 2",
+        "acceptances": "4/4",
+        "reload": "PASS"
+      }
+    ],
+    "offline_reconnect": {
+      "state": "PASS",
+      "observed_error": "net::ERR_INTERNET_DISCONNECTED",
+      "observed_label": "Reconnecting\u2026",
+      "recovered_acceptances": "2/3 after other-client update"
+    },
+    "language_draft": {
+      "state": "PASS",
+      "draft_preserved": "Comedy, Sci-Fi",
+      "languages": [
+        "en",
+        "zh-CN"
+      ]
+    },
+    "physical_phone": "NOT_RUN",
+    "human_outcomes": "NOT_RUN"
+  },
+  "controlled_faults": {
+    "supply_change_without_room_edit": "PASS",
+    "expiry": "PASS",
+    "unknown": "PASS",
+    "composite_blockers": "PASS",
+    "forbidden_writer_in_preview": "PASS",
+    "ordinary_hypothesis_writer": "PASS"
+  },
+  "recorded_demo": {
+    "state": "LOCAL_READY",
+    "minutes": [
+      81,
+      96
+    ],
+    "eligible": [
+      0,
+      19
+    ],
+    "new": 19,
+    "displayed": 6,
+    "unknown": 0,
+    "model_elapsed_seconds": 9.99,
+    "tool": "runtime_preview",
+    "origin": "model",
+    "public_url": null,
+    "upload_owner": "user"
+  },
+  "publication": {
+    "exact_commit_and_ci": "see dist/CommonReel-delivery.json",
+    "youtube": "OWNER_PENDING",
+    "devpost_final_submission": "OWNER_PENDING"
+  }
+}

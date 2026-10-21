@@ -1,0 +1,54 @@
+{
+  "name": "03-desktop-final",
+  "frames": [
+    {
+      "file": "00000.jpg",
+      "timestamp": 1792554654.860633,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00001.jpg",
+      "timestamp": 1792554654.865757,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00002.jpg",
+      "timestamp": 1792554654.87124,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00003.jpg",
+      "timestamp": 1792554654.906171,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00004.jpg",
+      "timestamp": 1792554655.030789,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00005.jpg",
+      "timestamp": 1792554655.037975,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00006.jpg",
+      "timestamp": 1792554655.058889,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "00007.jpg",
+      "timestamp": 1792554655.066019,
+      "width": 1280,
+      "height": 900
+    }
+  ],
+  "errors": []
+}

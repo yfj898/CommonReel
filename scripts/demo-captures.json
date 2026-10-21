@@ -1,53 +1,71 @@
 {
-  "description": "Real browser screenshots, not generated app states. October 15 home captures plus October 16/17 enhanced assistant/workflow captures.",
+  "date": "2026-10-21",
+  "method": "Actual Edge Chromium Page.screencastFrame captures during UI operations; edited takes and reading holds; no generated product states",
+  "source_root": "docs/evidence/demo-2026-10-21",
   "chapters": [
     {
-      "date": "2026-10-15",
-      "files": [
-        "redesign-home-desktop.png",
-        "redesign-home-mobile.png"
-      ]
+      "title": "One room. Real constraints.",
+      "seconds": 22,
+      "clips": [
+        "00-intro"
+      ],
+      "note": "247 films\n30 recent additions\nOptional 1-3 explicit likes"
     },
     {
-      "date": "2026-10-16/17",
-      "files": [
-        "submission-setup.png",
-        "submission-member.png"
-      ]
+      "title": "No match. No silent relaxation.",
+      "seconds": 22,
+      "clips": [
+        "01-conflict"
+      ],
+      "note": "Limits stay hard\nNo horror. No musicals.\nNo automatic relaxation"
     },
     {
-      "date": "2026-10-16/17",
-      "files": [
-        "submission-agent-veto.png",
-        "submission-agent-grounding.png"
-      ]
+      "title": "What if we had 15 more minutes?",
+      "seconds": 32,
+      "clips": [
+        "02-readonly-agent"
+      ],
+      "note": "0 to 19 eligible\n15 extra minutes\nCache only. Room unchanged."
     },
     {
-      "date": "2026-10-16/17",
-      "files": [
-        "submission-import.png"
-      ]
+      "title": "Apply explicitly. Stay in sync.",
+      "seconds": 23,
+      "clips": [
+        "03-desktop-final"
+      ],
+      "phone_clip": "03-mobile-final",
+      "note": "Independent LAN client\n390 x 844 simulation"
     },
     {
-      "date": "October 17 shortlist; October 15 empty-result capture",
-      "files": [
-        "submission-films.png",
-        "redesign-empty-mobile.png"
-      ]
+      "title": "Facts first. Estimates second.",
+      "seconds": 21,
+      "clips": [
+        "04-candidates-final"
+      ],
+      "note": "Evidence before scores\nUS subscription listing\nExplicit / baseline markers"
     },
     {
-      "date": "2026-10-16/17",
-      "files": [
-        "submission-pending.png",
-        "submission-choice.png"
-      ]
+      "title": "Record. Recheck. Save.",
+      "seconds": 21,
+      "clips": [
+        "05-save-final"
+      ],
+      "note": "4 / 4 recorded\nRefresh supply, then commit\nGroup-recorded choice"
     },
     {
-      "date": "2026-10-16/17",
-      "files": [
-        "submission-mobile.png",
-        "submission-agent-grounding.png"
-      ]
+      "title": "A reviewable result.",
+      "seconds": 21,
+      "clips": [
+        "06-reload-and-language"
+      ],
+      "note": "Chromium simulation\nPhysical phone: NOT_RUN\nHuman outcomes: NOT_RUN"
+    }
+  ],
+  "terminal_captures": [
+    {
+      "file": "docs/evidence/four-improvements-demo-preview-19.png",
+      "chapter": 2,
+      "purpose": "Read the actual structured preview card and model-requested tool trace after the captured scroll settles"
     }
   ]
 }

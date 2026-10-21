@@ -1,33 +1,25 @@
-> Historical prototype document (2026-10-13). Current v2: [IMPLEMENTATION_STATUS.md](IMPLEMENTATION_STATUS.md).
+# Submission handoff — 2026-10-21
 
-# Amazon submission readiness
+The local product and Chromium simulation are complete. The remaining owner
+steps are public YouTube upload, link verification, and final Devpost review /
+rule acceptance / submission. See [the upload kit](YOUTUBE_UPLOAD.md).
 
-Last checked: 2026-10-13. Deadline: 2026-10-24 03:00 Asia/Shanghai.
-Official source: https://amazonappdev2026.devpost.com/
-Rules: https://amazonappdev2026.devpost.com/rules
-
-| Milestone | Evidence/status |
+| Item | Current evidence |
 |---|---|
-| Primary track | Alexa+ MCP / labeled web simulation |
-| Go application | Implemented, local build and tests pass |
-| Real MCP transport | HTTP workflow test passes at 2025-11-25; nine tools |
-| Dataset | Official ZIP downloaded; observed hashes recorded; no raw redistribution |
-| Offline ranking | Completed on 200 users; evaluation.json records exact scope |
-| Persistence/concurrency | Identical retry, competing write, stale revision and restart tests pass |
-| Browser workflow | Observed create/3-member example, compare strategies, edit veto, explanation, save, reload and two-tab SSE synchronization; browser console had no warnings/errors |
-| Human group benefit | Not measured |
-| Live Alexa+ device / LLM | Not implemented; explicit simulation selected |
-| Devpost login | User reports existing login; no credentials requested |
-| Devpost contest registration | Not confirmed in this session; page initially displayed Cloudflare verification |
-| Repository link | Not published; source and MIT license prepared |
-| GitHub Actions | Workflow prepared; remote run not performed |
-| English public video | Storyboard prepared; recording/upload not completed |
-| Product feedback | Draft records actual tools and limitations |
-| Final Devpost submission | Not submitted |
-| AWS Builder / Open Source mini challenges | Not claimed; additional required integration/contribution absent |
+| Primary track | Alexa+ self-hosted MCP 2025-11-25 / Streamable HTTP + web simulation |
+| Working project | Go HTTP/MCP state machine, 247 checked films, real local model and real US supply |
+| Read-only trade-off | Exact runtime preview, current-basis explicit apply, eight tools, host authority |
+| Engineering checks | 38 top-level Go tests + 17 subtests; Windows vet/build; actual Linux WSL race; 9 Node tests |
+| Simulated mobile flow | Independent origins, 2/3/4 entries, 360/390 touch, 319/1280 layouts, reconnect and model-offline forms |
+| Physical phone / human outcomes | NOT_RUN, separately reported |
+| Source and final CI | Repository and exact delivery commit/run in dist/CommonReel-delivery.json |
+| English demo | dist/CommonReel-demo-2026-10-21.mp4, approximately 2:42; captions and copy ready |
+| Public video | OWNER_PENDING — owner chose to upload personally |
+| Devpost | Copy-ready description/feedback; registration/eligibility/final submission user-operated |
+| Mini-challenges | Not claimed; no qualifying additional contribution / AWS integration is asserted |
 
-Submit only after repository access and English public video are verified.
-If choosing a private repository, share it with the exact reviewers specified
-in the current rules and verify their access. Login, personal eligibility
-declarations and binding terms are user-operated. A local passing build does
-not establish registration, submission, certification, or an award.
+[Official rules](https://amazonappdev2026.devpost.com/rules) checked October 21:
+submit an accessible repository and public English YouTube/Vimeo video under
+three minutes before **October 24, 03:00 Asia/Shanghai**. The owner completes
+binding rule acceptance. Code publication or a local passing check does not
+complete those external actions.

@@ -1,9 +1,66 @@
 [
-  {"title":"CommonReel: a shared movie-night record","text":"CommonReel helps two to four adults choose a movie together. Friends share tonight's time limit and streaming platforms, combine genre vetoes and known watched films, and save a group-recorded choice. This demonstration uses a constructed group in the real running web application."},
-  {"title":"Shared inputs; separate decision versions","text":"Each person joins with a nickname. Anyone with the room invite can record inputs for another member. That convenience does not prove personal consent. Go keeps room revisions separate from decision versions, so input changes invalidate old responses while one person's response does not erase everyone else's."},
-  {"title":"A real local model and real MCP calls","text":"The assistant runs a local Qwen model through Ollama. It reads the room and calls the actual MCP server to change an explicit member's veto. There is no paid model API. The forms remain available while inference runs. Tool calls and rejected operations are visible, rather than replaced with a scripted success message."},
-  {"title":"Optional CSV; watched does not mean liked","text":"This optional import uses a constructed Netflix-format CSV fixture, not a real person's history. One movie matches, one duplicate is removed, and unmatched titles remain pending. A colon does not prove that a title is an episode. Reusable profiles retain normalized inputs with a recovery code; raw CSV is not stored."},
-  {"title":"Verified facts before recommendation scores","text":"The bounded catalog contains 217 Wikidata movies with checked identifiers and runtime units. Real Watchmode requests supply United States listings. Only selected subscription platforms qualify. Unknown data, rentals, purchases and hard-limit failures are excluded. Go produces the ranking and displays verified tool facts; model-written platform claims are not trusted."},
-  {"title":"Responses, freshness and a durable choice","text":"The page proposes a candidate and records a response for every member entry. Saving is unavailable while a response is missing. Before saving, the server refreshes the chosen film's supply outside the database write transaction, then checks the current versions. A stale decision is rejected. Repeating the same decision reuses its anonymous receipt."},
-  {"title":"Evidence and limits","text":"This is an Alexa-plus web simulation with a working self-hosted MCP server over Streamable HTTP, protocol 2025 dash 11 dash 25. Browser synchronization and a narrow layout were checked. A physical phone was not tested, and there have been no human group trials. Subscription listings do not guarantee personal account rights. The code, tests and separated real-run evidence make these limits reviewable."}
+  {
+    "title": "One room. Real constraints.",
+    "seconds": 22,
+    "clips": [
+      "00-intro"
+    ],
+    "note": "247 films\n30 recent additions\nOptional 1-3 explicit likes",
+    "text": "CommonReel helps two to four adults choose a film for the same movie night. This is a constructed four-person group in the running application. Each person can optionally choose one to three films they explicitly like. Watching history only means watched. The catalog now contains two hundred and forty-seven verified Wikidata films."
+  },
+  {
+    "title": "No match. No silent relaxation.",
+    "seconds": 22,
+    "clips": [
+      "01-conflict"
+    ],
+    "note": "Limits stay hard\nNo horror. No musicals.\nNo automatic relaxation",
+    "text": "Tonight, the room has eighty-one minutes, three US subscription services, and recorded vetoes for horror and musicals. Nothing qualifies. CommonReel keeps those boundaries. It does not silently relax a veto, assume an unknown title is unseen, or invent streaming access to force a recommendation."
+  },
+  {
+    "title": "What if we had 15 more minutes?",
+    "seconds": 32,
+    "clips": [
+      "02-readonly-agent"
+    ],
+    "note": "0 to 19 eligible\n15 extra minutes\nCache only. Room unchanged.",
+    "text": "Instead, ask: what if we had fifteen more minutes? The free local Qwen model calls the real runtime preview tool through our MCP server. Go checks the complete catalog twice using current cached supply. In this recording, eighty-one to ninety-six minutes changes zero eligible films to nineteen. Only six new candidates are displayed; the count is calculated before truncation. The preview makes no supplier request and changes no room inputs."
+  },
+  {
+    "title": "Apply explicitly. Stay in sync.",
+    "seconds": 23,
+    "clips": [
+      "03-desktop-final"
+    ],
+    "phone_clip": "03-mobile-final",
+    "note": "Independent LAN client\n390 x 844 simulation",
+    "text": "Applying is a separate page action. Only this button changes the saved runtime. The other local-network client receives the new ninety-six-minute limit. Previous candidates and responses are cleared. A concurrent room edit, changed supply, or expired cache invalidates the preview rather than applying an outdated suggestion."
+  },
+  {
+    "title": "Facts first. Estimates second.",
+    "seconds": 21,
+    "clips": [
+      "04-candidates-final"
+    ],
+    "note": "Evidence before scores\nUS subscription listing\nExplicit / baseline markers",
+    "text": "Now the shortlist includes Inside Out Two, listed on Disney Plus in the United States. The card shows its runtime, source check time, and partial preference evidence. Ranking still uses the original minimum-and-mean estimate. A streaming listing does not confirm anyone's account entitlement."
+  },
+  {
+    "title": "Record. Recheck. Save.",
+    "seconds": 21,
+    "clips": [
+      "05-save-final"
+    ],
+    "note": "4 / 4 recorded\nRefresh supply, then commit\nGroup-recorded choice",
+    "text": "Propose the film, then record a response for every member entry. Anyone holding the invitation may record for someone else, so this is a group-recorded choice. Saving is blocked until all four entries accept. The server refreshes the film's supply before committing, and preserves the choice after reload."
+  },
+  {
+    "title": "A reviewable result.",
+    "seconds": 21,
+    "clips": [
+      "06-reload-and-language"
+    ],
+    "note": "Chromium simulation\nPhysical phone: NOT_RUN\nHuman outcomes: NOT_RUN",
+    "text": "English and Simplified Chinese preserve the same record. Separate two-, three-, and four-member workflows passed Chromium mobile emulation, including touch and reconnection. Physical phones and human group outcomes remain untested. The Go source, test evidence, and setup instructions are ready for review."
+  }
 ]

@@ -1,0 +1,41 @@
+What if we had 15 more minutes? Preview only, without changing the room.
+Read-only preview: 81 → 96 minutes; eligible films 0 → 19, 19 newly eligible; 0 unknown under the proposed limit. No limits changed.
+
+MCP tool trace:
+[model] runtime_preview: executed · v17
+Status: completed · Model: qwen3.5:4b · 9.99s
+READ-ONLY WHAT-IF
+81 → 96 minutes
+
+0 → 19 eligible films · 19 newly eligible
+
+0 films have unknown metadata or supply under this limit. They are excluded.
+
+Fled
+1996 · 90 minutes
+Amazon Prime
+US subscription · checked 10/21/2026, 10:37:21 AM
+Inside Out 2
+2024 · 96 minutes
+Disney+
+US subscription · checked 10/21/2026, 11:42:36 AM
+Fatal Instinct
+1993 · 86 minutes
+Amazon Prime
+US subscription · checked 10/21/2026, 10:37:21 AM
+Celtic Pride
+1996 · 87 minutes
+Amazon Prime
+US subscription · checked 10/21/2026, 10:37:22 AM
+The Brady Bunch Movie
+1995 · 84 minutes
+Amazon Prime
+US subscription · checked 10/21/2026, 10:37:23 AM
+Mighty Aphrodite
+1995 · 95 minutes
+Amazon Prime
+US subscription · checked 10/21/2026, 11:01:02 AM
+
+Cached supply only. Platforms, vetoes and rewatch rules stay unchanged. Find films can refresh missing supply.
+
+Apply this runtime

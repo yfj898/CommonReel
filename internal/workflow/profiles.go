@@ -100,7 +100,9 @@ func (a *App) createProfile(ctx context.Context, secret, key string) (Receipt, e
 	}
 	defer tx.Rollback()
 	id := "p_" + digest(secret)[:24]
+	exists := false
 	if existing, err := a.authorizeProfile(ctx, tx, id, secret, true); err == nil {
+		exists = true
 		if existing.Deleted {
 			return Receipt{}, fail("RESOURCE_GONE", 410, "profile deleted")
 		}
@@ -114,11 +116,7 @@ func (a *App) createProfile(ctx context.Context, secret, key string) (Receipt, e
 	if r, ok, e := replay(ctx, tx, id, key, h); ok || e != nil {
 		return r, e
 	}
-	var n int
-	if e = tx.QueryRowContext(ctx, "SELECT COUNT(*) FROM v2_profiles WHERE id=?", id).Scan(&n); e != nil {
-		return Receipt{}, e
-	}
-	if n > 0 {
+	if exists {
 		return Receipt{}, fail("REVISION_CONFLICT", 409, "recovery code already used")
 	}
 	p := Profile{ID: id, Hash: digest(secret), Revision: 1, Preferences: emptyPreferences(), History: History{Seen: []string{}, Pending: []PendingTitle{}}}
@@ -149,6 +147,15 @@ func sessionView(s Session) Session {
 		m.SeenCount = len(effectiveSeen(*m))
 		m.Preferences.Seen = []string{}
 		m.History = History{Report: m.History.Report}
+	}
+	return s
+}
+func modelSessionView(s Session) Session {
+	s = sessionView(s)
+	for i := range s.Members {
+		s.Members[i].Preferences.Ratings = nil
+		s.Members[i].Preferences.Likes = nil
+		s.Members[i].SourceProfile = ""
 	}
 	return s
 }
@@ -269,27 +276,10 @@ func (a *App) profileCommand(ctx context.Context, id, secret string, c ProfileCo
 	return r, e
 }
 func (a *App) withdrawProfile(ctx context.Context, tx *sql.Tx, id string, affected *[]string) error {
-	rows, e := tx.QueryContext(ctx, "SELECT payload FROM v2_sessions")
+	sessions, e := readSessions(ctx, tx)
 	if e != nil {
 		return e
 	}
-	sessions := []Session{}
-	for rows.Next() {
-		var raw string
-		rows.Scan(&raw)
-		var st storedSession
-		if e = json.Unmarshal([]byte(raw), &st); e != nil {
-			rows.Close()
-			return e
-		}
-		st.Session.InviteHash = st.InviteHash
-		sessions = append(sessions, st.Session)
-	}
-	if e = rows.Err(); e != nil {
-		rows.Close()
-		return e
-	}
-	rows.Close()
 	for _, s := range sessions {
 		changed := false
 		for i := range s.Members {
@@ -304,10 +294,7 @@ func (a *App) withdrawProfile(ctx context.Context, tx *sql.Tx, id string, affect
 		}
 		if changed {
 			*affected = append(*affected, s.ID)
-			s.Revision++
-			s.Decision++
-			s.Candidate = nil
-			s.Acceptances = map[string]Acceptance{}
+			s.advanceDecision(nil)
 			if e = putSession(ctx, tx, s); e != nil {
 				return e
 			}
@@ -575,10 +562,7 @@ func (a *App) importHistory(w http.ResponseWriter, r *http.Request, profile bool
 		before := hashRequest(s.Members[i].History)
 		s.Members[i].History = mergeHistory(s.Members[i].History, parsed, mode)
 		if before != hashRequest(s.Members[i].History) {
-			s.Revision++
-			s.Decision++
-			s.Candidate = nil
-			s.Acceptances = map[string]Acceptance{}
+			s.advanceDecision(nil)
 		} else {
 			rec.Code = "no_change"
 		}

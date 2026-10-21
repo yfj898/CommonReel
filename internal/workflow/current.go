@@ -58,10 +58,7 @@ func (a *App) current(ctx context.Context, id, secret string) (Session, error) {
 	}
 	bad, renew = a.candidateState(s)
 	if bad {
-		s.Revision++
-		s.Decision++
-		s.Candidate = nil
-		s.Acceptances = map[string]Acceptance{}
+		s.advanceDecision(nil)
 	} else if renew != nil {
 		s.Revision++
 		s.Candidate.ExpiresAt = renew.ExpiresAt

@@ -6,7 +6,18 @@ The user confirmed the full requirements in Q31. [PRODUCT_REQUIREMENTS.md](PRODU
 
 The target is 2–4 adults selecting a film together through phones on the same Wi-Fi, using a verified catalog of roughly 200–300 films, US subscription availability, optional Netflix CSV import, reusable profiles maintained by recovery codes, and a zero-fee local agent through Go MCP. Members may edit or decide for others; the saved result is a group-recorded choice, not proof of personal consent.
 
-New inputs invalidate acceptance records. Sessions expire after 24 hours or close, reusable profiles persist until deletion, and personal-data-free choice summaries may remain. Model failure falls back to forms; final acceptance/save/delete actions are page controls. New functionality is not yet implemented or verified.
+New inputs invalidate acceptance records. Sessions expire after 24 hours or close, reusable profiles persist until deletion, and personal-data-free choice summaries may remain. Model failure falls back to forms; final acceptance/save/delete actions are page controls. Current implementation status is tracked in [IMPLEMENTATION_STATUS.md](IMPLEMENTATION_STATUS.md), with verification evidence in [ACCEPTANCE.md](ACCEPTANCE.md).
+
+## Approved October 21 extension
+
+The retained 217-film catalog gains 30 checked recent titles (247 total), with
+optional 1–3 explicit likes and candidate evidence markers. Runtime-only preview
+uses valid cached supply, exact complete before/after/new counts and an explicit
+version-bound page apply. The agent's read-only mode cannot apply; MCP has eight
+tools. Chromium phone-size/touch simulation is the P2 acceptance scope, while
+physical phones and human outcomes remain separately NOT_RUN. The owner will
+upload the finished English video to YouTube and perform final Devpost submission.
+See [the release report](FOUR_IMPROVEMENTS_2026-10-21.md).
 
 ## Existing prototype scope and evidence
 

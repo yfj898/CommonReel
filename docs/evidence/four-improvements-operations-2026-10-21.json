@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-21",
+  "method": "Observed UI operations; source snapshots and real tool replies retained",
+  "entries": [
+    {
+      "scenario": "2-member",
+      "operations": [
+        "create",
+        "share LAN invite",
+        "join from independent origin",
+        "explicit like Arrival",
+        "switch language with unsaved draft",
+        "find",
+        "runtime preview",
+        "other-client policy edit",
+        "old preview disabled",
+        "recompute and explicitly apply",
+        "propose",
+        "cross-client acceptance",
+        "supply-refresh save",
+        "reload"
+      ]
+    },
+    {
+      "scenario": "3-member",
+      "operations": [
+        "new room",
+        "three synthetic nicknames",
+        "skip explicit film likes",
+        "local Qwen runtime_preview",
+        "structured card apply",
+        "baseline candidate",
+        "offline Edge",
+        "other-client acceptance update",
+        "reconnect current records",
+        "three acceptances",
+        "save",
+        "reload"
+      ]
+    },
+    {
+      "scenario": "4-member",
+      "operations": [
+        "new room",
+        "four synthetic nicknames",
+        "explicit like Inside Out 2",
+        "Horror/Musical vetoes",
+        "unavailable-model response",
+        "form zero result",
+        "form preview/apply",
+        "four accepts",
+        "save",
+        "reload",
+        "restore local model endpoint"
+      ]
+    },
+    {
+      "scenario": "demo",
+      "operations": [
+        "actual local Qwen runtime_preview 81 to96",
+        "19 new counted before six-card cap",
+        "explicit apply",
+        "independent LAN field synchronized",
+        "Inside Out 2 candidate facts",
+        "four records",
+        "supplier recheck",
+        "saved choice",
+        "reload",
+        "language switch"
+      ]
+    }
+  ],
+  "human_participants": 0,
+  "physical_phones": 0
+}

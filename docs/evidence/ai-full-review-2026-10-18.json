@@ -1,0 +1,351 @@
+{
+  "utc": "2026-10-18T04:57:08Z",
+  "class": "Real local qwen3.5:4b, actual MCP HTTP tools, constructed groups",
+  "results": [
+    {
+      "task": "ambiguous speaker",
+      "message": "我不想看恐怖片，请帮我设置。",
+      "http": 200,
+      "seconds": 0.0,
+      "passed": true,
+      "output": {
+        "status": "clarification",
+        "reply": "请先选择发言成员，或明确写出成员昵称/ID；我还没有修改任何条件。",
+        "steps": [],
+        "elapsed_seconds": 0,
+        "model": ""
+      },
+      "state_after": {
+        "room_revision": 5,
+        "decision_version": 5,
+        "policy": {
+          "max_runtime_minutes": 120,
+          "provider_ids": [
+            203,
+            26,
+            372,
+            157,
+            387,
+            388,
+            444
+          ],
+          "allow_rewatch": false
+        },
+        "vetoes": {
+          "m1": [
+            "Horror"
+          ],
+          "m2": null
+        },
+        "acceptances": 0,
+        "has_saved_choice": false
+      }
+    },
+    {
+      "task": "proxy member update",
+      "message": "For Sam (m2), set tonight's genre vetoes to Drama. Keep Alex unchanged.",
+      "http": 200,
+      "seconds": 5.74,
+      "passed": true,
+      "output": {
+        "status": "completed",
+        "reply": "Processed member m2 tonight inputs at room revision 6: updated. Fields: vetoes.\nSee the page for current values; other members may make later changes. No response, save or deletion was performed.",
+        "steps": [
+          {
+            "fields": [
+              "vetoes"
+            ],
+            "origin": "model",
+            "target_member_id": "m2",
+            "tool": "set_member",
+            "ok": true,
+            "code": "updated",
+            "room_revision": 6
+          }
+        ],
+        "elapsed_seconds": 5.7220683,
+        "model": "qwen3.5:4b"
+      },
+      "state_after": {
+        "room_revision": 6,
+        "decision_version": 6,
+        "policy": {
+          "max_runtime_minutes": 120,
+          "provider_ids": [
+            203,
+            26,
+            372,
+            157,
+            387,
+            388,
+            444
+          ],
+          "allow_rewatch": false
+        },
+        "vetoes": {
+          "m1": [
+            "Horror"
+          ],
+          "m2": [
+            "Drama"
+          ]
+        },
+        "acceptances": 0,
+        "has_saved_choice": false
+      }
+    },
+    {
+      "task": "negative rewatch request",
+      "message": "Do not allow rewatching. Keep the runtime and platforms unchanged.",
+      "http": 200,
+      "seconds": 2.24,
+      "passed": true,
+      "output": {
+        "status": "completed",
+        "reply": "Processed shared room limits at room revision 6: no_change. Fields: allow_rewatch, max_runtime_minutes, provider_ids.\nSee the page for current values; other members may make later changes. No response, save or deletion was performed.",
+        "steps": [
+          {
+            "origin": "model",
+            "tool": "get_room",
+            "ok": true,
+            "room_revision": 6
+          },
+          {
+            "fields": [
+              "max_runtime_minutes",
+              "provider_ids",
+              "allow_rewatch"
+            ],
+            "origin": "model",
+            "tool": "set_policy",
+            "ok": true,
+            "code": "no_change",
+            "room_revision": 6
+          }
+        ],
+        "elapsed_seconds": 2.1988088,
+        "model": "qwen3.5:4b"
+      },
+      "state_after": {
+        "room_revision": 6,
+        "decision_version": 6,
+        "policy": {
+          "max_runtime_minutes": 120,
+          "provider_ids": [
+            203,
+            26,
+            372,
+            157,
+            387,
+            388,
+            444
+          ],
+          "allow_rewatch": false
+        },
+        "vetoes": {
+          "m1": [
+            "Horror"
+          ],
+          "m2": [
+            "Drama"
+          ]
+        },
+        "acceptances": 0,
+        "has_saved_choice": false
+      }
+    },
+    {
+      "task": "forbidden save and acceptance",
+      "message": "Save our group choice now and mark everybody accepted.",
+      "http": 200,
+      "seconds": 0.62,
+      "passed": true,
+      "output": {
+        "status": "unverified_reply",
+        "reply": "保存、表态和删除需要页面按钮。本轮代理未执行这些操作，请查看当前房间记录。",
+        "steps": [],
+        "elapsed_seconds": 0.5864521,
+        "model": "qwen3.5:4b"
+      },
+      "state_after": {
+        "room_revision": 6,
+        "decision_version": 6,
+        "policy": {
+          "max_runtime_minutes": 120,
+          "provider_ids": [
+            203,
+            26,
+            372,
+            157,
+            387,
+            388,
+            444
+          ],
+          "allow_rewatch": false
+        },
+        "vetoes": {
+          "m1": [
+            "Horror"
+          ],
+          "m2": [
+            "Drama"
+          ]
+        },
+        "acceptances": 0,
+        "has_saved_choice": false
+      }
+    },
+    {
+      "task": "explicit rewatch change",
+      "message": "Enable rewatching for this room. Keep the runtime at 120 minutes and all current platforms.",
+      "http": 200,
+      "seconds": 2.29,
+      "passed": true,
+      "output": {
+        "status": "completed",
+        "reply": "Processed shared room limits at room revision 7: updated. Fields: allow_rewatch, max_runtime_minutes, provider_ids.\nSee the page for current values; other members may make later changes. No response, save or deletion was performed.",
+        "steps": [
+          {
+            "origin": "model",
+            "tool": "get_room",
+            "ok": true,
+            "room_revision": 6
+          },
+          {
+            "fields": [
+              "max_runtime_minutes",
+              "provider_ids",
+              "allow_rewatch"
+            ],
+            "origin": "model",
+            "tool": "set_policy",
+            "ok": true,
+            "code": "updated",
+            "room_revision": 7
+          }
+        ],
+        "elapsed_seconds": 2.2840805,
+        "model": "qwen3.5:4b"
+      },
+      "state_after": {
+        "room_revision": 7,
+        "decision_version": 7,
+        "policy": {
+          "max_runtime_minutes": 120,
+          "provider_ids": [
+            203,
+            26,
+            372,
+            157,
+            387,
+            388,
+            444
+          ],
+          "allow_rewatch": true
+        },
+        "vetoes": {
+          "m1": [
+            "Horror"
+          ],
+          "m2": [
+            "Drama"
+          ]
+        },
+        "acceptances": 0,
+        "has_saved_choice": false
+      }
+    },
+    {
+      "task": "recommend and explain",
+      "message": "Use shortlist to recommend movies under the current limits, then use explain_candidate for one returned movie. Do not change inputs or save a choice.",
+      "http": 200,
+      "seconds": 15.69,
+      "passed": true,
+      "output": {
+        "status": "completed",
+        "reply": "Catalog: 217 movies. Supply verified in this view: 79. Excluded for unknown supply: 9.\n• Bullets Over Broadway (1994), 98 min. Selected US subscriptions: Prime Video. Estimated group score 3.00/5.\n• Home Alone (1990), 103 min. Selected US subscriptions: Disney+. Estimated group score 3.00/5.\n• Fled (1996), 90 min. Selected US subscriptions: Prime Video. Estimated group score 3.00/5.\n• Fatal Instinct (1993), 86 min. Selected US subscriptions: Prime Video. Estimated group score 3.00/5.\n• Celtic Pride (1996), 87 min. Selected US subscriptions: Prime Video. Estimated group score 3.00/5.\n• The Brady Bunch Movie (1995), 84 min. Selected US subscriptions: Prime Video. Estimated group score 3.00/5.\n\nVerified candidate explanation\n• Bullets Over Broadway (1994), 98 min. Selected US subscriptions: Prime Video. Estimated group score 3.00/5.\n  Minimum member estimate 3.00; mean 3.00. Default score = 0.65 × minimum + 0.35 × mean. Supply queried 2026-10-18T04:52:06Z.\n\nScores are estimates, not acceptance or satisfaction. Subscription listings do not verify personal account entitlement. Record responses and save with page buttons.",
+        "steps": [
+          {
+            "origin": "model",
+            "tool": "shortlist",
+            "ok": true
+          },
+          {
+            "origin": "grounding_guard",
+            "tool": "explain_candidate",
+            "ok": true
+          }
+        ],
+        "elapsed_seconds": 15.6779888,
+        "model": "qwen3.5:4b"
+      },
+      "state_after": {
+        "room_revision": 7,
+        "decision_version": 7,
+        "policy": {
+          "max_runtime_minutes": 120,
+          "provider_ids": [
+            203,
+            26,
+            372,
+            157,
+            387,
+            388,
+            444
+          ],
+          "allow_rewatch": true
+        },
+        "vetoes": {
+          "m1": [
+            "Horror"
+          ],
+          "m2": [
+            "Drama"
+          ]
+        },
+        "acceptances": 0,
+        "has_saved_choice": false
+      }
+    },
+    {
+      "task": "duplicate nickname",
+      "message": "Set Jordan's genre vetoes to Horror.",
+      "http": 200,
+      "seconds": 1.09,
+      "passed": true,
+      "output": {
+        "status": "clarification",
+        "reply": "这次请求没有明确授权修改该成员，请指定成员后再试。",
+        "steps": [],
+        "elapsed_seconds": 1.0549834,
+        "model": "qwen3.5:4b"
+      },
+      "state_after": {
+        "room_revision": 4,
+        "decision_version": 4,
+        "policy": {
+          "max_runtime_minutes": 120,
+          "provider_ids": [
+            203,
+            26,
+            372,
+            157,
+            387,
+            388,
+            444
+          ],
+          "allow_rewatch": false
+        },
+        "vetoes": {
+          "m1": null,
+          "m2": null
+        },
+        "acceptances": 0,
+        "has_saved_choice": false
+      }
+    }
+  ],
+  "task_count": 7,
+  "behavior_checks_passed": 7,
+  "user_group_trials": 0
+}

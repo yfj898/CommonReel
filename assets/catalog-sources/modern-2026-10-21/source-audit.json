@@ -1,0 +1,1755 @@
+[
+  {
+    "qid": "Q6144664",
+    "film_id": "wikidata:Q6144664",
+    "raw_file": "raw/inside-out-direct.json",
+    "source": "https://www.wikidata.org/wiki/Q6144664",
+    "title": "Inside Out",
+    "imdb_ids": [
+      "tt2096673"
+    ],
+    "runtimes": [
+      "94"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2015
+    ],
+    "genre_ids": [
+      "Q130232",
+      "Q1361932",
+      "Q157394",
+      "Q157443",
+      "Q2143665",
+      "Q319221",
+      "Q859369"
+    ],
+    "instance_ids": [
+      "Q202866"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q130232",
+        "label": "drama film",
+        "tags": [
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q130232"
+      },
+      {
+        "qid": "Q1361932",
+        "label": "family film",
+        "tags": [
+          "Family"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q1361932"
+      },
+      {
+        "qid": "Q157394",
+        "label": "fantasy film",
+        "tags": [
+          "Fantasy"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q157394"
+      },
+      {
+        "qid": "Q157443",
+        "label": "comedy film",
+        "tags": [
+          "Comedy"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q157443"
+      },
+      {
+        "qid": "Q2143665",
+        "label": "children's film",
+        "tags": [
+          "Children'S"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q2143665"
+      },
+      {
+        "qid": "Q319221",
+        "label": "adventure film",
+        "tags": [
+          "Adventure"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q319221"
+      },
+      {
+        "qid": "Q859369",
+        "label": "comedy drama",
+        "tags": [
+          "Comedy",
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q859369"
+      }
+    ],
+    "output_runtime_minutes": 94
+  },
+  {
+    "qid": "Q18547944",
+    "film_id": "wikidata:Q18547944",
+    "raw_file": "raw/candidate-batch-00.json",
+    "source": "https://www.wikidata.org/wiki/Q18547944",
+    "title": "The Martian",
+    "imdb_ids": [
+      "tt3659388"
+    ],
+    "runtimes": [
+      "141"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2015
+    ],
+    "genre_ids": [
+      "Q130232",
+      "Q15898171",
+      "Q188473",
+      "Q319221",
+      "Q471839"
+    ],
+    "instance_ids": [
+      "Q11424"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q130232",
+        "label": "drama film",
+        "tags": [
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q130232"
+      },
+      {
+        "qid": "Q15898171",
+        "label": "survival film",
+        "tags": [
+          "Survival"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q15898171"
+      },
+      {
+        "qid": "Q188473",
+        "label": "action film",
+        "tags": [
+          "Action"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q188473"
+      },
+      {
+        "qid": "Q319221",
+        "label": "adventure film",
+        "tags": [
+          "Adventure"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q319221"
+      },
+      {
+        "qid": "Q471839",
+        "label": "science fiction film",
+        "tags": [
+          "Sci-Fi"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q471839"
+      }
+    ],
+    "output_runtime_minutes": 141
+  },
+  {
+    "qid": "Q15270647",
+    "film_id": "wikidata:Q15270647",
+    "raw_file": "raw/candidate-batch-00.json",
+    "source": "https://www.wikidata.org/wiki/Q15270647",
+    "title": "Zootopia",
+    "imdb_ids": [
+      "tt2948356"
+    ],
+    "runtimes": [
+      "108"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2016
+    ],
+    "genre_ids": [
+      "Q1361932",
+      "Q157443",
+      "Q25533274",
+      "Q2678111",
+      "Q319221",
+      "Q4984974"
+    ],
+    "instance_ids": [
+      "Q202866"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q1361932",
+        "label": "family film",
+        "tags": [
+          "Family"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q1361932"
+      },
+      {
+        "qid": "Q157443",
+        "label": "comedy film",
+        "tags": [
+          "Comedy"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q157443"
+      },
+      {
+        "qid": "Q25533274",
+        "label": "detective film",
+        "tags": [
+          "Detective"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q25533274"
+      },
+      {
+        "qid": "Q2678111",
+        "label": "action comedy film",
+        "tags": [
+          "Action",
+          "Comedy"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q2678111"
+      },
+      {
+        "qid": "Q319221",
+        "label": "adventure film",
+        "tags": [
+          "Adventure"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q319221"
+      },
+      {
+        "qid": "Q4984974",
+        "label": "buddy cop film",
+        "tags": [
+          "Buddy Cop"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q4984974"
+      }
+    ],
+    "output_runtime_minutes": 108
+  },
+  {
+    "qid": "Q20382729",
+    "film_id": "wikidata:Q20382729",
+    "raw_file": "raw/candidate-batch-00.json",
+    "source": "https://www.wikidata.org/wiki/Q20382729",
+    "title": "Arrival",
+    "imdb_ids": [
+      "tt2543164"
+    ],
+    "runtimes": [
+      "116"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2016
+    ],
+    "genre_ids": [
+      "Q1200678",
+      "Q130232",
+      "Q2484376",
+      "Q471839"
+    ],
+    "instance_ids": [
+      "Q11424"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q1200678",
+        "label": "mystery film",
+        "tags": [
+          "Mystery"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q1200678"
+      },
+      {
+        "qid": "Q130232",
+        "label": "drama film",
+        "tags": [
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q130232"
+      },
+      {
+        "qid": "Q2484376",
+        "label": "thriller film",
+        "tags": [
+          "Thriller"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q2484376"
+      },
+      {
+        "qid": "Q471839",
+        "label": "science fiction film",
+        "tags": [
+          "Sci-Fi"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q471839"
+      }
+    ],
+    "output_runtime_minutes": 116
+  },
+  {
+    "qid": "Q18647981",
+    "film_id": "wikidata:Q18647981",
+    "raw_file": "raw/candidate-batch-00.json",
+    "source": "https://www.wikidata.org/wiki/Q18647981",
+    "title": "Moana",
+    "imdb_ids": [
+      "tt3521164"
+    ],
+    "runtimes": [
+      "107"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2016
+    ],
+    "genre_ids": [
+      "Q157443",
+      "Q188473",
+      "Q319221",
+      "Q842256",
+      "Q859369"
+    ],
+    "instance_ids": [
+      "Q202866"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q157443",
+        "label": "comedy film",
+        "tags": [
+          "Comedy"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q157443"
+      },
+      {
+        "qid": "Q188473",
+        "label": "action film",
+        "tags": [
+          "Action"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q188473"
+      },
+      {
+        "qid": "Q319221",
+        "label": "adventure film",
+        "tags": [
+          "Adventure"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q319221"
+      },
+      {
+        "qid": "Q842256",
+        "label": "musical film",
+        "tags": [
+          "Musical"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q842256"
+      },
+      {
+        "qid": "Q859369",
+        "label": "comedy drama",
+        "tags": [
+          "Comedy",
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q859369"
+      }
+    ],
+    "output_runtime_minutes": 107
+  },
+  {
+    "qid": "Q23755544",
+    "film_id": "wikidata:Q23755544",
+    "raw_file": "raw/candidate-batch-00.json",
+    "source": "https://www.wikidata.org/wiki/Q23755544",
+    "title": "Hidden Figures",
+    "imdb_ids": [
+      "tt4846340"
+    ],
+    "runtimes": [
+      "127"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2016,
+      2017
+    ],
+    "genre_ids": [
+      "Q130232",
+      "Q645928"
+    ],
+    "instance_ids": [
+      "Q11424"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q130232",
+        "label": "drama film",
+        "tags": [
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q130232"
+      },
+      {
+        "qid": "Q645928",
+        "label": "biographical film",
+        "tags": [
+          "Biography"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q645928"
+      }
+    ],
+    "output_runtime_minutes": 127
+  },
+  {
+    "qid": "Q5815826",
+    "film_id": "wikidata:Q5815826",
+    "raw_file": "raw/candidate-batch-00.json",
+    "source": "https://www.wikidata.org/wiki/Q5815826",
+    "title": "Coco",
+    "imdb_ids": [
+      "tt2380307"
+    ],
+    "runtimes": [
+      "109"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2017,
+      2018
+    ],
+    "genre_ids": [
+      "Q130232",
+      "Q1361932",
+      "Q157394",
+      "Q157443",
+      "Q1919632",
+      "Q25533274",
+      "Q31888058",
+      "Q319221",
+      "Q842256"
+    ],
+    "instance_ids": [
+      "Q202866"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q130232",
+        "label": "drama film",
+        "tags": [
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q130232"
+      },
+      {
+        "qid": "Q1361932",
+        "label": "family film",
+        "tags": [
+          "Family"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q1361932"
+      },
+      {
+        "qid": "Q157394",
+        "label": "fantasy film",
+        "tags": [
+          "Fantasy"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q157394"
+      },
+      {
+        "qid": "Q157443",
+        "label": "comedy film",
+        "tags": [
+          "Comedy"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q157443"
+      },
+      {
+        "qid": "Q1919632",
+        "label": "melodrama",
+        "tags": [
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q1919632"
+      },
+      {
+        "qid": "Q25533274",
+        "label": "detective film",
+        "tags": [
+          "Detective"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q25533274"
+      },
+      {
+        "qid": "Q31888058",
+        "label": "ghost film",
+        "tags": [
+          "Ghost"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q31888058"
+      },
+      {
+        "qid": "Q319221",
+        "label": "adventure film",
+        "tags": [
+          "Adventure"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q319221"
+      },
+      {
+        "qid": "Q842256",
+        "label": "musical film",
+        "tags": [
+          "Musical"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q842256"
+      }
+    ],
+    "output_runtime_minutes": 109
+  },
+  {
+    "qid": "Q25136235",
+    "film_id": "wikidata:Q25136235",
+    "raw_file": "raw/candidate-batch-00.json",
+    "source": "https://www.wikidata.org/wiki/Q25136235",
+    "title": "Get Out",
+    "imdb_ids": [
+      "tt5052448"
+    ],
+    "runtimes": [
+      "104"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2017
+    ],
+    "genre_ids": [
+      "Q1200678",
+      "Q200092",
+      "Q224700",
+      "Q2484376"
+    ],
+    "instance_ids": [
+      "Q11424"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q1200678",
+        "label": "mystery film",
+        "tags": [
+          "Mystery"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q1200678"
+      },
+      {
+        "qid": "Q200092",
+        "label": "horror film",
+        "tags": [
+          "Horror"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q200092"
+      },
+      {
+        "qid": "Q224700",
+        "label": "comedy horror",
+        "tags": [
+          "Comedy",
+          "Horror"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q224700"
+      },
+      {
+        "qid": "Q2484376",
+        "label": "thriller film",
+        "tags": [
+          "Thriller"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q2484376"
+      }
+    ],
+    "output_runtime_minutes": 104
+  },
+  {
+    "qid": "Q21935651",
+    "film_id": "wikidata:Q21935651",
+    "raw_file": "raw/candidate-batch-00.json",
+    "source": "https://www.wikidata.org/wiki/Q21935651",
+    "title": "Dunkirk",
+    "imdb_ids": [
+      "tt5013056"
+    ],
+    "runtimes": [
+      "106"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2017
+    ],
+    "genre_ids": [
+      "Q130232",
+      "Q17013749",
+      "Q369747"
+    ],
+    "instance_ids": [
+      "Q11424"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q130232",
+        "label": "drama film",
+        "tags": [
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q130232"
+      },
+      {
+        "qid": "Q17013749",
+        "label": "historical film",
+        "tags": [
+          "Historical"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q17013749"
+      },
+      {
+        "qid": "Q369747",
+        "label": "war film",
+        "tags": [
+          "War"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q369747"
+      }
+    ],
+    "output_runtime_minutes": 106
+  },
+  {
+    "qid": "Q26698156",
+    "film_id": "wikidata:Q26698156",
+    "raw_file": "raw/candidate-batch-00.json",
+    "source": "https://www.wikidata.org/wiki/Q26698156",
+    "title": "The Shape of Water",
+    "imdb_ids": [
+      "tt5580390"
+    ],
+    "runtimes": [
+      "123"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2017,
+      2018
+    ],
+    "genre_ids": [
+      "Q102706436",
+      "Q1054574",
+      "Q130232",
+      "Q157394",
+      "Q1919632",
+      "Q2484376"
+    ],
+    "instance_ids": [
+      "Q11424"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q102706436",
+        "label": "magic realist film",
+        "tags": [
+          "Magic Realist"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q102706436"
+      },
+      {
+        "qid": "Q1054574",
+        "label": "romance film",
+        "tags": [
+          "Romance"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q1054574"
+      },
+      {
+        "qid": "Q130232",
+        "label": "drama film",
+        "tags": [
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q130232"
+      },
+      {
+        "qid": "Q157394",
+        "label": "fantasy film",
+        "tags": [
+          "Fantasy"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q157394"
+      },
+      {
+        "qid": "Q1919632",
+        "label": "melodrama",
+        "tags": [
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q1919632"
+      },
+      {
+        "qid": "Q2484376",
+        "label": "thriller film",
+        "tags": [
+          "Thriller"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q2484376"
+      }
+    ],
+    "output_runtime_minutes": 123
+  },
+  {
+    "qid": "Q27590871",
+    "film_id": "wikidata:Q27590871",
+    "raw_file": "raw/candidate-batch-00.json",
+    "source": "https://www.wikidata.org/wiki/Q27590871",
+    "title": "Paddington 2",
+    "imdb_ids": [
+      "tt4468740"
+    ],
+    "runtimes": [
+      "103"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2017,
+      2018
+    ],
+    "genre_ids": [
+      "Q1361932",
+      "Q157443",
+      "Q319221"
+    ],
+    "instance_ids": [
+      "Q11424"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q1361932",
+        "label": "family film",
+        "tags": [
+          "Family"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q1361932"
+      },
+      {
+        "qid": "Q157443",
+        "label": "comedy film",
+        "tags": [
+          "Comedy"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q157443"
+      },
+      {
+        "qid": "Q319221",
+        "label": "adventure film",
+        "tags": [
+          "Adventure"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q319221"
+      }
+    ],
+    "output_runtime_minutes": 103
+  },
+  {
+    "qid": "Q23780734",
+    "film_id": "wikidata:Q23780734",
+    "raw_file": "raw/candidate-batch-00.json",
+    "source": "https://www.wikidata.org/wiki/Q23780734",
+    "title": "Black Panther",
+    "imdb_ids": [
+      "tt1825683"
+    ],
+    "runtimes": [
+      "134"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2018
+    ],
+    "genre_ids": [
+      "Q1535153",
+      "Q188473",
+      "Q319221",
+      "Q471839"
+    ],
+    "instance_ids": [
+      "Q11424"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q1535153",
+        "label": "superhero film",
+        "tags": [
+          "Superhero"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q1535153"
+      },
+      {
+        "qid": "Q188473",
+        "label": "action film",
+        "tags": [
+          "Action"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q188473"
+      },
+      {
+        "qid": "Q319221",
+        "label": "adventure film",
+        "tags": [
+          "Adventure"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q319221"
+      },
+      {
+        "qid": "Q471839",
+        "label": "science fiction film",
+        "tags": [
+          "Sci-Fi"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q471839"
+      }
+    ],
+    "output_runtime_minutes": 134
+  },
+  {
+    "qid": "Q57982486",
+    "film_id": "wikidata:Q57982486",
+    "raw_file": "raw/candidate-batch-00.json",
+    "source": "https://www.wikidata.org/wiki/Q57982486",
+    "title": "Knives Out",
+    "imdb_ids": [
+      "tt8946378"
+    ],
+    "runtimes": [
+      "130"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2019,
+      2020
+    ],
+    "genre_ids": [
+      "Q1200678",
+      "Q130232",
+      "Q157443",
+      "Q2484376",
+      "Q959790"
+    ],
+    "instance_ids": [
+      "Q11424"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q1200678",
+        "label": "mystery film",
+        "tags": [
+          "Mystery"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q1200678"
+      },
+      {
+        "qid": "Q130232",
+        "label": "drama film",
+        "tags": [
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q130232"
+      },
+      {
+        "qid": "Q157443",
+        "label": "comedy film",
+        "tags": [
+          "Comedy"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q157443"
+      },
+      {
+        "qid": "Q2484376",
+        "label": "thriller film",
+        "tags": [
+          "Thriller"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q2484376"
+      },
+      {
+        "qid": "Q959790",
+        "label": "crime film",
+        "tags": [
+          "Crime"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q959790"
+      }
+    ],
+    "output_runtime_minutes": 130
+  },
+  {
+    "qid": "Q61448040",
+    "film_id": "wikidata:Q61448040",
+    "raw_file": "raw/candidate-batch-01.json",
+    "source": "https://www.wikidata.org/wiki/Q61448040",
+    "title": "Parasite",
+    "imdb_ids": [
+      "tt6751668"
+    ],
+    "runtimes": [
+      "132"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2019,
+      2020
+    ],
+    "genre_ids": [
+      "Q2484376",
+      "Q53094",
+      "Q859369"
+    ],
+    "instance_ids": [
+      "Q11424"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q2484376",
+        "label": "thriller film",
+        "tags": [
+          "Thriller"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q2484376"
+      },
+      {
+        "qid": "Q53094",
+        "label": "black comedy",
+        "tags": [
+          "Comedy"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q53094"
+      },
+      {
+        "qid": "Q859369",
+        "label": "comedy drama",
+        "tags": [
+          "Comedy",
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q859369"
+      }
+    ],
+    "output_runtime_minutes": 132
+  },
+  {
+    "qid": "Q56881140",
+    "film_id": "wikidata:Q56881140",
+    "raw_file": "raw/candidate-batch-01.json",
+    "source": "https://www.wikidata.org/wiki/Q56881140",
+    "title": "Little Women",
+    "imdb_ids": [
+      "tt3281548"
+    ],
+    "runtimes": [
+      "134"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2019,
+      2020
+    ],
+    "genre_ids": [
+      "Q130232"
+    ],
+    "instance_ids": [
+      "Q11424"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q130232",
+        "label": "drama film",
+        "tags": [
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q130232"
+      }
+    ],
+    "output_runtime_minutes": 134
+  },
+  {
+    "qid": "Q55081822",
+    "film_id": "wikidata:Q55081822",
+    "raw_file": "raw/candidate-batch-01.json",
+    "source": "https://www.wikidata.org/wiki/Q55081822",
+    "title": "Ford v Ferrari",
+    "imdb_ids": [
+      "tt1950186"
+    ],
+    "runtimes": [
+      "152"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2019
+    ],
+    "genre_ids": [
+      "Q130232",
+      "Q1339864",
+      "Q188473",
+      "Q645928"
+    ],
+    "instance_ids": [
+      "Q11424"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q130232",
+        "label": "drama film",
+        "tags": [
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q130232"
+      },
+      {
+        "qid": "Q1339864",
+        "label": "sport film",
+        "tags": [
+          "Sport"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q1339864"
+      },
+      {
+        "qid": "Q188473",
+        "label": "action film",
+        "tags": [
+          "Action"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q188473"
+      },
+      {
+        "qid": "Q645928",
+        "label": "biographical film",
+        "tags": [
+          "Biography"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q645928"
+      }
+    ],
+    "output_runtime_minutes": 152
+  },
+  {
+    "qid": "Q64744044",
+    "film_id": "wikidata:Q64744044",
+    "raw_file": "raw/candidate-batch-01.json",
+    "source": "https://www.wikidata.org/wiki/Q64744044",
+    "title": "Soul",
+    "imdb_ids": [
+      "tt2948372"
+    ],
+    "runtimes": [
+      "101"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2020
+    ],
+    "genre_ids": [
+      "Q157394",
+      "Q31888058",
+      "Q319221",
+      "Q859369"
+    ],
+    "instance_ids": [
+      "Q202866"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q157394",
+        "label": "fantasy film",
+        "tags": [
+          "Fantasy"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q157394"
+      },
+      {
+        "qid": "Q31888058",
+        "label": "ghost film",
+        "tags": [
+          "Ghost"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q31888058"
+      },
+      {
+        "qid": "Q319221",
+        "label": "adventure film",
+        "tags": [
+          "Adventure"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q319221"
+      },
+      {
+        "qid": "Q859369",
+        "label": "comedy drama",
+        "tags": [
+          "Comedy",
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q859369"
+      }
+    ],
+    "output_runtime_minutes": 101
+  },
+  {
+    "qid": "Q65084655",
+    "film_id": "wikidata:Q65084655",
+    "raw_file": "raw/candidate-batch-01.json",
+    "source": "https://www.wikidata.org/wiki/Q65084655",
+    "title": "Palm Springs",
+    "imdb_ids": [
+      "tt9484998"
+    ],
+    "runtimes": [
+      "90"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2020
+    ],
+    "genre_ids": [
+      "Q157443"
+    ],
+    "instance_ids": [
+      "Q11424"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q157443",
+        "label": "comedy film",
+        "tags": [
+          "Comedy"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q157443"
+      }
+    ],
+    "output_runtime_minutes": 90
+  },
+  {
+    "qid": "Q54021143",
+    "film_id": "wikidata:Q54021143",
+    "raw_file": "raw/candidate-batch-01.json",
+    "source": "https://www.wikidata.org/wiki/Q54021143",
+    "title": "The Mitchells vs. The Machines",
+    "imdb_ids": [
+      "tt7979580"
+    ],
+    "runtimes": [
+      "113"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2021
+    ],
+    "genre_ids": [
+      "Q47009776",
+      "Q471839",
+      "Q628165"
+    ],
+    "instance_ids": [
+      "Q11424"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q47009776",
+        "label": "apocalyptic film",
+        "tags": [
+          "Apocalyptic"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q47009776"
+      },
+      {
+        "qid": "Q471839",
+        "label": "science fiction film",
+        "tags": [
+          "Sci-Fi"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q471839"
+      },
+      {
+        "qid": "Q628165",
+        "label": "road movie",
+        "tags": [
+          "Road Movie"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q628165"
+      }
+    ],
+    "output_runtime_minutes": 113
+  },
+  {
+    "qid": "Q60834962",
+    "film_id": "wikidata:Q60834962",
+    "raw_file": "raw/candidate-batch-01.json",
+    "source": "https://www.wikidata.org/wiki/Q60834962",
+    "title": "Dune",
+    "imdb_ids": [
+      "tt1160419"
+    ],
+    "runtimes": [
+      "155"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2021
+    ],
+    "genre_ids": [
+      "Q188473",
+      "Q2973181",
+      "Q319221",
+      "Q471839"
+    ],
+    "instance_ids": [
+      "Q11424"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q188473",
+        "label": "action film",
+        "tags": [
+          "Action"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q188473"
+      },
+      {
+        "qid": "Q2973181",
+        "label": "speculative fiction film",
+        "tags": [
+          "Speculative Fiction"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q2973181"
+      },
+      {
+        "qid": "Q319221",
+        "label": "adventure film",
+        "tags": [
+          "Adventure"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q319221"
+      },
+      {
+        "qid": "Q471839",
+        "label": "science fiction film",
+        "tags": [
+          "Sci-Fi"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q471839"
+      }
+    ],
+    "output_runtime_minutes": 155
+  },
+  {
+    "qid": "Q104686893",
+    "film_id": "wikidata:Q104686893",
+    "raw_file": "raw/candidate-batch-01.json",
+    "source": "https://www.wikidata.org/wiki/Q104686893",
+    "title": "CODA",
+    "imdb_ids": [
+      "tt10366460"
+    ],
+    "runtimes": [
+      "111"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2021
+    ],
+    "genre_ids": [
+      "Q842256",
+      "Q859369"
+    ],
+    "instance_ids": [
+      "Q11424"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q842256",
+        "label": "musical film",
+        "tags": [
+          "Musical"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q842256"
+      },
+      {
+        "qid": "Q859369",
+        "label": "comedy drama",
+        "tags": [
+          "Comedy",
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q859369"
+      }
+    ],
+    "output_runtime_minutes": 111
+  },
+  {
+    "qid": "Q103372692",
+    "film_id": "wikidata:Q103372692",
+    "raw_file": "raw/candidate-batch-01.json",
+    "source": "https://www.wikidata.org/wiki/Q103372692",
+    "title": "Encanto",
+    "imdb_ids": [
+      "tt2953050"
+    ],
+    "runtimes": [
+      "109"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2021
+    ],
+    "genre_ids": [
+      "Q157394",
+      "Q842256"
+    ],
+    "instance_ids": [
+      "Q202866"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q157394",
+        "label": "fantasy film",
+        "tags": [
+          "Fantasy"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q157394"
+      },
+      {
+        "qid": "Q842256",
+        "label": "musical film",
+        "tags": [
+          "Musical"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q842256"
+      }
+    ],
+    "output_runtime_minutes": 109
+  },
+  {
+    "qid": "Q116025865",
+    "film_id": "wikidata:Q116025865",
+    "raw_file": "raw/candidate-batch-01.json",
+    "source": "https://www.wikidata.org/wiki/Q116025865",
+    "title": "Past Lives",
+    "imdb_ids": [
+      "tt13238346"
+    ],
+    "runtimes": [
+      "106"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2023,
+      2024
+    ],
+    "genre_ids": [
+      "Q130232"
+    ],
+    "instance_ids": [
+      "Q11424"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q130232",
+        "label": "drama film",
+        "tags": [
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q130232"
+      }
+    ],
+    "output_runtime_minutes": 106
+  },
+  {
+    "qid": "Q112114745",
+    "film_id": "wikidata:Q112114745",
+    "raw_file": "raw/candidate-batch-01.json",
+    "source": "https://www.wikidata.org/wiki/Q112114745",
+    "title": "The Holdovers",
+    "imdb_ids": [
+      "tt14849194"
+    ],
+    "runtimes": [
+      "133"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2023,
+      2024
+    ],
+    "genre_ids": [
+      "Q28026639",
+      "Q859369"
+    ],
+    "instance_ids": [
+      "Q11424"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q28026639",
+        "label": "Christmas film",
+        "tags": [
+          "Christmas"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q28026639"
+      },
+      {
+        "qid": "Q859369",
+        "label": "comedy drama",
+        "tags": [
+          "Comedy",
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q859369"
+      }
+    ],
+    "output_runtime_minutes": 133
+  },
+  {
+    "qid": "Q113877606",
+    "film_id": "wikidata:Q113877606",
+    "raw_file": "raw/candidate-batch-01.json",
+    "source": "https://www.wikidata.org/wiki/Q113877606",
+    "title": "Inside Out 2",
+    "imdb_ids": [
+      "tt22022452"
+    ],
+    "runtimes": [
+      "96"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2024
+    ],
+    "genre_ids": [
+      "Q102429885",
+      "Q859369"
+    ],
+    "instance_ids": [
+      "Q202866"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q102429885",
+        "label": "coming-of-age film",
+        "tags": [
+          "Coming-of-Age"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q102429885"
+      },
+      {
+        "qid": "Q859369",
+        "label": "comedy drama",
+        "tags": [
+          "Comedy",
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q859369"
+      }
+    ],
+    "output_runtime_minutes": 96
+  },
+  {
+    "qid": "Q109228991",
+    "film_id": "wikidata:Q109228991",
+    "raw_file": "raw/candidate-batch-02.json",
+    "source": "https://www.wikidata.org/wiki/Q109228991",
+    "title": "Dune: Part Two",
+    "imdb_ids": [
+      "tt15239678"
+    ],
+    "runtimes": [
+      "165"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2024
+    ],
+    "genre_ids": [
+      "Q188473",
+      "Q2973181",
+      "Q319221",
+      "Q471839",
+      "Q652256"
+    ],
+    "instance_ids": [
+      "Q11424"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q188473",
+        "label": "action film",
+        "tags": [
+          "Action"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q188473"
+      },
+      {
+        "qid": "Q2973181",
+        "label": "speculative fiction film",
+        "tags": [
+          "Speculative Fiction"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q2973181"
+      },
+      {
+        "qid": "Q319221",
+        "label": "adventure film",
+        "tags": [
+          "Adventure"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q319221"
+      },
+      {
+        "qid": "Q471839",
+        "label": "science fiction film",
+        "tags": [
+          "Sci-Fi"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q471839"
+      },
+      {
+        "qid": "Q652256",
+        "label": "epic film",
+        "tags": [
+          "Epic"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q652256"
+      }
+    ],
+    "output_runtime_minutes": 165
+  },
+  {
+    "qid": "Q124378349",
+    "film_id": "wikidata:Q124378349",
+    "raw_file": "raw/candidate-batch-02.json",
+    "source": "https://www.wikidata.org/wiki/Q124378349",
+    "title": "The Wild Robot",
+    "imdb_ids": [
+      "tt29623480"
+    ],
+    "runtimes": [
+      "102"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2024
+    ],
+    "genre_ids": [
+      "Q130232",
+      "Q319221",
+      "Q471839"
+    ],
+    "instance_ids": [
+      "Q202866"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q130232",
+        "label": "drama film",
+        "tags": [
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q130232"
+      },
+      {
+        "qid": "Q319221",
+        "label": "adventure film",
+        "tags": [
+          "Adventure"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q319221"
+      },
+      {
+        "qid": "Q471839",
+        "label": "science fiction film",
+        "tags": [
+          "Sci-Fi"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q471839"
+      }
+    ],
+    "output_runtime_minutes": 102
+  },
+  {
+    "qid": "Q125622088",
+    "film_id": "wikidata:Q125622088",
+    "raw_file": "raw/candidate-batch-02.json",
+    "source": "https://www.wikidata.org/wiki/Q125622088",
+    "title": "Flow",
+    "imdb_ids": [
+      "tt4772188"
+    ],
+    "runtimes": [
+      "80"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2024,
+      2025
+    ],
+    "genre_ids": [
+      "Q1361932",
+      "Q157394",
+      "Q319221"
+    ],
+    "instance_ids": [
+      "Q202866"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q1361932",
+        "label": "family film",
+        "tags": [
+          "Family"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q1361932"
+      },
+      {
+        "qid": "Q157394",
+        "label": "fantasy film",
+        "tags": [
+          "Fantasy"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q157394"
+      },
+      {
+        "qid": "Q319221",
+        "label": "adventure film",
+        "tags": [
+          "Adventure"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q319221"
+      }
+    ],
+    "output_runtime_minutes": 80
+  },
+  {
+    "qid": "Q19850715",
+    "film_id": "wikidata:Q19850715",
+    "raw_file": "raw/candidate-batch-02.json",
+    "source": "https://www.wikidata.org/wiki/Q19850715",
+    "title": "The Big Short",
+    "imdb_ids": [
+      "tt1596363"
+    ],
+    "runtimes": [
+      "130"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2015,
+      2016
+    ],
+    "genre_ids": [
+      "Q130232",
+      "Q645928",
+      "Q859369",
+      "Q959790"
+    ],
+    "instance_ids": [
+      "Q11424"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q130232",
+        "label": "drama film",
+        "tags": [
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q130232"
+      },
+      {
+        "qid": "Q645928",
+        "label": "biographical film",
+        "tags": [
+          "Biography"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q645928"
+      },
+      {
+        "qid": "Q859369",
+        "label": "comedy drama",
+        "tags": [
+          "Comedy",
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q859369"
+      },
+      {
+        "qid": "Q959790",
+        "label": "crime film",
+        "tags": [
+          "Crime"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q959790"
+      }
+    ],
+    "output_runtime_minutes": 130
+  },
+  {
+    "qid": "Q18154496",
+    "film_id": "wikidata:Q18154496",
+    "raw_file": "raw/candidate-batch-02.json",
+    "source": "https://www.wikidata.org/wiki/Q18154496",
+    "title": "Spotlight",
+    "imdb_ids": [
+      "tt1895587"
+    ],
+    "runtimes": [
+      "128"
+    ],
+    "invalid_runtime_units": [],
+    "release_years": [
+      2015,
+      2016
+    ],
+    "genre_ids": [
+      "Q130232",
+      "Q645928"
+    ],
+    "instance_ids": [
+      "Q11424"
+    ],
+    "genre_evidence": [
+      {
+        "qid": "Q130232",
+        "label": "drama film",
+        "tags": [
+          "Drama"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q130232"
+      },
+      {
+        "qid": "Q645928",
+        "label": "biographical film",
+        "tags": [
+          "Biography"
+        ],
+        "source": "https://www.wikidata.org/wiki/Q645928"
+      }
+    ],
+    "output_runtime_minutes": 128
+  }
+]

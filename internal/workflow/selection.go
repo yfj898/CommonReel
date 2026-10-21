@@ -93,12 +93,14 @@ type ChoiceSummary struct {
 	Label        string    `json:"label"`
 }
 type Candidate struct {
-	Film         Film               `json:"film"`
-	Availability Availability       `json:"availability"`
-	Score        float64            `json:"estimated_group_score"`
-	Minimum      float64            `json:"estimated_minimum"`
-	Mean         float64            `json:"estimated_mean"`
-	Estimates    map[string]float64 `json:"estimates"`
+	PreferenceBasis string             `json:"preference_basis"`
+	EstimateBasis   map[string]string  `json:"estimate_basis"`
+	Film            Film               `json:"film"`
+	Availability    Availability       `json:"availability"`
+	Score           float64            `json:"estimated_group_score"`
+	Minimum         float64            `json:"estimated_minimum"`
+	Mean            float64            `json:"estimated_mean"`
+	Estimates       map[string]float64 `json:"estimates"`
 }
 type Shortlist struct {
 	CatalogTotal   int            `json:"catalog_total"`
@@ -307,7 +309,7 @@ func (a *App) eligibility(s Session, f Film, av Availability) string {
 				return "genre_veto"
 			}
 		}
-		if !s.Policy.Rewatch && contains(effectiveSeen(m), f.ID) {
+		if !s.Policy.Rewatch && (contains(effectiveSeen(m), f.ID) || f.IMDb != "" && contains(effectiveSeen(m), "imdb:"+f.IMDb)) {
 			return "already_seen"
 		}
 	}
@@ -321,27 +323,48 @@ func (a *App) eligibility(s Session, f Film, av Availability) string {
 	}
 	return "no_selected_subscription"
 }
-func estimate(m Member, f Film, films []Film) float64 {
+func explicitRating(m Member, f Film) (float64, bool) {
 	if v, ok := m.Preferences.Ratings[f.ID]; ok {
-		return v
+		return v, true
+	}
+	if f.IMDb != "" {
+		v, ok := m.Preferences.Ratings["imdb:"+f.IMDb]
+		return v, ok
+	}
+	return 0, false
+}
+func explicitlyLiked(m Member, f Film) bool {
+	if liked, ok := m.Preferences.Likes[f.ID]; ok {
+		return liked
+	}
+	return f.IMDb != "" && m.Preferences.Likes["imdb:"+f.IMDb]
+}
+func estimate(m Member, f Film, films []Film) (float64, string) {
+	if v, ok := explicitRating(m, f); ok {
+		return v, "explicit_rating"
 	}
 	prior := f.Prior
 	if prior < 1 || prior > 5 {
 		prior = 3
 	}
-	positive := append([]string{}, m.Preferences.LikedGenres...)
-	for _, liked := range films {
-		if m.Preferences.Likes[liked.ID] || m.Preferences.Ratings[liked.ID] >= 4 {
-			positive = append(positive, liked.Genres...)
-		}
-	}
 	for _, g := range f.Genres {
-		if contains(positive, g) {
-			return math.Min(5, prior+0.3)
+		if contains(m.Preferences.LikedGenres, g) {
+			return math.Min(5, prior+0.3), "liked_genre_match"
 		}
 	}
-	return prior
+	for _, liked := range films {
+		rating, _ := explicitRating(m, liked)
+		if explicitlyLiked(m, liked) || rating >= 4 {
+			for _, g := range f.Genres {
+				if contains(liked.Genres, g) {
+					return math.Min(5, prior+0.3), "liked_film_genre_match"
+				}
+			}
+		}
+	}
+	return prior, "catalog_baseline"
 }
+
 func (a *App) shortlist(ctx context.Context, id, secret, mode string) (Shortlist, error) {
 	s, e := a.current(ctx, id, secret)
 	if e != nil {
@@ -449,10 +472,7 @@ func (a *App) invalidateSelection(ctx context.Context, id, secret string, rev in
 	if s.Revision != rev {
 		return Receipt{}, fail("REVISION_CONFLICT", 409, "conditions changed during refresh")
 	}
-	s.Revision++
-	s.Decision++
-	s.Candidate = nil
-	s.Acceptances = map[string]Acceptance{}
+	s.advanceDecision(nil)
 	if e = putSession(ctx, tx, s); e != nil {
 		return Receipt{}, e
 	}
@@ -512,13 +532,24 @@ func (a *App) catalogRoutes(mux *http.ServeMux) {
 }
 
 func (a *App) scoreCandidate(s Session, f Film, av Availability, mode string) Candidate {
-	c := Candidate{Film: f, Availability: av, Estimates: map[string]float64{}, Minimum: 5}
+	c := Candidate{Film: f, Availability: av, Estimates: map[string]float64{}, EstimateBasis: map[string]string{}, PreferenceBasis: "catalog_baseline", Minimum: 5}
+	explicit := 0
 	for _, m := range s.Members {
-		v := estimate(m, f, a.cfg.Films)
+		v, basis := estimate(m, f, a.cfg.Films)
+		c.EstimateBasis[m.ID] = basis
+		if basis != "catalog_baseline" {
+			explicit++
+		}
 		c.Estimates[m.ID] = v
 		c.Mean += v
 		if v < c.Minimum {
 			c.Minimum = v
+		}
+	}
+	if explicit > 0 {
+		c.PreferenceBasis = "partial_explicit"
+		if explicit == len(s.Members) {
+			c.PreferenceBasis = "explicit_preferences"
 		}
 	}
 	c.Mean /= float64(len(s.Members))

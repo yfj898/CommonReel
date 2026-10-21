@@ -25,7 +25,6 @@ type Config struct {
 	Supplier       Supplier
 	OllamaEndpoint string
 	OllamaModel    string
-	AllowTestModel bool
 	InviteOrigin   string
 	KnownEpisodes  []string
 }
@@ -69,6 +68,14 @@ type Session struct {
 	Acceptances map[string]Acceptance `json:"acceptances"`
 	LastChoice  *ChoiceSummary        `json:"last_choice,omitempty"`
 }
+
+func (s *Session) advanceDecision(candidate *ActiveCandidate) {
+	s.Revision++
+	s.Decision++
+	s.Candidate = candidate
+	s.Acceptances = map[string]Acceptance{}
+}
+
 type storedSession struct {
 	Session
 	InviteHash string `json:"invite_hash"`
@@ -86,6 +93,8 @@ type Receipt struct {
 	SummaryID       string     `json:"summary_id,omitempty"`
 }
 type Command struct {
+	MaxRuntime     int              `json:"max_runtime_minutes,omitempty"`
+	PreviewBasis   string           `json:"preview_basis,omitempty"`
 	Type           string           `json:"type"`
 	Expected       int              `json:"expected_room_revision"`
 	Key            string           `json:"operation_key"`
@@ -133,6 +142,12 @@ func Open(cfg Config) (*App, error) {
 	if cfg.Database == "" {
 		cfg.Database = ":memory:"
 	}
+	if cfg.OllamaEndpoint == "" {
+		cfg.OllamaEndpoint = "http://127.0.0.1:11434"
+	}
+	if cfg.OllamaModel == "" {
+		cfg.OllamaModel = "qwen3.5:4b"
+	}
 	db, e := sql.Open("sqlite", cfg.Database)
 	if e != nil {
 		return nil, e
@@ -156,7 +171,10 @@ func Open(cfg Config) (*App, error) {
 		db.Close()
 		return nil, e
 	}
-	a.Sweep(context.Background())
+	if e = a.Sweep(context.Background()); e != nil {
+		db.Close()
+		return nil, e
+	}
 	go a.cleanupLoop()
 	return a, nil
 }
@@ -211,6 +229,27 @@ func readSession(ctx context.Context, q queryer, id string) (Session, error) {
 	s.Session.InviteHash = s.InviteHash
 	return s.Session, nil
 }
+func readSessions(ctx context.Context, tx *sql.Tx) ([]Session, error) {
+	rows, e := tx.QueryContext(ctx, "SELECT payload FROM v2_sessions")
+	if e != nil {
+		return nil, e
+	}
+	defer rows.Close()
+	sessions := []Session{}
+	for rows.Next() {
+		var raw string
+		if e = rows.Scan(&raw); e != nil {
+			return nil, e
+		}
+		var s storedSession
+		if e = json.Unmarshal([]byte(raw), &s); e != nil {
+			return nil, e
+		}
+		s.Session.InviteHash = s.InviteHash
+		sessions = append(sessions, s.Session)
+	}
+	return sessions, rows.Err()
+}
 func putSession(ctx context.Context, tx *sql.Tx, s Session) error {
 	b, e := json.Marshal(storedSession{Session: s, InviteHash: s.InviteHash})
 	if e != nil {
@@ -256,7 +295,9 @@ func (a *App) create(ctx context.Context, name, secret, key string) (Receipt, er
 	}
 	defer tx.Rollback()
 	id := "s_" + digest(secret)[:24]
+	exists := false
 	if existing, err := readSession(ctx, tx, id); err == nil {
+		exists = true
 		if existing.InviteHash != digest(secret) {
 			return Receipt{}, fail("REVISION_CONFLICT", 409, "invite identifier collision; generate another token")
 		}
@@ -273,11 +314,7 @@ func (a *App) create(ctx context.Context, name, secret, key string) (Receipt, er
 	if rec, ok, e := replay(ctx, tx, id, key, h); ok || e != nil {
 		return rec, e
 	}
-	var exists int
-	if e = tx.QueryRowContext(ctx, "SELECT COUNT(*) FROM v2_sessions WHERE id=?", id).Scan(&exists); e != nil {
-		return Receipt{}, e
-	}
-	if exists > 0 {
+	if exists {
 		return Receipt{}, fail("REVISION_CONFLICT", 409, "invite token already used")
 	}
 	s := Session{ID: id, Name: name, InviteHash: digest(secret), Status: "active", Revision: 1, Decision: 1, ExpiresAt: a.cfg.Now().UTC().Add(24 * time.Hour), Members: []Member{}, Acceptances: map[string]Acceptance{}}
@@ -444,6 +481,20 @@ func (a *App) commitCommand(ctx context.Context, id, secret string, c Command, p
 			return Receipt{}, fail("INVALID_ARGUMENT", 400, "member name required")
 		}
 		s.Members = append(s.Members, Member{ID: fmt.Sprintf("m%d", s.Revision), Name: c.Name})
+	case "apply_runtime_preview":
+		a.cacheMu.Lock()
+		defer a.cacheMu.Unlock()
+		preview, err := a.runtimePreviewLocked(s, c.MaxRuntime)
+		if err != nil {
+			return Receipt{}, err
+		}
+		if c.PreviewBasis == "" || c.PreviewBasis != preview.Basis {
+			return Receipt{}, fail("PREVIEW_STALE", 409, "preview inputs or cached facts changed; run the preview again")
+		}
+		if preview.NewCount == 0 {
+			return Receipt{}, fail("NO_NEW_CANDIDATES", 409, "no additional verified film qualifies; review the saved limits instead")
+		}
+		s.Policy.MaxRuntime = c.MaxRuntime
 	case "update_policy":
 		if c.Policy == nil || c.Policy.MaxRuntime < 1 || c.Policy.MaxRuntime > 600 || len(c.Policy.ProviderIDs) == 0 {
 			return Receipt{}, fail("INVALID_ARGUMENT", 400, "runtime 1-600 and at least one provider are required")
@@ -508,20 +559,19 @@ func (a *App) commitCommand(ctx context.Context, id, secret string, c Command, p
 		s.Members = []Member{}
 		s.Name = ""
 		s.Policy = Policy{}
-		s.Candidate = nil
-		s.Acceptances = map[string]Acceptance{}
 	default:
 		return Receipt{}, fail("INVALID_ARGUMENT", 400, "unknown command")
 	}
 	code := "updated"
 	if changed {
-		s.Revision++
 		if basis {
-			s.Decision++
-			s.Acceptances = map[string]Acceptance{}
-			if c.Type != "propose_candidate" {
-				s.Candidate = nil
+			var next *ActiveCandidate
+			if c.Type == "propose_candidate" {
+				next = prepared
 			}
+			s.advanceDecision(next)
+		} else {
+			s.Revision++
 		}
 	} else {
 		code = "no_change"
@@ -580,6 +630,7 @@ func (a *App) Handler() http.Handler {
 		}
 		write(w, 200, rec)
 	})
+	a.runtimePreviewRoute(mux)
 	a.catalogRoutes(mux)
 	a.profileRoutes(mux)
 	a.webRoutes(mux)
