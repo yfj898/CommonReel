@@ -1,6 +1,6 @@
 # Current implementation — 2026-10-21
 
-**LOCAL_COMPLETE / SIMULATION_PASS / OWNER_UPLOAD_AND_SUBMISSION_PENDING**
+**LOCAL_COMPLETE / SIMULATION_PASS / VIDEO_PUBLIC / OWNER_DEVPOST_PENDING**
 
 | Scope | Current result | Evidence |
 |---|---|---|
@@ -9,7 +9,7 @@
 | Mobile simulation (P2) | Independent origins and 2/3/4 constructed-member workflows; 360×800 / 390×844 touch; 319px / 1280px; reconnect; drafts/language; unavailable-model forms | FOUR_IMPROVEMENTS_2026-10-21.md and machine report |
 | Source, feedback, video (P0) | Current bright English/Chinese UI, setup/docs/feedback, reproducible source package, 1:30 silent real-interaction video with 17 burned-in English caption cues | DEVPOST_V2.md; DEMO_VIDEO_V2.md; YOUTUBE_UPLOAD.md |
 | Physical phones / human outcomes | NOT_RUN, separately retained | No real phone or group participants |
-| Public video / final submission | Owner will upload to YouTube; public URL and final Devpost acceptance/submission remain open | Owner instruction, 2026-10-21 |
+| Public video / final submission | [YouTube video published](https://youtu.be/VwcLSyXDnyE); final Devpost acceptance/submission remains owner-operated | evidence/youtube-publication-2026-10-21.json |
 
 Current checks: **38 top-level Go tests + 17 subtests** on Windows and Linux WSL
 with race; vet/build; JavaScript syntax and **9 Node tests**. The final published

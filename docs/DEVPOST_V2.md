@@ -4,7 +4,7 @@
 
 **Track:** Alexa+ — self-hosted MCP server (Streamable HTTP, 2025-11-25) with a companion web simulation. No mini-challenge is claimed.
 **Repository:** [yfj898/CommonReel](https://github.com/yfj898/CommonReel)
-**Video:** Owner upload pending — `dist/CommonReel-demo-silent-2026-10-21.mp4` (1:30, silent with burned-in English captions).
+**Video:** [Public YouTube demo](https://youtu.be/VwcLSyXDnyE) — 1:30, silent with burned-in English captions.
 **Built with:** Go, official Go MCP SDK, SQLite WAL, Ollama, qwen3.5:4b, JavaScript, Watchmode, Wikidata.
 
 ## Inspiration
@@ -107,9 +107,9 @@ The earlier MovieLens research benchmark is separate from this live workflow.
 - [Tool feedback and recorded friction](PRODUCT_FEEDBACK_V2.md)
 - [Current release and evidence classes](FOUR_IMPROVEMENTS_2026-10-21.md)
 - [Catalog provenance](MODERN_CATALOG_SOURCES.md)
-- [YouTube title/description and upload steps](YOUTUBE_UPLOAD.md)
+- [YouTube publication details and title/description](YOUTUBE_UPLOAD.md)
 
-This is copy-ready material, not a submitted entry. The owner will upload the
-public video, paste its URL, review eligibility/rights and complete final rule
-acceptance/submission. The [official rules](https://amazonappdev2026.devpost.com/rules)
+The video is published and its URL is ready for the Devpost video field.
+The owner reviews eligibility/rights and completes final rule acceptance and
+submission. The [official rules](https://amazonappdev2026.devpost.com/rules)
 were checked on 2026-10-21; the deadline is 2026-10-24 03:00 Asia/Shanghai.

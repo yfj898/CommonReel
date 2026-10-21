@@ -743,7 +743,7 @@
     "ordinary_hypothesis_writer": "PASS"
   },
   "recorded_demo": {
-    "state": "LOCAL_READY",
+    "state": "PUBLIC",
     "minutes": [
       81,
       96
@@ -758,12 +758,13 @@
     "model_elapsed_seconds": 9.99,
     "tool": "runtime_preview",
     "origin": "model",
-    "public_url": null,
-    "upload_owner": "user"
+    "public_url": "https://youtu.be/VwcLSyXDnyE",
+    "upload_owner": "assistant-assisted, owner-authorized Edge publication; owner completed identity verification, terms confirmation and file selection",
+    "publication_report": "docs/evidence/youtube-publication-2026-10-21.json"
   },
   "publication": {
     "exact_commit_and_ci": "see dist/CommonReel-delivery.json",
-    "youtube": "OWNER_PENDING",
+    "youtube": "PUBLIC: https://youtu.be/VwcLSyXDnyE; signed-in Edge HD playback passed; separate signed-out check blocked by local DNS",
     "devpost_final_submission": "OWNER_PENDING"
   }
 }

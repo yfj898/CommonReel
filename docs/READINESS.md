@@ -1,8 +1,8 @@
 # Submission handoff — 2026-10-21
 
-The local product and Chromium simulation are complete. The remaining owner
-steps are public YouTube upload, link verification, and final Devpost review /
-rule acceptance / submission. See [the upload kit](YOUTUBE_UPLOAD.md).
+The local product, Chromium simulation and public YouTube upload are complete.
+The remaining owner steps are to paste the video URL into Devpost and perform
+final review, rule acceptance and submission. See [publication details](YOUTUBE_UPLOAD.md).
 
 | Item | Current evidence |
 |---|---|
@@ -14,7 +14,7 @@ rule acceptance / submission. See [the upload kit](YOUTUBE_UPLOAD.md).
 | Physical phone / human outcomes | NOT_RUN, separately reported |
 | Source and final CI | Repository and exact delivery commit/run in dist/CommonReel-delivery.json |
 | English demo | dist/CommonReel-demo-silent-2026-10-21.mp4, 1:30; no audio track; English captions burned in; upload copy ready |
-| Public video | OWNER_PENDING — owner chose to upload personally |
+| Public video | [Published on YouTube](https://youtu.be/VwcLSyXDnyE); public setting and copyright check confirmed in Studio; playback verification details in the publication report |
 | Devpost | Copy-ready description/feedback; registration/eligibility/final submission user-operated |
 | Mini-challenges | Not claimed; no qualifying additional contribution / AWS integration is asserted |
 

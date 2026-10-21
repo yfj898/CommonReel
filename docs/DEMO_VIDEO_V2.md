@@ -1,11 +1,14 @@
 # Current demo — 1:30, silent with English captions
 
-Upload **`dist/CommonReel-demo-silent-2026-10-21.mp4`**. It is H.264,
+The published file is **`dist/CommonReel-demo-silent-2026-10-21.mp4`**. It is H.264,
 1920×1080, 24 fps, exactly 90 seconds, with **no audio track**. Seventeen short
 English caption cues are burned into the picture; understanding the demo does
 not require enabling a subtitle control. A matching
 `dist/CommonReel-demo-silent.en.srt` and plain caption transcript are supplied.
-The owner will upload the video personally; its public URL is **OWNER_PENDING**.
+**Published video:** [CommonReel on YouTube](https://youtu.be/VwcLSyXDnyE).
+YouTube Studio confirmed public publication on October 21 and showed a 1:30
+duration with no copyright issues. Publication verification is recorded in
+[the publication report](evidence/youtube-publication-2026-10-21.json).
 
 ## The story follows the decision
 
@@ -53,6 +56,10 @@ old SRT/transcript are preserved as history; they are not the current upload.
   captions continue to change while a captured image is held.
 - Short captions and side-panel facts match the actual UI: 19 newly eligible,
   six displayed, no room mutation during preview, and four acceptance records.
+- Published playback passed in signed-in Edge at 1080p HD, with readable
+  burned-in English captions and a 1:30 duration. Separate signed-out playback
+  remains unverified: the in-app browser could not resolve YouTube, and the
+  independent watch/oEmbed fetch was throttled.
 - [Machine report](evidence/demo-video-silent-2026-10-21.json),
   [preview frame](evidence/demo-silent-preview-2026-10-21.png),
   [saved-choice frame](evidence/demo-silent-choice-2026-10-21.png).
@@ -62,4 +69,4 @@ phones and human-group outcomes remain NOT_RUN. Proxy recording is allowed,
 so the result is a group-recorded choice. No movie footage, copyrighted music
 or generated product states are included.
 
-[YouTube title, description and owner upload steps](YOUTUBE_UPLOAD.md).
+[YouTube publication details, title and description](YOUTUBE_UPLOAD.md).

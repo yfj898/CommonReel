@@ -185,8 +185,9 @@ Physical phone testing is **NOT_RUN**. There have been **no human group trials**
 [yfj898/CommonReel](https://github.com/yfj898/CommonReel). The current **1:30 caption-led real-interaction demo** is
 `dist/CommonReel-demo-silent-2026-10-21.mp4`: no audio track, with short English
 captions burned into every scene, a matching SRT file and
-[YouTube upload copy](docs/YOUTUBE_UPLOAD.md). The owner chose to upload it
-personally; the public URL and final Devpost submission remain open.
+[YouTube publication details](docs/YOUTUBE_UPLOAD.md).
+**Watch the public demo:** [CommonReel on YouTube](https://youtu.be/VwcLSyXDnyE).
+The video is published; final Devpost review and submission remain owner actions.
 Rebuild it with `python scripts/build-silent-demo.py`; the earlier narrated
 edit and its original builder are retained separately.
 The [release report](docs/FOUR_IMPROVEMENTS_2026-10-21.md) separates each evidence class.

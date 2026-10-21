@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-21",
+  "recorded_at": "2026-10-21T20:11:56.229465+08:00",
+  "video_id": "VwcLSyXDnyE",
+  "public_url": "https://youtu.be/VwcLSyXDnyE",
+  "watch_url": "https://www.youtube.com/watch?v=VwcLSyXDnyE",
+  "title": "CommonReel | Preview the Trade-off, Record the Choice | Alexa+ MCP Web Simulation",
+  "source_artifact": "dist/CommonReel-demo-silent-2026-10-21.mp4",
+  "render_source_commit": "47998cb05c7e91bcf19613ef2fd9416c289dba26",
+  "local_duration_seconds": 90.0,
+  "studio_publish_dialog_duration": "1:30",
+  "visibility": "PUBLIC",
+  "studio_publish_confirmation": "PASS: publish dialog with October 21 date and share link after Public selection",
+  "copyright_check": "PASS: no issues found",
+  "language": "English",
+  "captions": "17 short English cues burned into the picture; optional SRT not uploaded",
+  "audio_tracks": 0,
+  "paid_promotion": false,
+  "made_for_children": false,
+  "category": "Science & Technology",
+  "playback": {
+    "edge_watch_page": "PASS: signed-in Edge watch page played the actual CommonReel video; 1:30 duration, progress observed from 0:11 through 1:24, then paused",
+    "hd_playback": "PASS: 1080p HD was available and selected; saved-result screen and burned-in English caption were visually inspected",
+    "local_proof": "dist/YouTube-public-playback-2026-10-21.png",
+    "signed_out_browser": "BLOCKED: IAB ERR_NAME_NOT_RESOLVED for www.youtube.com",
+    "independent_web_fetch": "BLOCKED: online fetch throttled for watch and oEmbed",
+    "public_visibility": "PASS in YouTube Studio"
+  },
+  "devpost_submission": "OWNER_PENDING"
+}

@@ -1,7 +1,8 @@
 # Four improvements — release evidence, 2026-10-21
 
-**Local implementation and simulated acceptance complete.** The owner will
-upload the English video to YouTube and perform final Devpost submission.
+**Local implementation, simulated acceptance and public video publication complete.**
+The [English-captioned demo is on YouTube](https://youtu.be/VwcLSyXDnyE).
+Final Devpost review and submission remain owner-operated.
 The actual submitted commit and its CI run are pinned in the delivery manifest
 produced with the source ZIP (`dist/CommonReel-delivery.json`).
 
@@ -75,6 +76,8 @@ physical-phone or human-outcome status.
 The current MP4 is 1:30, without an audio track, with 17 short English captions
 burned into the picture. Model waiting and narration-led pauses were cut at the
 owner's request; original frames and the earlier 2:42 narrated edit remain.
-Public upload is **OWNER_PENDING**, as explicitly
-chosen by the owner; final rule acceptance and submission are also owner actions.
+The [video is published publicly](https://youtu.be/VwcLSyXDnyE); Studio showed
+1:30 and no copyright issues. [Publication verification](evidence/youtube-publication-2026-10-21.json)
+is separate from local media QA. Final Devpost rule acceptance and submission
+are owner actions.
 Keep the submitted commit and video fixed before **2026-10-24 03:00 Asia/Shanghai**.

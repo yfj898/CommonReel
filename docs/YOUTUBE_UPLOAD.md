@@ -1,11 +1,14 @@
-# YouTube upload kit
+# Published YouTube demo and submission copy
 
-The owner selected personal upload on 2026-10-21. No account agreement or public
-upload has been performed by the assistant.
+**Public video:** [CommonReel | Preview the Trade-off, Record the Choice](https://youtu.be/VwcLSyXDnyE).
+Published on 2026-10-21 through the owner's existing Edge session, after the
+owner completed identity verification, confirmed the upload terms and selected
+the MP4. Studio confirmed public visibility, a 1:30 duration and no copyright issues.
+See [publication verification](evidence/youtube-publication-2026-10-21.json).
 
 ## Files
 
-- **Upload this video:** `dist/CommonReel-demo-silent-2026-10-21.mp4` — 1:30, 1080p,
+- **Published video file:** `dist/CommonReel-demo-silent-2026-10-21.mp4` — 1:30, 1080p,
   no audio track, with short English captions burned into the picture.
 - Optional caption file: `dist/CommonReel-demo-silent.en.srt` — matches the visible captions.
 - Caption transcript: `dist/CommonReel-demo-silent-captions.txt`.
@@ -50,18 +53,12 @@ project; no third-party movie footage or music is included.
 
 ## Finish before the deadline
 
-1. Open YouTube Studio with an accessible connection; complete login/account
-   questions and any agreements yourself.
-2. Upload the **silent** MP4 and use the title/description above. English
-   captions are already visible; the matching SRT is optional.
-3. Set visibility to **Public**. Open the resulting watch URL while logged out
-   or in a private window and confirm playback, legible captions and public
-   access. Silence is intentional, not a playback fault.
-4. Paste that URL into Devpost's video field and replace the pending video line
-   in `docs/DEVPOST_V2.md` if publishing an updated copy before the deadline.
-5. Review the ready [Devpost text](DEVPOST_V2.md), [feedback](PRODUCT_FEEDBACK_V2.md),
-   source commit and test/run instructions; you perform final rule acceptance
-   and submission.
+1. Paste **https://youtu.be/VwcLSyXDnyE** into Devpost's video field. English
+   captions are already embedded; silence is intentional.
+2. Review the ready [Devpost text](DEVPOST_V2.md), [feedback](PRODUCT_FEEDBACK_V2.md),
+   source commit and test/run instructions.
+3. Personally complete eligibility/rights review, final rule acceptance and
+   submission. Preserve the submitted commit, source ZIP and video.
 
 The official deadline is **2026-10-24 03:00 Asia/Shanghai**. Preserve the submitted
 commit, source ZIP and video. [Official requirements](https://amazonappdev2026.devpost.com/rules).

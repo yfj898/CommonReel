@@ -67,8 +67,8 @@
   "human_trials": "NOT_RUN",
   "previous_narrated_edit": "dist/CommonReel-demo-2026-10-21.mp4",
   "bytes": 2141027,
-  "public_url": null,
-  "upload_owner": "User will upload to YouTube",
+  "public_url": "https://youtu.be/VwcLSyXDnyE",
+  "upload_owner": "Published with owner authorization through the existing Edge session; owner completed identity verification, terms confirmation and file selection",
   "qa": {
     "full_decode": "PASS",
     "probe": "PASS: H.264 1920x1080 24 fps; duration 90.00 seconds; no audio stream",
@@ -103,5 +103,6 @@
       "docs/evidence/demo-silent-preview-2026-10-21.png",
       "docs/evidence/demo-silent-choice-2026-10-21.png"
     ]
-  }
+  },
+  "publication_report": "docs/evidence/youtube-publication-2026-10-21.json"
 }
