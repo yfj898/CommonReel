@@ -7,7 +7,7 @@
 | Catalog + cold start (P1) | 247 CC0 films; retained 217 + 30 recent; reproducible exact IDs/runtime/genres; optional 1–3 explicit likes; baseline markers; old IMDb watched matching | MODERN_CATALOG_SOURCES.md; catalog/upgrade tests |
 | Runtime what-if (P1) | Complete before/after/new counts; cached facts only; version-bound explicit apply; eighth MCP tool and host-enforced read-only mode | MCP_V2.md; runtime/agent HTTP tests |
 | Mobile simulation (P2) | Independent origins and 2/3/4 constructed-member workflows; 360×800 / 390×844 touch; 319px / 1280px; reconnect; drafts/language; unavailable-model forms | FOUR_IMPROVEMENTS_2026-10-21.md and machine report |
-| Source, feedback, video (P0) | Current bright English/Chinese UI, setup/docs/feedback, reproducible source package, approximately 2:42 English real-interaction video and subtitles | DEVPOST_V2.md; DEMO_VIDEO_V2.md; YOUTUBE_UPLOAD.md |
+| Source, feedback, video (P0) | Current bright English/Chinese UI, setup/docs/feedback, reproducible source package, 1:30 silent real-interaction video with 17 burned-in English caption cues | DEVPOST_V2.md; DEMO_VIDEO_V2.md; YOUTUBE_UPLOAD.md |
 | Physical phones / human outcomes | NOT_RUN, separately retained | No real phone or group participants |
 | Public video / final submission | Owner will upload to YouTube; public URL and final Devpost acceptance/submission remain open | Owner instruction, 2026-10-21 |
 

@@ -66,12 +66,15 @@ physical-phone or human-outcome status.
 - New public-interface tests cover exact counts beyond six, no room/supplier side effect, apply invalidation/idempotency, competing versions, changed/expired facts, unknowns and composite blockers, ordinary-mode hypothetical write rejection, structured read previews and legacy watched IDs.
 - Compact machine report: [four-improvements-2026-10-21.json](evidence/four-improvements-2026-10-21.json).
 - Real model trace: [recorded preview](evidence/four-improvements-demo-agent-preview.txt).
-- Current demo: [method and observations](DEMO_VIDEO_V2.md); 84 actual screencast frames and one terminal capture are included for rebuilding.
+- Current demo: [method and observations](DEMO_VIDEO_V2.md); 83 unique frames selected from the 84 retained actual screencast frames, plus the existing real preview screenshot. The previous narrated edit remains available.
 
 ## Submission handoff
 
 [Devpost copy](DEVPOST_V2.md), [tool feedback](PRODUCT_FEEDBACK_V2.md),
 [YouTube copy](YOUTUBE_UPLOAD.md), setup and source package describe this release.
-The MP4 is approximately 2:42. Public upload is **OWNER_PENDING**, as explicitly
+The current MP4 is 1:30, without an audio track, with 17 short English captions
+burned into the picture. Model waiting and narration-led pauses were cut at the
+owner's request; original frames and the earlier 2:42 narrated edit remain.
+Public upload is **OWNER_PENDING**, as explicitly
 chosen by the owner; final rule acceptance and submission are also owner actions.
 Keep the submitted commit and video fixed before **2026-10-24 03:00 Asia/Shanghai**.

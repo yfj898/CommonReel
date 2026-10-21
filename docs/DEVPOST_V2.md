@@ -4,7 +4,7 @@
 
 **Track:** Alexa+ — self-hosted MCP server (Streamable HTTP, 2025-11-25) with a companion web simulation. No mini-challenge is claimed.
 **Repository:** [yfj898/CommonReel](https://github.com/yfj898/CommonReel)
-**Video:** Owner upload pending — `dist/CommonReel-demo-2026-10-21.mp4` (approximately 2:42, English).
+**Video:** Owner upload pending — `dist/CommonReel-demo-silent-2026-10-21.mp4` (1:30, silent with burned-in English captions).
 **Built with:** Go, official Go MCP SDK, SQLite WAL, Ollama, qwen3.5:4b, JavaScript, Watchmode, Wikidata.
 
 ## Inspiration
@@ -81,12 +81,14 @@ vetoes, watched inputs or supply.
 
 ## Demonstration and validation
 
-The English video shows actual browser interactions in a constructed four-entry
+The 90-second silent video uses short burned-in English captions to show actual
+browser interactions in a constructed four-entry
 room: **81 → 96 minutes, 0 → 19 eligible, 19 newly eligible, six displayed**,
 explicit application, a second-origin LAN client updating, and **Inside Out 2**
-saved after four acceptance records and supplier recheck. It uses edited real
-screencast takes and reading holds, original offline narration and original
-cover designs, rather than generated product states or movie footage.
+saved after four acceptance records and supplier recheck. Real screencast takes
+and an existing preview screenshot are edited with short reading holds; model
+waiting is removed. There is no audio track, movie footage or generated product
+state. Cover designs are original to this project.
 
 Windows tests/vet/build, actual Linux WSL race tests (**38 top-level Go tests
 and 17 subtests**) and **9 Node tests** passed. Chromium simulation covered

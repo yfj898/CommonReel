@@ -1,47 +1,65 @@
-# Current English demo — approximately 2:42
+# Current demo — 1:30, silent with English captions
 
-Artifact: `dist/CommonReel-demo-2026-10-21.mp4` (H.264/AAC, 1920×1080, 24 fps).
-Companion files: `dist/CommonReel-demo.en.srt` and
-`dist/CommonReel-demo-narration.txt`. The owner chose to upload to YouTube
-personally; the public URL is **OWNER_PENDING**.
+Upload **`dist/CommonReel-demo-silent-2026-10-21.mp4`**. It is H.264,
+1920×1080, 24 fps, exactly 90 seconds, with **no audio track**. Seventeen short
+English caption cues are burned into the picture; understanding the demo does
+not require enabling a subtitle control. A matching
+`dist/CommonReel-demo-silent.en.srt` and plain caption transcript are supplied.
+The owner will upload the video personally; its public URL is **OWNER_PENDING**.
 
-The October 21 bright bilingual version uses **84 actual Edge Chromium
-screencast frames**, retained with timestamps in `evidence/demo-2026-10-21`, and
-one real terminal screenshot for reading the structured preview. The edited
-takes and terminal-frame holds align offline English narration. It is an
-edited interaction demonstration, not an uncut timing benchmark or the earlier
-October 17 still-image-only demo. No generated product states, movie posters,
-movie footage or third-party music are used.
+## The story follows the decision
 
-| Start | Chapter |
-|---|---|
-| 00:00 | Four constructed entries and optional explicit likes |
-| 00:22 | 81-minute limit, three US platforms, Horror/Musical vetoes and no match |
-| 00:44 | Actual local Qwen → MCP runtime_preview; 0→19 eligible, 19 new, six displayed |
-| 01:16 | Explicit apply and independent LAN client receiving 96 minutes |
-| 01:39 | Checked Inside Out 2 listing and partial preference evidence |
-| 02:00 | Member-entry records, supply refresh and saved group choice |
-| 02:21 | Reload/language continuity and separated simulation evidence |
+| Start | Scene | What the picture establishes |
+|---|---|---|
+| 00:00 | Four people, one film | Shared limits and optional explicit favourites |
+| 00:12 | Nothing fits | 81 minutes, Horror/Musical vetoes, zero eligible films |
+| 00:20 | Ask a what-if | Actual local Qwen → MCP `runtime_preview`; 81→96 minutes, 0→19 eligible, six displayed; room unchanged |
+| 00:40 | Apply, then sync | Explicit page action; second-origin LAN client changes from 81 to 96 minutes |
+| 00:54 | Check the facts | Inside Out 2, 96 minutes, Disney+ US listing, supply time and preference evidence |
+| 01:04 | Record and save | Four acceptance entries, supplier recheck, saved group-recorded choice |
+| 01:18 | Keep the result | Saved record after reload; source and evidence location |
 
-Rebuild on Windows using the existing authoring tools:
+The owner requested removal of the synthetic voice and narration-led pauses.
+The new edit is 72 seconds shorter than the former approximately 2:42 version.
+It uses 83 unique frames selected from the 84 retained Edge Chromium captures,
+plus the existing real screenshot of the completed structured preview. Model
+waiting is removed and selected frames have short reading holds. This is an
+edited demonstration, not a continuous timing benchmark. The real model turn
+remains the recorded 9.99-second observation in the engineering report.
+
+## Rebuild on Windows without speech tools
 
 ```powershell
-powershell.exe -NoProfile -File scripts/render-demo-audio.ps1
-python scripts/build-demo.py
+python scripts/build-silent-demo.py
 ```
 
-Narration uses offline Microsoft Zira Desktop. FFmpeg comes from the existing
-`imageio-ffmpeg` authoring dependency in `.runtime/video-deps`; it is not a Go
-runtime dependency. If reproducing on a new authoring machine, install
-`imageio-ffmpeg==0.6.0` explicitly into that directory. The committed frame and
-capture manifests provide all visual inputs. App use does not need these tools.
+The explicit cuts, panel text and caption times are in
+`scripts/demo-silent-cuts.json`. The builder uses the existing
+`imageio-ffmpeg` dependency in `.runtime/video-deps`; no SAPI, voice model,
+network request or audio file is used. On a new authoring machine, install
+`imageio-ffmpeg==0.6.0` there explicitly. App use does not need this authoring
+dependency. The source package includes all captured visual inputs.
 
-Decoded key scenes were inspected at 5, 30, 65, 80, 92, 109, 133 and 153 seconds.
-Audio is present throughout the narration, with measured maximum -2.4 dB before
-final terminal-capture encoding; no clipping was observed. The current machine
-report is `evidence/demo-video-v2.json`. Subtitle times follow the generated
-narration approximately; the owner can review them while uploading.
+`scripts/build-demo.py` and `scripts/render-demo-audio.ps1` still reproduce the
+earlier narrated edit at `dist/CommonReel-demo-2026-10-21.mp4`. That file and its
+old SRT/transcript are preserved as history; they are not the current upload.
 
-The room and all members are constructed. The 390×844 client is Chromium
-emulation. Physical phones and human-group outcomes remain NOT_RUN.
-[Upload copy and final owner actions](YOUTUBE_UPLOAD.md).
+## Acceptance evidence
+
+- Complete decode passed; the output has one 1920×1080 video stream and no audio stream.
+- The duration is 90.00 seconds. All 17 caption cues cover the full timeline.
+- Twenty-one decoded frame samples were inspected, covering every caption
+  midpoint, the 81/96 client states, save-time recheck and saved record. Timed
+  captions continue to change while a captured image is held.
+- Short captions and side-panel facts match the actual UI: 19 newly eligible,
+  six displayed, no room mutation during preview, and four acceptance records.
+- [Machine report](evidence/demo-video-silent-2026-10-21.json),
+  [preview frame](evidence/demo-silent-preview-2026-10-21.png),
+  [saved-choice frame](evidence/demo-silent-choice-2026-10-21.png).
+
+Members are constructed; the portrait client is Chromium emulation. Physical
+phones and human-group outcomes remain NOT_RUN. Proxy recording is allowed,
+so the result is a group-recorded choice. No movie footage, copyrighted music
+or generated product states are included.
+
+[YouTube title, description and owner upload steps](YOUTUBE_UPLOAD.md).

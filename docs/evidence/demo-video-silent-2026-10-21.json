@@ -1,0 +1,107 @@
+{
+  "artifact": "dist/CommonReel-demo-silent-2026-10-21.mp4",
+  "date": "2026-10-21",
+  "duration_seconds": 90,
+  "size": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "audio_tracks": 0,
+  "captions": "Short English captions burned into every scene; matching SRT supplied",
+  "caption_cues": 17,
+  "caption_file": "dist/CommonReel-demo-silent.en.srt",
+  "cut_manifest": "scripts/demo-silent-cuts.json",
+  "timeline": [
+    {
+      "id": "01-group",
+      "start": 0,
+      "seconds": 12
+    },
+    {
+      "id": "02-no-match",
+      "start": 12,
+      "seconds": 8
+    },
+    {
+      "id": "03-preview",
+      "start": 20,
+      "seconds": 20
+    },
+    {
+      "id": "04-apply-sync",
+      "start": 40,
+      "seconds": 14
+    },
+    {
+      "id": "05-shortlist",
+      "start": 54,
+      "seconds": 10
+    },
+    {
+      "id": "06-save",
+      "start": 64,
+      "seconds": 14
+    },
+    {
+      "id": "07-reload",
+      "start": 78,
+      "seconds": 12
+    }
+  ],
+  "method": "Re-edited actual browser screencast frames and the existing real preview screenshot; model waiting and narration holds removed; no generated product states; no audio track",
+  "selected_frame_entries": 84,
+  "unique_source_frames": 83,
+  "terminal_capture": "docs/evidence/four-improvements-demo-preview-19.png",
+  "preview_observed": {
+    "before_minutes": 81,
+    "after_minutes": 96,
+    "before_eligible": 0,
+    "after_eligible": 19,
+    "newly_eligible": 19,
+    "shown": 6
+  },
+  "saved_film": "Inside Out 2",
+  "members": "four constructed entries; proxy recording allowed",
+  "mobile": "Chromium emulation; physical phones NOT_RUN",
+  "human_trials": "NOT_RUN",
+  "previous_narrated_edit": "dist/CommonReel-demo-2026-10-21.mp4",
+  "bytes": 2141027,
+  "public_url": null,
+  "upload_owner": "User will upload to YouTube",
+  "qa": {
+    "full_decode": "PASS",
+    "probe": "PASS: H.264 1920x1080 24 fps; duration 90.00 seconds; no audio stream",
+    "container_seconds": 90.0,
+    "caption_coverage_seconds": 90,
+    "caption_cues": 17,
+    "sample_times_seconds": [
+      2.5,
+      8.5,
+      14.0,
+      18.0,
+      23.0,
+      27.5,
+      31.5,
+      37.0,
+      43.5,
+      50.5,
+      56.0,
+      61.0,
+      66.5,
+      70.5,
+      75.0,
+      81.0,
+      87.0,
+      48,
+      51,
+      71,
+      76
+    ],
+    "visual_review": "PASS: 21 decoded samples inspected, including every caption midpoint; preview, both LAN runtime states, recheck and saved choice",
+    "retained_frames": [
+      "docs/evidence/demo-silent-preview-2026-10-21.png",
+      "docs/evidence/demo-silent-choice-2026-10-21.png"
+    ]
+  }
+}

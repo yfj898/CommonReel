@@ -17,7 +17,7 @@ no Alexa device, AWS cloud runtime, Fire TV, Bee or Ring hardware was exercised.
 | Watchmode Free API | Bounded live US subscription checks, private 24-hour cache, save-time freshness |
 | Browser Web APIs / QRCode.js MIT | Independent-origin storage, fetch SSE, secure random invite tokens, local QR and bilingual UI |
 | GitHub Actions | Linux race, vet/build and frontend tests per source push |
-| Codex, Edge/IAB Chromium, FFmpeg and offline Microsoft Zira | Source/test assistance, browser inspection/mobile emulation and real-interaction capture; original English narration/encoding, not app runtime dependencies |
+| Codex, Edge/IAB Chromium and FFmpeg | Source/test assistance, browser inspection/mobile emulation, real-interaction capture and caption-led video editing; not app runtime dependencies |
 
 ## 2. What worked well
 

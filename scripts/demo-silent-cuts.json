@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-21",
+  "output": "dist/CommonReel-demo-silent-2026-10-21.mp4",
+  "source_root": "docs/evidence/demo-2026-10-21",
+  "method": "Re-edited actual browser screencast frames and the existing real preview screenshot; model waiting and narration holds removed; no generated product states; no audio track",
+  "scenes": [
+    {
+      "id": "01-group",
+      "step": "01 / THE GROUP",
+      "title": "Four people.\nOne film.",
+      "metric": "247",
+      "metric_label": "verified films in the catalog",
+      "details": "Shared time and platforms\nPersonal vetoes and watched films\nOptional explicit favourites",
+      "shots": [
+        {"clip": "01-conflict", "frames": [1], "seconds": 5},
+        {"clip": "00-intro", "frames": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "seconds": 7, "holds": {"0": 1}}
+      ],
+      "captions": [
+        {"start": 0, "end": 5, "text": "Four people need a film for tonight."},
+        {"start": 5, "end": 12, "text": "Add a few favourites, or skip this step."}
+      ]
+    },
+    {
+      "id": "02-no-match",
+      "step": "02 / THE PROBLEM",
+      "title": "Nothing fits.\nWhat can change?",
+      "metric": "0",
+      "metric_label": "eligible films",
+      "details": "81-minute limit\nNo horror. No musicals.\nThe limits stay in place.",
+      "shots": [
+        {"clip": "01-conflict", "frames": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "seconds": 8, "holds": {"2": 1}}
+      ],
+      "captions": [
+        {"start": 0, "end": 4, "text": "81 minutes. No horror. No musicals."},
+        {"start": 4, "end": 8, "text": "No film meets all the group's limits."}
+      ]
+    },
+    {
+      "id": "03-preview",
+      "step": "03 / ASK A WHAT-IF",
+      "title": "Ask before\nchanging anything.",
+      "metric": "0 → 19",
+      "metric_label": "eligible films",
+      "details": "81 → 96 minutes\n19 newly eligible; only 6 shown\nThe room is unchanged.",
+      "note": "Local Qwen → real MCP tool call\nModel waiting removed in this edit",
+      "shots": [
+        {"clip": "02-readonly-agent", "frames": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28], "seconds": 6},
+        {"clip": "02-readonly-agent", "frames": [29], "seconds": 3},
+        {"file": "docs/evidence/four-improvements-demo-preview-19.png", "seconds": 11}
+      ],
+      "captions": [
+        {"start": 0, "end": 6, "text": "What if we had 15 more minutes?"},
+        {"start": 6, "end": 9, "text": "The local model calls runtime_preview through MCP."},
+        {"start": 9, "end": 14, "text": "81 → 96 minutes. 0 → 19 eligible films."},
+        {"start": 14, "end": 20, "text": "Preview only. No settings changed. No supply request."}
+      ]
+    },
+    {
+      "id": "04-apply-sync",
+      "step": "04 / APPLY, THEN SYNC",
+      "title": "One explicit\nApply.",
+      "metric": "96 min",
+      "metric_label": "the new shared limit",
+      "details": "Loopback + LAN clients\nThe second screen updates\n390 × 844 Chromium emulation",
+      "shots": [
+        {"clip": "03-desktop-final", "frames": [0, 1, 2, 3, 4, 5, 6, 7], "seconds": 7, "holds": {"0": 1, "3": 1, "6": 2}},
+        {"clip": "03-mobile-final", "frames": [0], "seconds": 2},
+        {"clip": "03-mobile-final", "frames": [1], "seconds": 5}
+      ],
+      "captions": [
+        {"start": 0, "end": 7, "text": "Only “Apply this runtime” changes the room."},
+        {"start": 7, "end": 14, "text": "The second client updates from 81 to 96 minutes."}
+      ]
+    },
+    {
+      "id": "05-shortlist",
+      "step": "05 / CHECK THE FACTS",
+      "title": "A film that fits.",
+      "metric": "96 min",
+      "metric_label": "Inside Out 2 (2024)",
+      "details": "Disney+ · United States\nSupply check shown on the card\nPreference evidence is marked",
+      "note": "A listing is not an account check.",
+      "shots": [
+        {"clip": "04-candidates-final", "frames": [0, 1, 2], "seconds": 4, "holds": {"0": 1}},
+        {"clip": "04-candidates-final", "frames": [3, 4, 5], "seconds": 6, "holds": {"3": 1}}
+      ],
+      "captions": [
+        {"start": 0, "end": 4, "text": "Inside Out 2 fits the new limit."},
+        {"start": 4, "end": 10, "text": "Check the platform, supply time and preference evidence."}
+      ]
+    },
+    {
+      "id": "06-save",
+      "step": "06 / RECORD THE CHOICE",
+      "title": "Four entries.\nOne saved choice.",
+      "metric": "4 / 4",
+      "metric_label": "acceptance records",
+      "details": "Proxy recording is allowed\nSupply is rechecked on save\nA group-recorded choice",
+      "shots": [
+        {"clip": "05-save-final", "frames": [0, 1, 2, 3, 4], "seconds": 7, "timing": "even"},
+        {"clip": "05-save-final", "frames": [5, 6, 7, 8, 9, 10], "seconds": 7}
+      ],
+      "captions": [
+        {"start": 0, "end": 5, "text": "Record an accept for every member entry."},
+        {"start": 5, "end": 8, "text": "Save rechecks streaming availability."},
+        {"start": 8, "end": 14, "text": "The group-recorded choice is saved."}
+      ]
+    },
+    {
+      "id": "07-reload",
+      "step": "07 / KEEP THE RESULT",
+      "title": "Still there\nafter reload.",
+      "metric": "Saved",
+      "metric_label": "same room, same choice",
+      "details": "Go + 8 MCP tools\nSource, setup and test evidence\ngithub.com/yfj898/CommonReel",
+      "note": "Mobile: Chromium simulation\nPhysical phones / human study: untested",
+      "shots": [
+        {"clip": "06-reload-and-language", "frames": [0, 1, 2, 3], "seconds": 6, "holds": {"0": 1}},
+        {"clip": "06-reload-and-language", "frames": [3], "seconds": 6}
+      ],
+      "captions": [
+        {"start": 0, "end": 6, "text": "Reload the room. The saved choice remains."},
+        {"start": 6, "end": 12, "text": "Code, setup and tests: github.com/yfj898/CommonReel"}
+      ]
+    }
+  ]
+}

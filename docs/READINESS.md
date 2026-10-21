@@ -13,7 +13,7 @@ rule acceptance / submission. See [the upload kit](YOUTUBE_UPLOAD.md).
 | Simulated mobile flow | Independent origins, 2/3/4 entries, 360/390 touch, 319/1280 layouts, reconnect and model-offline forms |
 | Physical phone / human outcomes | NOT_RUN, separately reported |
 | Source and final CI | Repository and exact delivery commit/run in dist/CommonReel-delivery.json |
-| English demo | dist/CommonReel-demo-2026-10-21.mp4, approximately 2:42; captions and copy ready |
+| English demo | dist/CommonReel-demo-silent-2026-10-21.mp4, 1:30; no audio track; English captions burned in; upload copy ready |
 | Public video | OWNER_PENDING — owner chose to upload personally |
 | Devpost | Copy-ready description/feedback; registration/eligibility/final submission user-operated |
 | Mini-challenges | Not claimed; no qualifying additional contribution / AWS integration is asserted |
